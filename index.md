@@ -1,37 +1,24 @@
-## Kokkos
+---
+layout: default
+---
 
-You can use the [editor on GitHub](https://github.com/kokkos/kokkos.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Kokkos
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The Kokkos C++ Performance Portability EcoSystem is a production level solution for writing modern C++ applications in a hardware agnostic way. It is part of the US Department of Energies Exascale Project – the leading effort in the US to prepare the HPC community for the next generation of super computing platforms. The EcoSystem consists of multiple libraries addressing the primary concerns for developing and maintaining applications in a portable way. The three main components are the Kokkos Core Programming Model, the Kokkos Kernels Math Libraries and the Kokkos Profiling and Debugging Tools.
 
-### Markdown
+![Kokkos Architecture Diagram](images/Kokkos-Architecture3.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Core
 
-```markdown
-Syntax highlighted code block
+[Kokkos Core](https://github.com/kokkos/kokkos) is a programming model for parallel algorithms that use many-core chips and share memory among those cores. The programming model includes computation abstractions for frequently used parallel computing patterns, policies that provide details for how those computing patterns are applied, and execution spaces that denote on which cores the parallel computation is performed. The programming model also includes patterns for common data structures, policies that provide details for how those data structures are laid out in memory, and memory spaces that denote in which memory the data reside. The Kokkos Core programming model works by requiring that application development teams implement their algorithms in terms of Kokkos’ patterns, policies, and spaces. Kokkos Core can then map these algorithms onto the target architecture according to architecture-specific rules necessary to achieve best performance. While other programming models support execution patterns, execution policies, execution spaces, and memory spaces; only Kokkos supports data patterns and policies, which are necessary for performance portability.
 
-# Header 1
-## Header 2
-### Header 3
+## Kernels 
 
-- Bulleted
-- List
+[Kokkos Kernels](https://github.com/kokkos/kokkos-kernels) is a software library of linear algebra and graph algorithms used across many HPC applications to achieve best (not just good) performance on every architecture. The baseline version of this library is written using the Kokkos Core programming model for portability and good performance. The library has architecture-specific optimizations or uses vendor-specific versions of these mathematical algorithms where needed. This reduces the amount of architecture-specific software that an application team potentially needs to develop, thus further reducing their modification cost to achieve “best in class” performance. 
 
-1. Numbered
-2. List
+## Tools
 
-**Bold** and _Italic_ and `Code` text
+[Kokkos Tools](https://github.com/kokkos/kokkos-tools) is an innovative “plug in” software interface and a growing set of performance measurement and debugging tools that plug into that interface for application development teams to analyze the execution and memory performance of their software. Teams use this performance profiling and debugging information to determine how well they have designed and implemented their algorithms and to identify portions of their software that should be improved. Kokkos Tools interfaces  leverage the Kokkos Core programming model interface to improve an application developer’s experience dramatically, by forwarding application specific information and their context within the Kokkos Core programming model to the tools. 
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kokkos/kokkos.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Documentation
+Our new documentation can be found [here](https://kokkos.github.io/kokkos-core-wiki)
