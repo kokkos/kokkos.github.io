@@ -63,7 +63,7 @@ hugo server -D
 2. Add +1 to weight line 6 and 7:
 ```toml
 [languages.en]
-weight = <new-weight>
+weight = new-weight
 ```
 3. Add an item under the tag below:
 ```toml
@@ -75,7 +75,7 @@ weight = <new-weight>
         [[languages.en.menu.main]]
         name = "Name which is displayed"
         url = "/<path-to-folder>/<where-your-new-content-folder-is>/"
-        weight = <number>
+        weight = number
       ```
     - This tab will be before the items that have a weight lower than `<number>` and after the items that have a weight higher than `<number>`
 5. If you have no content at the `url`, you get an error. To solve it you have to create a page or a folder with the same name as your `url` (for more information see next section)
@@ -87,7 +87,7 @@ weight = <new-weight>
         name = "Name which is displayed child"
         url = "/<path-to-folder>/<where-your-new-content-folder-is>/<sub-file>/"
         parent = "Name which is displayed"
-        weight = <number>
+        weight = number
       ```
 
 <br />
