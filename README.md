@@ -4,7 +4,7 @@
 
 - [Install Hugo](https://gohugo.io/installation/) version v0.111.3
 - Need to be connected to internet to load [Hinode theme](https://github.com/gethinode/hinode) dependencies and modules
-- Clone [this repository](https://github.com/NexGenAnalytics/kokkos-org-new-v2)
+- Clone [this repository](https://github.com/kokkos/kokkos.github.io)
 
 <br />
 
