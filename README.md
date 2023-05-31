@@ -9,7 +9,6 @@
 <br />
 
 ## How to run locally
-
 1. Install all requirements
 2. Change directory: `<your-path-to-the-repository>`
 3. Install dependencies
