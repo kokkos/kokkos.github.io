@@ -1,0 +1,232 @@
+baseurl = "http://kokkos.org/"
+title = "Kokkos"
+languagecode = "en-us"
+staticDir = [ "assets" ]
+
+[languages.en]
+weight = 7
+
+[[languages.en.menu.main]]
+name = "About"
+url = "/about/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "abstract"
+name = "Abstract"
+url = "/about/abstract/"
+parent = "About"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "about-core"
+name = "Core"
+url = "/about/core/"
+parent = "About"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "about-kernels"
+name = "Kernels"
+url = "/about/kernels/"
+parent = "About"
+weight = 3
+
+[[languages.en.menu.main]]
+identifier = "about-tools"
+name = "Tools"
+url = "/about/tools/"
+parent = "About"
+weight = 4
+
+[[languages.en.menu.main]]
+identifier = "about-tutorials"
+name = "Tutorials"
+url = "https://github.com/kokkos/kokkos-tutorials"
+parent = "About"
+weight = 5
+
+[[languages.en.menu.main]]
+identifier = "about-news"
+name = "News"
+url = "/blog/"
+parent = "About"
+weight = 6
+
+[[languages.en.menu.main]]
+name = "Repositories"
+url = "/repositories/"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "repositories-core"
+name = "Core"
+url = "https://github.com/kokkos/kokkos"
+parent = "Repositories"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "repositories-kernels"
+name = "Kernels"
+url = "https://github.com/kokkos/kokkos-kernels"
+parent = "Repositories"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "repositories-tools"
+name = "Tools"
+url = "https://github.com/kokkos/kokkos-tools"
+parent = "Repositories"
+weight = 3
+
+[[languages.en.menu.main]]
+identifier = "repositories-tutorials"
+name = "Tutorials"
+url = "https://github.com/kokkos/kokkos-tutorials"
+parent = "Repositories"
+weight = 4
+
+[[languages.en.menu.main]]
+identifier = "documentation"
+name = "Documentation"
+url = "/documentation/"
+weight = 30
+
+[[languages.en.menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 40
+
+[[languages.en.menu.main]]
+name = "Outreach"
+url = "/outreach/"
+weight = 50
+
+[[languages.en.menu.main]]
+identifier = "outreach-events"
+name = "Events"
+url = "/outreach/events"
+parent = "Outreach"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "outreach-publications"
+name = "Publications"
+url = "/outreach/publications"
+parent = "Outreach"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "outreach-report-an-issue"
+name = "Report An Issue"
+url = "/outreach/report-an-issue"
+parent = "Outreach"
+weight = 3
+
+[[languages.en.menu.main]]
+identifier = "outreach-slack-channel"
+name = "Slack Channel"
+url = "https://app.slack.com/client/T5ASL2F1N"
+parent = "Outreach"
+weight = 4
+
+[[languages.en.menu.main]]
+name = "Community"
+url = "/community/"
+weight = 60
+
+[[languages.en.menu.main]]
+identifier = "team"
+name = "Team"
+url = "/community/team/"
+parent = "Community"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "use-case-studies"
+name = "Use Case Studies"
+url = "/community/use-case-studies/"
+parent = "Community"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "applications"
+name = "Applications"
+url = "/community/applications/"
+parent = "Community"
+weight = 3
+
+[[languages.en.menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 70
+
+[params]
+search = true
+
+[outputs]
+home = [ "HTML", "JSON", "RSS" ]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+# defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[taxonomies]
+  tag = 'tags'
+
+[outputFormats]
+  [outputFormats.XML]
+    isPlainText = false
+    mediaType = "application/xml"
+    isHtml = false
+    noUgly = true
+    permalinkable = false
+    name = "xml"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.81.0"
+    max = ""
+ [[module.mounts]]
+    source = "node_modules/@gethinode/hinode/archetypes"
+    target = "archetypes"
+  [[module.mounts]]
+    source = "node_modules/@gethinode/hinode/assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "node_modules/@gethinode/hinode/i18n"
+    target = "i18n"
+  [[module.mounts]]
+    source = "node_modules/@gethinode/hinode/layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "node_modules/@gethinode/hinode/static"
+    target = "static"
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js"
+    target = "assets/js/vendor/bootstrap"
+    includeFiles = "*.bundle.js"
+  [[module.mounts]]
+    source = "node_modules/flexsearch/dist"
+    target = "assets/js/vendor/flexsearch"
+    includeFiles = "*.bundle.js"
+  [[module.mounts]]
+    source = "archetypes"
+    target = "archetypes"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
