@@ -1,7 +1,8 @@
-baseurl = "http://kokkos.org/"
+baseurl = "https://kokkos.org/"
 title = "Kokkos"
 languagecode = "en-us"
 staticDir = [ "assets" ]
+timeout = "180s"
 
 [languages.en]
 weight = 7
