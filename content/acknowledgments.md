@@ -15,7 +15,7 @@ This website contains material previously released under SAND2018-5365 O.
 
 {{< image src="img/snl-logo-632x200.jpg" class="home-image-column">}}
 
-{{< image src="img/ornl-logo-300x95.jpg" class="home-image-column">}}
+{{< image src="img/ORNL_Two-line_green-300x95.png" class="home-image-column">}}
 
 <style>
 
