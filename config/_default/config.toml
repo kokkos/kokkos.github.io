@@ -87,10 +87,23 @@ parent = "Repositories"
 weight = 4
 
 [[languages.en.menu.main]]
-identifier = "documentation"
 name = "Documentation"
 url = "/documentation/"
 weight = 30
+
+[[languages.en.menu.main]]
+identifier = "documentation-core"
+name = "Core"
+url = "https://kokkos.github.io/kokkos-core-wiki/"
+parent = "Documentation"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "documentation-kernels"
+name = "Kernels"
+url = "https://github.com/kokkos/kokkos-kernels/wiki"
+parent = "Documentation"
+weight = 2
 
 [[languages.en.menu.main]]
 identifier = "blog"
