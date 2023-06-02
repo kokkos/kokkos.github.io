@@ -11,7 +11,7 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 
 {{< image src="img/lanl-logo-300x95.jpg" class="community-team-image-column">}}
 
-{{< image src="img/ornl-logo-300x95.jpg" class="community-team-image-column">}}
+{{< image src="img/ORNL_Two-line_green-300x95.png" class="community-team-image-column">}}
 
 {{< image src="img/ANL-logo-300x105.png" class="community-team-image-column">}}
 
