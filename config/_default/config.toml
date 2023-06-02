@@ -88,7 +88,6 @@ weight = 4
 
 [[languages.en.menu.main]]
 name = "Documentation"
-url = "/documentation/"
 weight = 30
 
 [[languages.en.menu.main]]
@@ -104,6 +103,27 @@ name = "Kernels"
 url = "https://github.com/kokkos/kokkos-kernels/wiki"
 parent = "Documentation"
 weight = 2
+
+[[languages.en.menu.main]]
+identifier = "documentation-api-core"
+name = "API-Core"
+url = "https://kokkos.github.io/kokkos-core-wiki/API/core-index.html"
+parent = "Documentation"
+weight = 3
+
+[[languages.en.menu.main]]
+identifier = "documentation-api-kernels"
+name = "API-Kernels"
+url = "https://github.com/kokkos/kokkos-kernels/wiki/APIReference"
+parent = "Documentation"
+weight = 4
+
+[[languages.en.menu.main]]
+identifier = "documentation-tools"
+name = "Tools"
+url = "https://github.com/kokkos/kokkos-tools/wiki"
+parent = "Documentation"
+weight = 5
 
 [[languages.en.menu.main]]
 identifier = "blog"
