@@ -127,7 +127,7 @@ weight = 3
 [[languages.en.menu.main]]
 identifier = "outreach-slack-channel"
 name = "Slack Channel"
-url = "https://app.slack.com/client/T5ASL2F1N"
+url = "https://kokkosteam.slack.com/"
 parent = "Outreach"
 weight = 4
 
