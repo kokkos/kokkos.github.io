@@ -4,7 +4,7 @@ languagecode = "en-us"
 staticDir = [ "assets" ]
 
 [languages.en]
-weight = 7
+weight = 8
 
 [[languages.en.menu.main]]
 name = "About"
@@ -160,7 +160,7 @@ weight = 3
 [[languages.en.menu.main]]
 identifier = "outreach-slack-channel"
 name = "Slack Channel"
-url = "https://app.slack.com/client/T5ASL2F1N"
+url = "https://kokkosteam.slack.com/"
 parent = "Outreach"
 weight = 4
 
@@ -191,10 +191,16 @@ parent = "Community"
 weight = 3
 
 [[languages.en.menu.main]]
+identifier = "acknowledgments"
+name = "Ack"
+url = "/acknowledgments/"
+weight = 70
+
+[[languages.en.menu.main]]
 identifier = "contact"
 name = "Contact"
 url = "/contact/"
-weight = 70
+weight = 80
 
 [params]
 search = true
