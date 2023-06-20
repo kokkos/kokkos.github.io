@@ -9,7 +9,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti mollitia
 
 # Current Events
 
-No events at this time.
+  - Kokkos Users' Group Meeting
+    - What:   Gathering of Kokkos users and developers to detail current activites, and chart future directions and community goals
+    - When:   Tuesday, August 29, 2023 - Thursday, Auguest 31, 2023 (schedule is forthcoming)
+    - Where:  New Mexico State Bar, Albuquerque, NM
 
 # Past Events
 
