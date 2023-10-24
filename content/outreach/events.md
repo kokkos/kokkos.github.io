@@ -7,19 +7,21 @@ tags: [""]
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti mollitia fuga! Tenetur provident sunt commodi ut mollitia. Accusamus excepturi dolorem consequatur ex culpa. Voluptatibus ad rerum nulla. Laboriosam, natus.
 
-# Current Events
+
+# Kokkos Users' Group Meeting 2023
 
   - Kokkos Users' Group Meeting 2023
     - What:   Gathering of Kokkos users and developers to detail current activites, and chart future directions and community goals
-    - When:   Tuesday, August 29, 2023 - Thursday, Auguest 31, 2023
+    - When:   Tuesday, December 12, 2023 - Friday, December 15, 2023
       - [Schedule / Program](link TBD)
-    - Where:  [New Mexico State Bar, Albuquerque, NM](https://goo.gl/maps/ShXDsvrJHEdR3WCM6)
-      - Address:  5121 Masthead St NE, Albuquerque, NM 87109
-      - Lodging:  TBD
-      - Food and Beverage: TBD
+    - Where:  [University of New Mexico Center for Continuing Education](http://ce.unm.edu/)
+    - Accomodation:  [STUFF](TBD)
+     
     - Regional Attractions:  [Highlights](link TBD)
 
+# Registration & Payment
 
+  - TBD
       
 
 # Past Events
