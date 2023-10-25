@@ -4,7 +4,7 @@ languagecode = "en-us"
 staticDir = [ "assets" ]
 
 [languages.en]
-weight = 8
+weight = 9
 
 [[languages.en.menu.main]]
 name = "About"
@@ -189,6 +189,13 @@ name = "Applications"
 url = "/community/applications/"
 parent = "Community"
 weight = 3
+
+[[languages.en.menu.main]]
+identifier = "kug-2023"
+name = "KUG 2023"
+url = "/community/kug-2023/"
+parent = "Community"
+weight = 4
 
 [[languages.en.menu.main]]
 identifier = "acknowledgments"
