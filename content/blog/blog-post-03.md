@@ -13,6 +13,8 @@ The Kokkos Team will hold a User Group Meeting to gather the community, provide 
    * 1634 University Blvd NE, Albuquerque, NM 87131
    * https://maps.app.goo.gl/R8EWzLVuSGbgkeWx5
  * *Registration:* 
+   * Registration is on a "first-come, first-served" basis
+   * Registration will close on Thursday, Nov. 30, 2023 
    * Before you register: Consider contributing a talk - see 
 
 We are looking for contribution from Kokkos users relaying where experience in leveraging Kokkos to achieve performance portability.
