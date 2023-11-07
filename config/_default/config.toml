@@ -199,9 +199,9 @@ weight = 4
 
 [[languages.en.menu.main]]
 identifier = "acknowledgments"
-name = "Ack"
+name = "Support"
 url = "/acknowledgments/"
-weight = 70
+weight = 50
 
 [[languages.en.menu.main]]
 identifier = "contact"
