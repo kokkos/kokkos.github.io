@@ -1,6 +1,6 @@
 ---
 authors: ["kokkos-team"]
-title: Kokkos Features as the On-Node Programming Model in the Code Winning the Inaugural Gordon Bell Prize for Climate Modelling
+title: Kokkos-powered Climate Simulation Code Wins the Inaugural Gordon Bell Prize for Climate Modelling
 date: "2023-11-18"
 tags: ["blog"]
 thumbnail: img/kokkos-blog-post4_a.jpg
@@ -16,7 +16,7 @@ SCREAM is a cloud-resolving global atmosphere model with state-of-the-art
 parametrizations for microphysics, moist turbulence and radiation.
 The team, composed of nineteen members from a diverse set of institutions including several national labs,
 developed SCREAM in C++ from the ground up choosing Kokkos as the on-node programming model.
-All the multi-dimensional fields in SCEAM are stored as [`Kokkos::Views`](https://kokkos.github.io/kokkos-core-wiki/API/core/view/view.html), and loops
+All the multi-dimensional fields in SCREAM are stored as [`Kokkos::Views`](https://kokkos.github.io/kokkos-core-wiki/API/core/view/view.html), and loops
 implemented using [`Kokkos::parallel_for`](https://kokkos.github.io/kokkos-core-wiki/API/core/parallel-dispatch/parallel_for.html) constructs, specifically leveraging the [`TeamPolicy`](https://kokkos.github.io/kokkos-core-wiki/API/core/policies/TeamPolicy.html).
 
 The Kokkos-based implementation enabled them to achieve on-node performance portability.
@@ -28,14 +28,12 @@ the code on (nearly) an entire Exascale system (Frontier).
 The ACM Gordon Bell Prize for climate modeling aims to ["recognize innovative parallel computing contributions toward solving the global climate crisis. Climate scientists and software engineers are evaluated for the award based on the performance and innovation in their computational methods."](https://awards.acm.org/bell-climate).
 
 
-## This is a major achievement!
+## SCREAM meets key science target
 
 Quoting Mark Taylor, the leading author of the [paper winning the prize](https://dl.acm.org/doi/pdf/10.1145/3581784.3627044), and chief computational scientist for E3SM:
 "We have created the first global cloud-resolving model to simulate a world’s year of climate in a day".
 SCREAM is the first code to break the 1 simulated *year* per wallday (SYPD)
 by running on nearly an entire Exascale system ([Frontier](https://www.olcf.ornl.gov/frontier/)).
-Building such a global cloud-resolving models (GCRMs) and succeffully surpassing 1 SYPD is
-a climate science grand challenge, which the authors have achieved.
 
 {{< image src="img/kokkos-blog-post4_b.png" style="float: center; height=10">}}
 
