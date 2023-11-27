@@ -199,7 +199,7 @@ weight = 4
 
 [[languages.en.menu.main]]
 identifier = "acknowledgments"
-name = "Ack"
+name = "Sponsors"
 url = "/acknowledgments/"
 weight = 70
 
