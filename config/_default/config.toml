@@ -192,7 +192,7 @@ weight = 3
 
 [[languages.en.menu.main]]
 identifier = "kug-2023"
-name = "KUG-2023"
+name = "KUG 2023"
 url = "/community/kug-2023/"
 parent = "Community"
 weight = 4
