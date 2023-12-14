@@ -32,7 +32,7 @@ The ACM Gordon Bell Prize for climate modeling aims to ["recognize innovative pa
 
 Quoting Mark Taylor, the leading author of the [paper winning the prize](https://dl.acm.org/doi/pdf/10.1145/3581784.3627044), and chief computational scientist for E3SM:
 "We have created the first global cloud-resolving model to simulate a world’s year of climate in a day".
-SCREAM is the first code to break the 1 simulated *year* per wallday (SYPD)
+SCREAM achieved that throughput
 by running on nearly an entire Exascale system ([Frontier](https://www.olcf.ornl.gov/frontier/)).
 
 {{< image src="img/kokkos-blog-post4_b.png" style="float: center; height=10">}}
