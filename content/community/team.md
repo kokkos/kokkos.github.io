@@ -30,6 +30,7 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 - Daniel Ibanez
 - Dong Lee
 - Nic Morales
+- Carl Pearson
 - Amy Powell
 
 ## OAK RIDGE NATIONAL LABORATORY
@@ -76,11 +77,11 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 - Luc Berger-Vergiat Project co-Lead
 - Vinh Dang
 - Nathan Ellingwood
-- Evan Harvey
+- James Foucar
 - Brian Kelley
 - Kim Liegeois
 - Carl Pearson
-- Amy Powell
+- Ernesto Prudencio
 
 
 <style>
