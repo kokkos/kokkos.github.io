@@ -7,9 +7,9 @@ tags: [""]
 
 # Current Events
 
-[Kokkos User Group Meeting 2023]({{< ref "/community/kug-2023" >}} "Kokkos User Group Meeting 2023")
-
 # Past Events
+
+[Kokkos User Group Meeting 2023]({{< ref "/community/kug-2023" >}} "Kokkos User Group Meeting 2023")
 
 [Short Introduction to Kokkos at Euro Trilinos Usergroup Meeting]({{<ref "/outreach/events-details/event-01" >}})
 
