@@ -5,7 +5,7 @@ date: "2023-01-01"
 tags: ["Team", "Sandia"]
 ---
 
-The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra experts with a dedication to making live easier for computation scientists and engineers.
+The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra experts with a dedication to making life easier for computation scientists and engineers.
 
 {{< image src="img/snl-logo-632x200.jpg" class="community-team-image-column">}}
 
@@ -28,7 +28,7 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 - Nathan Ellingwood
 - Evan Harvey
 - Daniel Ibanez
-- Dong Lee
+- DongHun Lee
 - Nic Morales
 - Carl Pearson
 - Amy Powell
@@ -38,10 +38,7 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 - Daniel Arndt
 - Jakob Bludau
 - Bruno Turcksin
-- Marc Gonzalez Tallada
-- Pedro Valero Lara
 - Seyong Lee
-- Keita Teranishi
 
 ## ARGONNE NATIONAL LABORATORY
 
