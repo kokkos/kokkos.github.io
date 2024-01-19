@@ -1,11 +1,11 @@
 ---
 authors: ["kokkos-team"]
 title: "Team"
-date: "2023-01-01"
+date: "2024-01-19"
 tags: ["Team", "Sandia"]
 ---
 
-The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra experts with a dedication to making life easier for computation scientists and engineers.
+The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra experts dedicated to making life easier for computation scientists and engineers.
 
 {{< image src="img/snl-logo-632x200.jpg" class="community-team-image-column">}}
 
@@ -19,66 +19,41 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 
 # Kokkos Core
 
-## SANDIA NATIONAL LABORATORIES
+- Christian Trott, SNL, Project Lead
+- Damien Lebrun-Grandie, ORNL, Project Lead
+- Daniel Arndt, ORNL
+- Jan Ciesko, SNL
+- Conrad Clevenger, SNL
+- Nathan Ellingwood, SNL
+- Rahulkumar Gayatri, NERSC
+- DongHun Lee, SNL
+- Seyong Lee, ORNL
+- Nevin Liber, ANL
+- Nic Morales, SNL
+- Carl Pearson, SNL
+- Amy Powell, SNL
+- Mikael Simberg, CSCS
+- Bruno Turcksin, ORNL
 
-- Christian Trott (Project Lead)
-- Jan Ciesko
-- Conrad Clevenger
-- Vinh Dang
-- Nathan Ellingwood
-- Evan Harvey
-- Daniel Ibanez
-- DongHun Lee
-- Nic Morales
-- Carl Pearson
-- Amy Powell
 
-## OAK RIDGE NATIONAL LABORATORY
-- Damien Lebrun-Grandie (Project Lead)
-- Daniel Arndt
-- Jakob Bludau
-- Bruno Turcksin
-- Seyong Lee
-
-## ARGONNE NATIONAL LABORATORY
-
-- Nevin Liber
-
-## LOS ALAMOS NATIONAL LABORATORY
-
-- Galen Shipman
-- Geoff Womeldorff
-
-## NATIONAL ENERGY RESEARCH SCIENTIFIC COMPUTING CENTER
-
-- Rahulkumar Gayatri
-
-## SWISS NATIONAL SUPERCOMPUTING CENTRE
-
-- Mikael Simberg HPX backend
-
-### ALUMNI
+**ALUMNI**
 
 - Carter Edwards
-- Daisy Hollman
 - Daniel Sutherland
-- Jeff Miles
-- Hal Finkel
-- Graham Lopez
+- Daniel Ibanez
+- Daisy Hollman
 
 # Kokkos Kernels
 
-## SANDIA NATIONAL LABORATORIES
-
-- Siva Rajamanickam (PI) Project Lead
-- Luc Berger-Vergiat Project co-Lead
-- Vinh Dang
-- Nathan Ellingwood
-- James Foucar
-- Brian Kelley
-- Kim Liegeois
-- Carl Pearson
-- Ernesto Prudencio
+- Siva Rajamanickam, SNL, Project Lead
+- Luc Berger-Vergiat, SNL, Project Lead
+- Vinh Dang, SNL
+- Nathan Ellingwood, SNL
+- James Foucar, SNL
+- Brian Kelley, SNL
+- Kim Liegeois, SNL
+- Carl Pearson, SNL
+- Ernesto Prudencio, SNL
 
 
 <style>
