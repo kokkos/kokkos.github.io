@@ -38,10 +38,7 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 - Daniel Arndt
 - Jakob Bludau
 - Bruno Turcksin
-- Marc Gonzalez Tallada
-- Pedro Valero Lara
 - Seyong Lee
-- Keita Teranishi
 
 ## ARGONNE NATIONAL LABORATORY
 
