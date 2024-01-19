@@ -28,7 +28,7 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 - Nathan Ellingwood
 - Evan Harvey
 - Daniel Ibanez
-- Dong Lee
+- DongHun Lee
 - Nic Morales
 - Carl Pearson
 - Amy Powell
