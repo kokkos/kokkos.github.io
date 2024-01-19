@@ -1,7 +1,7 @@
 ---
 authors: ["kokkos-team"]
 title: "Team"
-date: "2023-01-01"
+date: "2024-01-19"
 tags: ["Team", "Sandia"]
 ---
 
