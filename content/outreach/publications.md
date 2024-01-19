@@ -21,7 +21,7 @@ H. Carter Edwards , Christian R. Trott , Daniel Sunderland, Kokkos, Journal of P
 
 The Talks at the Usergroup Meeting held April 23rd – 25th 2019, focused on Kokkos status and roadmap as well as user stories of deploying Kokkos in applications and libraries.
 
-- Kokkos EcoSystem
+- Kokkos Ecosystem
     - [Kokkos-Status](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-Kokkos-Status-small.pdf): Feature Update on Kokkos Core for 2017-2019
     - [Kokkos-Deprecation](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-Kokkos-Deprecation.pdf): Description of deprecated features for Kokkos 3.0
     - [Kokkos-RoadMap](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-Kokkos-RoadMap.pdf): RoadMap for Kokkos Core for 2019-2021
@@ -37,4 +37,4 @@ The Talks at the Usergroup Meeting held April 23rd – 25th 2019, focused on Kok
 ## CONFERENCES
 
 - DOE Performance Portability Meeting
-    - [Kokkos EcoSystem](https://kokkos.org/wp-content/uploads/2019/04/Trott_PPP2019-small.pdf)
+    - [Kokkos Ecosystem](https://kokkos.org/wp-content/uploads/2019/04/Trott_PPP2019-small.pdf)
