@@ -32,6 +32,7 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 - Nic Morales, SNL
 - Carl Pearson, SNL
 - Amy Powell, SNL
+- Francesco Rizzi, NGA
 - Mikael Simberg, CSCS
 - Bruno Turcksin, ORNL
 
@@ -42,6 +43,7 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 - Daniel Sutherland
 - Daniel Ibanez
 - Daisy Hollman
+- David Poliakoff
 
 # Kokkos Kernels
 
