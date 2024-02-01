@@ -58,7 +58,7 @@ followed by more community talks (mainly on Fortran):
 * xRage (LANL ASC multiphysics code) - Moving a Fortran code to GPUs with Kokkos
 * Porting Fortran-based NWP (Numerical Weather Prediction) code to Kokkos with the Fortran Compatibility Layer
 
-In the afternoon we talked about Kokkos Tools, Kokkos Resilience and Kokkos Remote Spaces,
+In the afternoon, we talked about Kokkos Tools, Kokkos Resilience and Kokkos Remote Spaces,
 followed by related community talks:
 * Kokkos support in TAU and APEX Performance Measuring Tools
 * Memory Management and Profiling with Kokkos: A Trilinos Case Study
@@ -76,9 +76,9 @@ experimental backends.  More community talks:
 * Performance Boosting Portable Acceleration of SISSO++ for Symbolic Descriptor Learning via Kokkos
 * Kokkos for additive manufacturing simulations
 
-In the afternoon we covered Kokkos Core and Kokkos Kernels improvements now in place,
-including our additions now in ISO C++, new documentation, Compiler Explorer (Godbolt) support,
-multiple reducers and nested MDRange policies, along with the streams interfaces of spiluk and sptrsv 
+In the afternoon, we covered Kokkos Core and Kokkos Kernels improvements now in place,
+including our new additions to ISO C++, new documentation, Compiler Explorer (Godbolt) support,
+multiple reducers, and nested MDRange policies, along with the streams interfaces of spiluk and sptrsv 
 as well as ODE time integrators.  And then the final set of community talks:
 * ArborX (Geometric Search Library)
 * Moving Least Squares
@@ -125,7 +125,7 @@ We've needed one for years.
 * If a package is part of Kokkos, it discourages alternatives
   * But that does help to get collaboration
 * Maybe a hierarchy of tightly coupled projects and loosely coupled projects
-* Maybe a lost of external libraries based on Kokkos
+* Maybe a list of external libraries based on Kokkos
   * Maybe a way for projects to be marked as such
   * Automated by P/R
 
