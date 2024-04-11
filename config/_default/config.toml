@@ -93,7 +93,7 @@ weight = 30
 [[languages.en.menu.main]]
 identifier = "documentation-core"
 name = "Core"
-url = "https://kokkos.github.io/kokkos-core-wiki/"
+url = "https://kokkos.github.io/kokkos-core-documentation/"
 parent = "Documentation"
 weight = 1
 
