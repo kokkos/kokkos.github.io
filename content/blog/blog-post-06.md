@@ -1,10 +1,10 @@
 ---
 authors: ["kokkos-team"]
 title: "17 Apr. 2024: First Kokkos tea-time"
-subtitle: "Dyablo: A simulation code for astrophysics fluids with adaptive mesh refinement with Kokkos"
+subtitle: "Monthly time to discuss anything related to Kokkos, its ecosystem, or GPU-programming at large"
 date: 2024-04-12
 tags: ["blog"]
-thumbnail: img/Kokkos-tea-time.png
+thumbnail: img/kokkos-blog-post6.png
 ---
 
 <br>
