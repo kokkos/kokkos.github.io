@@ -2,7 +2,7 @@
 authors: ["kokkos-team"]
 title: "17 Apr. 2024: First Kokkos tea-time"
 subtitle: "Dyablo: A simulation code for astrophysics fluids with adaptive mesh refinement with Kokkos"
-date: 2024-03-15
+date: 2024-04-12
 tags: ["blog"]
 thumbnail: img/Kokkos-tea-time.png
 ---
@@ -10,27 +10,34 @@ thumbnail: img/Kokkos-tea-time.png
 <br>
 
 The [CExA project](https://cexa-project.org/) is organizing a **Kokkos tea-time**, a monthly time to discuss anything related to Kokkos, its ecosystem, or even GPU-programming at large.
-It will recur every 3rd Wednesday of the month, because anytime is the right time for tea, starting at:
+It will recur every **3rd Wednesday of the month**, because anytime is the right time for a tea break, starting at:
 * 7AM Pacific Time
 * 8AM Mountain Time,
 * 10AM Eastern Time,
 * 2PM UTC,
 * 4PM Central European Summer Time
 
+A **45min** time-slot for either a 30min presentation followed by questions or for a more informal discussion on a select topic.
+
+Any subject is welcome if it is related to the Kokkos ecosystem (developments, usage, projects, issues, etc.) or even to GPU programming at large.
+Please, feel free to contact us to propose a subject: contact@cexa-project.org
+
+We target very informal discussion, with or without a dedicated slide deck.
+
+So take a break and [join the fun](#join-the-fun), [through zoom](https://cnrs.zoom.us/j/97834891802?pwd=NXhzd2paY051S3dQekVQVllvTW5MUT09), [by phone]({{< ref "#by-phone" >}}), [from a visio room]({{< ref "#from-a-visio-room" >}}) or [from the Mandelbrot room in the Digiteo Saclay building, France]({{< ref "#come-to-the-mandelbrot-room" >}}).
+
 {{< button icon="fa calendar" spacing="true" color="info" tooltip="Download an ICS invite for the Kokkos tea-time serie" href="/kokkos-tea-time.ics" >}}
 Add to calendar
 {{< /button >}}
 
-<br>
-<br>
+## First Kokkos tea-time
 
-The first international **Kokkos tea-time** organized by the  will take place on Wednesday, April the 17th, 2024 for 45min starting at 8AM MT, 10AM EST, 2PM UTC, 4PM CEST.
-It can be followed on [Zoom](https://cnrs.zoom.us/j/97834891802?pwd=NXhzd2paY051S3dQekVQVllvTW5MUT09), by [phone]({{< ref "#by-phone" >}}), from [a visio room]({{< ref "#from-a-visio-room" >}}) or from the [Mandelbrot room in the Digiteo Saclay building, France]({{< ref "#come-to-the-mandelbrot-room" >}}).
+The first *Kokkos tea-time* will take place on Wednesday, April the 17th, 2024 for 45min starting at 8AM MT, 10AM EST, 2PM UTC, 4PM CEST.
 
 Arnaud Durocher will give a talk entitled "Dyablo: A simulation code for astrophysics fluids with adaptive mesh refinement with Kokkos"
 
 
-## Dyablo: A simulation code for astrophysics fluids with adaptive mesh refinement with Kokkos
+### Dyablo: A simulation code for astrophysics fluids with adaptive mesh refinement with Kokkos
 
 *Arnaud Durocher, Maxime Delorme, CEA-Saclay, IRFU/DEDIP/LILAS*
 
@@ -39,37 +46,33 @@ Dyablo is a new code for the simulation of astrophysical plasmas on exascale arc
 We will present Dyablo, how it's made and what challenges had to be resolved for AMR on GPUs. We will also present two physical problems we resolve with Dyablo in solar physics and cosmology.
 
 
-## Contribute
+## Join the fun
 
-Any subject is welcome if it is related to the Kokkos ecosystem (developments, usage, projects, issues, etc.) or even to GPU programming at large.
-Feel free to contact us to propose a talk: contact@cexa-project.org
-
-We target very informal discussion. You can propose any subject for discussion even if you don't have a dedicated slide deck.
-
-
-## Additional info
-
-### Join us physically in the Mandelbrot room
+<details><summary id="by-coming">Join us physically in the Mandelbrot room</summary>
 
 The Mandelbrot room of [Digiteo Saclay building](https://maps.app.goo.gl/dWmfDSAyc6TLkrnC9) is in Saclay center, near the Orphée entrance.
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.8449189785!2d2.15407651328232!3d48.72755487119501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67f3d6ca35351%3A0xad658a7f81b4a1fe!2sMaison%20de%20la%20Simulation!5e0!3m2!1sen!2sfr!4v1690451425962!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+</details>
 
-### Zoom link
 
-In a web browser or from the application.
+
+<details><summary id="by-zoom">In a web browser or from the application.</summary>
 
 https://cnrs.zoom.us/j/97834891802?pwd=NXhzd2paY051S3dQekVQVllvTW5MUT09
 * Meeting ID: 978 3489 1802
 * Passcode: VdCL7d
 
+</details>
 
-### From a visio room
 
-#### in SIP
+
+<details><summary id="by-visio">From a visio room</summary>
+
+SIP
 * 97834891802@zoomcrc.com
 
-#### in H.323
+H.323
 * 213.244.140.110 (Germany)
 * 213.19.144.110 (Amsterdam Netherlands)
 * 162.255.37.11 (US West)
@@ -79,12 +82,20 @@ Meeting ID: 978 3489 1802
 
 Passcode: 712542
 
-###  One tap mobile
+</details>
+
+
+
+<details><summary id="by-phone">One tap mobile</summary>
 
 +33170950350,,97834891802#,,,,*712542# France
 +33186995831,,97834891802#,,,,*712542# France
 
-### By phone
+</details>
+
+
+
+<details><summary id="by-mobile">By phone</summary>
 
 * Meeting ID: 978 3489 1802
 * Passcode: 712542
@@ -209,3 +220,5 @@ Dial by your location
 * +1 360 209 5623 US
 * +1 386 347 5053 US
 * +1 507 473 4847 US
+
+</details>
