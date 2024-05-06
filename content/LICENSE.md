@@ -1,6 +1,5 @@
- ==============================================================================
  Kokkos is under the Apache License v2.0 with LLVM Exceptions:
- ==============================================================================
+ =============================================================
 
                                  Apache License
                            Version 2.0, January 2004
@@ -195,9 +194,8 @@
  the License, but only in their entirety and only with respect to the Combined
  Software.
 
- ==============================================================================
  Software from third parties included in Kokkos:
- ==============================================================================
+ ===============================================
 
  Kokkos contains third party software which is under different license
  terms. All such code will be identified clearly using at least one of two
