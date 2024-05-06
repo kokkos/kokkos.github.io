@@ -1,4 +1,5 @@
 baseurl = "http://kokkos.org/"
+disablePathToLower = true
 title = "Kokkos"
 languagecode = "en-us"
 staticDir = [ "assets" ]
