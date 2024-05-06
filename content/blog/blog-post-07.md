@@ -3,6 +3,7 @@ authors: ["kokkos-team"]
 title: "European Trilinos & Kokkos User Group Meeting 2024"
 date: 2024-05-03
 tags: ["blog"]
+thumbnail: img/kokkos-blog-post-7-h1-m1.jpg
 ---
 
 **European Trilinos & Kokkos User Group Meeting 2024**  
