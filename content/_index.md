@@ -7,7 +7,7 @@ tags: [""]
 
 <div class="home-title-div">
 
-<h2 class="home-title-text">KOKKOS ECOSYSTEM <br /> - <br /> Part of the Exascale Project</h2>
+<h2 class="home-title-text">KOKKOS ECOSYSTEM <br /> - <br /> A Linux Foundation Project</h2>
 
 {{< image src="img/kokkos-ecosystem-hero.jpg" class="home-title-image">}}
 
