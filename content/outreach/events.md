@@ -7,6 +7,8 @@ tags: [""]
 
 # Current Events
 
+[Kokkos Training in Paris, France June 2024]({{<ref "/outreach/events-details/event-04" >}})
+
 # Past Events
 
 [Kokkos User Group Meeting 2023]({{< ref "/community/kug-2023" >}} "Kokkos User Group Meeting 2023")
