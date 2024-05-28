@@ -6,15 +6,16 @@ tags: ["blog"]
 thumbnail: img/blog/2024/kokkos-hpsf.png
 ---
 
-Kokkos is among the six initial technical projets of the newly created High Performance Software Foundation ([HPSF](https://hpsf.org)).
+Kokkos is among the six initial technical projects of the newly created High Performance Software Foundation ([HPSF](https://hpsf.org)).
 HPSF is set up as an umbrella organization within the Linux Foundation to foster collaboration around the development and support of its associated technical projects.
-Conceived through an initial collaboration between the Spack and the Kokkos team, this effort has brought together institutions that want to foster a more collaborative effort of developing and maintaining key open-source projects in the space of high performance computing and related compute intensive areas.
+Conceived through an initial collaboration between the Spack and the Kokkos team, this effort has brought together institutions that want to foster a more cooperative effort of developing and maintaining key open-source projects in the space of high performance computing and related compute intensive areas.
 
 Historically the HPC community has been characterized by a large amount of fragmentation, with many similar or even identical capabilities developed at different institutions.
-The lack of reliable software support funding mechanism in the scientific community led to a reluctance of relying on third party libraries, and the lack of community governance models hindered the establishment of joint multi-institutional development efforts.
+Many projects were reluctant to rely on third party libraries due to the lack of reliable software support funding mechanism in the scientific community.
+Furthermore, the lack of community governance models hindered the establishment of joint multi-institutional development efforts.
 
 For Kokkos the US Department of Energy's (DOE) Exascale Computing Project changed that.
-By providing a framework that included all DOE's national laboratories it was possible to grow the Kokkos team beyond a single institution and establish a multi-laboratory collaborative effort to develop a robust performance portability solution.
+By providing a framework that included all DOE's national laboratories it was possible to grow the Kokkos team beyond a single institution and establish a multi-laboratory effort to develop a robust performance portability solution.
 
 HPSF intents to be the common ground for establishing these collaborations on a global scale. 
  
@@ -36,8 +37,7 @@ The Advisory Council is also the primary body to organize day-to-day collaborati
 
 Key benefits of belonging to the High-Performance Software Foundation include open governance models, resources for improving software quality and building community, as well as collaborations with the larger Linux computing ecosystem.
 Leveraging well established open governance models from the Linux Foundation, HPSF provides a framework to organize multi-institutional collaborations.
-An institution that wants to leverage Kokkos and also become contributors can now rest assured that the project is not just subject to the whims of some project leads paid for by DOE.
-Donating rights to Kokkos to the Linux Foundation also demonstrates that the Kokkos team and DOE has been serious with their intent to evolve Kokkos into a true community project.
+Donating rights to Kokkos to the Linux Foundation also demonstrates that the Kokkos team and DOE are serious with their intent to evolve Kokkos into a true community project.
 
 # Benefits for Kokkos Users & Developers
 
