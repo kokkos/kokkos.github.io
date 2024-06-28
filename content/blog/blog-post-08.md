@@ -6,7 +6,7 @@ tags: ["blog"]
 thumbnail: img/blog/2024/kokkos-hpsf.png
 ---
 
-Kokkos is among the six initial technical projects of the newly created High Performance Software Foundation ([HPSF](https://hpsf.org)).
+Kokkos is among the six initial technical projects of the newly created High Performance Software Foundation ([HPSF](https://hpsf.io)).
 HPSF is set up as an umbrella organization within the Linux Foundation to foster collaboration around the development and support of its associated technical projects.
 Conceived through an initial collaboration between the Spack and the Kokkos team, this effort has brought together institutions that want to foster a more cooperative effort of developing and maintaining key open-source projects in the space of high performance computing and related compute intensive areas.
 
