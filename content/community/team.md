@@ -17,11 +17,16 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 
 {{< image src="img/CSCS-Logo-300x121.jpg" class="community-team-image-column">}}
 
+{{< image src="img/CEA-logo-480x480.png" class="community-team-image-column">}}
+
 # Kokkos Core
 
 - Christian Trott, SNL, Project Lead
 - Damien Lebrun-Grandie, ORNL, Project Lead
 - Daniel Arndt, ORNL
+- Yuuichi Asahi, CEA
+- Julien Bigot, CEA
+- Cedric Chevalier, CEA
 - Jan Ciesko, SNL
 - Conrad Clevenger, SNL
 - Nathan Ellingwood, SNL
@@ -30,11 +35,13 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 - Seyong Lee, ORNL
 - Nevin Liber, ANL
 - Nic Morales, SNL
+- Thomas Padioleau, CEA
 - Carl Pearson, SNL
 - Amy Powell, SNL
 - Francesco Rizzi, NGA
 - Mikael Simberg, CSCS
 - Bruno Turcksin, ORNL
+- Paul Zhener, CEA
 
 
 **ALUMNI**
@@ -63,7 +70,7 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
     /* Align horizontally /community/team's image */
     .community-team-image-column {
         float: left;
-        width: 20%; /* 100% / 5 figures = 20% */
+        width: 16.666%; /* 100% / 6 figures = 16.666...% */
     }
 
 </style>
