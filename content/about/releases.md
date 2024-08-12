@@ -13,6 +13,6 @@ The maintainers of the libraries sign the tags associated with releases and sign
 
 ## Download
 
-| Date | Version | Download | Checksum | Signature | Release Notes |
+| Date | Version | Download | Release Notes |
 | --- | --- | --- | --- | --- | --- |
-| 12 Aug 2024 | 4.4.00 | [Kokkos]() [Kokkos-Kernels]() | [kokkos-4.4.00.sha256]() [kokkos-kernels-4.4.00.sha256]() | [kokkos-4.4.00.sha256.asc]() [kokkos-kernels-4.4.00.sha256.asc]() | release notes |
+| 12 Aug 2024 | 4.4.00 | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.4.00) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.4.00) | release notes |
