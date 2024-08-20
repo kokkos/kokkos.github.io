@@ -7,6 +7,8 @@ tags: ["Release"]
 
 # Kokkos Ecosystem release page
 
+## License
+
 Kokkos and Kokkos-Kernels are distributed under an Apache 2.0 with LLVM exception license, an [OSI-approved](https://opensource.org/licenses/Apache-2.0) license.
 The license files are available here: [kokkos](https://raw.githubusercontent.com/kokkos/kokkos/develop/LICENSE), [kokkos-kernels](https://raw.githubusercontent.com/kokkos/kokkos-kernels/develop/LICENSE).
 
