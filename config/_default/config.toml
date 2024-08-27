@@ -278,3 +278,6 @@ defaultContentLanguageInSubdir = false
   [[module.mounts]]
     source = "static"
     target = "static"
+  [[module.mounts]]
+    source = "static/download"
+    target = "static/downloads"
