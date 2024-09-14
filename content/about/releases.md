@@ -19,5 +19,6 @@ The maintainers of the libraries sign the tags associated with releases and sign
 ## Download
 
 | Date | Version | Download | Release Notes |
-| --- | --- | --- | --- |
+| :--- | :------ | :------: | ------------: |
+| 13 Sep 2024 | 4.4.01 | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.4.01) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.4.01) | release notes |
 | 12 Aug 2024 | 4.4.00 | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.4.00) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.4.00) | release notes |
