@@ -3,7 +3,7 @@ authors: ["kokkos-team"]
 title: "Kokkos Releases New Autotuning Features"
 date: 2024-12-20
 tags: ["blog"]
-thumbnail: img/blog/apex-logo.png
+thumbnail: img/blog/apex-kokkos.png
 ---
 
 # Motivation
