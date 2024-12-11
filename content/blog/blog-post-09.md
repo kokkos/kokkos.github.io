@@ -3,7 +3,7 @@ authors: ["kokkos-team"]
 title: "Kokkos Releases New Autotuning Features"
 date: 2024-12-10
 tags: ["blog"]
-thumbnail: img/blog/apex-kokkos.png
+thumbnail: img/blog/2024/apex-kokkos.jpg
 ---
 
 # Motivation
@@ -18,7 +18,7 @@ Kokkos includes a Tuning API (TuningInterface) that can be used to construct a t
 
 Our experiments have shown that in most cases the actively tuning case still performs faster than the default, untuned configuration despite the search exploration overhead. Figure 1 shows  how the Kokkos Tools APEX auto-tuning connector adjusts the occupancy for a Kokkos parallel_for in a Kokkos benchmark [3] via APEX’s auto-tuning capabilities. From the figure, we see how the best-performing parameter value converges half-way through the Kokkos application’s execution. The figure below shows how Kokkos tuning parameter values converge over Kokkos Application Execution. 
 
-{{< image src="img/blog/2024/kokkos-blog-post9.png" style="float: center; height=10">}}
+{{< image src="img/kokkos-blog-post9.png" style="float: center; height=10">}}
 
 For an in-depth example on how to use the Kokkos Tools runtime auto-tuning API with the APEX performance measurement and runtime adaptation tool, see the Wiki post at [https://github.com/UO-OACISS/apex/wiki/Kokkos-Runtime-Auto-Tuning-with-APEX](https://github.com/UO-OACISS/apex/wiki/Kokkos-Runtime-Auto-Tuning-with-APEX).
 
