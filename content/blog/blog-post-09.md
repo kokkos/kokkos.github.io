@@ -1,6 +1,6 @@
 ---
 authors: ["kokkos-team"]
-title: "Kokkos Releases New Autotuning Features"
+title: "Kokkos 4.5 Release Introduces New Auto-Tuning Features"
 date: 2024-12-11
 tags: ["blog"]
 thumbnail: img/blog/2024-autotuning/apex-kokkos.jpg
