@@ -8,7 +8,7 @@ thumbnail: img/blog/2024-autotuning/apex-kokkos.jpg
 
 # Motivation
 
-By default, internal Kokkos execution space parameters are empirically or heuristically hand-tuned with fixed parameter values to provide "one-size-fits-most" performance, with the goal of minimizing the effect of the abstraction overhead and approximating the performance of an optimized, lower-level backend implementation. Can these parameters be automatically tuned for a particular application and architecture so that programmers can easily tackle further performance opportunities? Auto-tuning capabilities for Kokkos programmers [5], released in Kokkos 4.5 [4], offer an answer.
+By default, internal Kokkos execution space parameters are empirically or heuristically hand-tuned with fixed parameter values to provide "one-size-fits-most" performance, with the goal of minimizing the effect of the abstraction overhead and approximating the performance of an optimized, lower-level backend implementation. Can these parameters be automatically tuned for a particular application and architecture so that programmers can easily tackle further performance opportunities? Auto-tuning features for Kokkos programmer productivity [5], released in Kokkos 4.5 [4], offer an answer.
 
 # How it Works
 
