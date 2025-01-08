@@ -20,9 +20,9 @@ Our experiments have shown that in most cases the actively tuning case still per
 
 {{< image src="img/blog/2024-autotuning/APEX-tuning.png" style="float: center; height=10">}}
 
-For an in-depth example on how to use the Kokkos Tools runtime auto-tuning API with the APEX performance measurement and runtime adaptation tool, see [https://github.com/UO-OACISS/apex/wiki/Kokkos-Runtime-Auto-Tuning-with-APEX](https://github.com/UO-OACISS/apex/wiki/Kokkos-Runtime-Auto-Tuning-with-APEX).
+For an in-depth example on how to use the Kokkos Tools runtime auto-tuning API with the APEX performance measurement and runtime adaptation tool, see this [Wiki Post](https://github.com/UO-OACISS/apex/wiki/Kokkos-Runtime-Auto-Tuning-with-APEX).
 
-The Kokkos team welcomes users to try the Kokkos Tools APEX auto-tuning capabilities and provide feedback given their auto-tuning needs. The Kokkos team is actively working on new features for auto-tuning, including providing a new flag for Kokkos executables, ML-guidance of auto-tuning, per-MPI process auto-tuning, and utilizing feedback from performance monitoring software such as LDMS. 
+The Kokkos team welcomes users to try the Kokkos Tools APEX auto-tuning capabilities and provide feedback given their auto-tuning needs. The Kokkos team is actively working on new features for auto-tuning, including providing a new flag for Kokkos executables, ML-guidance of auto-tuning, per-MPI process auto-tuning, and utilizing feedback from performance monitoring software such as LDMS.
 
 # References
 
