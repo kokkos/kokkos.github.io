@@ -1,7 +1,7 @@
 ---
 authors: ["kokkos-team"]
 title: "Kokkos User Group Meeting @HPSFcon"
-date: 2025-14-01
+date: 2025-01-14
 tags: ["blog"]
 thumbnail: img/blog/HPSF-Conference-2025.png
 ---
