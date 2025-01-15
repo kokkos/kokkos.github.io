@@ -15,13 +15,13 @@ Performance Software Foundation (HPSFcon) conference.
 
 ## What to Expect:
 
-* **Technical Talks:** Learn about the latest advancements in Kokkos, including new
+* **Technical Talks:** Learn about the latest advancements in Kokkos libraries, including new
   features, performance optimizations, and best practices.
 * **User Presentations:** Share your experiences using Kokkos and learn from
   others in the community.
 * **Networking Opportunities:** Connect with other Kokkos users, developers,
   and experts in the high-performance computing community.
-* **Poster Session:** Showcase your research and projects using Kokkos.
+* **Poster Session:** Showcase your research and projects using the Kokkos Ecosystem.
 
 ## Who Should Attend:
 
@@ -46,10 +46,10 @@ User Group meeting.
 
 * **20-minute presentations:** Share your experiences with using Kokkos in your
   research or applications. Topics of interest include:
-  * Novel applications of Kokkos
+  * Novel applications of Kokkos libraries
   * Performance optimizations and best practices
   * Experiences with specific Kokkos features
-  * Integration of Kokkos with other libraries or frameworks
+  * Integration of Kokkos Core, Kernels, FFT, etc., with other libraries or frameworks
 * **10-minute lightning talks:** Brief presentations on a specific topic
   related to Kokkos, such as:
   * A unique use case for Kokkos
