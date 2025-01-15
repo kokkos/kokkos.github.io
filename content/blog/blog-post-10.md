@@ -60,5 +60,6 @@ at HPSFcon in Chicago. This provides a valuable opportunity for face-to-face
 interaction with the Kokkos developer team and other users in the community.
 
 ### Q: Will the talks and presentations from the KUG meeting be recorded and posted online later?
-**A:** No, recordings will not be made available. This encourages in-person
-participation and facilitates real-time discussions and networking.
+**A:** No, recordings will not be made available. This in part due to financial
+considerations, and it hopefully encourages in-person participation and
+facilitates real-time discussions and networking.
