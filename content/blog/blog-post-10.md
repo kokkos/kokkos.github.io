@@ -39,6 +39,30 @@ open-source software for high-performance computing. This is a unique
 opportunity to learn about the latest trends and technologies in HPC and
 connect with leaders in the field.
 
+# Call for Submissions:
+
+We are seeking high-quality presentations and lightning talks for the Kokkos
+User Group meeting.
+
+* **20-minute presentations:** Share your experiences with using Kokkos in your
+  research or applications. Topics of interest include:
+  * Novel applications of Kokkos
+  * Performance optimizations and best practices
+  * Experiences with specific Kokkos features
+  * Integration of Kokkos with other libraries or frameworks
+* **10-minute lightning talks:** Brief presentations on a specific topic
+  related to Kokkos, such as:
+  * A unique use case for Kokkos
+  * A challenging problem encountered while using Kokkos
+  * A suggestion for a new Kokkos feature or improvement
+We also encourage users to bring up pain points and challenges they face while
+using Kokkos. This valuable feedback will help guide future development and
+improve the user experience.
+
+Submission Deadline: January 15th, 2025 (too late mate!)
+
+Please submit your abstracts through the HPSFcon submission system (link to CFP here)
+
 ## Registration:
 
 Registration for HPSFcon is open now. Do not wait further to register on the
