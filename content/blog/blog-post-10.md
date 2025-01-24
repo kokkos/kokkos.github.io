@@ -1,0 +1,89 @@
+---
+authors: ["kokkos-team"]
+title: "Kokkos User Group Meeting @HPSFcon"
+date: 2025-01-14
+tags: ["blog"]
+thumbnail: img/blog/HPSF-Conference-2025.png
+---
+
+
+# Join the Kokkos User Group at HPSFcon 2025!
+
+We are pleased to announce that the next the Kokkos User Group meeting will be
+held in **Chicago, IL on May 7th and 8th, 2025**, as part of the inaugural High
+Performance Software Foundation (HPSFcon) conference.
+
+## What to Expect:
+
+* **Technical Talks:** Learn about the latest advancements in Kokkos libraries, including new
+  features, performance optimizations, and best practices.
+* **User Presentations:** Share your experiences using Kokkos and learn from
+  others in the community.
+* **Networking Opportunities:** Connect with other Kokkos users, developers,
+  and experts in the high-performance computing community.
+* **Poster Session:** Showcase your research and projects using the Kokkos Ecosystem.
+
+## Who Should Attend:
+
+* Researchers and developers using Kokkos for scientific computing, data
+  science, and other high-performance applications.
+* Anyone interested in learning more about parallel programming and modern C++.
+* HPC professionals looking to improve the performance and portability of their
+  applications.
+
+## Why Attend HPSFcon:
+
+HPSFcon is the first-ever conference of the High Performance Software
+Foundation, bringing together the community of developers and users of
+open-source software for high-performance computing. This is a unique
+opportunity to learn about the latest trends and technologies in HPC and
+connect with leaders in the field.
+
+# Call for Submissions:
+
+We are seeking high-quality presentations and lightning talks for the Kokkos
+User Group meeting.
+
+* **20-minute presentations:** Share your experiences with using Kokkos in your
+  research or applications. Topics of interest include:
+  * Novel applications of Kokkos libraries
+  * Performance optimizations and best practices
+  * Experiences with specific Kokkos features
+  * Integration of Kokkos Core, Kernels, FFT, etc., with other libraries or frameworks
+* **10-minute lightning talks:** Brief presentations on a specific topic
+  related to Kokkos, such as:
+  * A unique use case for Kokkos
+  * A challenging problem encountered while using Kokkos
+  * A suggestion for a new Kokkos feature or improvement
+We also encourage users to bring up pain points and challenges they face while
+using Kokkos. This valuable feedback will help guide future development and
+improve the user experience.
+
+Submission Deadline: February 23, 2025
+
+Please submit your abstracts through the [HPSFcon submission system](https://events.linuxfoundation.org/hpsf-conference/program/cfp/).
+
+## Registration:
+
+Registration for HPSFcon is open now. Do not wait further to register on the
+[official HPSFcon website](https://events.linuxfoundation.org/hpsf-conference/).
+
+### We look forward to seeing you in Chicago!
+
+
+
+
+## Frequently Asked Questions (FAQs)
+### Q: What if I only want to attend the Kokkos User Group (KUG) meeting?
+**A:** You still need to register for HPSFcon. There is no separate registration
+process for the KUG meeting.
+
+### Q: Is there a virtual attendance option for the KUG meeting?
+**A:** Unfortunately, no. The 2025 Kokkos User Group meeting will be held in-person
+at HPSFcon in Chicago. This provides a valuable opportunity for face-to-face
+interaction with the Kokkos developer team and other users in the community.
+
+### Q: Will the talks and presentations from the KUG meeting be recorded and posted online later?
+**A:** No, recordings will not be made available. This in part due to financial
+considerations, and it hopefully encourages in-person participation and
+facilitates real-time discussions and networking.
