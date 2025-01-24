@@ -59,9 +59,9 @@ We also encourage users to bring up pain points and challenges they face while
 using Kokkos. This valuable feedback will help guide future development and
 improve the user experience.
 
-Submission Deadline: January 15th, 2025 (too late mate!)
+Submission Deadline: February 23, 2025
 
-Please submit your abstracts through the HPSFcon submission system (link to CFP here)
+Please submit your abstracts through the [HPSFcon submission system](https://events.linuxfoundation.org/hpsf-conference/program/cfp/).
 
 ## Registration:
 
