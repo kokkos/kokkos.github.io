@@ -8,12 +8,17 @@ tags: ["Team", "Sandia"]
 The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra experts dedicated to making life easier for computation scientists and engineers.
 
 <span class="botline">
-{{< image src="img/ANL-logo-300x105.png"           class="community-team-image-medium">}}
 {{< image src="img/CEA-logo-480x480.png"           class="community-team-image-xsmall">}}
-{{< image src="img/CSCS-Logo-258X79.jpg"          class="community-team-image-small">}}
-{{< image src="img/LANL-logo-247x89.jpg"           class="community-team-image-large">}}
 {{< image src="img/ORNL_Two-line_green-300x95.png" class="community-team-image-medium">}}
-{{< image src="img/SNL-logo-588x90.jpg"            class="community-team-image-xlarge" >}}
+{{< image src="img/SNL-logo-640x256.png"           class="community-team-image-medium">}}
+</span>
+
+<br>
+
+<span class="botline">
+{{< image src="img/ANL-logo-300x105.png"           class="community-team-image-medium">}}
+{{< image src="img/CSCS-Logo-258X79.jpg"           class="community-team-image-small">}}
+{{< image src="img/LANL-logo-247x89.jpg"           class="community-team-image-large">}}
 </span>
 
 # Kokkos Core
@@ -65,7 +70,7 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 <style>
 
     .community-team-image-xsmall {
-        width: 7%;
+        width: 6%;
     }
 
     .community-team-image-small {
