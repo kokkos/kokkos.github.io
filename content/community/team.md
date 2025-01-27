@@ -7,17 +7,19 @@ tags: ["Team", "Sandia"]
 
 The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra experts dedicated to making life easier for computation scientists and engineers.
 
-{{< image src="img/snl-logo-632x200.jpg" class="community-team-image-column">}}
+<span class="botline">
+{{< image src="img/CEA-logo-480x480.png"           class="community-team-image-xsmall">}}
+{{< image src="img/ORNL_Two-line_green-300x95.png" class="community-team-image-medium">}}
+{{< image src="img/SNL-logo-640x256.png"           class="community-team-image-medium">}}
+</span>
 
-{{< image src="img/lanl-logo-300x95.jpg" class="community-team-image-column">}}
+<br>
 
-{{< image src="img/ORNL_Two-line_green-300x95.png" class="community-team-image-column">}}
-
-{{< image src="img/ANL-logo-300x105.png" class="community-team-image-column">}}
-
-{{< image src="img/CSCS-Logo-300x121.jpg" class="community-team-image-column">}}
-
-{{< image src="img/CEA-logo-480x480.png" class="community-team-image-column">}}
+<span class="botline">
+{{< image src="img/ANL-logo-300x105.png"           class="community-team-image-medium">}}
+{{< image src="img/CSCS-Logo-258X79.jpg"           class="community-team-image-small">}}
+{{< image src="img/LANL-logo-247x89.jpg"           class="community-team-image-large">}}
+</span>
 
 # Kokkos Core
 
@@ -67,10 +69,32 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 
 <style>
 
-    /* Align horizontally /community/team's image */
-    .community-team-image-column {
-        float: left;
-        width: 16.666%; /* 100% / 6 figures = 16.666...% */
+    .community-team-image-xsmall {
+        width: 6%;
+    }
+
+    .community-team-image-small {
+        width: 14%;
+    }
+
+    .community-team-image-medium {
+        width: 15%;
+    }
+
+    .community-team-image-large {
+        width: 17%;
+    }
+
+    .community-team-image-xlarge {
+        width: 25%;
+    }
+
+    .botline div {
+         vertical-align:bottom;
+         display: inline;
+    }
+    .botline div img {
+         margin-right: 0.5%;
     }
 
 </style>
