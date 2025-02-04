@@ -32,7 +32,7 @@ Past
   https://cexa-project.org/news/2024-10-16-fourth-kokkos-tea-time/)
 * 2024/06/19: [Kokkos MPI Interop for all](
   https://cexa-project.org/news/2024-06-19-third-kokkos-tea-time/)
-* 2024/05/25: [Kokkos Resilience](
+* 2024/05/15: [Kokkos Resilience](
   https://cexa-project.org/news/2024-05-15-second-kokkos-tea-time/)
 * 2024/04/17: [Dyablo: A simulation code for astrophysics fluids with adaptive mesh refinement with Kokkos](
   https://cexa-project.org/news/2024-04-17-first-kokkos-tea-time/)
