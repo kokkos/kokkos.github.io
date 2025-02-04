@@ -31,6 +31,8 @@ available for download here:
 ## Download
 
 | Date | Version | Download | Release Notes |
-| :--- | :------ | :------: | ------------: |
-| 13 Sep 2024 | 4.4.01 | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.4.01) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.4.01) | release notes |
-| 12 Aug 2024 | 4.4.00 | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.4.00) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.4.00) | release notes |
+| :--- | :------ | :------: | :-----------: |
+| 2024/12/23 | **4.5.1** | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.5.01) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.5.01) |
+| 2024/11/25 | **4.5.0** | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.5.00) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.5.00) |
+| 2024/09/13 | **4.4.1** | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.4.01) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.4.01) |
+| 2024/08/12 | **4.4.0** | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.4.00) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.4.00) |
