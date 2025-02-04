@@ -17,9 +17,16 @@ an [OSI-approved](https://opensource.org/licenses/Apache-2.0) license.
 Releases prior to 4.0 were licensed under the [3-clause BSD license](
 https://raw.githubusercontent.com/kokkos/kokkos/refs/tags/3.0.00/LICENSE).
 
+
 ## GnuPG signing keys
 
-The maintainers of the libraries sign the tags associated with releases and sign the source packages. In order to verify the authenticity of the source packages you can download the public keys here: [dalg24.asc](content/siging-keys/release-keys.asc) and [lucbv.asc](https://kokkos.org/downloads/signing-keys/lucbv.asc).
+Security is important to us.  To ensure the integrity and authenticity of the
+source packages for our releases, we digitally sign all release tags and
+source code archives.  You can verify these signatures using our public keys,
+available for download here:
+[dalg24.asc](content/siging-keys/release-keys.asc) and
+[lucbv.asc](https://kokkos.org/downloads/signing-keys/lucbv.asc).
+
 
 ## Download
 
