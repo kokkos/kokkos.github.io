@@ -24,7 +24,7 @@ Security is important to us.  To ensure the integrity and authenticity of the
 source packages for our releases, we digitally sign all release tags and
 source code archives.  You can verify these signatures using our public keys,
 available for download here:
-[dalg24.asc](content/siging-keys/release-keys.asc) and
+[dalg24.asc](https://kokkos.org/downloads/signing-keys/dalg24.asc) and
 [lucbv.asc](https://kokkos.org/downloads/signing-keys/lucbv.asc).
 
 
