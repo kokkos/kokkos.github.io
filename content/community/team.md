@@ -19,6 +19,7 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 {{< image src="img/ANL-logo-300x105.png"           class="community-team-image-medium">}}
 {{< image src="img/CSCS-Logo-258X79.jpg"           class="community-team-image-small">}}
 {{< image src="img/LANL-logo-247x89.jpg"           class="community-team-image-large">}}
+{{< image src="img/LBNL-logo.png"                  class="community-team-image-large">}}
 </span>
 
 # Kokkos Core
@@ -56,15 +57,15 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 
 # Kokkos Kernels
 
-- Siva Rajamanickam, SNL, Project Lead
 - Luc Berger-Vergiat, SNL, Project Lead
+- Siva Rajamanickam, SNL, Project Lead
+- Yuuichi Asahi, CEA
 - Vinh Dang, SNL
 - Nathan Ellingwood, SNL
 - James Foucar, SNL
 - Brian Kelley, SNL
-- Kim Liegeois, SNL
 - Carl Pearson, SNL
-- Ernesto Prudencio, SNL
+- Ichitaro Yamazaki, SNL
 
 
 <style>
