@@ -36,8 +36,7 @@ Past
 * 2023/03/29: [Kokkos 4.0 Release Briefing](
   https://www.olcf.ornl.gov/calendar/kokkos-4-0-release-briefing/)
   ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-40.pdf))
-* 2022/10/04: [Kokkos 3.7 Release Briefing](
-  ttps://www.olcf.ornl.gov/calendar/kokkos-4-0-release-briefing/)
+* 2022/10/04: Kokkos 3.7 Release Briefing
   ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-37.pdf))
 * 2022/05/24: [Kokkos 3.6 Release Briefing](
   https://www.olcf.ornl.gov/calendar/kokkos-release-3-5-briefing/)
