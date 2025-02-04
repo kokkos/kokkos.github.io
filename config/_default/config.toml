@@ -49,11 +49,18 @@ parent = "About"
 weight = 5
 
 [[languages.en.menu.main]]
+identifier = "about-releases"
+name = "Releases"
+url = "/about/releases"
+parent = "About"
+weight = 6
+
+[[languages.en.menu.main]]
 identifier = "about-news"
 name = "News"
 url = "/blog/"
 parent = "About"
-weight = 6
+weight = 7
 
 [[languages.en.menu.main]]
 name = "Repositories"
