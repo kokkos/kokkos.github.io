@@ -186,6 +186,21 @@ parent = "Community"
 weight = 1
 
 [[languages.en.menu.main]]
+identifier = "tea-time"
+name = "CExA Team Time"
+url = "/community/tea-time/"
+parent = "Community"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "release-briefings"
+name = "Release Briefings"
+url = "/community/release-briefings/"
+parent = "Community"
+weight = 1
+
+
+[[languages.en.menu.main]]
 identifier = "use-case-studies"
 name = "Use Case Studies"
 url = "/community/use-case-studies/"
