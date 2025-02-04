@@ -8,9 +8,9 @@ thumbnail: img/cexa-tea-time.jpg
 
 Kokkos tea-time
 ---------------
-[CExA](https://cexa-project.org) is organizing **Kokkos tea-time** sessions,
-once a month on Wednesday, for 45min starting at 4 PM Paris time which is 10 AM
-Eastern Time and 8 AM Mountain Time.
+[CExA](https://cexa-project.org) hosts a monthly Kokkos tea-time session every
+Wednesday at 4 PM Paris time (10 AM Eastern, 8 AM Mountain).  Each session
+lasts 45 minutes.
 
 Register [here](https://lists.cexa-project.org/sympa/subscribe/network) to be
 notified about future events.
