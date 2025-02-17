@@ -310,3 +310,12 @@ defaultContentLanguageInSubdir = false
   [[module.mounts]]
     source = "static/download"
     target = "static/downloads"
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-TXYTG29JXM'
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = false
