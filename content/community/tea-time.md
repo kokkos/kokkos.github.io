@@ -17,11 +17,12 @@ notified about future events.
 
 Upcoming
 --------
-* 2025/02/19: [Experience with Kokkos for Lattice QCD Code Bridge++](
-  https://cexa-project.org/news/2025-02-19-eigth-kokkos-tea-time/)
+TBD
 
 Past
 ----
+* 2025/02/19: [Experience with Kokkos for Lattice QCD Code Bridge++](
+  https://cexa-project.org/news/2025-02-19-eigth-kokkos-tea-time/)
 * 2025/01/15: [Optimizing Derived Data Computation with Kokkos for I/O-Bound Workloads](
   https://cexa-project.org/news/2025-01-15-seventh-kokkos-tea-time---copie/)
 * 2024/12/18: [Cabana: a Kokkos+MPI library for particles and hybrid particle-grid applications](
