@@ -8,20 +8,21 @@ thumbnail: img/cexa-tea-time.jpg
 
 Kokkos tea-time
 ---------------
-[CExA](https://cexa-project.org) hosts a monthly Kokkos tea-time session every
-Wednesday at 4 PM Paris time (10 AM Eastern, 8 AM Mountain).  Each session
-lasts 45 minutes.
+[CExA](https://cexa-project.org) hosts a monthly Kokkos tea-time session on the
+second or third Wednesday of the month at 4 PM Paris time (10 AM Eastern, 8 AM
+Mountain).  Each session lasts 45 minutes.
 
 Register [here](https://lists.cexa-project.org/sympa/subscribe/network) to be
 notified about future events.
 
 Upcoming
 --------
-* 2025/02/19: [Experience with Kokkos for Lattice QCD Code Bridge++](
-  https://cexa-project.org/news/2025-02-19-eigth-kokkos-tea-time/)
+TBD
 
 Past
 ----
+* 2025/02/19: [Experience with Kokkos for Lattice QCD Code Bridge++](
+  https://cexa-project.org/news/2025-02-19-eigth-kokkos-tea-time/)
 * 2025/01/15: [Optimizing Derived Data Computation with Kokkos for I/O-Bound Workloads](
   https://cexa-project.org/news/2025-01-15-seventh-kokkos-tea-time---copie/)
 * 2024/12/18: [Cabana: a Kokkos+MPI library for particles and hybrid particle-grid applications](
