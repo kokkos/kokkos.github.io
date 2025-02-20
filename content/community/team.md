@@ -5,7 +5,13 @@ date: "2024-01-19"
 tags: ["Team", "Sandia"]
 ---
 
-The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra experts dedicated to making life easier for computation scientists and engineers.
+The Kokkos Team is dedicated to empowering computational scientists and
+engineers through the development of Kokkos, a performance portability
+framework for high-performance computing. Our multi-institutional team brings
+together expertise in HPC, C++, and linear algebra.  Meet the core developers
+currently contributing to Kokkos Core and Kokkos Kernels below.
+
+&nbsp;
 
 <span class="botline">
 {{< image src="img/CEA-logo-480x480.png"           class="community-team-image-xsmall">}}
@@ -21,51 +27,56 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 {{< image src="img/LANL-logo-247x89.jpg"           class="community-team-image-large">}}
 </span>
 
-# Kokkos Core
+&nbsp;
 
+**Kokkos Core:**
+- Damien Lebrun-Grandié, ORNL, Project Lead
 - Christian Trott, SNL, Project Lead
-- Damien Lebrun-Grandie, ORNL, Project Lead
 - Daniel Arndt, ORNL
 - Yuuichi Asahi, CEA
 - Julien Bigot, CEA
+- Jakob Bludau, ORNL
 - Cedric Chevalier, CEA
 - Jan Ciesko, SNL
 - Conrad Clevenger, SNL
+- Patrick Diehl, LANL
 - Nathan Ellingwood, SNL
 - Rahulkumar Gayatri, NERSC
+- Hariprasad Kannan, CEA
 - DongHun Lee, SNL
 - Seyong Lee, ORNL
 - Nevin Liber, ANL
 - Nic Morales, SNL
+- Trévis Morvany, CEA
 - Thomas Padioleau, CEA
 - Carl Pearson, SNL
-- Amy Powell, SNL
-- Francesco Rizzi, NGA
 - Mikael Simberg, CSCS
 - Bruno Turcksin, ORNL
 - Paul Zhener, CEA
 
+&nbsp;
 
-**ALUMNI**
-
-- Carter Edwards
-- Daniel Sutherland
-- Daniel Ibanez
-- Daisy Hollman
-- David Poliakoff
-
-# Kokkos Kernels
-
-- Siva Rajamanickam, SNL, Project Lead
+**Kokkos Kernels:**
 - Luc Berger-Vergiat, SNL, Project Lead
+- Siva Rajamanickam, SNL, Project Lead
+- Yuuichi Asahi, CEA
 - Vinh Dang, SNL
 - Nathan Ellingwood, SNL
 - James Foucar, SNL
 - Brian Kelley, SNL
-- Kim Liegeois, SNL
 - Carl Pearson, SNL
-- Ernesto Prudencio, SNL
+- Ichitaro Yamazaki, SNL
 
+&nbsp;
+
+Kokkos' success is built on the contributions of a vibrant community.  See the
+full list of our 100+ contributors on GitHub: [Kokkos
+Core](https://github.com/kokkos/kokkos/graphs/contributors) and [Kokkos
+Kernels](https://github.com/kokkos/kokkos-kernels/graphs/contributors).
+
+We especially recognize the vision and leadership of project founders Carter
+Edwards and Daniel Sutherland of Sandia National Laboratories, who began this
+journey in 2012.
 
 <style>
 
