@@ -17,7 +17,8 @@ notified about future events.
 
 Upcoming
 --------
-TBD
+* 2025/03/19: [Kokkos Best Practices: Integrating Kokkos into Your Project](
+  https://cexa-project.org/news/2025-03-19-ninth-kokkos-tea-time/)
 
 Past
 ----
