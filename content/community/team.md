@@ -24,7 +24,8 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 <span class="botline">
 {{< image src="img/ANL-logo-300x105.png"           class="community-team-image-medium">}}
 {{< image src="img/CSCS-Logo-258X79.jpg"           class="community-team-image-small">}}
-{{< image src="img/LANL-logo-247x89.jpg"           class="community-team-image-large">}}
+{{< image src="img/LANL-logo-247x89.jpg"           class="community-team-image-medium">}}
+{{< image src="img/LBNL-logo-316x240.jpg"          class="community-team-image-xsmall">}}
 </span>
 
 &nbsp;
