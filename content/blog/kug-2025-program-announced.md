@@ -64,10 +64,10 @@ and secure your spot today.
 </style>
 |Time | Wednesday, May 7, 2025 | Thursday, May 8, 2025 |
 | :-------- | :-------: | :-------: |
-| early morning  | [Introduction](/blog/kug-2025-program-announced/#introduction)<br>(Damien Lebrun-Grandie,Christian Trott) | [Kokkos Session](/blog/kug-2025-program-announced/#kokkos-session)<br>(Nic Morales, Luc Berger-Vergiat) |
-| late morning | [Kokkos in Applications](/blog/kug-2025-program-announced/#kokkos-in-applications)<br>(Jakob Bludau, Daniel Arndt) | [Tuning and Performance](/blog/kug-2025-program-announced/#tuning-and-performance)<br>(Cedric Cevalier, Ansar Calloo) |
-| early afternoon | [Adapting Kokkos](/blog/kug-2025-program-announced/#adapting-kokkos)<br>(Thomas Padioleau, Julien Bigot) | [Algorithms](/blog/kug-2025-program-announced/#algorithms)<br>(Carl Pearson, Conrad Clevenger) |
-| late afternoon | [Lightning Talks](/blog/kug-2025-program-announced/#lightning-talks)<br>(Luc Berger-Vergiat, Nevin Liber) | [Panel Discussion](/blog/kug-2025-program-announced/#panel-discussion)<br>(Damien Lebrun-Grandie, Christian Trott)|
+| 9:00am-10:30am  | [Introduction](/blog/kug-2025-program-announced/#introduction)<br>(Damien Lebrun-Grandie,Christian Trott) | [Kokkos Session](/blog/kug-2025-program-announced/#kokkos-session)<br>(Nic Morales, Luc Berger-Vergiat) |
+| 10:45am-12:15pm | [Kokkos in Applications](/blog/kug-2025-program-announced/#kokkos-in-applications)<br>(Jakob Bludau, Daniel Arndt) | [Tuning and Performance](/blog/kug-2025-program-announced/#tuning-and-performance)<br>(Cedric Cevalier, Ansar Calloo) |
+| 1:35pm-3:05pm | [Adapting Kokkos](/blog/kug-2025-program-announced/#adapting-kokkos)<br>(Thomas Padioleau, Julien Bigot) | [Algorithms](/blog/kug-2025-program-announced/#algorithms)<br>(Carl Pearson, Conrad Clevenger) |
+| 3:20pm-4:50pm | [Lightning Talks](/blog/kug-2025-program-announced/#lightning-talks)<br>(Luc Berger-Vergiat, Nevin Liber) | [Panel Discussion](/blog/kug-2025-program-announced/#panel-discussion)<br>(Damien Lebrun-Grandie, Christian Trott)|
 
 ## Session Content
 ### Introduction
@@ -78,9 +78,9 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| tbd | Welcome and brief overview of the program | Damien Lebrun-Grandie<br>(Oak Ridge National Laboratory) |
-| tbd | Update on the Ecosystem and HPSF integration | Christan Trott<br>(Sandia National Laboratory) |
-| tbd | Kokkos-Kernels update | Luc Berger-Vergiat<br>(Sandia National Laboratory) |
+| 9:00am-9:20am | Welcome and brief overview of the program | Damien Lebrun-Grandie<br>(Oak Ridge National Laboratory) |
+| 9:20am-10:00am | Update on the Ecosystem and HPSF integration | Christan Trott<br>(Sandia National Laboratory) |
+| 10:00am-10:20am | Kokkos-Kernels update | Luc Berger-Vergiat<br>(Sandia National Laboratory) |
 <br><br>
 
 ### Kokkos in Applications
@@ -91,11 +91,11 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| tbd | FleCSI Applications | Ben Bergen<br>(Los Alamos National Laboratory) |
-| tbd | DDC, a performance portable library abstracting Computation on Discrete Domains | Thomas Padioleau<br>(French Atomic Energy Commission CEA) |
-| tbd | TChem-atm - A performance portable chemistry solver for atmospheric chemistry | Oscar Diaz-Ibarra<br>(Sandia National Laboratory) |
-| tbd | GPU porting of the TRUST CFD platform with Kokkos | Rémi Bourgeois<br>(French Atomic Energy Commission CEA) |
-| tbd | Omega: Towards a performance-portable ocean model using Kokkos | Maciej Waruszewski<br>(Sandia National Laboratory) |
+| 10:45am-10:55am | FleCSI Applications | Ben Bergen<br>(Los Alamos National Laboratory) |
+| 10:55am-11:05am | DDC, a performance portable library abstracting Computation on Discrete Domains | Thomas Padioleau<br>(French Atomic Energy Commission CEA) |
+| 11:05am-11:25am | TChem-atm - A performance portable chemistry solver for atmospheric chemistry | Oscar Diaz-Ibarra<br>(Sandia National Laboratory) |
+| 11:25am-11:45am | GPU porting of the TRUST CFD platform with Kokkos | Rémi Bourgeois<br>(French Atomic Energy Commission CEA) |
+| 11:45am-12:05am | Omega: Towards a performance-portable ocean model using Kokkos | Maciej Waruszewski<br>(Sandia National Laboratory) |
 <br><br>
 
 ### Adapting Kokkos
@@ -106,10 +106,10 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| tbd | A Brief Overview of LANL's use of Kokkos | Daniel Holladay<br>(Los Alamos National Laboratory) |
-| tbd | Enhancing Fortran Code for Operational Weather Forecasting with Kokkos: Results and Lessons Learned | Timothy Sliwinski<br>(Cooperative Institute for Research in the Atmosphere) |
-| tbd | Using Umpire's Memory Management Capabilities with Kokkos | Kristi Belcher<br>(Lawrence Livermore National Laboratory) |
-| tbd | Early Experiences Using Kokkos for Multi-Resolution Analysis | Joseph Schuchart<br>(Stony Brook University) |
+| 1:35pm-1:55pm | A Brief Overview of LANL's use of Kokkos | Daniel Holladay<br>(Los Alamos National Laboratory) |
+| 1:55pm-2:15pm | Enhancing Fortran Code for Operational Weather Forecasting with Kokkos: Results and Lessons Learned | Timothy Sliwinski<br>(Cooperative Institute for Research in the Atmosphere) |
+| 2:15pm-2:35pm | Using Umpire's Memory Management Capabilities with Kokkos | Kristi Belcher<br>(Lawrence Livermore National Laboratory) |
+| 2:35pm-2:55pm | Early Experiences Using Kokkos for Multi-Resolution Analysis | Joseph Schuchart<br>(Stony Brook University) |
 <br><br>
 
 ### Lightning Talks
@@ -120,15 +120,15 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| tbd | Experience Porting A Scientific Code from YAKL to Kokkos | James Foucar<br> (Sandia National Laboratory) |
-| tbd | Benchmarking Lattice QCD Staggered Fermion Kernel written in Kokkos	| Simon Schlepphorst<br>(Forschungszentrum Juelich GmbH) |
-| tbd | Leveraging Liaisons in Your Network for Software Sustainability | Elaine M. Raybourn<br>(Sandia National Laboratory) |
-| tbd | Vertex-CFD: A multi-physics solver for fusion applications | Marc Olivier Delchini<br>(Oak Ridge National Laboratory) |
-| tbd | Toucan: Revolutionizing Microstructure Prediction |  Benjamin Stump<br>(Oak Ridge National Laboratory) |
-| tbd | Performance-Portable Spectral Ewald Summation with PyKokkos	| Gabriel K Kosmacher<br>(University of Texas at Austin) |
-| tbd | Empowering NSM Supercomputers with Kokkos for Scalable HPC | Harsha Ugave<br>(Centre for Development of Advanced Computing (C-DAC)) |
-| tbd | Real-Time Performance Characterization of the ADIOS2 library when Kokkos is enabled	| Ana Gainaru<br>(Oak Ridge National Laboratory) |
-| tbd | Cabana: particles, structured grids, and extensions to unstructured with Kokkos | Sam Reeve<br>(Oak Ridge National Laboratory) |
+| 3:20pm-3:30pm | Experience Porting A Scientific Code from YAKL to Kokkos | James Foucar<br> (Sandia National Laboratory) |
+| 3:30pm-3:40pm | Benchmarking Lattice QCD Staggered Fermion Kernel written in Kokkos	| Simon Schlepphorst<br>(Forschungszentrum Juelich GmbH) |
+| 3:40pm-3:50pm | Leveraging Liaisons in Your Network for Software Sustainability | Elaine M. Raybourn<br>(Sandia National Laboratory) |
+| 3:50pm-4:00pm | Vertex-CFD: A multi-physics solver for fusion applications | Marc Olivier Delchini<br>(Oak Ridge National Laboratory) |
+| 4:00pm-4:10pm | Toucan: Revolutionizing Microstructure Prediction |  Benjamin Stump<br>(Oak Ridge National Laboratory) |
+| 4:10pm-4:20pm | Performance-Portable Spectral Ewald Summation with PyKokkos	| Gabriel K Kosmacher<br>(University of Texas at Austin) |
+| 4:20pm-4:30pm | Empowering NSM Supercomputers with Kokkos for Scalable HPC | Harsha Ugave<br>(Centre for Development of Advanced Computing (C-DAC)) |
+| 4:30pm-4:40pm | Real-Time Performance Characterization of the ADIOS2 library when Kokkos is enabled	| Ana Gainaru<br>(Oak Ridge National Laboratory) |
+| 4:40pm-4:50pm | Cabana: particles, structured grids, and extensions to unstructured with Kokkos | Sam Reeve<br>(Oak Ridge National Laboratory) |
 <br><br>
 
 ### Kokkos Session
@@ -139,12 +139,12 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| tbd | kokkos-fft updates | Yuuichi Asahi<br>(French Atomic Energy Commission CEA) |
-| tbd | Fortran Porting Wish List for Kokkos |  Matthew Norman<br>(Oak Ridge National Laboratory) |
-| tbd | Custom Layout and Tiling for Multi-Dimensional Data	| Cedric Chevalier<br>(French Atomic Energy Commission CEA) |
-| tbd | Runtime Auto-tuning for Kokkos Applications with APEX | Kevin Huck<br>(University of Oregon) |
-| tbd | Unifying the HPC ecosystem with std::execution | Mikael Simberg<br>(Swiss National Supercomputing Centre) |
-| tbd | PyKokkos: Performance Portability for Python Developers	| Milos Gligoric<br>(University of Texas at Austin) |
+| 9:00am-9:10am | kokkos-fft updates | Yuuichi Asahi<br>(French Atomic Energy Commission CEA) |
+| 9:10am-9:20am | Fortran Porting Wish List for Kokkos |  Matthew Norman<br>(Oak Ridge National Laboratory) |
+| 9:20am-9:30am | Custom Layout and Tiling for Multi-Dimensional Data	| Cedric Chevalier<br>(French Atomic Energy Commission CEA) |
+| 9:30am-9:40am | Runtime Auto-tuning for Kokkos Applications with APEX | Kevin Huck<br>(University of Oregon) |
+| 9:40am-10:00am | Unifying the HPC ecosystem with std::execution | Mikael Simberg<br>(Swiss National Supercomputing Centre) |
+| 10:00am-10:20am | PyKokkos: Performance Portability for Python Developers	| Milos Gligoric<br>(University of Texas at Austin) |
 <br><br>
 
 ### Tuning and Performance
@@ -155,10 +155,10 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| tbd | Leveraging the C Configuration Space and Tuning Library (CCS) in Kokkos Tools | Brice Videau<br>(Argonne National Laboratory) |
-| tbd | Bottlenecks in high dimensional simulations	| Nils Schild<br>(Max Planck Institute for Plasma Physics) |
-| tbd | Accelerating SPECFEM++ with Explicit SIMD and Cache-Optimized Layouts | Rohit Kakodkar<br>(Princeton University) |
-| tbd | Managing Kokkos callbacks for benchmarking, profiling, and unit testing	| Maarten Arnst<br>(University of Liege) |
+| 10:45am-11:05am | Leveraging the C Configuration Space and Tuning Library (CCS) in Kokkos Tools | Brice Videau<br>(Argonne National Laboratory) |
+| 11:05am-11:25am | Bottlenecks in high dimensional simulations	| Nils Schild<br>(Max Planck Institute for Plasma Physics) |
+| 11:25am-11:45am | Accelerating SPECFEM++ with Explicit SIMD and Cache-Optimized Layouts | Rohit Kakodkar<br>(Princeton University) |
+| 11:45am-12:05pm | Managing Kokkos callbacks for benchmarking, profiling, and unit testing	| Maarten Arnst<br>(University of Liege) |
 <br><br>
 
 ### Algorithms
@@ -169,11 +169,11 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| tbd | Gyselalib++: A Portable, Kokkos-Based Library for Exascale Gyrokinetic Simulations | Etienne Malaboeuf<br>(CINES) |
-| tbd | Expression Templates with Kokkos for Lattice QCD | Travis Whyte<br>(Jülich Supercomputing Centre) |
-| tbd | Bridging Parallel Communication and On-Node Computation with Kokkos	| Evan Suggs<br>(Tennessee Technological University) |
-| tbd | Integration of PETSc, Kokkos Core and Kernels for performance portability in the age of accelerators | Junchao Zhang<br>(Argonne National Laboratory) |
-| tbd | Parallel sweep algorithms for Cartesian and honeycomb grids	| Ansar Calloo<br>(French Atomic Energy Commission CEA) |
+| 1:35pm-1:45pm | Gyselalib++: A Portable, Kokkos-Based Library for Exascale Gyrokinetic Simulations | Etienne Malaboeuf<br>(CINES) |
+| 1:45pm-1:55pm | Expression Templates with Kokkos for Lattice QCD | Travis Whyte<br>(Jülich Supercomputing Centre) |
+| 1:55pm-2:15pm | Bridging Parallel Communication and On-Node Computation with Kokkos	| Evan Suggs<br>(Tennessee Technological University) |
+| 2:25pm-2:45pm | Integration of PETSc, Kokkos Core and Kernels for performance portability in the age of accelerators | Junchao Zhang<br>(Argonne National Laboratory) |
+| 2:45pm-3:05pm | Parallel sweep algorithms for Cartesian and honeycomb grids	| Ansar Calloo<br>(French Atomic Energy Commission CEA) |
 <br><br>
 
 ### Panel Discussion
@@ -184,7 +184,7 @@ and secure your spot today.
 </style>
 |Time | Topic | Invitees
 | :-------- | :-------: | :-------: |
-| tbd | tbd	| tbd |
+| 3:20pm-4:50pm | tbd	| tbd |
 <br><br>
 
 
