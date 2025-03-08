@@ -64,13 +64,13 @@ and secure your spot today.
 </style>
 |Time | Wednesday, May 7, 2025 | Thursday, May 8, 2025 |
 | :-------- | :-------: | :-------: |
-| early morning  | <span style="color:darkgrey">**Introduction**</span><br>(Damien Lebrun-Grandie,Christian Trott) | <span style="color:cyan">**Kokkos Session**</span><br>(Nic Morales, Luc Berger-Vergiat) |
-| late morning | <span style="color:green">**Kokkos in Applications**</span><br>(Jakob Bludau, Daniel Arndt) | <span style="color:darkorange">**Tuning and Performance**</span><br>(Cedric Cevalier, Ansar Calloo) |
-| early afternoon | <span style="color:darkmagenta"> **Adapting Kokkos**</span><br>(Thomas Padioleau, Julien Bigot) | <span style="color:blue">**Algorithms**</span><br>(Carl Pearson, Conrad Clevenger) |
-| late afternoon | <span style="color:gold">**Lightning Talks**</span><br>(Luc Berger-Vergiat, Nevin Liber) | <span style="color:maroon">**Panel Discussion**</span><br>(Damien Lebrun-Grandie, Christian Trott)|
+| early morning  | [Introduction](/blog/kug-2025-program-announced/#introduction)<br>(Damien Lebrun-Grandie,Christian Trott) | [Kokkos Session](/blog/kug-2025-program-announced/#kokkos-session)<br>(Nic Morales, Luc Berger-Vergiat) |
+| late morning | [Kokkos in Applications](/blog/kug-2025-program-announced/#kokkos-in-applications)<br>(Jakob Bludau, Daniel Arndt) | [Tuning and Performance](/blog/kug-2025-program-announced/#tuning-and-performance)<br>(Cedric Cevalier, Ansar Calloo) |
+| early afternoon | [Adapting Kokkos](/blog/kug-2025-program-announced/#adapting-kokkos)<br>(Thomas Padioleau, Julien Bigot) | [Algorithms](/blog/kug-2025-program-announced/#algorithms)<br>(Carl Pearson, Conrad Clevenger) |
+| late afternoon | [Lightning Talks](/blog/kug-2025-program-announced/#lightning-talks)<br>(Luc Berger-Vergiat, Nevin Liber) | [Panel Discussion](/blog/kug-2025-program-announced/#panel-discussion)<br>(Damien Lebrun-Grandie, Christian Trott)|
 
-### Session Content
-<span style="color:darkgrey">**Introduction**</span>
+## Session Content
+### Introduction
 <style>
     table {
         width: 100%;
@@ -83,7 +83,7 @@ and secure your spot today.
 | tbd | Kokkos-Kernels update | Luc Berger-Vergiat<br>(Sandia National Laboratory) |
 <br><br>
 
-<span style="color:green">**Kokkos in Applications**</span>
+### Kokkos in Applications
 <style>
     table {
         width: 100%;
@@ -98,7 +98,7 @@ and secure your spot today.
 | tbd | Omega: Towards a performance-portable ocean model using Kokkos | Maciej Waruszewski<br>(Sandia National Laboratory) |
 <br><br>
 
-<span style="color:darkmagenta">**Adapting Kokkos**</span>
+### Adapting Kokkos
 <style>
     table {
         width: 100%;
@@ -112,7 +112,7 @@ and secure your spot today.
 | tbd | Early Experiences Using Kokkos for Multi-Resolution Analysis | Joseph Schuchart<br>(Stony Brook University) |
 <br><br>
 
-<span style="color:gold">**Lightning Talks**</span>
+### Lightning Talks
 <style>
     table {
         width: 100%;
@@ -131,7 +131,7 @@ and secure your spot today.
 | tbd | Cabana: particles, structured grids, and extensions to unstructured with Kokkos | Sam Reeve<br>(Oak Ridge National Laboratory) |
 <br><br>
 
-<span style="color:cyan">**Kokkos Session**</span>
+### Kokkos Session
 <style>
     table {
         width: 100%;
@@ -147,7 +147,7 @@ and secure your spot today.
 | tbd | PyKokkos: Performance Portability for Python Developers	| Milos Gligoric<br>(University of Texas at Austin) |
 <br><br>
 
-<span style="color:darkorange">**Tuning and Performance**</span>
+### Tuning and Performance
 <style>
     table {
         width: 100%;
@@ -161,7 +161,7 @@ and secure your spot today.
 | tbd | Managing Kokkos callbacks for benchmarking, profiling, and unit testing	| Maarten Arnst<br>(University of Liege) |
 <br><br>
 
-<span style="color:blue">**Algorithms**</span>
+### Algorithms
 <style>
     table {
         width: 100%;
@@ -176,7 +176,7 @@ and secure your spot today.
 | tbd | Parallel sweep algorithms for Cartesian and honeycomb grids	| Ansar Calloo<br>(French Atomic Energy Commission CEA) |
 <br><br>
 
-<span style="color:maroon">**Panel Discussion**</span>
+### Panel Discussion
 <style>
     table {
         width: 100%;
