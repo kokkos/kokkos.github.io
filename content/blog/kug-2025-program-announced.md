@@ -78,8 +78,9 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| 9:00am-9:20am | Welcome and brief overview of the program | Damien Lebrun-Grandie<br>(Oak Ridge National Laboratory) |
-| 9:20am-10:00am | Update on the Ecosystem and HPSF integration | Christan Trott<br>(Sandia National Laboratory) |
+| 9:00am-9:10am | Welcome and overview | Damien Lebrun-Grandie<br>(Oak Ridge National Laboratory) |
+| 9:10am-9:30am | Update on the Ecosystem and Community | Christan Trott<br>(Sandia National Laboratory) |
+| 9:30am-10:00am | Kokkos Core update | Damien Lebrun-Grandie<br>(Oak Ridge National Laboratory) |
 | 10:00am-10:20am | Kokkos-Kernels update | Luc Berger-Vergiat<br>(Sandia National Laboratory) |
 <br><br>
 
