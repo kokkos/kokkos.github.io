@@ -67,7 +67,7 @@ and secure your spot today.
 | :-------- | :-------: | :-------: |
 | 9:00am-10:30am  | [Introduction](/blog/kug-2025-program-announced/#introduction)<br>(Damien Lebrun-Grandie, Christian Trott) | [Kokkos Session](/blog/kug-2025-program-announced/#kokkos-session)<br>(Nic Morales, Luc Berger-Vergiat) |
 | 10:45am-12:15pm | [Kokkos in Applications](/blog/kug-2025-program-announced/#kokkos-in-applications)<br>(Jakob Bludau, Daniel Arndt) | [Tuning and Performance](/blog/kug-2025-program-announced/#tuning-and-performance)<br>(Cedric Cevalier, Ansar Calloo) |
-| 1:35pm-3:05pm | [Adapting Kokkos](/blog/kug-2025-program-announced/#adapting-kokkos)<br>(Thomas Padioleau, Julien Bigot) | [Algorithms](/blog/kug-2025-program-announced/#algorithms)<br>(Carl Pearson, Conrad Clevenger) |
+| 1:35pm-3:05pm | [Adopting Kokkos](/blog/kug-2025-program-announced/#adopting-kokkos)<br>(Thomas Padioleau, Julien Bigot) | [Algorithms](/blog/kug-2025-program-announced/#algorithms)<br>(Carl Pearson, Conrad Clevenger) |
 | 3:20pm-4:50pm | [Lightning Talks](/blog/kug-2025-program-announced/#lightning-talks)<br>(Luc Berger-Vergiat, Nevin Liber) | [Panel Discussion](/blog/kug-2025-program-announced/#panel-discussion)<br>(Damien Lebrun-Grandie, Christian Trott)|
 
 ## Sessions Content
