@@ -1,16 +1,17 @@
 ---
 authors: ["kokkos-team"]
 title: "Kokkos User Group Meeting 2025 Program Announced"
-date: "2025-03-06"
+date: "2025-03-11"
 tags: ["User Group Meeting", "2025"]
 thumbnail: img/blog/HPSF-Conference-2025.png
 ---
 # Kokkos User Group (KUG) 2025: Main Program Schedule Now Live!
 
 Excitement is building for the Kokkos User Group (KUG) 2025, and we're thrilled
-to announce that the **Main Program schedule is now available!** Prepare for
-two action-packed days of in-depth sessions, insightful discussions, and
-unparalleled networking with the Kokkos community.
+to announce that the [**Main Program schedule is now
+available!**](https://events.linuxfoundation.org/hpsf-conference/program/schedule/)
+Prepare for two action-packed days of in-depth sessions, insightful
+discussions, and unparalleled networking with the Kokkos community.
 
 **What to Expect:**
 
@@ -24,7 +25,7 @@ unparalleled networking with the Kokkos community.
   * Explore real-world applications in the "**Kokkos in Applications**"
     session.
   * Gain practical insights on "**Adopting Kokkos**".
-  * Experience the energy of our fast-paced **lightning talk session**.
+  * Experience the energy of our fast-paced **Lightning Talks** session.
 
 * **Day 2 Highlights:**
   * Dive into the broader **Kokkos ecosystem** with talks from affiliated
@@ -69,7 +70,7 @@ and secure your spot today.
 | 1:35pm-3:05pm | [Adapting Kokkos](/blog/kug-2025-program-announced/#adapting-kokkos)<br>(Thomas Padioleau, Julien Bigot) | [Algorithms](/blog/kug-2025-program-announced/#algorithms)<br>(Carl Pearson, Conrad Clevenger) |
 | 3:20pm-4:50pm | [Lightning Talks](/blog/kug-2025-program-announced/#lightning-talks)<br>(Luc Berger-Vergiat, Nevin Liber) | [Panel Discussion](/blog/kug-2025-program-announced/#panel-discussion)<br>(Damien Lebrun-Grandie, Christian Trott)|
 
-## Session Content
+## Sessions Content
 ### Introduction
 <style>
     table {
@@ -99,7 +100,7 @@ and secure your spot today.
 | 11:45am-12:05am | Omega: Towards a performance-portable ocean model using Kokkos | Maciej Waruszewski<br>(Sandia National Laboratory) |
 <br><br>
 
-### Adapting Kokkos
+### Adopting Kokkos
 <style>
     table {
         width: 100%;
