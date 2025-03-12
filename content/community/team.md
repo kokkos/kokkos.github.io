@@ -42,6 +42,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Conrad Clevenger, SNL
 - Patrick Diehl, LANL
 - Nathan Ellingwood, SNL
+- Paul Gannay, CEA
 - Rahulkumar Gayatri, NERSC
 - Hariprasad Kannan, CEA
 - DongHun Lee, SNL
