@@ -12,7 +12,7 @@ user-friendly packaging solutions, and ensuring compatibility across various
 platforms and environments. Their efforts aim to simplify the user experience
 and facilitate wider adoption of Kokkos.
 
-[(Back to List of Kokkos Working Groups)]( {{< ref "wgs" >}})
+[(Back to List of Kokkos Working Groups)]( {{< ref "working-groups" >}})
 
 Members
 -------
