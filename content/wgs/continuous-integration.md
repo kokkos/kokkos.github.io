@@ -11,7 +11,7 @@ library. This group collaborates to ensure robust testing, efficient build
 processes, and timely feedback for developers, contributing to the overall
 stability and reliability of the Kokkos ecosystem.
 
-[(Back to List of Kokkos Working Groups)]( {{< ref "wgs" >}})
+[(Back to List of Kokkos Working Groups)]( {{< ref "working-groups" >}})
 
 Members
 -------
