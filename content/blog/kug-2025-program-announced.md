@@ -195,7 +195,7 @@ and secure your spot today.
 | Time          | Topic                                        | Authors                                                                                                                                                                                                                      |
 |:--------------|:--------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | 5:00pm-7:00pm | Porting Legacy Codes to Kokkos               | Trévis Morvany<br>(French Atomic Energy Commission CEA)<br>Paul Zehner<br>(French Atomic Energy Commission CEA)                                                                                                              |
-| 5:00pm-7:00pm | The Kokkos Performance Portability EcoSystem | Christian Trott<br>(Sandia National Laboratories)<br>Damien Lebrun-Grandie<br>(Oak Ridge National Laboratory)<br>Luc Berger-Vergiat<br>(Sandia National Laboratories)<br>Siva Rajamanickam<br>(Sandia National Laboratories) |
+| 5:00pm-7:00pm | The Kokkos Performance Portability Ecosystem | Christian Trott<br>(Sandia National Laboratories)<br>Damien Lebrun-Grandie<br>(Oak Ridge National Laboratory)<br>Luc Berger-Vergiat<br>(Sandia National Laboratories)<br>Siva Rajamanickam<br>(Sandia National Laboratories) |
 
 **Program Committee:**
 * Jakob Bludau, ORNL, Technical Programm Committee Chair
