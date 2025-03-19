@@ -1,7 +1,7 @@
 ---
 authors: ["kokkos-team"]
 title: "kokkos-fft: FFT interface for Kokkos eco-system"
-date: 2025-03-15
+date: 2025-03-19
 tags: ["blog"]
 thumbnail: img/blog/2025/kokkos-fft/kokkos-fft.png
 ---
@@ -14,7 +14,7 @@ The fast Fourier transform (FFT) is a family of fundamental algorithms that is w
 
 * wishing to integrate in-situ signal and image processing with FFTs. E.g., spectral analyses, low pass filtering, etc.
 
-* __NOT__ willing to go through the documentation of de facto standard FFT libraries. They want to benefit from powerful vendor FFT libraries while working with a simple API like that of [`numpy.fft`](https://numpy.org/doc/stable/reference/routines.fft.html).
+* willing to use de facto standard FFT libraries just like [`numpy.fft`](https://numpy.org/doc/stable/reference/routines.fft.html).
 
 kokkos-fft can benefit such users through the following features:
 
@@ -71,70 +71,7 @@ There are two additional arguments in the Kokkos version:
 * An instance of the [`ExecutionSpace`](https://kokkos.org/kokkos-core-wiki/API/core/execution_spaces.html)
 * The output View (`x_hat`).
 
-Also, kokkos-fft only accepts [Kokkos Views](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) as input data. The accessibility of a View from `ExecutionSpace` is statically checked and will result in a compilation error if not accessible.
-
-# Prerequisites
-
-To use kokkos-fft, we need the following:
-
-* `CMake 3.22+`
-* `Kokkos 4.4+`
-
-Depending on your backend, you also need at least one of the following compilers (for the latest requirements, see [README](https://github.com/kokkos/kokkos-fft)):
-
-* `gcc 8.3.0+` (CPUs)
-* `IntelLLVM 2023.0.0+` (CPUs, Intel GPUs)
-* `nvcc 11.0.0+` (NVIDIA GPUs)
-* `rocm 5.3.0+` (AMD GPUs)
-
-# Using kokkos-fft in your CMake project
-
-For the moment, there are two ways to use kokkos-fft: include as a subdirectory in your CMake project or install as a library. Since kokkos-fft is a header-only library, it is easy to add it as a subdirectory in a CMake project. We will see how to do it.
-
-It is assumed that both Kokkos and kokkos-fft are placed under `<project_directory>/tpls`. Here is the structure of a simple CMake project.
-
-```
----/
- |
- └──<project_directory>/
-    |──tpls/
-    |    |──kokkos/
-    |    └──kokkos-fft/
-    |──CMakeLists.txt
-    └──hello.cpp
-```
-
-See [here](https://kokkos.org/kokkos-core-wiki/get-started/integrating-kokkos-into-your-cmake-project.html#embedded-kokkos-via-add-subdirectory-and-git-submodules) about embedding Kokkos via `add_subdirectory()` and Git Submodules in your CMake project. Then, you need to clone the repo of kokkos-fft into `<project_directory>/tpls/kokkos-fft`.
-
-```bash
-git clone --recursive https://github.com/kokkos/kokkos-fft.git
-```
-
-The `CMakeLists.txt` file of the project would be
-
-```CMake
-cmake_minimum_required(VERSION 3.23)
-project(kokkos-fft-as-subdirectory LANGUAGES CXX)
-
-add_subdirectory(tpls/kokkos)
-add_subdirectory(tpls/kokkos-fft)
-
-add_executable(hello-kokkos-fft hello.cpp)
-target_link_libraries(hello-kokkos-fft PUBLIC Kokkos::kokkos KokkosFFT::fft)
-```
-
-To build the project, we basically rely on the CMake options for Kokkos. For example, the build steps for an A100 GPU based backend are as follows:
-
-```bash
-cmake -B build \
-      -DCMAKE_CXX_COMPILER=g++ \
-      -DCMAKE_BUILD_TYPE=Release \
-      -DKokkos_ENABLE_CUDA=ON \
-      -DKokkos_ARCH_AMPERE80=ON
-cmake --build build -j 8
-```
-
-This way, all the FFT functionalities will be executed on the A100 GPU. For installation as a library, details are provided in the [documentation](https://kokkosfft.readthedocs.io/en/latest/intro/building.html#install-kokkosfft-as-a-library).
+Also, kokkos-fft only accepts [Kokkos Views](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) as input data. The accessibility of a View from `ExecutionSpace` is statically checked and will result in a compilation error if not accessible. See [documentations](https://kokkosfft.readthedocs.io/en/latest/intro/quick_start.html) for basic usage.
 
 # Solving 2D Hasegawa-Wakatani turbulence with the Fourier spectral method
 
@@ -263,11 +200,12 @@ We have performed a benchmark of this application over multiple backends. We per
 | Device | Icelake (python) | Icelake (36 cores) | A100 | H100 | MI250X (1 GCD) |
 | --- | --- | --- | --- | --- | --- |
 | LOC | 485 | 738 | 738 | 738 | 738 |
+| Compiler/version | Python 3.12.3 | IntelLLVM 2023.0.0 | nvcc 12.2 | nvcc 12.3 | rocm 5.7 |
 | GB/s (Theoretical peak) | 205 | 205 | 1555 | 3350 | 1600 |
-| Elapsed time [s] | 834 | 9.2 | 0.25 | 0.13 | 0.41 |
-| Speed up | x 1 | x 90.7 | x 3336 | x 6182 | x 2034 |
+| Elapsed time [s] | 463 | 9.28 | 0.25 | 0.14 | 0.41 |
+| Speed up | x 1 | x 49.9 | x 1852 | x 3307 | x 1129 |
 
-As expected, the Python version is the simplest in terms of lines of code (LOC), which is definitively a good aspect of Python. With Kokkos and kokkos-fft, the same logic can be implemented without significantly increasing the source code size (roughly 1.5 times longer). However, the performance gain is enormous, allowing a speedup as high as 6000 times on the H100 GPU.
+As expected, the Python version is the simplest in terms of lines of code (LOC), which is definitively a good aspect of Python. With Kokkos and kokkos-fft, the same logic can be implemented without significantly increasing the source code size (roughly 1.5 times longer). However, the performance gain is enormous, allowing a speedup as high as 3000 times on the H100 GPU.
 
 # Future developments
 
