@@ -17,11 +17,13 @@ notified about future events.
 
 Upcoming
 --------
-* 2025/03/19: [Kokkos Best Practices: Integrating Kokkos into Your Project](
-  https://cexa-project.org/news/2025-03-19-ninth-kokkos-tea-time/)
+* 2025/04/16: [Solomon: unified schemes for directive-based GPU offloading](
+  https://cexa-project.org/news/2025-04-16-tenth-kokkos-tea-time/)
 
 Past
 ----
+* 2025/03/19: [Kokkos Best Practices: Integrating Kokkos into Your Project](
+  https://cexa-project.org/news/2025-03-19-ninth-kokkos-tea-time/)
 * 2025/02/19: [Experience with Kokkos for Lattice QCD Code Bridge++](
   https://cexa-project.org/news/2025-02-19-eigth-kokkos-tea-time/)
 * 2025/01/15: [Optimizing Derived Data Computation with Kokkos for I/O-Bound Workloads](
