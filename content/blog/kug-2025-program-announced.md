@@ -63,13 +63,12 @@ and secure your spot today.
         width: 100%;
     }
 </style>
-|Time | Monday, May 5, 2025 | Wednesday, May 7, 2025 | Thursday, May 8, 2025 |
-|:--------|:---:|:-------:|:-------:|
-| 9:00am-10:30am  | | [Introduction](/blog/kug-2025-program-announced/#introduction)<br>(Nicolas Morales & Cedric Chevalier) | [Kokkos Session](/blog/kug-2025-program-announced/#kokkos-session)<br>(Thomas Padiolau & Jakob Bludau) |
-| 10:45am-12:15pm | | [Kokkos in Applications](/blog/kug-2025-program-announced/#kokkos-in-applications)<br>(Daniel Arndt & Rahul Gayatri) | [Tuning and Performance](/blog/kug-2025-program-announced/#tuning-and-performance)<br>( Patrick Diehl & Bruno Turcksin) |
-| 1:35pm-3:05pm | | [Adopting Kokkos](/blog/kug-2025-program-announced/#adopting-kokkos)<br>(Julien Bigot & Conrad Clevenger) | [Algorithms](/blog/kug-2025-program-announced/#algorithms)<br>(Carl Pearson & Nevin Liber) |
-| 3:20pm-4:50pm | | [Lightning Talks](/blog/kug-2025-program-announced/#lightning-talks)<br>(Christian Trott & Ansar Calloo) | [Panel Discussion](/blog/kug-2025-program-announced/#panel-discussion)<br>(Damien Lebrun-Grandie)|
-| 5:00pm-7:00pm | [Poster session](#poster-session) | | |
+|Time | Wednesday, May 7, 2025 | Thursday, May 8, 2025 |
+| :-------- | :-------: | :-------: |
+| 9:00am-10:30am  | [Introduction](/blog/kug-2025-program-announced/#introduction)<br>(Nicolas Morales & Cedric Chevalier) | [Kokkos Session](/blog/kug-2025-program-announced/#kokkos-session)<br>(Thomas Padiolau & Jakob Bludau) |
+| 10:45am-12:15pm | [Kokkos in Applications](/blog/kug-2025-program-announced/#kokkos-in-applications)<br>(Daniel Arndt & Rahul Gayatri) | [Tuning and Performance](/blog/kug-2025-program-announced/#tuning-and-performance)<br>( Patrick Diehl & Bruno Turcksin) |
+| 1:35pm-3:05pm | [Adopting Kokkos](/blog/kug-2025-program-announced/#adopting-kokkos)<br>(Julien Bigot & Conrad Clevenger) | [Algorithms](/blog/kug-2025-program-announced/#algorithms)<br>(Carl Pearson & Nevin Liber) |
+| 3:20pm-4:50pm | [Lightning Talks](/blog/kug-2025-program-announced/#lightning-talks)<br>(Christian Trott & Ansar Calloo) | [Panel Discussion](/blog/kug-2025-program-announced/#panel-discussion)<br>(Damien Lebrun-Grandie)|
 
 ## Sessions Content
 ### Introduction
