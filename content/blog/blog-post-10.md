@@ -197,13 +197,13 @@ The implementation together with detailed description can be found in the [examp
 
 We have performed a benchmark of this application over multiple backends. We performed a simulation for 100 steps with a resolution of `1024 x 1024` while I/Os are disabled. The following table shows the achieved performance.
 
-| Device | Icelake (python) | Icelake (36 cores) | A100 | H100 | MI250X (1 GCD) |
-| --- | --- | --- | --- | --- | --- |
-| LOC | 485 | 738 | 738 | 738 | 738 |
-| Compiler/version | Python 3.12.3 | IntelLLVM 2023.0.0 | nvcc 12.2 | nvcc 12.3 | rocm 5.7 |
-| GB/s (Theoretical peak) | 205 | 205 | 1555 | 3350 | 1600 |
-| Elapsed time [s] | 463 | 9.28 | 0.25 | 0.14 | 0.41 |
-| Speed up | x 1 | x 49.9 | x 1852 | x 3307 | x 1129 |
+| Device | Icelake (python) | Icelake (36 cores) | A100 | H100 | MI250X (1 GCD) | PVC |
+| --- | --- | --- | --- | --- | --- | --- |
+| LOC | 568 | 738 | 738 | 738 | 738 | 738 |
+| Compiler/version | Python 3.12.3 | IntelLLVM 2023.0.0 | nvcc 12.2 | nvcc 12.3 | rocm 5.7 | IntelLLVM 2024.0.2 |
+| GB/s (Theoretical peak) | 205 | 205 | 1555 | 3350 | 1600 | 3276.8 |
+| Elapsed time [s] | 463 | 9.28 | 0.25 | 0.14 | 0.41 | 0.30 |
+| Speed up | x 1 | x 49.9 | x 1852 | x 3307 | x 1129 | x 1562 |
 
 As expected, the Python version is the simplest in terms of lines of code (LOC), which is definitively a good aspect of Python. With Kokkos and kokkos-fft, the same logic can be implemented without significantly increasing the source code size (roughly 1.5 times longer). However, the performance gain is enormous, allowing a speedup as high as 3000 times on the H100 GPU.
 
