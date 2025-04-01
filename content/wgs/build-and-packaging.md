@@ -34,4 +34,8 @@ Connect
 
 Meetings
 --------
-TBD
+* Schedule: one meeting every two weeks, usually on Thursdays.
+* [Meeting link (Zoom)](https://zoom-lfx.platform.linuxfoundation.org/meeting/93338788003?password=9100a29d-7ea7-49aa-9172-792656536b1d)
+* Agenda (TBD)
+* Minutes previous meetings (TBD)
+
