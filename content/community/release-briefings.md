@@ -7,9 +7,9 @@ tags: ["Release"]
 
 Kokkos Release Briefings
 ------------------------
-The Kokkos team holds **Release Briefings** after each minor release to discuss
-new features, breaking changes, deprecations, and details about what has
-changed since the previous release, as well as provide roadmap updates.
+The Kokkos team holds a **Release Briefing** after each minor release to
+discuss new features, breaking changes, deprecations, and details about what
+has changed since the previous release, as well as provide roadmap updates.
 Join us to learn about the latest changes and ask questions.
 
 Upcoming
