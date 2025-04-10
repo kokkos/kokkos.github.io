@@ -11,6 +11,11 @@ We're thrilled to announce that the Kokkos Core project has achieved the
 reflects our ongoing commitment to maintaining high standards for security,
 quality, and overall project health.
 
+This achievement comes a year after Kokkos joined the High Performance Software
+Foundation (HPSF), and our efforts to improve the project have been aligned
+with the foundation's goals of fostering sustainable and high-quality
+high-performance computing software.
+
 The [OpenSSF Best Practices badge](https://www.bestpractices.dev/en) is a
 rigorous assessment that evaluates projects across a wide range of criteria,
 including:
