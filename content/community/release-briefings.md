@@ -14,16 +14,13 @@ Join us to learn about the latest changes and ask questions.
 
 Upcoming
 --------
-* 2025/04/10: Kokkos 4.6 Release Briefing
-
-  Thursday, April 10 at 11 AM EDT / 9 AM MDT / 5 PM CEST
-  <details>
-  <summary>Virtual Meeting Information</summary>
-  <a href="https://zoom-lfx.platform.linuxfoundation.org/meeting/94423404933?password=955bac25-0895-41e6-8f95-718ce2421a1c">LF Zoom Link</a>
-  </details>
+TBD
 
 Past
 ----
+* 2025/04/10: [Kokkos 4.6 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-4-6-release-briefing-april-2025/)
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/a792b8b8689daba136d2919a9cd436636b4be4ef/Other/ReleaseBriefings/release-46.pdf))
 * 2024/12/10: [Kokkos 4.5 Release Briefing](
   https://www.olcf.ornl.gov/calendar/kokkos-4-5-release-briefing/)
   ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-45.pdf))
