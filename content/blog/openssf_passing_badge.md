@@ -1,12 +1,10 @@
 ---
 authors: ["kokkos-team"]
-title: "OpenSSF Best Practices \"Passing\" Badge"
+title: "Kokkos Core Achieves OpenSSF Best Practices \"Passing\" Badge!"
 date: "2025-04-10"
 tags: ["2025", "OpenSSF"]
 thumbnail: img/blog/openssf_best_practices.png
 ---
-
-# Kokkos Core Achieves OpenSSF Best Practices "Passing" Badge!
 
 We're thrilled to announce that the Kokkos Core project has achieved the
 "passing" badge from the OpenSSF Best Practices Program! This milestone
@@ -29,14 +27,14 @@ Achieving the "passing" badge demonstrates that Kokkos meets these essential
 benchmarks, providing users with a reliable and trustworthy foundation for
 performance portability in their applications.
 
-## What This Means for Kokkos Users:
+### What This Means for Kokkos Users:
 
 This achievement reinforces our dedication to delivering a robust and secure
 library. By meeting the OpenSSF Best Practices criteria, we're ensuring that
 Kokkos Core is built on a solid foundation, minimizing risks and enhancing the
 long-term sustainability of the project.
 
-## Our Commitment to Continuous Improvement:
+### Our Commitment to Continuous Improvement:
 
 We view this badge as a stepping stone in our ongoing journey to improve
 Kokkos. We will continue to leverage best practices and actively engage with
