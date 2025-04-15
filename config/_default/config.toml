@@ -116,7 +116,7 @@ weight = 10
 [[languages.en.menu.main]]
 identifier = "documentation-kernels"
 name = "Kernels"
-url = "https://github.com/kokkos/kokkos-kernels/wiki"
+url = "https://kokkos.org/kokkos-kernels/docs"
 parent = "Documentation"
 weight = 20
 
