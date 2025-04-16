@@ -28,6 +28,7 @@ Past
 * 2024/08/27: [Kokkos 4.4 Release Briefing](
   https://www.olcf.ornl.gov/calendar/kokkos-4-4-release-briefing/)
   ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-44.pdf))
+  ([watch on YouTube](https://youtu.be/KnJidE2PKNs?feature=shared))
 * 2024/04/29: [Kokkos 4.3 Release Briefing](
   https://www.olcf.ornl.gov/calendar/kokkos-4-3-release-briefing/)
   ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-43.pdf))
