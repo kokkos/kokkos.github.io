@@ -6,60 +6,44 @@ tags: ["2025", "View"]
 thumbnail: img/blog/2025/view-impl-bridge.jpg
 ---
 
-After a long long time in the works, we finally merged the refactor of the
-`Kokkos::View` implementation details, which moves its underpinnings to
-leverage `std::mdspan` capabilities.
+After a significant development period, we have successfully merged the refactored implementation details of `Kokkos::View`, which now utilizes the capabilities of `std::mdspan` at its core.
 
-This rework is essentially a complete rewrite of `Kokkos::View` throwing out
-thousands of lines of complicated code (lots of it dating back to before Kokkos
-was available on GitHub), and replacing them with something new.
-While the intent is that no-user visible changes (with some exceptions noted below)
-occur, a change of this magnitude is bound to uncover gaps in our test coverage
-once exposed to the wide range of use-case scenarios found in the Kokkos community.
+This substantial rework essentially involved a complete rewrite of `Kokkos::View`. We've removed thousands of lines of intricate code, much of which predates Kokkos' availability on GitHub, and replaced it with a modern foundation.
 
-To this end, we ask our community for help:
-* **Functionality Testing**: please report to us if you observe breaking behavior
-change with the latest `develop` branch, and help us iterate on addressing those.
-* **Performance Testing**: try the `develop` branch out and compare to the 4.6
-release to identify performance regressions.
-* **Compile Time Testing**: please compare compile times of your code with and without
-the new `View` implementation and report back to us.
+While our goal is to maintain user-visible behavior (with a few exceptions noted below), a change of this scale is likely to reveal gaps in our test coverage as it encounters the diverse range of use cases within the Kokkos community.
 
-To help with testing these changes, we introduced temporarily the ability to switch
-between the old and the new `View` implementation using the option `Kokkos_ENABLE_IMPL_VIEW_LEGACY`.
-The default for this option is `ON` unless you compile with GCC 8 or GCC 9.
+Therefore, we kindly request your assistance in testing this major update:
 
-Since the new implementation of `View` leverages a lot more modern C++ features,
-we are particular interested to hear about **experiences when using C++20** and thus
-compilers which meet the minimum requirements for the upcoming Kokkos 5.0 release.
+* **Functionality Testing:** Please report any unexpected changes in behavior you observe on the latest `develop` branch. Your feedback will be invaluable in helping us identify and address these issues.
+* **Performance Testing:** We encourage you to try the `develop` branch and compare its performance against the 4.6 release. Please let us know if you identify any performance regressions.
+* **Compile Time Testing:** Kindly compare the compilation times of your code with and without the new `View` implementation and share your findings with us.
+
+To facilitate testing, we have temporarily introduced an option, `Kokkos_ENABLE_IMPL_VIEW_LEGACY`, which allows you to switch between the old and new `View` implementations. This option defaults to `OFF` unless you are compiling with GCC 8 or GCC 9.
+
+Given that the new `View` implementation takes advantage of more contemporary C++ features, we are particularly interested in hearing about your **experiences using C++20** and compilers that meet the minimum requirements for the upcoming Kokkos 5.0 release.
 
 ### Known Issues
 
-* Trilinos Sacado is not currently supported
-  * i.e. code that relied on implementation detail customization points of `View` will not work anymore.
-  * we expect to rewrite Sacado before Kokkos 4.7 is released
-* Significant compile time increase and increase in memory consumption during compilation with GCC 8 & 9
-  * by default, we use the old View implementation for these compilers
-  * we do not intend to try and fix this, since these compilers will be invalid for Kokkos 5.0
-* `__ldg` loads are not yet used when providing the `RandomAccess` memory trait.
-  * we expect this to be implemented before Kokkos 4.7 is released
-* Software compiled in Debug mode (without optimization) runs noticeably slower
-  * we don't think we can do much about this; if this is a serious concern, please let us know
+* Trilinos Sacado is currently not supported.
+    * Specifically, code that relied on internal customization points of `View` will no longer function.
+    * We anticipate rewriting Sacado before the release of Kokkos 4.7.
+* Significant increases in compile time and memory consumption during compilation with GCC 8 & 9.
+    * By default, the old `View` implementation is used for these compilers.
+    * We do not plan to address this, as these compilers will not meet the requirements for Kokkos 5.0.
+* `__ldg` loads are not yet utilized when the `RandomAccess` memory trait is provided.
+    * We expect this to be implemented before the release of Kokkos 4.7.
+* Software compiled in Debug mode (without optimization) exhibits a noticeable performance slowdown.
+    * We believe the scope for improvement here is limited. If this presents a significant concern for your workflow, please inform us.
 
-### Why we did this
+### Rationale Behind This Change
 
-The legacy implementation of `View` was somewhat of a mess - to use a technical term.
-It violated many best practices of software design and was getting harder and harder to maintain.
+The previous implementation of `View` had become quite complex and challenging to maintain, deviating from several software design best practices.
 
-For the design of `std::mdspan` we learned from our mistakes and with the help of a lot of feedback from the
-ISO C++ committee ended up with a design that is superior in every way.
+The design of `std::mdspan` benefited from the lessons learned from the mistakes made in `View` and extensive feedback from the ISO C++ committee, leading to  improvements across the board.
 
-Leveraging this design not only cleans up our internal `View` implementation, but also opens up the
-path for `Kokkos::View` to expose the same public customization points `std::mdspan` has.
-This will make it possible to implement capabilities such as Trilinos' Sacado without partial specialization
-of classes we consider implementation details.
-It also means that these customization points are extremely well specified, since they are the same as in `std::mdspan`.
+Leveraging this superior design not only streamlines our internal `View` implementation but also paves the way for `Kokkos::View` to expose the same public customization points as `std::mdspan`. This will enable the implementation of features like Trilinos' Sacado without resorting to partial specialization of classes considered internal implementation details of `View`. Furthermore, these customization points will be exceptionally well-defined, aligning directly with those of `std::mdspan`.
 
-Thank you for your continued support!
+Thank you for your ongoing support and contributions!
 
 The Kokkos Team.
+
