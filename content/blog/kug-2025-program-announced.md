@@ -5,6 +5,9 @@ date: "2025-03-11"
 tags: ["User Group Meeting", "2025"]
 thumbnail: img/blog/HPSF-Conference-Schedule-Live.png
 ---
+<br>
+<p style="color:red;">Edit 04/22/2025: Added details of panel discussion</p>
+
 # Kokkos User Group (KUG) 2025: Main Program Schedule Now Live!
 
 Excitement is building for the Kokkos User Group (KUG) 2025, and we're thrilled
