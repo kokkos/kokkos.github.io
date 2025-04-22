@@ -184,10 +184,12 @@ and secure your spot today.
         width: 100%;
     }
 </style>
-|Time | Topic | Invitees
+|Time | Topic | Speakers
 | :-------- | :-------: | :-------: |
-| 3:20pm-4:50pm | tbd	| tbd |
+| 3:20pm-4:50pm | Reflecting on Exascale and Charting the Future | Jakob Bludau <br> Luc Berger-Vergiat <br> Cédric Chevalier <br> Junchao Zhang <br> Julia Plews <br> Maarten Arnst |
 <br><br>
+
+Join us for a dynamic panel session at the Kokkos User Group meeting, bringing together core Kokkos developers, library leads, ecosystem project members, application experts, numerical toolkit developers, and educators. We'll reflect on the journey since our last major release and the dawn of the exascale era, sharing diverse perspectives on successes, challenges, and lessons learned. This is your opportunity to engage with the community, ask questions, and help shape the future direction of Kokkos. Come be a part of the conversation that drives what's next!
 
 ### Kokkos in general poster session (Monday, May 5th, 2025, 5:00pm-7:00pm)
 
