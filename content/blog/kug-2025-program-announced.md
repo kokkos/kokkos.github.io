@@ -7,6 +7,7 @@ thumbnail: img/blog/HPSF-Conference-Schedule-Live.png
 ---
 <br>
 <p style="color:red;">Edit 04/22/2025: Panel discussion details added</p>
+<p style="color:red;">Edit 04/23/2025: Update times to match official schedule</p>
 
 # Kokkos User Group (KUG) 2025: Main Program Schedule Now Live!
 
