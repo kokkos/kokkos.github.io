@@ -125,15 +125,15 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| 3:20pm-3:30pm | Experience Porting A Scientific Code from YAKL to Kokkos | James Foucar<br> (Sandia National Laboratory) |
-| 3:30pm-3:40pm | Benchmarking Lattice QCD Staggered Fermion Kernel written in Kokkos	| Simon Schlepphorst<br>(Forschungszentrum Juelich GmbH) |
-| 3:40pm-3:50pm | Leveraging Liaisons in Your Network for Software Sustainability | Elaine M. Raybourn<br>(Sandia National Laboratory) |
-| 3:50pm-4:00pm | Vertex-CFD: A multi-physics solver for fusion applications | Marc Olivier Delchini<br>(Oak Ridge National Laboratory) |
-| 4:00pm-4:10pm | Toucan: Revolutionizing Microstructure Prediction |  Benjamin Stump<br>(Oak Ridge National Laboratory) |
-| 4:10pm-4:20pm | Performance-Portable Spectral Ewald Summation with PyKokkos	| Gabriel K Kosmacher<br>(University of Texas at Austin) |
-| 4:20pm-4:30pm | Empowering NSM Supercomputers with Kokkos for Scalable HPC | Harsha Ugave<br>(Centre for Development of Advanced Computing (C-DAC)) |
-| 4:30pm-4:40pm | Real-Time Performance Characterization of the ADIOS2 library when Kokkos is enabled	| Ana Gainaru<br>(Oak Ridge National Laboratory) |
-| 4:40pm-4:50pm | Cabana: particles, structured grids, and extensions to unstructured with Kokkos | Sam Reeve<br>(Oak Ridge National Laboratory) |
+| 3:40pm-3:50pm | Experience Porting A Scientific Code from YAKL to Kokkos | James Foucar<br> (Sandia National Laboratory) |
+| 3:50pm-4:00pm | Benchmarking Lattice QCD Staggered Fermion Kernel written in Kokkos	| Simon Schlepphorst<br>(Forschungszentrum Juelich GmbH) |
+| 4:00pm-4:10pm | Leveraging Liaisons in Your Network for Software Sustainability | Elaine M. Raybourn<br>(Sandia National Laboratory) |
+| 4:10pm-4:20pm | Vertex-CFD: A multi-physics solver for fusion applications | Marc Olivier Delchini<br>(Oak Ridge National Laboratory) |
+| 4:20pm-4:30pm | Toucan: Revolutionizing Microstructure Prediction | Benjamin Stump <br>(Oak Ridge National Laboratory) |
+| 4:30pm-4:40pm | Performance-Portable Spectral Ewald Summation with PyKokkos	| Gabriel K Kosmacher<br>(University of Texas at Austin) |
+| 4:40pm-4:50pm | Empowering NSM Supercomputers with Kokkos for Scalable HPC | Harsha Ugave<br>(Centre for Development of Advanced Computing (C-DAC)) |
+| 4:50pm-5:00pm | Real-Time Performance Characterization of the ADIOS2 library when Kokkos is enabled	| Ana Gainaru<br>(Oak Ridge National Laboratory) |
+| 5:00pm-5:10pm | Cabana: particles, structured grids, and extensions to unstructured with Kokkos | Sam Reeve<br>(Oak Ridge National Laboratory) |
 <br><br>
 
 ### Kokkos Session
@@ -189,7 +189,7 @@ and secure your spot today.
 </style>
 |Time | Topic | Speakers
 | :-------- | :-------: | :-------: |
-| 3:20pm-4:50pm | Reflecting on Exascale and Charting the Future | Jakob Bludau <br> Luc Berger-Vergiat <br> Cédric Chevalier <br> Junchao Zhang <br> Julia Plews <br> Maarten Arnst |
+| 3:40pm-5:00pm | Reflecting on Exascale and Charting the Future | Jakob Bludau <br> Luc Berger-Vergiat <br> Cédric Chevalier <br> Junchao Zhang <br> Julia Plews <br> Maarten Arnst |
 <br><br>
 
 Join us for a dynamic panel session at the Kokkos User Group meeting, bringing together core Kokkos developers, library leads, ecosystem project members, application experts, numerical toolkit developers, and educators. We'll reflect on the journey since our last major release and the dawn of the exascale era, sharing diverse perspectives on successes, challenges, and lessons learned. This is your opportunity to engage with the community, ask questions, and help shape the future direction of Kokkos. Come be a part of the conversation that drives what's next!
