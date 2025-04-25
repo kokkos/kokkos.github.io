@@ -2,7 +2,7 @@
 authors: ["kokkos-team"]
 title: "Team"
 date: "2024-01-19"
-tags: ["Team", "Sandia"]
+tags: ["Team"]
 ---
 
 The Kokkos Team is dedicated to empowering computational scientists and
