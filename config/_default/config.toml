@@ -195,32 +195,39 @@ parent = "Community"
 weight = 3
 
 [[languages.en.menu.main]]
+identifier = "community-mailing-lists"
+name = "Mailing Lists"
+url = "/community/mailing-lists/"
+parent = "Community"
+weight = 4
+
+[[languages.en.menu.main]]
 identifier = "tea-time"
 name = "CExA Tea Time"
 url = "/community/tea-time/"
 parent = "Community"
-weight = 4
+weight = 5
 
 [[languages.en.menu.main]]
 identifier = "release-briefings"
 name = "Release Briefings"
 url = "/community/release-briefings/"
 parent = "Community"
-weight = 5
+weight = 6
 
 [[languages.en.menu.main]]
 identifier = "applications"
 name = "Applications"
 url = "/community/applications/"
 parent = "Community"
-weight = 6
+weight = 7
 
 [[languages.en.menu.main]]
 identifier = "team"
 name = "Team"
 url = "/community/team/"
 parent = "Community"
-weight = 7
+weight = 8
 
 [params]
 search = true
