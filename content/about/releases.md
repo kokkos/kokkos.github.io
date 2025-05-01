@@ -32,6 +32,7 @@ available for download here:
 
 | Date | Version | Download |
 | :--- | :------: | :------: |
+| 2025/04/30 | **4.6.1** | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.6.01) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.6.01) |
 | 2025/03/28 | **4.6.0** | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.6.00) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.6.00) |
 | 2024/12/23 | **4.5.1** | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.5.01) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.5.01) |
 | 2024/11/25 | **4.5.0** | [Kokkos](https://github.com/kokkos/kokkos/releases/tag/4.5.00) [Kokkos-Kernels](https://github.com/kokkos/kokkos-kernels/releases/tag/4.5.00) |
