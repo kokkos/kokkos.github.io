@@ -5,36 +5,114 @@ date: "2023-01-01"
 tags: [""]
 ---
 
-This page contains various presentation regarding regarding Kokkos sorted by year and category.
+## Citing Kokkos
 
-# Citing Kokkos Core
+Use the following references when citing Kokkos in your work.
 
-Please cite Kokkos Core by including the following publication:
+### Overall Ecosystem
 
-[Kokkos: Enabling manycore performance portability through polymorphic memory access patterns](https://www.osti.gov/biblio/1106586)
+The Kokkos Ecosystem citation is in particular appropriate when using multiple Kokkos subprojects.
 
-H. Carter Edwards , Christian R. Trott , Daniel Sunderland, Kokkos, Journal of Parallel and Distributed Computing, v.74 n.12, p.3202-3216, December 2014
+```
+@article{KokkosEcosystem2021,
+  author={Trott, Christian and Berger-Vergiat, Luc and Poliakoff, David and Rajamanickam, Sivasankaran
+          and Lebrun-Grandie, Damien and Madsen, Jonathan and Al Awar, Nader and Gligoric, Milos
+          and Shipman, Galen and Womeldorff, Geoff},
+  journal={Computing in Science Engineering},
+  title={The Kokkos Ecosystem: Comprehensive Performance Portability for High Performance Computing},
+  year={2021},
+  volume={23},
+  number={5},
+  pages={10-18},
+  doi={10.1109/MCSE.2021.3098509}}
+```
 
-# 2019
 
-## 1ST KOKKOS USERGROUP MEETING
+### Kokkos Core
 
-The Talks at the Usergroup Meeting held April 23rd – 25th 2019, focused on Kokkos status and roadmap as well as user stories of deploying Kokkos in applications and libraries.
+The most recent (and primary) citation is:
 
-- Kokkos Ecosystem
-    - [Kokkos-Status](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-Kokkos-Status-small.pdf): Feature Update on Kokkos Core for 2017-2019
-    - [Kokkos-Deprecation](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-Kokkos-Deprecation.pdf): Description of deprecated features for Kokkos 3.0
-    - [Kokkos-RoadMap](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-Kokkos-RoadMap.pdf): RoadMap for Kokkos Core for 2019-2021
-    - [KokkosKernels-Batched](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-KokkosKernels-Batched.pdf): Developing small matrix operation support in KokkosKernels
-- Libraries
-    - [Tpetra](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-Tpetra.pdf): Distributed Sparse Linear Algebra Support in Trillions
-    - [MTGL](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-MTGL.pdf): MultiThreaded Graph Library
-- Applications
-    - [Albany](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-Albany.pdf): Unstructured Finite Element Codebase
-    - [ExaWind](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-ExaWind.pdf): Computational Fluid Dynamics with MultiGrid solvers
-    - [EMPIRE](https://kokkos.org/wp-content/uploads/2019/04/KUG2019-EMPIRE-KokkosConversion.pdf): Plasma Simulation Tool
+```
+@article{KokkosCore2022,
+  author={Trott, Christian R. and Lebrun-Grandié, Damien and Arndt, Daniel and Ciesko, Jan
+          and Dang, Vinh and Ellingwood, Nathan and Gayatri, Rahulkumar and Harvey, Evan
+          and Hollman, Daisy S. and Ibanez, Dan and Liber, Nevin and Madsen, Jonathan
+          and Miles, Jeff and Poliakoff, David and Powell, Amy and Rajamanickam, Sivasankaran
+          and Simberg, Mikael and Sunderland, Dan and Turcksin, Bruno and Wilke, Jeremiah},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  title={Kokkos 3: Programming Model Extensions for the Exascale Era},
+  year={2022},
+  volume={33},
+  number={4},
+  pages={805-817},
+  doi={10.1109/TPDS.2021.3097283}}
+```
 
-## CONFERENCES
 
-- DOE Performance Portability Meeting
-    - [Kokkos Ecosystem](https://kokkos.org/wp-content/uploads/2019/04/Trott_PPP2019-small.pdf)
+A description of the fundamental concepts can be found here:
+
+```
+@article{KokkosCore2014,
+  title = "Kokkos: Enabling manycore performance portability through polymorphic memory access patterns ",
+  journal = "Journal of Parallel and Distributed Computing ",
+  volume = "74",
+  number = "12",
+  pages = "3202 - 3216",
+  year = "2014",
+  note = "Domain-Specific Languages and High-Level Frameworks for High-Performance Computing ",
+  issn = "0743-7315",
+  doi = "https://doi.org/10.1016/j.jpdc.2014.07.003",
+  url = "http://www.sciencedirect.com/science/article/pii/S0743731514001257",
+  author = "H. Carter Edwards and Christian R. Trott and Daniel Sunderland"
+}
+```
+
+
+### Kokkos Kernels
+
+```
+@misc{KokkosKernels2021,
+  title={Kokkos Kernels: Performance Portable Sparse/Dense Linear Algebra and Graph Kernels},
+  author={Sivasankaran Rajamanickam and Seher Acer and Luc Berger-Vergiat and Vinh Dang
+          and Nathan Ellingwood and Evan Harvey and Brian Kelley and Christian R. Trott
+          and Jeremiah Wilke and Ichitaro Yamazaki},
+  year={2021},
+  eprint={2103.11991},
+  archivePrefix={arXiv},
+  primaryClass={cs.MS},
+  url={https://arxiv.org/abs/2103.11991},
+}
+```
+
+### Kokkos Tools
+
+```
+@InProceedings{10.1007/978-3-030-02465-9_53,
+author="Hammond, Simon D.
+and Trott, Christian R.
+and Ibanez, Daniel
+and Sunderland, Daniel",
+title="Profiling and Debugging Support for the Kokkos Programming Model",
+booktitle="High Performance Computing",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="743--754",
+isbn="978-3-030-02465-9"
+}
+```
+
+## Publication List
+
+Year | &nbsp; &nbsp; | Package | &nbsp; &nbsp; | Title
+--- | --- | --- | --- | --- | --- | ---
+2024 || Core || [Experiences with implementing Kokkos’ SYCL backend](https://doi.org/10.1109/MCSE.2021.3098509)
+2023 || Core || [The Kokkos OpenMPTarget Backend: Implementation and Lessons Learned](https://www.doi.org/10.1007/978-3-031-40744-4_7)
+2022 || Core || [Kokkos 3: Programming model extensions for the exascale era](https://doi.ieeecomputersociety.org/10.1109/TPDS.2021.3097283)
+2022 || Core, Kernels || [Half-Precision Scalar Support in Kokkos and Kokkos Kernels: An Engineering Study and Experience Report](https://doi.org/10.1109/eScience55777.2022.00095)
+2021 || Ecosystem || [The Kokkos Ecosystem: Comprehensive performance portability for high performance computing](https://doi.org/10.1109/MCSE.2021.3098509)
+2021 || Resilience || [Towards High Performance Resilience Using Performance Portable Abstractions](https://doi.org/10.1007/978-3-030-85665-6_28)
+2021 || Kernels || [Kokkos Kernels: Performance Portable Sparse/Dense Linear Algebra and Graph Kernels](https://doi.org/10.48550/arXiv.2103.11991)
+2021 || Kernels || [Multithreaded sparse matrix-matrix multiplication for many-core and GPU architectures](https://doi.org/10.1016/j.parco.2018.06.009)
+2018 || Tools || [Profiling and debugging support for the kokkos programming model](https://doi.org/10.1007/978-3-030-02465-9_53)
+2014 || Core || [Kokkos: Enabling manycore performance portability through polymorphic memory access patterns](https://doi.org/10.1016/j.jpdc.2014.07.003)
