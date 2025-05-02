@@ -42,25 +42,32 @@ parent = "About"
 weight = 4
 
 [[languages.en.menu.main]]
-identifier = "about-tutorials"
-name = "Tutorials"
-url = "https://github.com/kokkos/kokkos-tutorials"
-parent = "About"
-weight = 5
-
-[[languages.en.menu.main]]
 identifier = "about-releases"
 name = "Releases"
 url = "/about/releases"
 parent = "About"
+weight = 5
+
+[[languages.en.menu.main]]
+identifier = "about-publications"
+name = "Publications"
+url = "/about/publications"
+parent = "About"
 weight = 6
 
 [[languages.en.menu.main]]
-identifier = "about-news"
-name = "News"
-url = "/blog/"
+identifier = "about-sponsors"
+name = "Sponsors"
+url = "/acknowledgments/"
 parent = "About"
 weight = 7
+
+[[languages.en.menu.main]]
+identifier = "about-contact"
+name = "Contact"
+url = "/contact/"
+parent = "About"
+weight = 8
 
 [[languages.en.menu.main]]
 name = "Repositories"
@@ -104,35 +111,56 @@ identifier = "documentation-core"
 name = "Core"
 url = "https://kokkos.github.io/kokkos-core-wiki/"
 parent = "Documentation"
-weight = 1
+weight = 10
 
 [[languages.en.menu.main]]
 identifier = "documentation-kernels"
 name = "Kernels"
-url = "https://github.com/kokkos/kokkos-kernels/wiki"
+url = "https://kokkos.org/kokkos-kernels/docs"
 parent = "Documentation"
-weight = 2
+weight = 20
 
 [[languages.en.menu.main]]
-identifier = "documentation-api-core"
-name = "API-Core"
-url = "https://kokkos.github.io/kokkos-core-wiki/API/core-index.html"
+identifier = "documentation-get-started"
+name = "Get Started"
+url = "https://kokkos.github.io/kokkos-core-wiki/get-started.html"
 parent = "Documentation"
-weight = 3
+weight = 13
 
 [[languages.en.menu.main]]
-identifier = "documentation-api-kernels"
-name = "API-Kernels"
+identifier = "documentation-programming-guide"
+name = "Programming Guide"
+url = "https://kokkos.github.io/kokkos-core-wiki/programmingguide.html"
+parent = "Documentation"
+weight = 14
+
+[[languages.en.menu.main]]
+identifier = "documentation-api-references"
+name = "API References"
+url = "https://kokkos.github.io/kokkos-core-wiki/api-references.html"
+parent = "Documentation"
+weight = 15
+
+[[languages.en.menu.main]]
+identifier = "documentation-tutorials"
+name = "Tutorials"
+url = "https://kokkos.github.io/kokkos-core-wiki/tutorials-and-examples.html"
+parent = "Documentation"
+weight = 15
+
+[[languages.en.menu.main]]
+identifier = "documentation-kernels-api"
+name = "Kernels API"
 url = "https://github.com/kokkos/kokkos-kernels/wiki/APIReference"
 parent = "Documentation"
-weight = 4
+weight = 24
 
 [[languages.en.menu.main]]
 identifier = "documentation-tools"
 name = "Tools"
 url = "https://github.com/kokkos/kokkos-tools/wiki"
 parent = "Documentation"
-weight = 5
+weight = 35
 
 [[languages.en.menu.main]]
 identifier = "blog"
@@ -141,104 +169,65 @@ url = "/blog/"
 weight = 40
 
 [[languages.en.menu.main]]
-name = "Outreach"
-url = "/outreach/"
-weight = 50
-
-[[languages.en.menu.main]]
-identifier = "outreach-events"
-name = "Events"
-url = "/outreach/events"
-parent = "Outreach"
-weight = 1
-
-[[languages.en.menu.main]]
-identifier = "outreach-publications"
-name = "Publications"
-url = "/outreach/publications"
-parent = "Outreach"
-weight = 2
-
-[[languages.en.menu.main]]
-identifier = "outreach-report-an-issue"
-name = "Report An Issue"
-url = "/outreach/report-an-issue"
-parent = "Outreach"
-weight = 3
-
-[[languages.en.menu.main]]
-identifier = "outreach-slack-channel"
-name = "Slack Channel"
-url = "https://kokkosteam.slack.com/"
-parent = "Outreach"
-weight = 4
-
-[[languages.en.menu.main]]
 name = "Community"
 url = "/community/"
 weight = 60
-
-[[languages.en.menu.main]]
-identifier = "team"
-name = "Team"
-url = "/community/team/"
-parent = "Community"
-weight = 1
-
-[[languages.en.menu.main]]
-identifier = "tea-time"
-name = "CExA Team Time"
-url = "/community/tea-time/"
-parent = "Community"
-weight = 1
-
-[[languages.en.menu.main]]
-identifier = "release-briefings"
-name = "Release Briefings"
-url = "/community/release-briefings/"
-parent = "Community"
-weight = 1
-
-
-[[languages.en.menu.main]]
-identifier = "use-case-studies"
-name = "Use Case Studies"
-url = "/community/use-case-studies/"
-parent = "Community"
-weight = 2
-
-[[languages.en.menu.main]]
-identifier = "applications"
-name = "Applications"
-url = "/community/applications/"
-parent = "Community"
-weight = 3
 
 [[languages.en.menu.main]]
 identifier = "kug-2025"
 name = "KUG 2025 @HPSFcon"
 url = "/blog/kug-2025/"
 parent = "Community"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "community-chat"
+name = "Chat"
+url = "/community/chat/"
+parent = "Community"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "community-events"
+name = "Events"
+url = "/community/events/"
+parent = "Community"
+weight = 3
+
+[[languages.en.menu.main]]
+identifier = "community-mailing-lists"
+name = "Mailing Lists"
+url = "/community/mailing-lists/"
+parent = "Community"
 weight = 4
 
 [[languages.en.menu.main]]
-identifier = "kug-2023"
-name = "KUG 2023"
-url = "/community/kug-2023/"
+identifier = "tea-time"
+name = "CExA Tea Time"
+url = "/community/tea-time/"
 parent = "Community"
 weight = 5
 
 [[languages.en.menu.main]]
-identifier = "acknowledgments"
-name = "Sponsors"
-url = "/acknowledgments/"
-weight = 70
+identifier = "release-briefings"
+name = "Release Briefings"
+url = "/community/release-briefings/"
+parent = "Community"
+weight = 6
 
 [[languages.en.menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "/contact/"
-weight = 80
+identifier = "applications"
+name = "Applications"
+url = "/community/applications/"
+parent = "Community"
+weight = 7
+
+[[languages.en.menu.main]]
+identifier = "team"
+name = "Team"
+url = "/community/team/"
+parent = "Community"
+weight = 8
 
 [params]
 search = true
@@ -310,3 +299,12 @@ defaultContentLanguageInSubdir = false
   [[module.mounts]]
     source = "static/download"
     target = "static/downloads"
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-TXYTG29JXM'
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = false
