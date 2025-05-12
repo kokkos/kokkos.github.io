@@ -6,11 +6,11 @@ tags: [""]
 url: "citing-kokkos"
 ---
 
-## Citing Kokkos
+# Citing Kokkos
 
 Use the following references when citing Kokkos in your work.
 
-### Overall Ecosystem
+## Overall Ecosystem
 
 The Kokkos Ecosystem citation is in particular appropriate when using multiple Kokkos subprojects.
 
@@ -29,7 +29,7 @@ The Kokkos Ecosystem citation is in particular appropriate when using multiple K
 ```
 
 
-### Kokkos Core
+## Kokkos Core
 
 The most recent (and primary) citation is:
 
@@ -69,7 +69,7 @@ A description of the fundamental concepts can be found here:
 ```
 
 
-### Kokkos Kernels
+## Kokkos Kernels
 
 ```
 @misc{KokkosKernels2021,
@@ -85,7 +85,7 @@ A description of the fundamental concepts can be found here:
 }
 ```
 
-### Kokkos Tools
+## Kokkos Tools
 
 ```
 @InProceedings{10.1007/978-3-030-02465-9_53,
@@ -102,4 +102,3 @@ pages="743--754",
 isbn="978-3-030-02465-9"
 }
 ```
-

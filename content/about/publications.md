@@ -9,7 +9,7 @@ This is a list of publications describing the Kokkos Ecosystem.
 
 ## Citing Kokkos
 
-For a list of recommended citations please go to [Citing Kokkos](https://kokkos.org/citing-kokkos).
+To ensure proper attribution in your work, please refer to our [Citing Kokkos](https://kokkos.org/citing-kokkos) page for a list of recommended citations.
 
 ## Publication List
 
