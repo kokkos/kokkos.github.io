@@ -18,4 +18,6 @@ The first day of the KUG Meeting kicked off with essential updates from the core
 # Day 2
 The second day broadened the scope to the wider "Kokkos Ecosystem." This session included presentations on libraries and tools that complement and extend the core Kokkos functionality, fostering collaboration and interoperability within the HPC software stack. The meeting then delved into the critical aspects of "Tuning and Performance," where attendees shared techniques, methodologies, and insights for optimizing Kokkos-based applications to achieve peak performance on diverse hardware architectures. This was followed by a session on "Algorithms," showcasing how specific algorithms are being implemented and optimized using Kokkos' parallel programming models. The KUG Meeting culminated in an engaging panel discussion. This session brought together core Kokkos developers, library leads, ecosystem project members, application experts, numerical toolkit developers, and educators. The panel addressed key challenges, future directions, and answered questions from the audience, providing valuable insights and fostering a deeper understanding of the Kokkos landscape.
 
-{{< image src="img/blog/KUG2025-3.jpg" style="float: center; height=10">}}
+{{< image src="img/blog/KUG2025-3.jpg" style="float: center; height=10;">}}
+#
+{{< image src="img/blog/KUG2025-Team.jpeg" style="float: center; height=10;">}}
