@@ -14,9 +14,9 @@ url = "/about/"
 weight = 10
 
 [[languages.en.menu.main]]
-identifier = "abstract"
-name = "Abstract"
-url = "/about/abstract/"
+identifier = "overview"
+name = "Overview"
+url = "/about/overview/"
 parent = "About"
 weight = 1
 
