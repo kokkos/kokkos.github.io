@@ -21,27 +21,6 @@ parent = "About"
 weight = 1
 
 [[languages.en.menu.main]]
-identifier = "about-core"
-name = "Core"
-url = "/about/core/"
-parent = "About"
-weight = 2
-
-[[languages.en.menu.main]]
-identifier = "about-kernels"
-name = "Kernels"
-url = "/about/kernels/"
-parent = "About"
-weight = 3
-
-[[languages.en.menu.main]]
-identifier = "about-tools"
-name = "Tools"
-url = "/about/tools/"
-parent = "About"
-weight = 4
-
-[[languages.en.menu.main]]
 identifier = "about-citing-kokkos"
 name = "Citing Kokkos"
 url = "/citing-kokkos"
