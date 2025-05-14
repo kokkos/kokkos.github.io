@@ -229,6 +229,13 @@ url = "/community/team/"
 parent = "Community"
 weight = 8
 
+[[languages.en.menu.main]]
+identifier = "wgs"
+name = "Working Groups"
+url = "/working-groups/"
+parent = "Community"
+weight = 9
+
 [params]
 search = true
 
