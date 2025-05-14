@@ -35,5 +35,3 @@ Furthermore, the Kokkos team helps develop new ISO C++ features such as `std::md
 
 **Kokkos Tutorials** provides lectures and exercises that introduce capabilities of Kokkos step-by-step and teach users how to leverage these features to write performance portable code.
 Recordings of the lectures are available.
-
-# [News]({{<ref "/blog" >}})
