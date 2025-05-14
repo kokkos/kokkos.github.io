@@ -42,32 +42,39 @@ parent = "About"
 weight = 4
 
 [[languages.en.menu.main]]
+identifier = "about-citing-kokkos"
+name = "Citing Kokkos"
+url = "/citing-kokkos"
+parent = "About"
+weight = 5
+
+[[languages.en.menu.main]]
 identifier = "about-releases"
 name = "Releases"
 url = "/about/releases"
 parent = "About"
-weight = 5
+weight = 6
 
 [[languages.en.menu.main]]
 identifier = "about-publications"
 name = "Publications"
 url = "/about/publications"
 parent = "About"
-weight = 6
+weight = 7
 
 [[languages.en.menu.main]]
 identifier = "about-sponsors"
 name = "Sponsors"
 url = "/acknowledgments/"
 parent = "About"
-weight = 7
+weight = 8
 
 [[languages.en.menu.main]]
 identifier = "about-contact"
 name = "Contact"
 url = "/contact/"
 parent = "About"
-weight = 8
+weight = 9
 
 [[languages.en.menu.main]]
 name = "Repositories"
