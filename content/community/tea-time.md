@@ -17,11 +17,13 @@ notified about future events.
 
 Upcoming
 --------
-* 2025/05/21: [Exploring C++ Standard Parallelism Features for GPU Programming in a Particle-In-Cell Application](
-  https://cexa-project.org/news/2025-05-21-eleventh-kokkos-tea-time/)
+* 2025/09/17: [Experience converting large scientific software packages written in C++ to C++20 modules](
+  https://cexa-project.org/news/2025-09-17-twelfth-kokkos-tea-time/)
 
 Past
 ----
+* 2025/05/21: [Exploring C++ Standard Parallelism Features for GPU Programming in a Particle-In-Cell Application](
+  https://cexa-project.org/news/2025-05-21-eleventh-kokkos-tea-time/)
 * 2025/04/16: [Solomon: unified schemes for directive-based GPU offloading](
   https://cexa-project.org/news/2025-04-16-tenth-kokkos-tea-time/)
 * 2025/03/19: [Kokkos Best Practices: Integrating Kokkos into Your Project](
