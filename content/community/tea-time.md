@@ -17,6 +17,8 @@ notified about future events.
 
 Upcoming
 --------
+* 2025/09/17: [Experience converting large scientific software packages written in C++ to C++20 modules](
+  https://cexa-project.org/news/2025-09-17-twelfth-kokkos-tea-time/)
 
 Past
 ----
