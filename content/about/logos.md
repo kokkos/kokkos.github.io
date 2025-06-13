@@ -18,9 +18,20 @@ When communicating about Kokkos, please use the current images instead of the ol
 | WEBP | [kokkos.webp](/downloads/logos/kokkos.webp) |
 | JPG (white background) | [kokkos.jpg](/downloads/logos/kokkos.jpg) |
 
+# Main logo with text
+
+<img src="/downloads/logos/kokkos_text.png" class="preview">
+
+| Format | Link |
+|-|-|
+| SVG | [kokkos_text.svg](/downloads/logos/kokkos_text.svg) |
+| PNG | [kokkos_text.png](/downloads/logos/kokkos_text.png) |
+| WEBP | [kokkos_text.webp](/downloads/logos/kokkos_text.webp) |
+| JPG (white background) | [kokkos_text.jpg](/downloads/logos/kokkos_text.jpg) |
+
 <style>
     .preview {
-        height: 200px;
+        height: 100px;
         margin: 20px 0;
     }
 
