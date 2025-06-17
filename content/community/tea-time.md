@@ -17,6 +17,8 @@ notified about future events.
 
 Upcoming
 --------
+* 2025/06/18: [SERGHEI: a Kokkos-based framework for computational hydraulics and hydrology](
+  https://cexa-project.org/news/2025-06-18-thirteenth-kokkos-tea-time/)
 * 2025/09/17: [Experience converting large scientific software packages written in C++ to C++20 modules](
   https://cexa-project.org/news/2025-09-17-twelfth-kokkos-tea-time/)
 
