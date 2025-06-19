@@ -5,7 +5,7 @@ date: "2025-06-04"
 tags: ["Core"]
 ---
 
-When communicating about Kokkos, please use the current images instead of the older archived logos.
+When referencing Kokkos, please use the images below.
 
 # Main logo
 
