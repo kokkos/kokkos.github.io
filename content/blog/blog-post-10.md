@@ -1,7 +1,7 @@
 ---
 authors: ["kokkos-team"]
 title: "kokkos-fft: FFT interface for Kokkos eco-system"
-date: 2025-03-19
+date: 2025-06-25
 tags: ["blog"]
 thumbnail: img/blog/2025/kokkos-fft/kokkos-fft.png
 ---
@@ -10,22 +10,22 @@ thumbnail: img/blog/2025/kokkos-fft/kokkos-fft.png
 
 The fast Fourier transform (FFT) is a family of fundamental algorithms that is widely used in scientific computing and other areas [1]. [kokkos-fft](https://github.com/kokkos/kokkos-fft) is designed to help [Kokkos](https://github.com/kokkos/kokkos) users who are:
 
-* using Kokkos to port a legacy application which relies on FFT libraries. E.g., fluid simulation codes with periodic boundaries, plasma turbulence, etc.
+* developing a Kokkos application which relies on FFT libraries. E.g., fluid simulation codes with periodic boundaries, plasma turbulence, etc.
 
 * wishing to integrate in-situ signal and image processing with FFTs. E.g., spectral analyses, low pass filtering, etc.
 
 * willing to use de facto standard FFT libraries just like [`numpy.fft`](https://numpy.org/doc/stable/reference/routines.fft.html).
 
-kokkos-fft can benefit such users through the following features:
+kokkos-fft [2] can benefit such users through the following features:
 
 * A simple interface like [`numpy.fft`](https://numpy.org/doc/stable/reference/routines.fft.html) with in-place and out-of-place transforms:  
 Only accepts [Kokkos Views](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) to make APIs simple and safe.
 
 * 1D, 2D, 3D standard and real FFT functions (similar to [`numpy.fft`](https://numpy.org/doc/stable/reference/routines.fft.html)) over 1D to 8D Kokkos Views:  
-Batched plans are automatically used if View dimension is larger than FFT dimension.
+Batched plans are automatically used if `View` dimension is larger than FFT dimension.
 
 * A reusable [FFT plan](https://kokkosfft.readthedocs.io/en/latest/api/plan/plan.html) which wraps the vendor libraries for each Kokkos backend:  
-[fftw](http://www.fftw.org), [cufft](https://developer.nvidia.com/cufft), [hipfft](https://github.com/ROCm/hipFFT) ([rocfft](https://github.com/ROCm/rocFFT)), and [oneMKL](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html) are automatically enabled based on the enabled Kokkos backend.
+[fftw](http://www.fftw.org), [cuFFT](https://developer.nvidia.com/cufft), [hipFFT](https://github.com/ROCm/hipFFT) ([rocFFT](https://github.com/ROCm/rocFFT)), and [oneMKL](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html) are automatically enabled based on the enabled Kokkos backend.
 
 * Support for multiple CPU and GPU backends:  
 FFT libraries for the enabled Kokkos backend are executed on the stream/queue used in that Execution space.
@@ -40,25 +40,24 @@ Let's start with a simple example. The following C++ listing shows the 1D real t
 
 ```C++
 #include <Kokkos_Core.hpp>
-#include <Kokkos_Complex.hpp>
 #include <Kokkos_Random.hpp>
 #include <KokkosFFT.hpp>
-using ExecutionSpace = Kokkos::DefaultExecutionSpace;
-template <typename T> using View1D = Kokkos::View<T*, ExecutionSpace>;
-
 int main(int argc, char* argv[]) {
   Kokkos::ScopeGuard guard(argc, argv);
   const int n = 4;
-  View1D<double> x("x", n);
-  View1D<Kokkos::complex<double> > x_hat("x_hat", n/2+1);
-  Kokkos::Random_XorShift64_Pool<> random_pool(12345);
-  Kokkos::fill_random(x, random_pool, 1);
-  KokkosFFT::rfft(ExecutionSpace(), x, x_hat);
-  Kokkos::fence();
+  Kokkos::View<double*> x("x", n);
+  Kokkos::View<Kokkos::complex<double>*> x_hat("x_hat", n/2+1);
+  // initialize the input array with random values
+  Kokkos::DefaultExecutionSpace exec;
+  Kokkos::Random_XorShift64_Pool<> random_pool(/*seed=*/12345);
+  Kokkos::fill_random(exec, x, random_pool, /*range=*/1.0);
+  KokkosFFT::rfft(exec, x, x_hat);
+  // block the current thread until all work enqueued into exec is finished
+  exec.fence();
 }
 ```
 
-This is equivalent to the following python code.
+This is equivalent to the following Python code.
 
 ```python
 import numpy as np
@@ -68,8 +67,9 @@ x_hat = np.fft.rfft(x)
 
 There are two additional arguments in the Kokkos version:
 
-* An instance of the [`ExecutionSpace`](https://kokkos.org/kokkos-core-wiki/API/core/execution_spaces.html)
-* The output View (`x_hat`).
+* `exec`: [*Kokkos execution space instance*](https://kokkos.org/kokkos-core-wiki/API/core/execution_spaces.html) that encapsulates the underlying compute resources (e.g., CPU cores, GPU devices) where the task will be dispatched for execution.
+
+* `x_hat`: [*Kokkos Views*](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) where the complex-valued FFT output will be stored. By accepting this view as an argument, the function allows the user to pre-allocate memory and optimize data placement, avoiding unnecessary allocations and copies.
 
 Also, kokkos-fft only accepts [Kokkos Views](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) as input data. The accessibility of a View from `ExecutionSpace` is statically checked and will result in a compilation error if not accessible. See [documentations](https://kokkosfft.readthedocs.io/en/latest/intro/quick_start.html) for basic usage.
 
@@ -137,16 +137,16 @@ void derivative(const FViewType& fk, const GViewType& gk,
   auto kx    = m_grid->m_kx;
   auto kyh   = m_grid->m_kyh;
 
-  const Kokkos::complex<double> I(0.0, 1.0);
+  const Kokkos::complex<double> z(0.0, 1.0);
   constexpr int nb_vars = 2;
 
   range2D_type range(point2D_type{{0, 0}}, point2D_type{{m_nkyh, m_nkx2}},
-                    tile2D_type{{TILE0, TILE1}});
+                     tile2D_type{{TILE0, TILE1}});
 
   Kokkos::parallel_for(
       range, KOKKOS_LAMBDA(int iky, int ikx) {
-        const auto tmp_ikx = I * kx(ikx);
-        const auto tmp_iky = I * kyh(iky);
+        const auto tmp_ikx = z * kx(ikx);
+        const auto tmp_iky = z * kyh(iky);
         for (int in = 0; in < nb_vars; in++) {
           const auto tmp_fk   = fk(in, iky, ikx);
           ikx_f(in, iky, ikx) = tmp_ikx * tmp_fk;
@@ -163,32 +163,28 @@ For forward and backward FFTs, we create plans during initialization which are r
 
 ```C++
 template <typename InViewType, typename OutViewType>
-  void forwardFFT(const InViewType& f, OutViewType& fk) {
-    KokkosFFT::execute(*m_forward_plan, f, m_forward_buffer);
-
-    auto forward_buffer    = m_forward_buffer;
-    auto norm_coef         = m_norm_coef;
-    int nkx2 = m_nkx2, nkx = (m_nkx2 - 1) / 2, ny = m_ny, nv = 2;
-
-    range3D_type range(point3D_type{{0, 0, 0}},
-                       point3D_type{{nv, m_nkyh, nkx + 1}},
-                       tile3D_type{{2, TILE0, TILE1}});
-
-    Kokkos::parallel_for(
-        "FFT_unpack", range, KOKKOS_LAMBDA(int iv, int iky, int ikx) {
-          fk(iv, iky, ikx) = forward_buffer(iv, iky, ikx) * norm_coef;
-
-          int ikx_neg = nkx2 - ikx;
-          int iky_neg = (ny - iky), iky_nonzero = iky;
-          if (ikx == 0) ikx_neg = 0;
-          if (iky == 0) {
-            iky_neg     = ny - 1;
-            iky_nonzero = 1;
-          }
-          fk(iv, iky_nonzero, ikx_neg) =
-              Kokkos::conj(forward_buffer(iv, iky_neg, ikx)) * norm_coef;
-        });
-  }
+void forwardFFT(const InViewType& f, OutViewType& fk) {
+  KokkosFFT::execute(*m_forward_plan, f, m_forward_buffer);
+  auto forward_buffer    = m_forward_buffer;
+  auto norm_coef         = m_norm_coef;
+  int nkx2 = m_nkx2, nkx = (m_nkx2 - 1) / 2, ny = m_ny, nv = 2;
+  range3D_type range(point3D_type{{0, 0, 0}},
+                     point3D_type{{nv, m_nkyh, nkx + 1}},
+                     tile3D_type{{2, TILE0, TILE1}});
+  Kokkos::parallel_for(
+      "FFT_unpack", range, KOKKOS_LAMBDA(int iv, int iky, int ikx) {
+        fk(iv, iky, ikx) = forward_buffer(iv, iky, ikx) * norm_coef;
+        int ikx_neg = nkx2 - ikx;
+        int iky_neg = (ny - iky), iky_nonzero = iky;
+        if (ikx == 0) ikx_neg = 0;
+        if (iky == 0) {
+          iky_neg     = ny - 1;
+          iky_nonzero = 1;
+        }
+        fk(iv, iky_nonzero, ikx_neg) =
+            Kokkos::conj(forward_buffer(iv, iky_neg, ikx)) * norm_coef;
+      });
+}
 ```
 
 The implementation together with detailed description can be found in the [examples](https://github.com/kokkos/kokkos-fft/tree/main/examples/10_HasegawaWakatani) directory.
@@ -205,7 +201,7 @@ We have performed a benchmark of this application over multiple backends. We per
 | Elapsed time [s] | 463 | 9.28 | 0.25 | 0.14 | 0.41 | 0.30 |
 | Speed up | x 1 | x 49.9 | x 1852 | x 3307 | x 1129 | x 1562 |
 
-As expected, the Python version is the simplest in terms of lines of code (LOC), which is definitively a good aspect of Python. With Kokkos and kokkos-fft, the same logic can be implemented without significantly increasing the source code size (roughly 1.5 times longer). However, the performance gain is enormous, allowing a speedup as high as 3000 times on the H100 GPU.
+As expected, the Python version is the simplest in terms of lines of code (LOC). With Kokkos and kokkos-fft, the same logic can be implemented without significantly increasing the source code size (roughly 1.5 times longer). However, the performance gain is enormous, allowing a single and simple code runs on multiple architectures efficiently.
 
 # Future developments
 
@@ -220,5 +216,5 @@ We are planning to add the following functionalities. Contributions to the proje
 # References
 
 [1] Daniel N Rockmore; The FFT: an algorithm the whole family can use. Computing in Science & Engineering Jan/Feb 2000; 2 (1): 60-64. https://doi.org/10.1109/5992.814659  
-[2] Kokkos fft library: [https://github.com/kokkos/kokkos-fft](https://github.com/kokkos/kokkos-fft)  
+[2] Y. Asahi, T. Padioleau, P. Zehner, J. Bigot and D Lebrun-Grandie, kokkos-fft: A shared-memory FFT for the Kokkos ecosystem, Journal of Open Source Software (JOSS), submitted. [https://github.com/openjournals/joss-reviews/issues/8391](https://github.com/openjournals/joss-reviews/issues/8391)  
 [3] Masahiro Wakatani, Akira Hasegawa; A collisional drift wave description of plasma edge turbulence. Phys. Fluids 1 March 1984; 27 (3): 611–618. https://doi.org/10.1063/1.864660
