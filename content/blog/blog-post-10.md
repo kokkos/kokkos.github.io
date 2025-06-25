@@ -202,6 +202,7 @@ We have performed a benchmark of this application over multiple backends. We per
 | Speed up | x 1 | x 49.9 | x 1852 | x 3307 | x 1129 | x 1562 |
 
 As expected, the Python version is the simplest in terms of lines of code (LOC). With Kokkos and kokkos-fft, the same logic can be implemented without significantly increasing the source code size (roughly 1.5 times longer). However, the performance gain is enormous, allowing a single and simple code runs on multiple architectures efficiently.
+Note that this performance improvement largely reflects the fact that KokkosFFT is using the various optimized hardware-specific FFT libraries under the hood.
 
 # Future developments
 
