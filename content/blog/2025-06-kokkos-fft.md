@@ -1,6 +1,6 @@
 ---
 authors: ["kokkos-team"]
-title: "Kokkos FFT: A Native FFT Interface for the Kokkos Ecosystem
+title: "Kokkos FFT: A Native FFT Interface for the Kokkos Ecosystem"
 date: 2025-06-25
 tags: ["blog"]
 thumbnail: img/blog/2025/kokkos-fft/kokkos-fft.png
