@@ -25,6 +25,13 @@ identifier = "about-citing-kokkos"
 name = "Citing Kokkos"
 url = "/citing-kokkos"
 parent = "About"
+weight = 4
+
+[[languages.en.menu.main]]
+identifier = "about-logos"
+name = "Logos"
+url = "/about/logos"
+parent = "About"
 weight = 5
 
 [[languages.en.menu.main]]
