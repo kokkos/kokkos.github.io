@@ -36,24 +36,24 @@ With this alignment, we would like to reiterate how we handle major, minor, and
 patch releases, ensuring our numbering clearly communicates the nature of
 changes within Kokkos:
 
-* **Major Releases (X.y.z):** A bump in the major version (e.g., from 4.x to 5.x)
+* **Major Releases (X.y.z):** A bump in the major version (e.g., from 4.y.z to 5.y.z)
   continues to indicate **backward-incompatible changes**. In Kokkos, this
   typically means:
   * **Bumping the minimum C++ standard requirement** (e.g., C++20 for Kokkos 5.0).
   * **Updating minimum compiler and toolchain requirements.**
   * **Removing features that had been deprecated** in previous release series.
-    (You can already test this behavior today by configuring your 4.x series
+    (You can already test this behavior today by configuring your 4 series
     build with` -DKokkos_ENABLE_DEPRECATED_CODE_4=OFF`.)
 
-* **Minor Releases (x.Y.z):** A bump in the minor version (e.g., from 5.0.x to
-  5.1.x) signifies **new features and/or significant improvements** that are
+* **Minor Releases (x.Y.z):** A bump in the minor version (e.g., from 5.0.z to
+  5.1.z) signifies **new features and/or significant improvements** that are
   **backward-compatible** with the previous minor versions within the same major
   series. Your existing code should continue to work.
 
 * **Patch Releases (x.y.Z):** A bump in the patch version (e.g., from 5.0.0 to
   5.0.1) will now strictly indicate **backward-compatible bug fixes and minor
   performance enhancements**. This is where you'll see the direct effect of
-  removing that stray leading zero, moving from `5.0.01` to `5.0.1`, `5.0.2`,
+  removing that leading zero, moving from `5.0.01` to `5.0.1`, `5.0.2`,
   and so on. These updates are generally safe and recommended for all users.
 
 
