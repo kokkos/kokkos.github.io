@@ -15,6 +15,7 @@ To ensure proper attribution in your work, please refer to our [Citing Kokkos](h
 
 Year | &nbsp; &nbsp; | Package | &nbsp; &nbsp; | Title
 --- | --- | --- | --- | --- | --- | ---
+2025 || FFT || [kokkos-fft: A shared-memory FFT for the Kokkos ecosystem](https://joss.theoj.org/papers/10.21105/joss.08391)
 2024 || Core || [Experiences with implementing Kokkos’ SYCL backend](https://doi.org/10.1109/MCSE.2021.3098509)
 2023 || Core || [The Kokkos OpenMPTarget Backend: Implementation and Lessons Learned](https://www.doi.org/10.1007/978-3-031-40744-4_7)
 2022 || Core || [Kokkos 3: Programming model extensions for the exascale era](https://doi.ieeecomputersociety.org/10.1109/TPDS.2021.3097283)
