@@ -14,7 +14,8 @@ Join us to learn about the latest changes and ask questions.
 
 Upcoming
 --------
-TBD
+* 2025/08/27: [Kokkos 4.7 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-4-7-release-briefing-august-2025/)
 
 Past
 ----
