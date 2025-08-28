@@ -6,7 +6,7 @@ date: "2025-08-28"
 Overview
 --------
 The Kokkos Kernels developers meeting is intended to provide a platform for the developers to meet and discuss the needs of the library.
-The discussion typically focuses on new features development, algorithms improvements, bug fixes, platforms support, interaction and support for vendors libraries and community events organization.
+The discussion typically focuses on new feature development, algorithm improvements, bug fixes, platforms support, interaction and support for vendor libraries and community events organization.
 Occasionally, new research topics in linear algebra, linear solvers and adjacent topics are scheduled.
 
 Connect
