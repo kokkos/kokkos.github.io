@@ -12,7 +12,7 @@ Occasionally, new research topics in linear algebra, linear solvers and adjacent
 Connect
 -------
 * **Slack channel:** [# kokkos-kernels](https://kokkosteam.slack.com/archives/CMZDYKZ96)
-  (Contact the leads to get invited)
+  (Contact the leads to get invited: Luc Berger-Vergiat, lberge@sandia.gov)
 * **Mailing list:** (TBD)
 
 Meetings
