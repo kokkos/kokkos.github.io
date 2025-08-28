@@ -18,6 +18,6 @@ Connect
 Meetings
 --------
 * Schedule: one meeting every two weeks on Thursdays at 10am Mountain Time.
-* [Meeting link (Zoom)](https://zoom-lfx.platform.linuxfoundation.org/meeting/97120554343?password=4811bf7d-9296-4d3d-903a-6cbcc5492524)
+* [Meeting link (Zoom)](https://zoom-lfx.platform.linuxfoundation.org/meeting/97120554343)
 * Agenda (TBD)
 * Minutes previous meetings (TBD)
