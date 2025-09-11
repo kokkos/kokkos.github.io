@@ -18,6 +18,6 @@ Connect
 Meetings
 --------
 * Schedule: one meeting every two weeks on Thursdays at 10am Mountain Time.
-* [Meeting link (Zoom)](https://zoom-lfx.platform.linuxfoundation.org/meeting/97120554343)
+* Meeting link (Zoom): please request it in the slack channel
 * Agenda (TBD)
 * Minutes previous meetings (TBD)
