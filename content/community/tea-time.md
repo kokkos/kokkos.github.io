@@ -17,12 +17,12 @@ notified about future events.
 
 Upcoming
 --------
-* 2025/09/17: [Experience converting large scientific software packages written in C++ to C++20 modules](
-  https://cexa-project.org/news/2025-09-17-kokkos-tea-time-experience-converting-large-scientific-software-packages-written-in-c-to-c-modules/)
+TBD
 
 Past
 ----
-
+* 2025/09/17: [Experience converting large scientific software packages written in C++ to C++20 modules](
+  https://cexa-project.org/news/2025-09-17-kokkos-tea-time-experience-converting-large-scientific-software-packages-written-in-c-to-c-modules/)
 * 2025/06/18: [SERGHEI: a Kokkos-based framework for computational hydraulics and hydrology](
   https://cexa-project.org/news/2025-06-18-kokkos-tea-time-serghei-a-kokkos-based-framework-for-computational-hydraulics-and-hydrology/)
 * 2025/05/21: [Exploring C++ Standard Parallelism Features for GPU Programming in a Particle-In-Cell Application](
