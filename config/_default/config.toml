@@ -209,11 +209,18 @@ parent = "Community"
 weight = 8
 
 [[languages.en.menu.main]]
+identifier = "dev-meetings"
+name = "Developer Meetings"
+url = "developer-meetings"
+parent = "Community"
+weight = 9
+
+[[languages.en.menu.main]]
 identifier = "wgs"
 name = "Working Groups"
 url = "/working-groups/"
 parent = "Community"
-weight = 9
+weight = 10
 
 [params]
 search = true
