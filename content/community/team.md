@@ -26,6 +26,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 {{< image src="img/CSCS-Logo-258X79.jpg"           class="community-team-image-small">}}
 {{< image src="img/LANL-logo-247x89.jpg"           class="community-team-image-medium">}}
 {{< image src="img/LBNL-logo-316x240.jpg"          class="community-team-image-xsmall">}}
+{{< image src="img/ULiege-logo-1450x704.png"       class="community-team-image-medium">}}
 </span>
 
 &nbsp;
@@ -34,6 +35,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Damien Lebrun-Grandié, ORNL, Project Lead
 - Christian Trott, SNL, Project Lead
 - Daniel Arndt, ORNL
+- Maarten Arnst, ULiege
 - Yuuichi Asahi, CEA
 - Julien Bigot, CEA
 - Jakob Bludau, ORNL
@@ -53,6 +55,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Thomas Padioleau, CEA
 - Carl Pearson, SNL
 - Mikael Simberg, CSCS
+- Romin Tomasetti, ULiege
 - Bruno Turcksin, ORNL
 - Paul Zhener, CEA
 
