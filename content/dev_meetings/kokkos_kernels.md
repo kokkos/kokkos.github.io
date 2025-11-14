@@ -19,5 +19,5 @@ Meetings
 --------
 * Schedule: one meeting every two weeks on Thursdays at 10am Mountain Time.
 * Meeting link (Zoom): please request it on the slack channel.
-* Agenda: the agenda for upcoming meeintgs are available [here](https://github.com/kokkos/development/tree/main/meeting_notes/kokkos_kernels_devs/notes).
+* Agenda: the agenda for upcoming meeintgs are available [here](https://github.com/kokkos/development/tree/main/meeting_notes/kokkos_kernels_devs/agenda).
 * Minutes: minutes of previous meetings are published [here](https://github.com/kokkos/development/tree/main/meeting_notes/kokkos_kernels_devs/notes) pull request can be made to amend the notes.
