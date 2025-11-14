@@ -13,11 +13,11 @@ Connect
 -------
 * **Slack channel:** [#kokkos-kernels](https://kokkosteam.slack.com/archives/CMZDYKZ96)
   (Contact the leads to get invited: Luc Berger-Vergiat, lberge@sandia.gov)
-* **Mailing list:** (TBD)
+* **Mailing list:** hosted by HPSF and available here: [kokkos-kernels-dev](https://lists.hpsf.io/g/kokkos-kernels-dev)
 
 Meetings
 --------
 * Schedule: one meeting every two weeks on Thursdays at 10am Mountain Time.
-* Meeting link (Zoom): please request it in the slack channel
-* Agenda (TBD)
-* Minutes previous meetings (TBD)
+* Meeting link (Zoom): please request it on the slack channel.
+* Agenda: the agenda for upcoming meeintgs are available [here](https://github.com/kokkos/development/tree/main/meeting_notes/kokkos_kernels_devs/agenda).
+* Minutes: minutes of previous meetings are published [here](https://github.com/kokkos/development/tree/main/meeting_notes/kokkos_kernels_devs/notes) pull request can be made to amend the notes.
