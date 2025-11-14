@@ -160,6 +160,12 @@ url = "/community/"
 weight = 60
 
 [[languages.en.menu.main]]
+name = "Code of Conduct"
+url = "/community/code-of-conduct/"
+parent = "Community"
+weight = 1
+
+[[languages.en.menu.main]]
 identifier = "community-chat"
 name = "Chat"
 url = "/community/chat/"
