@@ -3,7 +3,7 @@ authors: ["kokkos-team"]
 title: "Kokkos User Group Meeting @HPSFcon"
 date: "Enter Date of Blog Post"
 tags: ["User Group Meeting", "2026"]
-thumbnail: img/blog/HPSF-Conference-2026.png # **Need to generate this image**
+thumbnail: img/blog/HPSF-Conference-2026.png
 ---
 
 # Join the Kokkos User Group at HPSFcon 2026!
