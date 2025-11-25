@@ -55,9 +55,9 @@ Brief presentations on a specific topic related to Kokkos, such as:
 We also encourage users to bring up pain points and challenges they face while using Kokkos. This valuable feedback
 will help guide future development and improve the user experience.
 
-**Submission Deadline:** **<enter date>**
+Submission Deadline: **January 11, 2026 at 11:59 PM CST**
 
-Please submit your abstracts through the [HPSFcon submission system](insert_link).
+Please submit your abstracts through the [HPSFcon submission system](https://events.linuxfoundation.org/hpsf-conference/program/cfp/).
 
 ## Registration:
 
