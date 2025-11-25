@@ -21,3 +21,12 @@ library. This group focuses on developing and maintaining robust build systems,
 creating consistent and user-friendly packaging solutions, and ensuring
 compatibility across various platforms and environments. Their efforts aim to
 simplify the user experience and facilitate wider adoption of Kokkos.
+
+## Attending a Working Group Meeting
+
+Meeting group calendar is managed via linuxfoundation.org
+
+1. View the [Linux Foundation Kokkos Project Zoom meeting calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/kokkos-project)
+2. Past meetings may be "grayed out." Navigate to a week containing an instance of the meeting you want to attend.
+3. Click on the meeting.
+4. Click "Register" and provide the requested contact info.
