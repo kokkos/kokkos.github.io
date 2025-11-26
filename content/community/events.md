@@ -7,6 +7,8 @@ tags: [""]
 
 # Current Events
 
+[HPCAsia / SCA 2026 Kokkos Tutorial]({{<ref "/community/events/2026-01-26-hpcasia-tutorial" >}})
+
 # Past Events
 
 [Kokkos User Group Meeting 2023]({{< ref "/community/kug-2023" >}} "Kokkos User Group Meeting 2023")
