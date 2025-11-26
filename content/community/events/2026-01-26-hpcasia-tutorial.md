@@ -1,3 +1,10 @@
+---
+authors: ["kokkos-team"]
+title: "HPC Asia / SCA 2026 Kokkos Tutorial"
+date: "2025-11-26"
+tags: ["Kokkos", "event"]
+---
+
 # HPC Asia / SCA 2026 Kokkos Tutorial
 
 {{< image src="img/events/2026/HPCAsia-Osaka.jpg" style="float: center; height=10" caption="Osaka castle. By 663highland - Own work, CC BY 2.5">}}
