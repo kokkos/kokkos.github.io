@@ -16,6 +16,8 @@ The abstract for the tutorial can be found below.
 
 HPSF will also be present at the conference with a BoF Session and a booth - be sure to check out both!
 
+To find more information on the conference and register visit: https://www.sca-hpcasia2026.jp
+
 ### Abstract
 
 This tutorial provides a introduction to Kokkos, a C++ programming model designed for application performance portability across diverse computing architectures.
