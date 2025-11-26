@@ -21,7 +21,6 @@ Members
 
 **Participants:**
 * Luc Berger-Vergiat
-* Jakob Bludau
 * Conrad Clevenger
 * Rahul Gayatri
 * Damien Lebrun-Grandié
