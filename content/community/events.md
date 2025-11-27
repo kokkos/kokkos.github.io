@@ -7,6 +7,8 @@ tags: [""]
 
 # Current Events
 
+[European Kokkos User Group Meeting 2026 at HPSF Community Summit]({{< ref "/community/events/2026-02-25-hpsf-community-summit" >}} "European Kokkos User Group Meeting 2026 at HPSF Community Summit")
+
 # Past Events
 
 [Kokkos User Group Meeting 2023]({{< ref "/community/kug-2023" >}} "Kokkos User Group Meeting 2023")
