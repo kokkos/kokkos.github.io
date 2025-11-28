@@ -11,7 +11,7 @@ The Kokkos team is looking forward to meet you and hear more from you at the Eur
 
 Learn more about Kokkos, meet Kokkos developers, share about your experience, join the Kokkos community and more!
 
-Find out more, register ans submit an abstract at https://events.academiccloud.de/e/hpsfcs26
+Find out more, register and submit an abstract at https://events.academiccloud.de/e/hpsfcs26
 
 ## Location
 
