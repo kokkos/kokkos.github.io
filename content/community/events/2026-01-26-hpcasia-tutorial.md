@@ -20,7 +20,7 @@ To find more information on the conference and register visit: https://www.sca-h
 
 ### Abstract
 
-This tutorial provides a introduction to Kokkos, a C++ programming model designed for application performance portability across diverse computing architectures.
+This tutorial provides an introduction to Kokkos, a C++ programming model designed for application performance portability across diverse computing architectures.
 As modern high-performance computing (HPC) increasingly relies on heterogeneous systems featuring GPUs, multicore CPUs,
 and other accelerators, developers face the challenge of writing code that efficiently utilizes these varied
 hardware resources without developing and maintaining multiple variants of the software.
