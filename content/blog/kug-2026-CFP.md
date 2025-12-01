@@ -59,6 +59,12 @@ Submission Deadline: **January 11, 2026 at 11:59 PM CST**
 
 Please submit your abstracts through the [**HPSFcon submission system**](https://events.linuxfoundation.org/hpsf-conference/program/cfp/).
 
+**:warning: Important Note on Selecting Your Format:**
+The conference system uses standard time blocks that include buffer time. Please select the option that best matches your intended talk length:
+* For a 10-minute Lightning Talk: Select "Session Presentation - 15 minutes"
+* For a 20-minute Full Presentation: Select "Session Presentation - 25 minutes"
+* Track: Ensure you select "Project Meeting: Kokkos" as the Topic/Track.
+
 ## Registration:
 
 Registration for HPSFcon is **open now**. Register now on the official
