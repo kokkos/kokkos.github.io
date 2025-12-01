@@ -57,7 +57,7 @@ will help guide future development and improve the user experience.
 
 Submission Deadline: **January 11, 2026 at 11:59 PM CST**
 
-Please submit your abstracts through the [HPSFcon submission system](https://events.linuxfoundation.org/hpsf-conference/program/cfp/).
+Please submit your abstracts through the [**HPSFcon submission system**](https://events.linuxfoundation.org/hpsf-conference/program/cfp/).
 
 ## Registration:
 
