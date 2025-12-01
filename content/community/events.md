@@ -5,11 +5,13 @@ date: "2023-01-01"
 tags: [""]
 ---
 
-# Current Events
+# Upcoming Events
 
-[HPCAsia / SCA 2026 Kokkos Tutorial]({{<ref "/community/events/2026-01-26-hpcasia-tutorial" >}})
+Jan 26, 2026: [HPCAsia / SCA 2026 Kokkos Tutorial]({{<ref "/community/events/2026-01-26-hpcasia-tutorial" >}})
 
-[European Kokkos User Group Meeting 2026 at HPSF Community Summit]({{< ref "/community/events/2026-02-25-hpsf-community-summit" >}} "European Kokkos User Group Meeting 2026 at HPSF Community Summit")
+Feb 25-27, 2026: [European Kokkos User Group Meeting 2026 at HPSF Community Summit]({{< ref "/community/events/2026-02-25-hpsf-community-summit" >}} "European Kokkos User Group Meeting 2026 at HPSF Community Summit")
+
+Mar 19-20, 2026: [Kokkos User Group meeting @HPSFcon]({{<ref "/blog/kug-2026-call-for-submissions" >}})
 
 
 # Past Events
