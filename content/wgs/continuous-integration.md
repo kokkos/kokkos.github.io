@@ -17,14 +17,13 @@ Members
 -------
 **Leads:**
 * Nathan Ellingwood
-* Damien Lebrun-Grandié
+* Daniel Arndt
 
 **Participants:**
-* Daniel Arndt
 * Luc Berger-Vergiat
-* Jakob Bludau
 * Conrad Clevenger
 * Rahul Gayatri
+* Damien Lebrun-Grandié
 * Bruno Turcksin
 * Paul Zehner
 
