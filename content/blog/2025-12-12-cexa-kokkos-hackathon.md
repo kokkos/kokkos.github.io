@@ -10,8 +10,8 @@ CExA organizes a Kokkos hackathon on January 12-16, 2026, at Maison de la Simula
 
 This training is two-fold.
 
-- It first features a full-day course to discover Kokkos or refresh ones knowledge of the library.
-- It then proposes a 3-day hackathon, where teams of participants eager to go get their hands dirty will get to know Kokkos by finishing the porting of a provided code to GPU, accelerating and optimizing it.
+- It first features a full-day course to discover Kokkos or refresh one's knowledge of the library.
+- It then continues with  a 3-day hackathon, where teams of participants eager to go get their hands dirty will get to know Kokkos by finishing porting of a provided code, accelerating and optimizing it.
 
 Trainees can choose to attend either or both parts. Computers with access to a local GPU cluster will be provided.
 
@@ -21,7 +21,7 @@ Registration is [over here](https://indico.math.cnrs.fr/event/15313/).
 # The course
 
 The course teaches the basis of Kokkos and of GPU programming.[^1]
-The difference between CPU and GPU for numerical computation are highlighted.
+The difference between CPUs and GPUs for numerical computations are highlighted.
 The Kokkos data containers and parallel constructs are introduced.
 Practical examples will be given live by the teacher.
 
