@@ -1,13 +1,13 @@
 ---
 authors: ["kokkos-team"]
-title: "European Kokkos user Group at HPSF Community Summit '26"
+title: "European Kokkos User Group at HPSF Community Summit '26"
 date: "2025-11-27"
 tags: ["Kokkos", "event"]
 ---
 
 {{< image src="img/2026-02-25-hpsf-community-summit.jpg" style="float: center; height=10" >}}<br>
 
-The Kokkos team is looking forward to meet you and hear more from you at the European Kokkos user Group at HPSF Community Summit on February 25-27, 2026, in TU Braunschweig, Germany.
+The Kokkos team is looking forward to meet you and hear more from you at the European Kokkos User Group at HPSF Community Summit on February 25-27, 2026, in TU Braunschweig, Germany.
 
 Learn more about Kokkos, meet Kokkos developers, share about your experience, join the Kokkos community and more!
 

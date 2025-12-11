@@ -1,6 +1,6 @@
 ---
 authors: ["kokkos-team"]
-title: Kokkos User Group Meeting 2023 in Albuquerque NM
+title: "Kokkos User Group Meeting 2023 in Albuquerque NM"
 date: "2023-10-24"
 tags: ["blog"]
 thumbnail: img/kokkos-blog-post2.jpg
