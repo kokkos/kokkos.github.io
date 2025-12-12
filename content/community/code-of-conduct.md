@@ -47,7 +47,7 @@ at an online or offline event. Representation of a project may be further define
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the
-Kokkos leadership team (see https://github.com/kokkos/governance/blob/main/GOVERNANCE.md).
+Kokkos leadership team (see [https://github.com/kokkos/governance/blob/main/GOVERNANCE.md](https://github.com/kokkos/governance/blob/main/GOVERNANCE.md)).
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary
 and appropriate to the circumstances. The Kokkos leadership is obligated to maintain confidentiality
 with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
