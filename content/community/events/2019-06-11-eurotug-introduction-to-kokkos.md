@@ -1,6 +1,6 @@
 ---
 authors: ["kokkos-team"]
-title: "Event: Short Introduction to Kokkos at Euro Trilinos Usergroup Meeting"
+title: "Event: Short Introduction to Kokkos at Euro Trilinos User Group Meeting"
 date: "2019-06-11"
 tags: ["Kokkos", "event"]
 ---

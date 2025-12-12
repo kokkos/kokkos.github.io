@@ -1,6 +1,6 @@
 ---
 authors: ["kokkos-team"]
-title: 1st Kokkos Usergroup Meeting in Albuquerque NM
+title: "1st Kokkos User Group Meeting in Albuquerque NM"
 date: "2019-01-18"
 tags: ["blog"]
 thumbnail: img/kokkos-blog-post2.jpg

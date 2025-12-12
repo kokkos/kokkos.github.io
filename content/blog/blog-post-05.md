@@ -1,6 +1,6 @@
 ---
 authors: ["kokkos-team"]
-title: Kokkos User Group Meeting 2023
+title: "Kokkos User Group Meeting 2023 Trip Report"
 date: "2024-01-17"
 tags: ["blog", "KUG"]
 thumbnail: img/kokkos-blog-post-5_a.jpg
