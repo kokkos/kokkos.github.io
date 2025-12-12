@@ -1,11 +1,9 @@
 ---
 authors: ["kokkos-team"]
-title: "Acknowledgments"
+title: "Sponsors"
 date: "2023-06-01"
 ---
-# Sponsors
-
-## Current
+# Current
 
 <span class="botline">
 {{< image src="img/doe-logo.webp"                     class="sponsors-image-xlarge">}}
@@ -35,11 +33,11 @@ SNL Kokkos Kernels members acknowledge support from ASCR through the
 [Frameworks, Algorithms and Scalable Technologies for Mathematics
 (FASTMath)](https://scidac-fastmath.lbl.gov) SciDAC Institute.
 
-ORNL Kokkos Core member acknowledge support from ASCR through the [Rapid
+ORNL Kokkos Core members acknowledge support from ASCR through the [Rapid
 Advancement of Platform-Independent Delivery of Integrated Software
 (RAPIDS)](https://rapids.lbl.gov/) SciDAC Institute.
 
-## Past
+# Past
 
 <span class="botline">
 {{< image src="img/ecp-logo.webp"         class="sponsors-image-xlarge">}}
