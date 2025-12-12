@@ -3,47 +3,91 @@ authors: ["kokkos-team"]
 title: "Acknowledgments"
 date: "2023-06-01"
 ---
-
-Copyright Kokkos Project a Series of LF Projects, LLC. For web site terms of use, trademark policy and other projects poliricies please see https://lfprojects.org.
-
 # Sponsors
 
-Content on this webpage was developed with support of the US Department of Energy under the following contracts:
+## Current
 
-This research was supported by the Exascale Computing Project (ECP), Project Number: 17-SC-20-SC, a collaborative effort of two DOE organizations—the Office of Science and the National Nuclear Security Administration—responsible for the planning and preparation of a capable exascale ecosystem—including software, applications, hardware, advanced system engineering, and early testbed platforms—to support the nation’s exascale computing imperative.
+<span class="botline">
+{{< image src="img/doe-logo.webp"                     class="sponsors-image-xlarge">}}
+{{< image src="img/nisa-logo.webp"                    class="sponsors-image-medium">}}
+{{< image src="img/OLCF_official_color_10_26_15.png"  class="sponsors-image-xlarge">}}
+</span>
 
-Sandia National Laboratories is a multi-mission laboratory managed and operated by National Technology and Engineering Solutions of Sandia, LLC., a wholly owned subsidiary of Honeywell International, Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA-0003525.
+&nbsp;
 
-This material is based upon work supported by Oak Ridge National Laboratory, which is operated by UT- Battelle, LLC., for the U.S. Department of Energy under Contract DE-AC05-00OR22750.
+SNL Kokkos Core and Kokkos Kernels members acknowledge support from the US DOE
+[National Nuclear Security Administration
+(NNSA)](https://www.energy.gov/nnsa/national-nuclear-security-administration)
+through the [Advanced Simulation and Computing
+(ASC)](https://www.sandia.gov/asc/) program.
 
-This work was performed under US Government contract DE-AC52-06NA25396 for Los Alamos National Laboratory, which is operated by Los Alamos National Security, LLC, for the U.S. Department of Energy.
+ORNL Kokkos Core members acknowledge support from the [Oak Ridge Leadership
+Computing Facility (OLCF)](https://www.olcf.ornl.gov).
 
-This website contains material previously released under SAND2018-5365 O.
+SNL and ORNL Kokkos Core members acknowledge support from the US DOE [Office of
+Advanced Scientific Computing Research
+(ASCR)](https://www.energy.gov/science/ascr/advanced-scientific-computing-research)
+through the Next-Generation Scientific Software Technologies (NGSST) and
+[Scientific Discovery through Advanced Computing
+(SciDAC)](https://www.scidac.gov) programs.
+
+SNL Kokkos Kernels members acknowledge support from ASCR through the
+[Frameworks, Algorithms and Scalable Technologies for Mathematics
+(FASTMath)](https://scidac-fastmath.lbl.gov) SciDAC Institute.
+
+ORNL Kokkos Core member acknowledge support from ASCR through the [Rapid
+Advancement of Platform-Independent Delivery of Integrated Software
+(RAPIDS)](https://rapids.lbl.gov/) SciDAC Institute.
+
+## Past
+
+<span class="botline">
+{{< image src="img/ecp-logo.webp"         class="sponsors-image-xlarge">}}
+{{< image src="img/SNL-logo-640x256.png"  class="sponsors-image-medium">}}
+</span>
+
+&nbsp;
+
+The Kokkos project members was supported by the [Exascale Computing Project
+(ECP)](https://www.exascaleproject.org), a collaborative effort of two DOE
+organizations—the Office of Science and the National Nuclear Security
+Administration—responsible for the planning and preparation of a capable
+exascale ecosystem—including software, applications, hardware, advanced system
+engineering, and early testbed platforms—to support the nation’s exascale
+computing imperative.
+
+Kokkos was initiated at SNL and funded through [Sandia's Laboratory Directed
+Research & Development (LDRD)](https://www.sandia.gov/research/ldrd/) program.
+
 
 <style>
 
-    /* Display text on landscape background image */
-    .home-title-div {
-        position: relative;
-        text-align: center;
-        color: white;
-    }
-    .home-title-text {
-        position: absolute;
-        margin: 0;
-        top: 50%;
-        left: 5vw;
-        right: 5vw;
-        transform: translateY(-50%);
-        font-size: 2.0vw; 
-    }
-    .home-title-image {
-        border-radius: 0.375rem;
+    .sponsors-image-xsmall {
+        width: 6%;
     }
 
-    /* Align horizontally home's images */
-    .home-image-column {
-        float: left;
-        width: 50%; /* 100% / 2 figures = 50% */
+    .sponsors-image-small {
+        width: 14%;
     }
+
+    .sponsors-image-medium {
+        width: 15%;
+    }
+
+    .sponsors-image-large {
+        width: 17%;
+    }
+
+    .sponsors-image-xlarge {
+        width: 25%;
+    }
+
+    .botline div {
+         vertical-align:bottom;
+         display: inline;
+    }
+    .botline div img {
+         margin-right: 0.5%;
+    }
+
 </style>
