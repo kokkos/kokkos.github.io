@@ -16,6 +16,7 @@ This training is two-fold.
 Trainees can choose to attend either or both parts. Computers with access to a local GPU cluster will be provided.
 
 Registration is free but mandatory, there is a limit of 90 attendants for the course, and 45 attendants for the hackathon.
+The hackathon can only be attended in-person.
 Registration is [over here](https://indico.math.cnrs.fr/event/15313/).
 
 # The course
