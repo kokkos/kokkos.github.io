@@ -11,7 +11,7 @@ CExA organizes a Kokkos hackathon on January 12-16, 2026, at Maison de la Simula
 This training is two-fold.
 
 - It first features a full-day course to discover Kokkos or refresh one's knowledge of the library.
-- It then continues with  a 3-day hackathon, where teams of participants eager to go get their hands dirty will get to know Kokkos by finishing porting of a provided code, accelerating and optimizing it.
+- It then continues with a 3-day hackathon, where teams of participants eager to go get their hands dirty will get to know Kokkos by finishing porting of a provided code, accelerating and optimizing it.
 
 Trainees can choose to attend either or both parts. Computers with access to a local GPU cluster will be provided.
 
@@ -39,7 +39,7 @@ Practical examples will be given live by the teacher.
 
 # The hackathon
 
-The hackathon is based on a lightweight version of MiniPIC,[^2] a pedagogic, single-node, particles-in-cell (PIC) solver developed by M. Lobet et al., CEA.[^3]
+The hackathon is based on a lightweight version of MiniPIC,[^2] a pedagogic, single-node, particle-in-cell (PIC) solver developed by M. Lobet et al., CEA.[^3]
 With the support of trainers including Kokkos developers and PIC optimization experts, the participants will team up in groups of three to port and accelerate a sequential version of the code, where Kokkos data containers and some Kokkos loops are already present.
 Each team will profile it with Kokkos-tools and NVIDIA tools (namely, Nsight Systems and Nsight Compute), and optimize it with Kokkos features.
 In the end the teams will compare the performance of their resulting code while keeping its accuracy.
