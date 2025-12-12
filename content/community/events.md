@@ -7,6 +7,8 @@ tags: [""]
 
 # Upcoming Events
 
+Jan 12-16, 2026: [CExA Kokkos Hackathon]({{<ref "blog/2025-12-12-cexa-kokkos-hackathon" >}})
+
 Jan 26, 2026: [HPCAsia / SCA 2026 Kokkos Tutorial]({{<ref "/community/events/2026-01-26-hpcasia-tutorial" >}})
 
 Feb 25-27, 2026: [European Kokkos User Group Meeting 2026 at HPSF Community Summit]({{< ref "/community/events/2026-02-25-hpsf-community-summit" >}} "European Kokkos User Group Meeting 2026 at HPSF Community Summit")
