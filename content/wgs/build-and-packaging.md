@@ -36,4 +36,4 @@ Meetings
 --------
 * Schedule: one meeting every two weeks, usually on Tuesdays 10AM EST.
 * [Meeting link (Zoom)](https://zoom-lfx.platform.linuxfoundation.org/meeting/93338788003?password=9100a29d-7ea7-49aa-9172-792656536b1d)
-* Agenda and notes of previous meetings [on github](https://kokkos.org/wgs/build-and-packaging/)
+* Agenda and notes of previous meetings [on github](https://github.com/kokkos/development/tree/main/meeting_notes/wg-build-packaging)
