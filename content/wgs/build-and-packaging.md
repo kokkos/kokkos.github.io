@@ -18,10 +18,10 @@ Members
 -------
 **Leads:**
 * Cédric Chevalier
+* Jakob Bludau
 
 **Participants**
 * Luc Berger-Vergiat
-* Jakob Bludau
 * Damien Lebrun-Grandié
 * Nic Morales
 * Thomas Padioleau
@@ -34,8 +34,6 @@ Connect
 
 Meetings
 --------
-* Schedule: one meeting every two weeks, usually on Thursdays.
+* Schedule: one meeting every two weeks, usually on Tuesdays 10AM EST.
 * [Meeting link (Zoom)](https://zoom-lfx.platform.linuxfoundation.org/meeting/93338788003?password=9100a29d-7ea7-49aa-9172-792656536b1d)
-* Agenda (TBD)
-* Minutes previous meetings (TBD)
-
+* Agenda and notes of previous meetings [on github](https://kokkos.org/wgs/build-and-packaging/)
