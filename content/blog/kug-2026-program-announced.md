@@ -9,18 +9,14 @@ thumbnail: img/blog/HPSF-Conference-Schedule-Live.png
 
 # Kokkos User Group (KUG) 2026: Main Program Schedule Now Live!
 
-Excitement is building for the Kokkos User Group (KUG) 2026, and we're thrilled
-to announce that the [**Main Program schedule is now
-available!**](https://events.linuxfoundation.org/hpsf-conference/program/schedule/)
-Prepare for two action-packed days of in-depth sessions, insightful
-discussions, and unparalleled networking with the Kokkos community.
+We are thrilled to announce that the [**Main Program schedule for the Kokkos User Group (KUG) 2026 is now available!**](https://events.linuxfoundation.org/hpsf-conference/program/schedule/)
+Prepare for two days packed with in-depth sessions, insightful
+discussions, and networking opportunities with the Kokkos community.
 
 **What to Expect:**
 
-* **Eight 90-minute sessions** featuring a dynamic blend of Kokkos developers
+* **Eight 90-minute sessions** featuring a mix of Kokkos developers
   and community users.
-* Hear from familiar faces from KUG 2025, along with a host of exciting new
-  speakers bringing fresh perspectives.
 
 * **Day 1 Highlights:**
   * Kick off with essential **updates from the Kokkos team**.
@@ -36,8 +32,7 @@ discussions, and unparalleled networking with the Kokkos community.
     projects and speakers.
   * Delve into advanced techniques in the "**Algorithms**" session.
   * Master performance optimization in the "**Tuning and Performance**" session.
-  * Conclude the event with a dynamic **Panel Discussion** focused on <span style="color: red; font-weight: bold">TODO</span>. We are working on finalizing the
-    panellist which will include Kokkos team developers, affiliated project
+  * Conclude the event with a dynamic **Panel Discussion** focused on <span style="color: red; font-weight: bold">TODO</span> with panellist from the Kokkos team developers, affiliated project
     representants, and downstream library and application users from the community.
 
 * **Stay Tuned:** While the majority of the program is published, we're
@@ -46,9 +41,7 @@ discussions, and unparalleled networking with the Kokkos community.
 **A Heartfelt Thank You:**
 
 We extend our sincere gratitude to the Program Committee, our dedicated
-speakers, and all the users who submitted proposals. The overwhelming response
-made selection challenging, and we appreciate everyone's enthusiasm and
-support.
+speakers, and all the users who submitted proposals.
 
 **Join Us!**
 
@@ -183,10 +176,10 @@ and secure your spot today.
 <span style="color: red; font-weight: bold">TODO</span> Join us for a dynamic panel session at the Kokkos User Group meeting, bringing together core Kokkos developers, library leads, ecosystem project members, application experts, numerical toolkit developers, and educators. We'll reflect on the journey since our last major release and the dawn of the exascale era, sharing diverse perspectives on successes, challenges, and lessons learned. This is your opportunity to engage with the community, ask questions, and help shape the future direction of Kokkos. Come be a part of the conversation that drives what's next!
 
 **Program Committee:**
-* Jakob Bludau, ORNL, Technical Programm Committee Chair
+* Jakob Bludau, ORNL,
 * Daniel Arndt, ORNL
 * Luc Berger-Vergiat, SNL
-* Conrad Clevenger, SNL
+* Conrad Clevenger, SNL,  Technical Programm Committee Chair
 * Paul Gannay, CEA
 * Damien Lebrun-Grandie, ORNL
 * Trévis Morvany, CEA
