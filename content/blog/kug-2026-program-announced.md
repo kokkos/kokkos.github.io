@@ -61,10 +61,10 @@ and secure your spot today.
 </style>
 |Time | Thursday, March 19, 2026 | Friday, March 20, 2026 |
 | :-------- | :-------: | :-------: |
-| 9:00am-10:20am  | [Introduction](/blog/kug-2026-program-announced/#introduction)<br>(TBD & TBD) | [Kokkos Session](/blog/kug-2026-program-announced/#kokkos-session)<br>(TBD & TBD) |
-| 10:45am-12:05pm | [Kokkos in Applications](/blog/kug-2026-program-announced/#kokkos-in-applications)<br>(TBD & TBD) | [Algorithms](/blog/kug-2026-program-announced/#algorithms)<br>(TBD & TBD) |
-| 1:35pm-3:15pm | [Adopting Kokkos](/blog/kug-2026-program-announced/#adopting-kokkos)<br>(TBD & TBD) | [Tuning and Performance](/blog/kug-2026-program-announced/#tuning-and-performance)<br>(TBD & TBD) |
-| 3:40pm-5:00pm | [Teaching and Training](/blog/kug-2026-program-announced/#panel-on-training)<br>(TBD & TBD) | [Panel Discussion](/blog/kug-2026-program-announced/#teaching-and-training)<br>(TBD & TBD)|
+| 9:00am-10:20am  | [Introduction](#introduction)<br>(TBD & TBD) | [Kokkos Session](#kokkos-session)<br>(TBD & TBD) |
+| 10:45am-12:05pm | [Kokkos in Applications](#kokkos-in-applications)<br>(TBD & TBD) | [Algorithms](#algorithms)<br>(TBD & TBD) |
+| 1:35pm-3:15pm | [Adopting Kokkos](#adopting-kokkos)<br>(TBD & TBD) | [Tuning and Performance](#tuning-and-performance)<br>(TBD & TBD) |
+| 3:40pm-5:00pm | [Teaching and Training](#panel-on-training)<br>(TBD & TBD) | [Panel Discussion](#teaching-and-training)<br>(TBD & TBD)|
 
 ## Sessions Content
 ### Introduction
@@ -128,8 +128,8 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| 9:00am-9:20am | kokkos-FFT updates | Yuuichi Asahi<br>(French Atomic Energy Commission CEA) |
-| 9:20am-9:40am | Towards more efficient MDRangePolicy execution | Hariprasad Kannan<br>(French Atomic Energy Commission CEA) |
+| 9:00am-9:20am | kokkos-FFT updates | Yuuichi Asahi<br>(CEA) |
+| 9:20am-9:40am | Towards more efficient MDRangePolicy execution | Hariprasad Kannan<br>(CEA) |
 | 9:40am-10:00am | Build and Packaging WG: How do I get the Kokkos I want with minimal effort | TBD<br>(TBD) |
 | 10:00am-10:20am | Neuromorphic integration into the Kokkos ecosystem | Bradley Theilman<br>(Sandia National Laboratories) |
 <br><br>
