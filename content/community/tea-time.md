@@ -15,7 +15,7 @@ Each session lasts 45 minutes.
 
 Upcoming
 --------
-* 2025-01-21: [Kokkos Comm: Performance-Portable Communication API for Distributed Kokkos Applications]([https://cexa-project.org/kokkos-tea-time/2025-12-17-kokkos-tea-time-connecting-kokkos-with-the-polyhedral-model/](https://cexa-project.org/kokkos-tea-time/2026-01-21-kokkos-tea-time--kokkos-comm/))
+* 2025-01-21: [Kokkos Comm: Performance-Portable Communication API for Distributed Kokkos Applications](https://cexa-project.org/kokkos-tea-time/2026-01-21-kokkos-tea-time--kokkos-comm/)
 
 Past
 ----
