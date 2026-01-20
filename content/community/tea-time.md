@@ -15,11 +15,12 @@ Each session lasts 45 minutes.
 
 Upcoming
 --------
-* 2025-12-17: [Connecting Kokkos with the Polyhedral Model](
-  https://cexa-project.org/kokkos-tea-time/2025-12-17-kokkos-tea-time-connecting-kokkos-with-the-polyhedral-model/)
+* 2025-01-21: [Kokkos Comm: Performance-Portable Communication API for Distributed Kokkos Applications]([https://cexa-project.org/kokkos-tea-time/2025-12-17-kokkos-tea-time-connecting-kokkos-with-the-polyhedral-model/](https://cexa-project.org/kokkos-tea-time/2026-01-21-kokkos-tea-time--kokkos-comm/))
 
 Past
 ----
+* 2025-12-17: [Connecting Kokkos with the Polyhedral Model](
+  https://cexa-project.org/kokkos-tea-time/2025-12-17-kokkos-tea-time-connecting-kokkos-with-the-polyhedral-model/)
 * 2025-09-17: [Experience converting large scientific software packages written in C++ to C++20 modules](
   https://cexa-project.org/kokkos-tea-time/2025-09-17-kokkos-tea-time-experience-converting-large-scientific-software-packages-written-in-c-to-c-modules/)
 * 2025-06-18: [SERGHEI: a Kokkos-based framework for computational hydraulics and hydrology](
