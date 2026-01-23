@@ -32,8 +32,7 @@ discussions, and networking opportunities with the Kokkos community.
     projects and speakers.
   * Learn more about how to mix **Kokkos and Fortran**
   * Master performance optimization in the "**Tuning and Performance**" session.
-  * <span style="color: red; font-weight: bold">TODO</span> Conclude the event with a dynamic **User Feedback Session** with panellist from the Kokkos team developers, affiliated project
-    representants, and downstream library and application users from the community.
+  * Conclude the event with a dynamic **User Feedback Session**
 
 * **Stay Tuned:** While the majority of the program is published, we're
   finalizing a few details. Please check back for any minor adjustments.
@@ -180,7 +179,7 @@ and secure your spot today.
 | 3:40pm-5:00pm | User Feedback Session | TBD |
 <br><br>
 
-<span style="color: red; font-weight: bold">TODO</span> Join us for a dynamic panel session at the Kokkos User Group meeting, bringing together core Kokkos developers, library leads, ecosystem project members, application experts, numerical toolkit developers, and educators. We'll reflect on the journey since our last major release and the dawn of the exascale era, sharing diverse perspectives on successes, challenges, and lessons learned. This is your opportunity to engage with the community, ask questions, and help shape the future direction of Kokkos. Come be a part of the conversation that drives what's next!
+Join us for a dynamic user feedback session at the Kokkos User Group meeting, bringing together core Kokkos developers, library leads, ecosystem project members, application experts, numerical toolkit developers, and educators. We'll give you the chance to share your experience using Kokkos, as well as your successes, challenges and future expectations. This is your opportunity to engage with the community, ask questions, and help shape the future direction of Kokkos. Come be a part of the conversation that drives what's next!
 
 ### Kokkos in general poster session (Monday, March 16, 2026, 5:05pm-7:05pm)
 
