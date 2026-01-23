@@ -22,7 +22,7 @@ discussions, and networking opportunities with the Kokkos community.
   * Kick off with essential **updates from the Kokkos team**.
   * Explore real-world applications in the "**Kokkos in Applications**"
     session.
-  * Gain practical insights on "**Adopting Kokkos**".
+  * Gain practical insights on **Adopting Kokkos**.
   * Attend a **Teaching and Training** session, and interact with members of
     the community and Kokkos team developers involved in training during the
     **Panel Discussion on Training**.
@@ -30,9 +30,9 @@ discussions, and networking opportunities with the Kokkos community.
 * **Day 2 Highlights:**
   * Dive into the broader **Kokkos ecosystem** with talks from affiliated
     projects and speakers.
-  * Delve into advanced techniques in the "**Algorithms**" session.
+  * Learn more about how to mix **Kokkos and Fortran**
   * Master performance optimization in the "**Tuning and Performance**" session.
-  * Conclude the event with a dynamic **Panel Discussion** focused on <span style="color: red; font-weight: bold">TODO</span> with panellist from the Kokkos team developers, affiliated project
+  * <span style="color: red; font-weight: bold">TODO</span> Conclude the event with a dynamic **User Feedback Session** with panellist from the Kokkos team developers, affiliated project
     representants, and downstream library and application users from the community.
 
 * **Stay Tuned:** While the majority of the program is published, we're
@@ -62,9 +62,9 @@ and secure your spot today.
 |Time | Thursday, March 19, 2026 | Friday, March 20, 2026 |
 | :-------- | :-------: | :-------: |
 | 9:00am-10:20am  | [Introduction](#introduction)<br>(TBD & TBD) | [Kokkos Session](#kokkos-session)<br>(TBD & TBD) |
-| 10:45am-12:05pm | [Kokkos in Applications](#kokkos-in-applications)<br>(TBD & TBD) | [Algorithms](#algorithms)<br>(TBD & TBD) |
+| 10:45am-12:05pm | [Kokkos in Applications](#kokkos-in-applications)<br>(TBD & TBD) | [Kokkos and Fortran](#kokkos-and-fortran)<br>(TBD & TBD) |
 | 1:35pm-3:15pm | [Adopting Kokkos](#adopting-kokkos)<br>(TBD & TBD) | [Tuning and Performance](#tuning-and-performance)<br>(TBD & TBD) |
-| 3:40pm-5:00pm | [Teaching and Training](#panel-on-training)<br>(TBD & TBD) | [Panel Discussion](#teaching-and-training)<br>(TBD & TBD)|
+| 3:40pm-5:00pm | [Teaching and Training](#panel-on-training)<br>(TBD & TBD) | [User Feedback](#user-feedback-session)<br>(TBD & TBD)|
 
 ## Sessions Content
 ### Introduction
@@ -89,9 +89,11 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| 10:45am-11:10am | Utilizing a Kokkos-based dynamical core in a Fortran-based Earth system model | Jian Sun<br>(NSF National Center for Atmospheric Research) |
-| 11:10am-11:30am | Optimizing Compact Difference Schemes for High-Order CFD with Kokkos | Sana Nazir<br>(Purdue University) |
-| 11:30am-11:50am | Exploring Kokkos performance for many-species particle systems with CabanaPD | Sam Reeve<br>(Oak Ridge National Laboratory) |
+| 10:45am-11:05am | Multi-GPU Radiative Transport in Participating Media with Kokkos | Nicolas Tricard<br>(Massachusetts Institute of Technology |
+| 11:05am-11:25am | UmpireSpace - The Kokkos Memory Space You've Always Wanted | Kristi Belcher<br>(Lawrence Livermore National Laboratory) |
+| 11:25am-11:35am | Optimizing Compact Difference Schemes for High-Order CFD with Kokkos | Sana Nazir<br>(Purdue University) |
+| 11:35am-11:45am | Exploring Kokkos performance for many-species particle systems with CabanaPD | Sam Reeve<br>(Oak Ridge National Laboratory) |
+| 11:45am-12:05am | A Portable Data Interpolation Library using Kokkos and ArborX | Ramzi Messahel<br>(Safran) |
 <br><br>
 
 ### Adopting Kokkos
@@ -102,9 +104,11 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| 1:35pm-2:00pm | Kokkos-MOOSE: Planning the Future of MOOSE on Accelerators | Namjae Choi<br>(Idaho National Laboratory) |
-| 2:00pm-2:25pm | HARD: A Performance Portable Multiphysics Code based on FleCSI Framework | Hyun Lim<br>(Los Alamos National Laboratory) |
-| 2:25pm-X:XXpm | Automatic Translation of Fortran to Kokkos (TBD) | TBD<br>(TBD) |
+| 1:35pm-1:55pm | Lessons Learned Porting Vector Particle-In-Cell to Performance Portable SIMD | Nigel Tan<br>(Los Alamos National Laboratory) |
+| 1:55pm-2:15pm | Kokkos-MOOSE: Planning the Future of MOOSE on Accelerators | Namjae Choi<br>(Idaho National Laboratory) |
+| 2:15pm-2:35pm | Kokkos in the deal.II Finite Element Library | Timo Heister<br>(Clemson University) |
+| 2:35pm-2:55pm | HARD: A Performance Portable Multiphysics Code based on FleCSI Framework | Hyun Lim<br>(Los Alamos National Laboratory) |
+| 2:55pm-3:15pm | Pythonizing PyKokkos | Ivan Grigorik<br>(The University of Texas at Austin) |
 <br><br>
 
 ### Teaching and Training
@@ -116,7 +120,7 @@ and secure your spot today.
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
 | 3:40pm-3:50pm | Teaching domain scientists enough C++ for accelerators using their python or R proficiency | Pariksheet Nanda<br> (University of Pittsburgh) |
-| 3:50pm-4:00pm | TBD (Engineering code perspective, Fortran perspective?) | TBD<br> (TBD) |
+| 3:50pm-4:00pm | How Hard is it to Transition a Team of Fortran Developers to Kokkos? | Daniel Holladay<br>(Los Alamos National Laboratory) |
 | 4:00pm-5:00pm | Panel Discussion on Teaching/Training | TBD<br>(TDB) |
 <br><br>
 
@@ -129,12 +133,12 @@ and secure your spot today.
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
 | 9:00am-9:20am | kokkos-FFT updates | Yuuichi Asahi<br>(CEA) |
-| 9:20am-9:40am | Towards more efficient MDRangePolicy execution | Hariprasad Kannan<br>(CEA) |
-| 9:40am-10:00am | Build and Packaging WG: How do I get the Kokkos I want with minimal effort | TBD<br>(TBD) |
+| 9:20am-9:40am | Towards More Efficient MDRangePolicy Execution | Hariprasad Kannan<br>(CEA) |
+| 9:40am-10:00am | Build and Packaging WG: How do I get the Kokkos I want with minimal effort | Jakob Bludau<br>(Oak Ridge National Laboratory) |
 | 10:00am-10:20am | Neuromorphic integration into the Kokkos ecosystem | Bradley Theilman<br>(Sandia National Laboratories) |
 <br><br>
 
-### Algorithms
+### Kokkos and Fortran
 <style>
     table {
         width: 100%;
@@ -142,10 +146,10 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| 10:45am-11:10am | UmpireSpace (TBD) | Kristi Belcher<br>(Lawrence Livermore National Laboratory) |
-| 11:10am-11:25am | A RangePolicy Compatible Per Iteration Scratch Memory Implementation | Daniel Holladay<br>(Los Alamos National Laboratory) |
-| 11:25am-11:50am | Lessons Learned Porting Vector Particle-In-Cell to Performance Portable SIMD | Nigel Tan<br>(Los Alamos National Laboratory) |
-| 11:50am-12:05am | Pythonizing PyKokkos | Ivan Grigorik<br>(The University of Texas at Austin) |
+| 10:45am-11:05am | Kokkos-Fortran-Interop | Bruno Turcksin<br>(Oak Ridge National Laboratory) |
+| 11:05am-11:25am | Automatic Translation of Fortran to Kokkos | Brayden Wagoner<br>(Los Alamos National Laboratory) |
+| 11:25am-11:45am | Utilizing a Kokkos-based dynamical core in a Fortran-based Earth system model | Jian Sun<br>(NSF National Center for Atmospheric Research) |
+| 11:45am-12:05am | Porting a Fortran Plasma Simulation to Exascale on AMD GPUs Using Both OpenMP and Kokkos | Etienne Malaboeuf<br>(CINES) |
 <br><br>
 
 ### Tuning and Performance
@@ -156,13 +160,16 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| 1:35pm-1:50pm | Portable Low Latency In-Kernel Inferencing of Small Neural Networks with Kokkos | Matthew Norman<br>(Oak Ridge National Laboratory) |
-| 1:50pm-2:05pm | Runtime Auto-Tuning for Large-scale Distributed Kokkos Applications on HPC Systems | Vivek Kale<br>(Sandia National Laboratories) |
-| 2:05pm-2:20pm | Events for Kokkos | Jonathan Wong<br>(NVIDIA corporation) |
-| 2:20pm-2:45pm | Hardware-Aware Tiling for Performance-Portable Spectral Element Kernels | Rohit Kakodkar<br>(Princeton University) |
+| 1:35pm-1:55pm | Hardware-Aware Tiling for Performance-Portable Spectral Element Kernels | Rohit Kakodkar<br>(Princeton University) |
+| 1:55pm-2:05pm | Runtime Auto-Tuning for Large-scale Distributed Kokkos Applications on HPC Systems | Vivek Kale<br>(Sandia National Laboratories) |
+| 2:05pm-2:15pm | Events for Kokkos | Jonathan Wong<br>(NVIDIA corporation) |
+| 2:15pm-2:25pm | Portable Low Latency In-Kernel Inferencing of Small Neural Networks with Kokkos | Matthew Norman<br>(Oak Ridge National Laboratory) |
+| 2:25pm-2:35pm | Improvements to the KOKKOS package in LAMMPS | Trung Nguyen<br>(University of Chicago) |
+| 2:35pm-2:55pm | Scalability and Performance Optimization for ExaCA | Matt Rolchigo<br>(Oak Ridge National Laboratories) |
+| 2:55pm-3:15pm | A RangePolicy Compatible Per Iteration Scratch Memory Implementation | Daniel Holladay<br>(Los Alamos National Laboratory) |
 <br><br>
 
-### Panel Discussion
+### User Feedback Session
 <style>
     table {
         width: 100%;
@@ -170,7 +177,7 @@ and secure your spot today.
 </style>
 |Time | Topic | Speakers
 | :-------- | :-------: | :-------: |
-| 3:40pm-5:00pm | Panel Discussion (TBD) | TBD |
+| 3:40pm-5:00pm | User Feedback Session | TBD |
 <br><br>
 
 <span style="color: red; font-weight: bold">TODO</span> Join us for a dynamic panel session at the Kokkos User Group meeting, bringing together core Kokkos developers, library leads, ecosystem project members, application experts, numerical toolkit developers, and educators. We'll reflect on the journey since our last major release and the dawn of the exascale era, sharing diverse perspectives on successes, challenges, and lessons learned. This is your opportunity to engage with the community, ask questions, and help shape the future direction of Kokkos. Come be a part of the conversation that drives what's next!
