@@ -3,7 +3,7 @@ authors: ["kokkos-team"]
 title: "Kokkos User Group Meeting 2026 Program Announced"
 date: "2026-XX-XX"
 tags: ["User Group Meeting", "2026"]
-thumbnail: img/blog/HPSF-Conference-Schedule-Live.png
+thumbnail: img/blog/HPSF-Conference-2026-Schedule-Live.png
 ---
 <br>
 
