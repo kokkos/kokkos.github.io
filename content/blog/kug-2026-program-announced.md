@@ -175,6 +175,12 @@ and secure your spot today.
 
 <span style="color: red; font-weight: bold">TODO</span> Join us for a dynamic panel session at the Kokkos User Group meeting, bringing together core Kokkos developers, library leads, ecosystem project members, application experts, numerical toolkit developers, and educators. We'll reflect on the journey since our last major release and the dawn of the exascale era, sharing diverse perspectives on successes, challenges, and lessons learned. This is your opportunity to engage with the community, ask questions, and help shape the future direction of Kokkos. Come be a part of the conversation that drives what's next!
 
+### Kokkos in general poster session (Monday, March 16, 2026, 5:05pm-7:05pm)
+
+| Time | Topic | Authors
+| :-------- | :-------: | :-------: |
+| 5:05pm-7:05pm | Re-architecting VPIC-Kokkos I/O: Migrating from Legacy Binary to Adaptive HDF5 Workflows | Connor Browne<br>(The University of Tennessee Knoxville) |
+
 **Program Committee:**
 * Jakob Bludau, ORNL,
 * Daniel Arndt, ORNL
