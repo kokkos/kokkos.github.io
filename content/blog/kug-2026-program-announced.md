@@ -20,18 +20,17 @@ discussions, and networking opportunities with the Kokkos community.
 
 * **Day 1 Highlights:**
   * Kick off with essential **updates from the Kokkos team**.
-  * Explore real-world applications in the "**Kokkos in Applications**"
+  * Explore real-world applications in the **Kokkos in Applications**
     session.
   * Gain practical insights on **Adopting Kokkos**.
-  * Attend a **Teaching and Training** session, and interact with members of
-    the community and Kokkos team developers involved in training during the
-    **Panel Discussion on Training**.
+  * Discuss experiences in training and teaching with members of the community
+    and Kokkos developers during the **Panel Discussion on Training**.
 
 * **Day 2 Highlights:**
   * Dive into the broader **Kokkos ecosystem** with talks from affiliated
-    projects and speakers.
+    projects.
   * Learn more about how to mix **Kokkos and Fortran**
-  * Master performance optimization in the "**Tuning and Performance**" session.
+  * Master performance optimization in the **Tuning and Performance** session.
   * Conclude the event with a dynamic **User Feedback Session**
 
 * **Stay Tuned:** While the majority of the program is published, we're
@@ -88,7 +87,7 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| 10:45am-11:05am | Multi-GPU Radiative Transport in Participating Media with Kokkos | Nicolas Tricard<br>(Massachusetts Institute of Technology |
+| 10:45am-11:05am | Multi-GPU Radiative Transport in Participating Media with Kokkos | Nicolas Tricard<br>(Massachusetts Institute of Technology) |
 | 11:05am-11:25am | UmpireSpace - The Kokkos Memory Space You've Always Wanted | Kristi Belcher<br>(Lawrence Livermore National Laboratory) |
 | 11:25am-11:35am | Optimizing Compact Difference Schemes for High-Order CFD with Kokkos | Sana Nazir<br>(Purdue University) |
 | 11:35am-11:45am | Exploring Kokkos performance for many-species particle systems with CabanaPD | Sam Reeve<br>(Oak Ridge National Laboratory) |
@@ -188,10 +187,10 @@ Join us for a dynamic user feedback session at the Kokkos User Group meeting, br
 | 5:05pm-7:05pm | Re-architecting VPIC-Kokkos I/O: Migrating from Legacy Binary to Adaptive HDF5 Workflows | Connor Browne<br>(The University of Tennessee Knoxville) |
 
 **Program Committee:**
-* Jakob Bludau, ORNL,
+* Conrad Clevenger, SNL, Technical Programm Committee Chair
+* Jakob Bludau, ORNL
 * Daniel Arndt, ORNL
 * Luc Berger-Vergiat, SNL
-* Conrad Clevenger, SNL,  Technical Programm Committee Chair
 * Paul Gannay, CEA
 * Damien Lebrun-Grandie, ORNL
 * Trévis Morvany, CEA
