@@ -59,10 +59,10 @@ and secure your spot today.
 </style>
 |Time | Thursday, March 19, 2026 | Friday, March 20, 2026 |
 | :-------- | :-------: | :-------: |
-| 9:00am-10:20am  | [Introduction](#introduction)<br>(TBD & TBD) | [Kokkos Session](#kokkos-session)<br>(TBD & TBD) |
-| 10:45am-12:05pm | [Kokkos in Applications](#kokkos-in-applications)<br>(TBD & TBD) | [Kokkos and Fortran](#kokkos-and-fortran)<br>(TBD & TBD) |
-| 1:35pm-3:15pm | [Adopting Kokkos](#adopting-kokkos)<br>(TBD & TBD) | [Tuning and Performance](#tuning-and-performance)<br>(TBD & TBD) |
-| 3:40pm-5:00pm | [Teaching and Training](#panel-on-training)<br>(TBD & TBD) | [User Feedback](#user-feedback-session)<br>(TBD & TBD)|
+| 9:00am-10:20am  | [Introduction](#introduction)<br>(TBD) | [Kokkos Session](#kokkos-session)<br>(TBD) |
+| 10:45am-12:05pm | [Kokkos in Applications](#kokkos-in-applications)<br>(TBD) | [Kokkos and Fortran](#kokkos-and-fortran)<br>(TBD) |
+| 1:35pm-3:15pm | [Adopting Kokkos](#adopting-kokkos)<br>(TBD) | [Tuning and Performance](#tuning-and-performance)<br>(TBD) |
+| 3:40pm-5:00pm | [Teaching and Training](#panel-on-training)<br>(TBD) | [User Feedback](#user-feedback-session)<br>(TBD)|
 
 ## Sessions Content
 ### Introduction
@@ -73,10 +73,10 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| 9:00am-9:20am | Welcome and overview | TBD<br>(TBD) |
-| 9:20am-9:40am | Update on the Ecosystem and Community | TBD<br>(TBD) |
-| 9:40am-10:00am | Kokkos Core updates | TBD<br>(TBD) |
-| 10:00am-10:20am | Kokkos-Kernels updates | TBD<br>(TBD) |
+| 9:00am-9:20am | Welcome and overview | TBD |
+| 9:20am-9:40am | Update on the Ecosystem and Community | TBD |
+| 9:40am-10:00am | Kokkos Core updates | TBD |
+| 10:00am-10:20am | Kokkos-Kernels updates | TBD |
 <br><br>
 
 ### Kokkos in Applications
@@ -119,7 +119,7 @@ and secure your spot today.
 | :-------- | :-------: | :-------: |
 | 3:40pm-3:50pm | Teaching domain scientists enough C++ for accelerators using their python or R proficiency | Pariksheet Nanda<br> (University of Pittsburgh) |
 | 3:50pm-4:00pm | How Hard is it to Transition a Team of Fortran Developers to Kokkos? | Daniel Holladay<br>(Los Alamos National Laboratory) |
-| 4:00pm-5:00pm | Panel Discussion on Teaching/Training | TBD<br>(TDB) |
+| 4:00pm-5:00pm | Panel Discussion on Teaching/Training | TBD |
 <br><br>
 
 ### Kokkos Session
