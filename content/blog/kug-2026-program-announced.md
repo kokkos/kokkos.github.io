@@ -62,7 +62,7 @@ and secure your spot today.
 | 9:00am-10:20am  | [Introduction](#introduction)<br>(Christian Trott <br> SNL) | [Kokkos Session](#kokkos-session)<br>(Nicolas Morales <br> SNL) |
 | 10:45am-12:05pm | [Kokkos in Applications](#kokkos-in-applications)<br>(Nevin Liber <br> ANL) | [Kokkos and Fortran](#kokkos-and-fortran)<br>(Patrick Diehl <br> LANL) |
 | 1:35pm-3:15pm | [Adopting Kokkos](#adopting-kokkos)<br>(Conrad Clevenger <br> SNL) | [Tuning and Performance](#tuning-and-performance)<br>(Daniel Arndt <br> ORNL) |
-| 3:40pm-5:00pm | [Teaching and Training](#panel-on-training)<br>(Jakob Bludau <br> ORNL) | [User Feedback](#user-feedback-session)<br>(Damien Lebrun-Grandie <br> CEA)|
+| 3:40pm-5:00pm | [Teaching and Training](#panel-on-training)<br>(Jakob Bludau <br> ORNL) | [User Feedback](#user-feedback-session)<br>(Damien Lebrun-Grandie <br> ORNL)|
 
 ## Sessions Content
 ### Introduction
