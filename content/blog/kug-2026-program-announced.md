@@ -9,7 +9,7 @@ thumbnail: img/blog/HPSF-Conference-2026-Schedule-Live.png
 
 # Kokkos User Group (KUG) 2026: Main Program Schedule Now Live!
 
-We are thrilled to announce that the [**Main Program schedule for the Kokkos User Group (KUG) 2026 is now available!**](https://events.linuxfoundation.org/hpsf-conference/program/schedule/)
+We are thrilled to announce that the [**Main Program schedule for the Kokkos User Group (KUG) 2026 is now available!**](https://hpsf2026.sched.com/overview/type/Kokkos+Project+Meeting)
 Prepare for two days packed with in-depth sessions, insightful
 discussions, and networking opportunities with the Kokkos community.
 
