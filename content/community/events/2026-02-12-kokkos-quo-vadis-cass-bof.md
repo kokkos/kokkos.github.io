@@ -23,7 +23,6 @@ direction of the Kokkos Ecosystem.
 
 **Registration:** [Register Here to Receive the Link](https://www.zoomgov.com/meeting/register/Is1k1qy6QD2gb1fxMI9f-A)
 
-
 **Full Schedule:** Part of the [CASS BoF Days](https://cass.community/news/2026-02-10-cass-bof-days.html) series.
 
 ---
@@ -49,5 +48,3 @@ Chicago. It is your primary opportunity to:
 * Luc Berger-Vergiat (Sandia National Laboratories)
 * Julien Bigot (CEA)
 * Michael Heroux (ParaTools, Inc.)
-
-Originally posted [here]
