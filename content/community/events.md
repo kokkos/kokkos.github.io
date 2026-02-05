@@ -7,9 +7,7 @@ tags: [""]
 
 # Upcoming Events
 
-Jan 12-16, 2026: [CExA Kokkos Hackathon]({{<ref "blog/2025-12-12-cexa-kokkos-hackathon" >}})
-
-Jan 26, 2026: [HPCAsia / SCA 2026 Kokkos Tutorial]({{<ref "/community/events/2026-01-26-hpcasia-tutorial" >}})
+Feb 12, 2026: [Kokkos Quo Vadis session at the 2026 CASS BoF Days]({{<ref "/community/events/2026-02-12-kokkos-quo-vadis-cass-bof" >}})  
 
 Feb 25-27, 2026: [European Kokkos User Group Meeting 2026 at HPSF Community Summit]({{< ref "/community/events/2026-02-25-hpsf-community-summit" >}} "European Kokkos User Group Meeting 2026 at HPSF Community Summit")
 
@@ -17,6 +15,10 @@ Mar 19-20, 2026: [Kokkos User Group Meeting 2026 @HPSFcon]({{<ref "/blog/kug-202
 
 
 # Past Events
+
+Jan 26, 2026: [HPCAsia / SCA 2026 Kokkos Tutorial]({{<ref "/community/events/2026-01-26-hpcasia-tutorial" >}})
+
+Jan 12-16, 2026: [CExA Kokkos Hackathon]({{<ref "blog/2025-12-12-cexa-kokkos-hackathon" >}})
 
 [Kokkos User Group Meeting 2025]({{< ref "/blog/kug-2025" >}} "Kokkos User Group Meeting 2025")
 
