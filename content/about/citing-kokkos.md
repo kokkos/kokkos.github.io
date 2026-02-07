@@ -8,11 +8,33 @@ url: "citing-kokkos"
 
 # Citing Kokkos
 
-Use the following references when citing Kokkos in your work.
+To help us track the impact of the Kokkos project and to ensure scientific
+reproducibility, please use the following references when citing Kokkos in your
+work.
 
-## Overall Ecosystem
+## Version-Specific Citations
 
-The Kokkos Ecosystem citation is in particular appropriate when using multiple Kokkos subprojects.
+For better reproducibility in research publications, we strongly recommend
+citing the specific version of Kokkos used in your work. Since version 5.0,
+every Kokkos release is archived on Zenodo with a unique Digital Object
+Identifier (DOI).
+
+* Find your version: Please visit our [Releases Page](/about/releases) to find
+  the specific DOI for the version you utilized.
+* Format: You can cite it as a software release (e.g., *Kokkos Core v5.0.1,
+  DOI: 10.5281/zenodo.18408291*).
+
+---
+
+## Thematic Publications
+
+In addition to citing the specific software version, please cite the relevant
+papers below that describe the components of the Kokkos Ecosystem you used.
+
+### Overall Ecosystem
+
+Use this citation when referring to the collective project or when utilizing
+multiple Kokkos subprojects (Core, Kernels, Tools).
 
 ```
 @article{KokkosEcosystem2021,
@@ -29,7 +51,7 @@ The Kokkos Ecosystem citation is in particular appropriate when using multiple K
 ```
 
 
-## Kokkos Core
+### Kokkos Core
 
 The most recent (and primary) citation is:
 
@@ -69,7 +91,7 @@ A description of the fundamental concepts can be found here:
 ```
 
 
-## Kokkos Kernels
+### Kokkos Kernels
 
 ```
 @misc{KokkosKernels2021,
@@ -85,7 +107,7 @@ A description of the fundamental concepts can be found here:
 }
 ```
 
-## Kokkos Tools
+### Kokkos Tools
 
 ```
 @InProceedings{10.1007/978-3-030-02465-9_53,
