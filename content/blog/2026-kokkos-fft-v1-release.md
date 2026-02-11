@@ -1,7 +1,7 @@
 ---
 authors: ["kokkos-team"]
 title: "Kokkos-FFT v1.0.0 release"
-date: "2026-02-04"
+date: "2026-02-11"
 tags: ["blog"]
 thumbnail: img/blog/2026/kokkos-fft/Taylor_Green_Vortex.png
 ---
@@ -38,7 +38,7 @@ By releasing `Kokkos-FFT` v1.0.0, we consider `KokkosFFT` production ready and t
 
 We are planning to add the following functionalities. Contributions to the project are highly welcomed (see [developer guide](https://kokkosfft.readthedocs.io/en/latest/developer_guide.html)).
 
-* Multi-GPU support with MPI. We have started the integration of a prototype [2] into the [Kokkos-FFT](https://github.com/kokkos/kokkos-fft) repository (see z-velocity plot from a distributed Taylor–Green vortex simulation).
+* Multi-GPU support with MPI. We have started the integration of a prototype [2] into the [Kokkos-FFT](https://github.com/kokkos/kokkos-fft) repository (see x component of vorticity plot from a distributed Taylor–Green vortex simulation).
 
 * Device callable batched capability of FFTs like [`Kokkos Kernels`](https://github.com/kokkos/kokkos-kernels)
 
