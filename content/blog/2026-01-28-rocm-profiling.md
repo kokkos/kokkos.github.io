@@ -261,6 +261,7 @@ The rocBLAS implementation achieves superior performance through a combination o
 
 ROCm's profiling tools provide powerful insights into GPU application performance.
 The combination of `rocprofv3` for system-level tracing and `rocprof-compute` for detailed kernel analysis enables developers to identify optimization opportunities effectively.
+`rocprofv3` even provides built-in Kokkos profiling support via the `--kokkos-trace` flag; the user doesn't need to compile Kokkos Tools and load the roctx connector.
 In our example, the analysis clearly shows how rocBLAS leverages hardware-specific features (MFMA instructions and LDS) to achieve dramatic performance improvements over naive implementations.
 
 These tools continue to evolve, with AMD working to unify the profiling experience similar to NVIDIA's Nsight ecosystem.
