@@ -8,7 +8,7 @@ thumbnail: img/blog/2026/2026-01-28-hero.jpg
 
 Optimizing HPC applications for GPUs can be a challenge, and AMD's GPUs are no exception.
 AMD provides performance profiling and understanding tools with its ROCm GPU programming environment.
-This post demonstrates how to use ROCm's profiling tools with Kokkos applications, specifically focusing on ```rocprof-sys``` (formerly Omnitrace) and ```rocprof-compute``` to analyze a simple GEMM implementation and compare it against the one present in rocBLAS.
+This post demonstrates how to use ROCm's profiling tools with Kokkos applications, specifically focusing on ```rocprof-sys``` (formerly Omnitrace) and ```rocprof-compute``` to analyze a simple GEMM implementation and compare it against the one provided by rocBLAS.
 
 ## Setting Up the Environment
 
