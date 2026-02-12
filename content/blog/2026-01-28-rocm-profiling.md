@@ -16,7 +16,7 @@ This example was carried out on Sandia's El Dorado system, which is similar to E
 We preserve a fair amount of detail here for completeness - you may need to substitute your own environment details where appropriate.
 
 First, retrieve Kokkos and Kokkos Kernels.
-Kokkos Kernels provides an interface to ROCm's math libraries for the Kokkos exosystem.
+Kokkos Kernels provides an interface to ROCm's math libraries for the Kokkos ecosystem.
 The specific versions of these two libraries doesn't matter as long as they support the ROCm you have available.
 
 ```bash
