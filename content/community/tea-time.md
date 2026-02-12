@@ -16,7 +16,7 @@ Each session lasts 45 minutes.
 Upcoming
 --------
 * 2026-02-18: [C++ Reflection for Data Layout Abstraction](
-  https://cexa-project.org/kokkos-tea-time/2026-02-18-kokkos-tea-time-c---reflection-for-data-layout-abstraction/)
+  https://cexa-project.org/kokkos-tea-time/2026-02-18-tea-time-c++-reflection/)
 
 Past
 ----
