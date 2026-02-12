@@ -72,7 +72,7 @@ Kokkos Kernels TPLs
 The example application provides two GEMM implementations:
 
 ```c++
-// naive GEMM, written using Kokkos MDRange policy
+// Naive GEMM, written using Kokkos MDRange policy
 template <typename ViewType>
 void gemm_naive(const ViewType& C, const ViewType& A, const ViewType& B) {
     const int M = A.extent(0);
