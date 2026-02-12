@@ -15,10 +15,13 @@ Each session lasts 45 minutes.
 
 Upcoming
 --------
-* 2026-01-21: [Kokkos Comm: Performance-Portable Communication API for Distributed Kokkos Applications](https://cexa-project.org/kokkos-tea-time/2026-01-21-kokkos-tea-time--kokkos-comm/)
+* 2026-02-18: [C++ Reflection for Data Layout Abstraction](
+  https://cexa-project.org/kokkos-tea-time/2026-02-18-kokkos-tea-time-c---reflection-for-data-layout-abstraction/)
 
 Past
 ----
+* 2026-01-21: [Kokkos Comm: Performance-Portable Communication API for Distributed Kokkos Applications](
+  https://cexa-project.org/kokkos-tea-time/2026-01-21-kokkos-tea-time--kokkos-comm/)
 * 2025-12-17: [Connecting Kokkos with the Polyhedral Model](
   https://cexa-project.org/kokkos-tea-time/2025-12-17-kokkos-tea-time-connecting-kokkos-with-the-polyhedral-model/)
 * 2025-09-17: [Experience converting large scientific software packages written in C++ to C++20 modules](
