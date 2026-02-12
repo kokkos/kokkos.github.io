@@ -145,7 +145,7 @@ On El Dorado, the naive implementation took 1.26 seconds while the rocBLAS versi
 
 Pro tip: Pin important rows to the top for easier analysis.
 
-![](img/blog/2026/2026-01-28-perfetto-1.png)
+{{< image src="img/blog/2026/2026-01-28-perfetto-1.png">}}
 
 The screenshot above shows the Perfetto UI after loading the `.proto` trace file.
 There are two rows, one labeled `gemm 35163` with the binary name and process ID, and the other one a "HIP Activity" on a particular device and queue.
@@ -156,7 +156,7 @@ We can actually use this trace to see why it is important to exclude these warm-
 The `KokkosBlas::gemm` call is what wraps rocBLAS, and internally, its time is mostly consumed by a `hipModuleLoadData` call internal to rocBLAS.
 This call takes `223` milliseconds the first time, but future rocBLAS calls do not invoke it, and happen much faster.
 
-![](img/blog/2026/2026-01-28-perfetto-2.png)
+{{< image src="img/blog/2026/2026-01-28-perfetto-2.png">}}
 
 Here, we zoom in on a slice of the run time.
 This shows the four rocBLAS GEMMs that we time.
