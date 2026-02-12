@@ -139,7 +139,7 @@ On El Dorado, the naive implementation took 1.26 seconds while the rocBLAS versi
 `rocprofv3` creates a directory `<hostname>` containing the trace files. To visualize:
 
 1. Copy the `<hostname>/*.pftrace` file to your local machine
-2. Navigate to [https://ui.perfetto.dev](https://ui.perfetto.dev)
+2. Navigate to <https://ui.perfetto.dev>
 3. Open the trace file
 4. Use WASD keys to navigate (yes, like a video game!)
 
