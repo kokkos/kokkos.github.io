@@ -1,14 +1,14 @@
 ---
 authors: ["kokkos-team"]
 title: "Kokkos-FFT v1.0.0 release"
-date: "2026-02-11"
+date: "2026-02-13"
 tags: ["blog"]
 thumbnail: img/blog/2026/kokkos-fft/Taylor_Green_Vortex.png
 ---
 
 # Kokkos-FFT key features
 
-We are pleased to announce that [Kokkos-FFT](https://github.com/kokkos/kokkos-fft) v1.0.0 has just been released. Let us recap its key features [1]:
+We are pleased to announce that [Kokkos-FFT](https://github.com/kokkos/kokkos-fft) v1.0.0 has just been released, that is, reaching to the production level. Let us recap its key features [1]:
 
 * A simple interface like [`numpy.fft`](https://numpy.org/doc/stable/reference/routines.fft.html) with in-place and out-of-place transforms:  
 Only accepts [Kokkos Views](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) to make APIs simple and safe.
@@ -28,11 +28,15 @@ FFT libraries for the enabled Kokkos backends are executed on the stream/queue u
 
 By releasing `Kokkos-FFT` v1.0.0, we consider `KokkosFFT` production ready and the experimental warning has been suppressed. Here are the major changes:
 
-* To align with `Kokkos` 5.0, we have set C++20 as a minimal requirement.
-* We have completed the refactoring of source codes as well as CIs and documentations.
+* To align with `Kokkos` 5.0, we have set C++20 as a minimal requirement (minimum requirement of `Kokkos` is still 4.6, but recommended to use `Kokkos` 5.0 or later).
+
+* We have improved the [documentations](https://kokkosfft.readthedocs.io/en/latest/).
+
 * We have secured the current APIs, we will not break current APIs under `KokkosFFT` namespace, until the next major release.
-* We have created a `Spack` recipe to ease installation.
-* We have created a [`Slack channel`](https://kokkosteam.slack.com/archives/C07NM5SD3FD) for support.
+
+* We have created a [`Spack` recipe](https://packages.spack.io/package.html?name=kokkos-fft) to ease installation.
+
+* We have created a [\#kokkos-fft](https://kokkosteam.slack.com/archives/C07NM5SD3FD) channel for support on the Kokkos Slack Workspace.
 
 # Future developments
 
