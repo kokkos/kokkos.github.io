@@ -64,7 +64,6 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 
 **Kokkos Kernels:**
 - Luc Berger-Vergiat, SNL, Project Lead
-- Siva Rajamanickam, SNL, Project Lead
 - Yuuichi Asahi, CEA
 - Vinh Dang, SNL
 - Nathan Ellingwood, SNL
@@ -83,6 +82,8 @@ Kernels](https://github.com/kokkos/kokkos-kernels/graphs/contributors).
 We especially recognize the vision and leadership of project founders Carter
 Edwards and Daniel Sutherland of Sandia National Laboratories, who began this
 journey in 2012.
+Additionally, we recognize the seminal work of Siva Rajamanickam on Kokkos
+Kernels.
 
 <style>
 
