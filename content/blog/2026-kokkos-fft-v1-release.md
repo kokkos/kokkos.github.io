@@ -1,7 +1,7 @@
 ---
 authors: ["kokkos-team"]
 title: "Kokkos-FFT v1.0.0 release"
-date: "2026-02-13"
+date: "2026-02-16"
 tags: ["blog"]
 thumbnail: img/blog/2026/kokkos-fft/Taylor_Green_Vortex.png
 ---
@@ -26,7 +26,7 @@ FFT libraries for the enabled Kokkos backends are executed on the stream/queue u
 
 # Major changes in release v1.0.0
 
-By releasing `Kokkos-FFT` v1.0.0, we consider `KokkosFFT` production ready and the experimental warning has been suppressed. Here are the major changes:
+By releasing `Kokkos-FFT` v1.0.0, we consider `KokkosFFT` production-ready and the experimental warning has been suppressed. Here are the major changes:
 
 * To align with `Kokkos` 5.0, we have set C++20 as a minimal requirement (minimum requirement of `Kokkos` is still 4.6, but recommended to use `Kokkos` 5.0 or later).
 
