@@ -32,7 +32,7 @@ By releasing `Kokkos-FFT` v1.0.0, we consider `KokkosFFT` production ready and t
 
 * We have improved the [documentations](https://kokkosfft.readthedocs.io/en/latest/).
 
-* We have secured the current APIs, we will not break current APIs under `KokkosFFT` namespace, until the next major release.
+* You can expect the APIs to remain stable; we follow [semantic versioning](https://semver.org/) and will not break current APIs under `KokkosFFT` namespace, until the next major release.
 
 * We have created a [`Spack` recipe](https://packages.spack.io/package.html?name=kokkos-fft) to ease installation.
 
