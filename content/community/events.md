@@ -7,14 +7,14 @@ tags: [""]
 
 # Upcoming Events
 
-Feb 12, 2026: [Kokkos Quo Vadis session at the 2026 CASS BoF Days]({{<ref "/community/events/2026-02-12-kokkos-quo-vadis-cass-bof" >}})  
-
 Feb 25-27, 2026: [European Kokkos User Group Meeting 2026 at HPSF Community Summit]({{< ref "/community/events/2026-02-25-hpsf-community-summit" >}} "European Kokkos User Group Meeting 2026 at HPSF Community Summit")
 
 Mar 19-20, 2026: [Kokkos User Group Meeting 2026 @HPSFcon]({{<ref "/blog/kug-2026-call-for-submissions" >}})
 
 
 # Past Events
+
+Feb 12, 2026: [Kokkos Quo Vadis session at the 2026 CASS BoF Days]({{<ref "/community/events/2026-02-12-kokkos-quo-vadis-cass-bof" >}})  
 
 Jan 26, 2026: [HPCAsia / SCA 2026 Kokkos Tutorial]({{<ref "/community/events/2026-01-26-hpcasia-tutorial" >}})
 
