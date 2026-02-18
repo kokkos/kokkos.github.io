@@ -6,7 +6,7 @@ date: "2026-02-06"
 Overview
 --------
 This Working Group is dedicated to curating and developing high-quality
-instructional materials for the Kokkos performance portability library. This
+instructional materials for the Kokkos Ecosystem. This
 group focuses on building a comprehensive curriculum, maintaining up-to-date
 tutorial slides, and designing hands-on exercises to streamline the learning
 process. Their efforts aim to lower the barrier to entry for new users and
@@ -23,7 +23,7 @@ Members
 **Participants:**
 * Patrick Diehl
 * Rahul Gayatri
-* Damien Lebrun-Grandié
+* Christian Trott
 
 Connect
 -------
