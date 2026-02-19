@@ -25,9 +25,9 @@ simplify the user experience and facilitate wider adoption of Kokkos.
 [Education and Training]( {{< ref "wgs/education-and-training" >}} )
 --------------------------------------------------------------------
 The Kokkos Education and Training Working Group is dedicated to curating and
-developing high-quality instructional materials for the Kokkos performance
-portability library. This group focuses on building a comprehensive curriculum,
-maintaining up-to-date tutorial slides, and designing hands-on exercises to
-streamline the learning process. Their efforts aim to lower the barrier to
-entry for new users and provide seasoned developers with the resources needed
-to master advanced features.
+developing high-quality instructional materials for the Kokkos Ecosystem. This
+group focuses on building a comprehensive curriculum, maintaining up-to-date
+tutorial slides, and designing hands-on exercises to streamline the learning
+process. Their efforts aim to lower the barrier to entry for new users and
+provide seasoned developers with the resources needed to master advanced
+features.
