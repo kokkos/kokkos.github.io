@@ -15,7 +15,8 @@ Each session lasts 45 minutes.
 
 Upcoming
 --------
-TBD
+* 2026-03-18: [HOPPS: A performance portable spectral difference solver for high-fidelity computational fluid dynamics](
+  https://cexa-project.org/kokkos-tea-time/2026-03-18-tea-time-hopps/)
 
 Past
 ----
