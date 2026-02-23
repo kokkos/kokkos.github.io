@@ -1,5 +1,5 @@
 Kokkos is under the Apache License v2.0 with LLVM Exceptions:
- =============================================================
+=============================================================
 
                                  Apache License
                            Version 2.0, January 2004
