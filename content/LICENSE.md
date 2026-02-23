@@ -206,6 +206,3 @@ mechanisms:
 2) It will contain specific license and restriction terms at the top of every
    file.
 
-Questions? Contact: 
-  Christian R. Trott (crtrott@sandia.gov) and
-  Damien T. Lebrun-Grandie (lebrungrandt@ornl.gov)
