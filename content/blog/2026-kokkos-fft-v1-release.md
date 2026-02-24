@@ -1,26 +1,25 @@
 ---
 authors: ["kokkos-team"]
 title: "Kokkos-FFT v1.0.0 release"
-date: "2026-02-16"
+date: "2026-02-24"
 tags: ["blog"]
 thumbnail: img/blog/2026/kokkos-fft/Taylor_Green_Vortex.png
 ---
 
 # Kokkos-FFT key features
 
-We are pleased to announce that [Kokkos-FFT](https://github.com/kokkos/kokkos-fft) v1.0.0 has just been released, that is, reaching to the production level. Let us recap its key features [1]:
+We are pleased to announce that [Kokkos-FFT](https://github.com/kokkos/kokkos-fft) v1.0.0 has just been released, and has reached the production level. Let us recap its key features [1]:
+
+* Integrated naturally in the Kokkos ecosystem on top of [Kokkos Views](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) and [Kokkos ExecutionSpace](https://kokkos.org/kokkos-core-wiki/API/core/execution_spaces.html).
 
 * A simple interface like [`numpy.fft`](https://numpy.org/doc/stable/reference/routines.fft.html) with in-place and out-of-place transforms:  
-Only accepts [Kokkos Views](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) to make APIs simple and safe.
+Only accepts `Kokkos Views` to make APIs simple and safe.
 
 * 1D, 2D, 3D standard and real FFT functions (similar to [`numpy.fft`](https://numpy.org/doc/stable/reference/routines.fft.html)) over 1D to 8D Kokkos Views:  
 Batched plans are automatically used if `View` dimension is larger than FFT dimension.
 
 * A reusable [FFT plan](https://kokkosfft.readthedocs.io/en/latest/api/plan/plan.html) which wraps the vendor libraries for various Kokkos backends: 
-[FFTW](http://www.fftw.org), [cuFFT](https://developer.nvidia.com/cufft), [hipFFT](https://github.com/ROCm/hipFFT) ([rocFFT](https://github.com/ROCm/rocFFT)), and [oneMKL](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html) are automatically enabled based on the enabled Kokkos backends.
-
-* Support for multiple CPU and GPU backends:
-FFT libraries for the enabled Kokkos backends are executed on the stream/queue used in their corresponding execution spaces.
+[FFTW](http://www.fftw.org) for Host Backends (`Serial`, `OpenMP`, and `Threads`), [cuFFT](https://developer.nvidia.com/cufft) for `Cuda` backend, [hipFFT](https://github.com/ROCm/hipFFT) ([rocFFT](https://github.com/ROCm/rocFFT)) for `HIP` backend, and [oneMKL](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html) for `SYCL` backend are automatically enabled based on the enabled Kokkos backends.
 
 * Compile-time and run-time checks for invalid usage (e.g. `View` extents mismatch).
 
@@ -36,13 +35,13 @@ By releasing `Kokkos-FFT` v1.0.0, we consider `KokkosFFT` production-ready and t
 
 * We have created a [`Spack` recipe](https://packages.spack.io/package.html?name=kokkos-fft) to ease installation.
 
-* We have created a [\#kokkos-fft](https://kokkosteam.slack.com/archives/C07NM5SD3FD) channel for support on the Kokkos Slack Workspace.
+* You can join us in the [\#kokkos-fft](https://kokkosteam.slack.com/archives/C07NM5SD3FD) channel for support on the Kokkos Slack Workspace.
 
 # Future developments
 
 We are planning to add the following functionalities. Contributions to the project are highly welcomed (see [developer guide](https://kokkosfft.readthedocs.io/en/latest/developer_guide.html)).
 
-* Multi-GPU support with MPI. We have started the integration of a prototype [2] into the [Kokkos-FFT](https://github.com/kokkos/kokkos-fft) repository (see x component of vorticity plot from a distributed Taylor–Green vortex simulation).
+* Multi-GPU support with MPI. We have started the integration of a prototype [2] into the [Kokkos-FFT](https://github.com/kokkos/kokkos-fft) repository (see the thumbnail for the x component of vorticity plot from a distributed Taylor–Green vortex simulation).
 
 * Device callable batched capability of FFTs like [`Kokkos Kernels`](https://github.com/kokkos/kokkos-kernels)
 
