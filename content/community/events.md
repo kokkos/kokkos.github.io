@@ -9,6 +9,8 @@ tags: [""]
 
 Feb 25-27, 2026: [European Kokkos User Group Meeting 2026 at HPSF Community Summit]({{< ref "/community/events/2026-02-25-hpsf-community-summit" >}} "European Kokkos User Group Meeting 2026 at HPSF Community Summit")
 
+Mar 09-13, 2026: [Kokkos developers meeting 2026]({{< ref "/community/events/2026-03-09-developers-meeting" >}})
+
 Mar 19-20, 2026: [Kokkos User Group Meeting 2026 @HPSFcon]({{<ref "/blog/kug-2026-call-for-submissions" >}})
 
 

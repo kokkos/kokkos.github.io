@@ -102,3 +102,34 @@ Afternoon
   * Hands on experience/hackathon with AI
 * When will we do our next devs meeting
 * Closing remarks
+
+## Hotel Accomodation
+
+Albuquerque is NOT an inherently walkable city, however there are two decent hotels close enough that a car wouldn't be strictly necessary.
+Besides those there are many good hotels throughout Albuquerque. Any place *east* of the River (i.e. in Albuquerque proper) will be fine and at most 15-20mins by car.
+
+*We do NOT recommend staying in the nearby Motel6/Studio6!*
+
+#### Home2 Suites by Hilton Albuquerque/Downtown-University
+
+  * *Website:* https://www.hilton.com/en/hotels/abqduht-home2-suites-albuquerque-downtown-university/
+  * *Price:* ~$140/night
+
+#### Crowne Plaza Albuquerque
+
+  * *Website:* https://www.ihg.com/crowneplaza/hotels/us/en/albuquerque/abqcp
+  * *Price:* ~$110/night
+
+#### Other Recommended Areas
+
+  * Uptown - several hotels in walking distance to restaurants and shops for example:
+    * Marriott Albuquerque: https://www.marriott.com/en-us/hotels/abqnm-marriott-albuquerque/overview/
+    * Homewood Suites by Hilton: https://www.hilton.com/en/hotels/abqhwhw-homewood-suites-albuquerque-uptown/
+    * Sheraton Albuquerque Uptown: https://www.marriott.com/en-us/hotels/abqsi-sheraton-albuquerque-uptown/
+
+## Transportation
+
+  * The Albuquerque Airport (Sunport) is about 15-20 mins by car to central Albuqerque.
+  * We do not recommend public transportation in Albuquerque.
+  * Ride services are readily available.
+  * Parking is ubiquitous and free, so rental cars are a convenient method to get around.
