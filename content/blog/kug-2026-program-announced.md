@@ -73,10 +73,10 @@ and secure your spot today.
 </style>
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| 9:00am-9:20am | Welcome and overview | TBD |
-| 9:20am-9:40am | Update on the Ecosystem and Community | TBD |
-| 9:40am-10:00am | Kokkos Core updates | TBD |
-| 10:00am-10:20am | Kokkos-Kernels updates | TBD |
+| 9:00am-9:10am | Welcome and overview | Damien Lebrun-Grandie<br>(Oak Ridge National Laboratory) |
+| 9:10am-9:30am | Update on the Ecosystem and Community | Damien Lebrun-Grandie<br>(Oak Ridge National Laboratory) |
+| 9:30am-10:00am | Kokkos Core updates | Christian Trott<br>(Sandia National Laboratories) |
+| 10:00am-10:20am | Kokkos-Kernels updates | Luc Berger-Vergiat<br>(Sandia National Laboratories) |
 <br><br>
 
 ### Kokkos in Applications
@@ -119,7 +119,7 @@ and secure your spot today.
 | :-------- | :-------: | :-------: |
 | 3:40pm-3:50pm | Teaching domain scientists enough C++ for accelerators using their python or R proficiency | Pariksheet Nanda<br> (University of Pittsburgh) |
 | 3:50pm-4:00pm | How Hard is it to Transition a Team of Fortran Developers to Kokkos? | Daniel Holladay<br>(Los Alamos National Laboratory) |
-| 4:00pm-5:00pm | Panel Discussion on Teaching/Training | TBD |
+| 4:00pm-5:00pm | Panel Discussion on Teaching/Training | Jakob Bludau<br>(Oak Ridge National Laboratory) |
 <br><br>
 
 ### Kokkos Session
@@ -160,7 +160,7 @@ and secure your spot today.
 | :-------- | :-------: | :-------: |
 | 1:35pm-1:55pm | Hardware-Aware Tiling for Performance-Portable Spectral Element Kernels | Rohit Kakodkar<br>(Princeton University) |
 | 1:55pm-2:05pm | Runtime Auto-Tuning for Large-scale Distributed Kokkos Applications on HPC Systems | Vivek Kale<br>(Sandia National Laboratories) |
-| 2:05pm-2:15pm | Events for Kokkos | Jonathan Wong<br>(NVIDIA corporation) |
+| 2:05pm-2:15pm | KokkosComm: Communication Layer for Distributed Kokkos Applications | Nicolas Morales<br>(Sandia National Laboratories) |
 | 2:15pm-2:25pm | Portable Low Latency In-Kernel Inferencing of Small Neural Networks with Kokkos | Matthew Norman<br>(Oak Ridge National Laboratory) |
 | 2:25pm-2:35pm | Improvements to the KOKKOS package in LAMMPS | Trung Nguyen<br>(University of Chicago) |
 | 2:35pm-2:55pm | Scalability and Performance Optimization for ExaCA | Matt Rolchigo<br>(Oak Ridge National Laboratories) |
@@ -173,9 +173,9 @@ and secure your spot today.
         width: 100%;
     }
 </style>
-|Time | Topic | Speakers
+|Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
-| 3:40pm-5:00pm | User Feedback Session | TBD |
+| 3:40pm-5:00pm | User Feedback Session | Damien Lebrun-Grandie<br>(Oak Ridge National Laboratory) |
 <br><br>
 
 Join us for a dynamic user feedback session at the Kokkos User Group meeting, bringing together core Kokkos developers, library leads, ecosystem project members, application experts, numerical toolkit developers, and educators. We'll give you the chance to share your experience using Kokkos, as well as your successes, challenges and future expectations. This is your opportunity to engage with the community, ask questions, and help shape the future direction of Kokkos. Come be a part of the conversation that drives what's next!
