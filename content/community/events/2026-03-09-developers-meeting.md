@@ -35,8 +35,8 @@ Afternoon
 ### Tuesday
 
 Morning
-* MDRange Policy performance discussion, will include online participants as well
-* HPSF update, what have we accomplished, what do we want to work on for the upcoming year?
+* 8am - 9am MDRange Policy performance discussion, will include online participants as well
+* 9am - 10am HPSF update, what have we accomplished, what do we want to work on for the upcoming year?
 
 Afternoon
 * Kokkos Core interoperability
@@ -49,10 +49,10 @@ Evening
 ### Wednesday
 
 Morning - Working groups discussion
-* New training and eductional material WG (with Paul Z. online)
-* Build and packaging working group report
-* CI working group report
-* Interaction with HPSF working groups (Benchmark, CI, Binary, Outreach...)
+* 8:00am - 8:45am New training and eductional material WG (with Paul Z. online)
+* 8:45am - 9:30am Build and packaging working group report
+* 10:00am - 10:45am CI working group report
+* 10:45am - 11:30am Interaction with HPSF working groups (Benchmark, CI, Binary, Outreach...)
 
 Afternoon
 * Group picture
@@ -67,11 +67,12 @@ Evening
 ### Thursday
 
 Morning 
-* Release retrospective
-* Package versioning in the Ecosystem
-* Ecosystem scope discussion
+* 8:00am - 9:00am Release retrospective (DongHen, Daniel)
+* 9:00am - 9:45am Package versioning in the Ecosystem
+* 10:00am - 10:45am Ecosystem scope discussion
   * What current project are at what level?
   * What new project might join? Cabana, ArborX
+* 10:45am - 11:30am Kokkos Tools
 
 Afternoon
 * Kokkos Kernels build system hackathon
