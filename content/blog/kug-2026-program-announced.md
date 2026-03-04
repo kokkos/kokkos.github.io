@@ -147,7 +147,7 @@ and secure your spot today.
 | 10:45am-11:05am | Kokkos-Fortran-Interop | Bruno Turcksin<br>(Oak Ridge National Laboratory) |
 | 11:05am-11:25am | Automatic Translation of Fortran to Kokkos | Brayden Wagoner<br>(Los Alamos National Laboratory) |
 | 11:25am-11:45am | Utilizing a Kokkos-based dynamical core in a Fortran-based Earth system model | Jian Sun<br>(NSF National Center for Atmospheric Research) |
-| 11:45am-12:05am | Porting a Fortran Plasma Simulation to Exascale on AMD GPUs Using Both OpenMP and Kokkos | Etienne Malaboeuf<br>(CINES) |
+| 11:45am-12:05am | Porting a Fortran Plasma Simulation to Exascale on AMD GPUs Using Both OpenMP and Kokkos | Yuuichi Asahi<br>(CEA) |
 <br><br>
 
 ### Tuning and Performance
