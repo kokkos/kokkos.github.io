@@ -1,14 +1,14 @@
 ---
 authors: ["kokkos-team"]
-title: "Kokkos-FFT v1.0.0 release"
-date: "2026-02-24"
+title: "Kokkos-FFT v1.0 release"
+date: "2026-03-05"
 tags: ["blog"]
 thumbnail: img/blog/2026/kokkos-fft/Taylor_Green_Vortex.png
 ---
 
 # Kokkos-FFT key features
 
-We are pleased to announce that [Kokkos-FFT](https://github.com/kokkos/kokkos-fft) v1.0.0 has just been released, and has reached the production level. Let us recap its key features [1]:
+We are pleased to announce that [Kokkos-FFT](https://github.com/kokkos/kokkos-fft) v1.0 has just been released, and has reached the production level. Let us recap its key features [1]:
 
 * Integrated naturally in the Kokkos ecosystem on top of [Kokkos Views](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) and [Kokkos ExecutionSpace](https://kokkos.org/kokkos-core-wiki/API/core/execution_spaces.html).
 
@@ -23,9 +23,9 @@ Batched plans are automatically used if `View` dimension is larger than FFT dime
 
 * Compile-time and run-time checks for invalid usage (e.g. `View` extents mismatch).
 
-# Major changes in release v1.0.0
+# Major changes in release v1.0
 
-By releasing `Kokkos-FFT` v1.0.0, we consider `KokkosFFT` production-ready and the experimental warning has been suppressed. Here are the major changes:
+By releasing `Kokkos-FFT` v1.0, we consider `KokkosFFT` production-ready and the experimental warning has been suppressed. Here are the major changes:
 
 * To align with `Kokkos` 5.0, we have set C++20 as a minimal requirement (minimum requirement of `Kokkos` is still 4.6, but recommended to use `Kokkos` 5.0 or later).
 
