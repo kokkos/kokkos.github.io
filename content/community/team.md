@@ -59,6 +59,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Romin Tomasetti, ULiege
 - Bruno Turcksin, ORNL
 - Paul Zhener, CEA
+- Prateek Chawla, FZJ
 
 &nbsp;
 
