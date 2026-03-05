@@ -24,6 +24,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 <span class="botline">
 {{< image src="img/ANL-logo-300x105.png"           class="community-team-image-medium">}}
 {{< image src="img/CSCS-Logo-258X79.jpg"           class="community-team-image-small">}}
+{{< image src="img/FZJ-logo-933x267.png"           class="community-team-image-medium">}}
 {{< image src="img/LANL-logo-247x89.jpg"           class="community-team-image-medium">}}
 {{< image src="img/LBNL-logo-316x240.jpg"          class="community-team-image-xsmall">}}
 {{< image src="img/ULiege-logo-1450x704.png"       class="community-team-image-medium">}}
@@ -39,6 +40,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Yuuichi Asahi, CEA
 - Julien Bigot, CEA
 - Jakob Bludau, ORNL
+- Prateek Chawla, FZJ
 - Cedric Chevalier, CEA
 - Jan Ciesko, SNL
 - Conrad Clevenger, SNL
