@@ -119,7 +119,7 @@ and secure your spot today.
 | :-------- | :-------: | :-------: |
 | 3:40pm-3:50pm | Teaching domain scientists enough C++ for accelerators using their python or R proficiency | Pariksheet Nanda<br> (University of Pittsburgh) |
 | 3:50pm-4:00pm | How Hard is it to Transition a Team of Fortran Developers to Kokkos? | Daniel Holladay<br>(Los Alamos National Laboratory) |
-| 4:00pm-5:00pm | Panel Discussion on Teaching/Training | Jakob Bludau<br>(Oak Ridge National Laboratory) |
+| 4:00pm-5:00pm | Panel Discussion on Teaching/Training | John K. Holmen<br>Daniel Holladay<br>Pariksheet Nanda<br>Hariprasad Kannan |
 <br><br>
 
 ### Kokkos Session
@@ -159,9 +159,9 @@ and secure your spot today.
 |Time | Topic | Presenter
 | :-------- | :-------: | :-------: |
 | 1:35pm-1:55pm | Hardware-Aware Tiling for Performance-Portable Spectral Element Kernels | Rohit Kakodkar<br>(Princeton University) |
-| 1:55pm-2:05pm | Runtime Auto-Tuning for Large-scale Distributed Kokkos Applications on HPC Systems | Vivek Kale<br>(Sandia National Laboratories) |
-| 2:05pm-2:15pm | KokkosComm: Communication Layer for Distributed Kokkos Applications | Nicolas Morales<br>(Sandia National Laboratories) |
-| 2:15pm-2:25pm | Portable Low Latency In-Kernel Inferencing of Small Neural Networks with Kokkos | Matthew Norman<br>(Oak Ridge National Laboratory) |
+| 1:55pm-2:05pm | KokkosComm: Communication Layer for Distributed Kokkos Applications | Nicolas Morales<br>(Sandia National Laboratories) |
+| 2:05pm-2:15pm | Portable Low Latency In-Kernel Inferencing of Small Neural Networks with Kokkos | Matthew Norman<br>(Oak Ridge National Laboratory) |
+| 2:15pm-2:25pm | Runtime Auto-Tuning for Large-scale Distributed Kokkos Applications on HPC Systems | Vivek Kale<br>(Sandia National Laboratories) |
 | 2:25pm-2:35pm | Improvements to the KOKKOS package in LAMMPS | Trung Nguyen<br>(University of Chicago) |
 | 2:35pm-2:55pm | Scalability and Performance Optimization for ExaCA | Matt Rolchigo<br>(Oak Ridge National Laboratories) |
 | 2:55pm-3:15pm | A RangePolicy Compatible Per Iteration Scratch Memory Implementation | Daniel Holladay<br>(Los Alamos National Laboratory) |
