@@ -36,7 +36,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Damien Lebrun-Grandié, ORNL, Project Lead
 - Christian Trott, SNL, Project Lead
 - Daniel Arndt, ORNL
-- Maarten Arnst, ULiege
+- Maarten Arnst, ULiège
 - Yuuichi Asahi, CEA
 - Julien Bigot, CEA
 - Jakob Bludau, ORNL
@@ -58,9 +58,9 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Carl Pearson, SNL
 - Mikael Simberg, CSCS
 - Adrien Taberner, CEA
-- Romin Tomasetti, ULiege
+- Romin Tomasetti, ULiège
 - Bruno Turcksin, ORNL
-- Paul Zhener, CEA
+- Paul Zehner, CEA
 
 &nbsp;
 
