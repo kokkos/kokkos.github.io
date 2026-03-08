@@ -12,7 +12,10 @@ After the release of the Kokkos Ecosystem 5.0.0 the developers will meet this ye
 ## Events Details
 
 Dates: March 9th to 13th
-Location: Sandia NM, Albuquerque, New Mexico
+
+Location: Building 518 "CINT", Room 1026, West of Eubank on Innovation Pkwy SE, Albuquerque, New Mexico
+
+Badge pick-up: pleases go to the badge office with passport and immigration documents
 
 ## Who attends?
 
@@ -26,9 +29,9 @@ Morning
 * Team arrival
 
 Afternoon
-* Welcoming remarks
-* Overview of the agenda
-* Hackathons:
+* 1:30pm Welcoming remarks
+* 1:45pm Overview of the agenda
+* 2pm Hackathons:
   * Documentation
   * Kokkos Tools
 
@@ -44,7 +47,7 @@ Afternoon
   * Part 2: How do we use MDSpan with Core, Kernels, etc...
 
 Evening
-* Social Event: Bowling
+* Social Event: Hike
 
 ### Wednesday
 
@@ -62,7 +65,7 @@ Afternoon
   * How the co-design effort works with NS
 
 Evening
-* Social Event: Hiking
+* Social Event: Bowling
 
 ### Thursday
 
