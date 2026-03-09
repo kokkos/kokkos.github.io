@@ -27,6 +27,8 @@ This meeting is dedicated to the Kokkos developers team and will be available by
 
 ### Monday
 
+Zoom of the day: [https://zoom-lfx.platform.linuxfoundation.org/meeting/97981729840?password=8ce543a7-7528-4a38-ab2f-510945a5992a](https://zoom-lfx.platform.linuxfoundation.org/meeting/97981729840?password=8ce543a7-7528-4a38-ab2f-510945a5992a)
+
 Morning
 * Team arrival
 
@@ -38,6 +40,8 @@ Afternoon
   * Kokkos Tools
 
 ### Tuesday
+
+Zoom of the day: [https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-10&manage=true&meetingId=91217210131](https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-10&manage=true&meetingId=91217210131)
 
 Morning
 * 8am - 9am MDRange Policy performance discussion, will include online participants as well
@@ -52,6 +56,8 @@ Evening
 * Social Event: Hike
 
 ### Wednesday
+
+Zoom of the day: [https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-11&manage=true&meetingId=96023191014](https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-11&manage=true&meetingId=96023191014)
 
 Morning - Working groups discussion
 * 8:00am - 8:45am New training and eductional material WG (with Paul Z. online)
@@ -70,6 +76,8 @@ Evening
 * Social Event: Bowling
 
 ### Thursday
+
+Zoom of the day: [https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-12&manage=true&meetingId=95276644645](https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-12&manage=true&meetingId=95276644645)
 
 Morning 
 * 8:00am - 9:00am Release retrospective (DongHen, Daniel)
@@ -92,6 +100,8 @@ Evening
 * Social Event: Christian hosting the group for drinks/food
 
 ### Friday
+
+Zoom of the day: [https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-13&manage=true&meetingId=94615352342](https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-13&manage=true&meetingId=94615352342)
 
 Morning
 * Performance Monitoring
