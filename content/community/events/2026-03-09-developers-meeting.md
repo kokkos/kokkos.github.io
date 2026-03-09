@@ -13,9 +13,9 @@ After the release of the Kokkos Ecosystem 5.0.0 the developers will meet this ye
 
 Dates: March 9th to 13th
 
-Location: Building 518 "CINT", Room 1026, 1515 Eubank Blvd SE
+Location: UNM Continuing Education 1634 University Blvd NE, Albuquerque, NM 87131
 
-Badge pick-up: pleases go to the badge office with passport and immigration documents
+Badge pick-up (unnecessary now): pleases go to the badge office with passport and immigration documents
 * Address: 1611 Innovation Pkwy SE, Albuquerque, NM 87123)
 * Default meeting time: 11:00
 
