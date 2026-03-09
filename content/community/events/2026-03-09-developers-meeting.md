@@ -13,9 +13,11 @@ After the release of the Kokkos Ecosystem 5.0.0 the developers will meet this ye
 
 Dates: March 9th to 13th
 
-Location: Building 518 "CINT", Room 1026, West of Eubank on Innovation Pkwy SE, Albuquerque, New Mexico
+Location: Building 518 "CINT", Room 1026, 1515 Eubank Blvd SE
 
 Badge pick-up: pleases go to the badge office with passport and immigration documents
+* Address: 1611 Innovation Pkwy SE, Albuquerque, NM 87123)
+* Default meeting time: 11:00
 
 ## Who attends?
 
@@ -106,6 +108,17 @@ Afternoon
   * Hands on experience/hackathon with AI
 * When will we do our next devs meeting
 * Closing remarks
+
+
+## Lunch plans
+
+* We will break up in rotating small groups for lunch to foster discussions
+* Recommended locations:
+  * Owl Cafe: American Diner with New Mexico twist (800 Eubank Blvd NE, Albuquerque, NM 87123)
+  * Dion's: Local pizza & subs chain (11000 Central Ave SE, Albuquerque, NM 87123)
+  * La Salita: New Mexican (1950 Juan Tabo Blvd NE Suite H, Albuquerque, NM 87112)
+  * Taaj Palace: Indian Buffet (1435 Eubank Blvd NE, Albuquerque, NM 87112)
+  * Phở Linh Vietnamese Grill (9100 Central Ave SE, Albuquerque, NM 87123)
 
 ## Hotel Accomodation
 
