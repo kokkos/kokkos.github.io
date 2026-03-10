@@ -57,7 +57,7 @@ Evening
 
 ### Wednesday
 
-Zoom of the day: [https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-11&manage=true&meetingId=96023191014](https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-11&manage=true&meetingId=96023191014)
+Zoom of the day: [https://zoom-lfx.platform.linuxfoundation.org/meeting/96023191014?password=abd66843-265b-404a-84cf-72b856327a7b](https://zoom-lfx.platform.linuxfoundation.org/meeting/96023191014?password=abd66843-265b-404a-84cf-72b856327a7b)
 
 Morning - Working groups discussion
 * 8:00am - 8:45am New training and eductional material WG (with Paul Z. online)
@@ -77,7 +77,7 @@ Evening
 
 ### Thursday
 
-Zoom of the day: [https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-12&manage=true&meetingId=95276644645](https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-12&manage=true&meetingId=95276644645)
+Zoom of the day: [https://zoom-lfx.platform.linuxfoundation.org/meeting/95276644645?password=00ef4eae-de0e-4c9e-a3f0-1dc87c7e2e77](https://zoom-lfx.platform.linuxfoundation.org/meeting/95276644645?password=00ef4eae-de0e-4c9e-a3f0-1dc87c7e2e77)
 
 Morning 
 * 8:00am - 9:00am Release retrospective (DongHen, Daniel)
@@ -101,7 +101,7 @@ Evening
 
 ### Friday
 
-Zoom of the day: [https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-13&manage=true&meetingId=94615352342](https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-13&manage=true&meetingId=94615352342)
+Zoom of the day: [https://zoom-lfx.platform.linuxfoundation.org/meeting/94615352342?password=744632a6-2543-49cd-9349-bcb4170ff7d9](https://zoom-lfx.platform.linuxfoundation.org/meeting/94615352342?password=744632a6-2543-49cd-9349-bcb4170ff7d9)
 
 Morning
 * Performance Monitoring
