@@ -41,7 +41,7 @@ Afternoon
 
 ### Tuesday
 
-Zoom of the day: [https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-10&manage=true&meetingId=91217210131](https://projectadmin.lfx.linuxfoundation.org/project/a092M00001MsyOeQAJ/collaboration/meetings?date=2026-03-10&manage=true&meetingId=91217210131)
+Zoom of the day: [https://zoom-lfx.platform.linuxfoundation.org/meeting/91217210131?password=0c773efc-07b0-4a17-8d85-580776088d6d](https://zoom-lfx.platform.linuxfoundation.org/meeting/91217210131?password=0c773efc-07b0-4a17-8d85-580776088d6d)
 
 Morning
 * 8am - 9am MDRange Policy performance discussion, will include online participants as well
