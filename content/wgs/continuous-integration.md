@@ -35,7 +35,6 @@ Connect
 
 Meetings
 --------
-* Schedule: one meeting every two weeks, usually on Mondays.
-* [Meeting link (Zoom)](https://zoom-lfx.platform.linuxfoundation.org/meeting/96720820014?password=fbe6b9eb-7833-4e88-94d2-23150acfcb0e)
-* Agenda (TBD)
-* Minutes previous meetings (TBD)
+* Schedule: one meeting every two weeks, on Mondays at 11am EST.
+* [Meeting link (Zoom)](https://zoom-lfx.platform.linuxfoundation.org/meeting/94575439691?password=5bd7ecbf-f8e0-4ea1-8dc2-9e39027cf9bc)
+* [Agenda and meeting minutes](https://github.com/kokkos/development/tree/main/meeting_notes/wg-ci)
