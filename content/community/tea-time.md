@@ -13,6 +13,9 @@ Each session lasts 45 minutes.
 
 [Register](https://lists.hpsf.io/g/kokkos-announcements) to be notified about future events.
 
+Missed a session? Our full library of past technical talks is available on the HPSF YouTube Channel.
+[Browse the Playlist](https://www.youtube.com/playlist?list=PLRKq_yxxHw2-Dkc4rEo8s-b3uaxJfuavA).
+
 Upcoming
 --------
 * 2026-03-18: [HOPPS: A performance portable spectral difference solver for high-fidelity computational fluid dynamics](
