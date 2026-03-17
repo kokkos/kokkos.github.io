@@ -6,8 +6,6 @@ tags: ["Tea Time"]
 thumbnail: img/cexa-tea-time.jpg
 ---
 
-[Kokkos tea-time](https://cexa-project.org/kokkos-tea-time/)
----------------
 [CExA](https://cexa-project.org) hosts a monthly [Kokkos tea-time](https://cexa-project.org/kokkos-tea-time/) session on the third Wednesday of the month at 4 PM Paris time (usually 10 AM Eastern, 8 AM Mountain, 11 PM Tokyo time).
 Each session lasts 45 minutes.
 
