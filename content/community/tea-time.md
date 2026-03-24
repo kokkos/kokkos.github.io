@@ -15,11 +15,13 @@ Each session lasts 45 minutes.
 
 Upcoming
 --------
-* 2026-03-18: [HOPPS: A performance portable spectral difference solver for high-fidelity computational fluid dynamics](
-  https://cexa-project.org/kokkos-tea-time/2026-03-18-tea-time-hopps/)
+* 2026-04-15: [Parthenon – a performance portable block-structured adaptive mesh refinement framework](
+  https://cexa-project.org/kokkos-tea-time/2026-04-15-tea-time-parthenon/)
 
 Past
 ----
+* 2026-03-18: [HOPPS: A performance portable spectral difference solver for high-fidelity computational fluid dynamics](
+  https://cexa-project.org/kokkos-tea-time/2026-03-18-tea-time-hopps/)
 * 2026-02-18: [C++ Reflection for Data Layout Abstraction](
   https://cexa-project.org/kokkos-tea-time/2026-02-18-tea-time-c++-reflection/)
 * 2026-01-21: [Kokkos Comm: Performance-Portable Communication API for Distributed Kokkos Applications](
