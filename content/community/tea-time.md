@@ -6,12 +6,13 @@ tags: ["Tea Time"]
 thumbnail: img/cexa-tea-time.jpg
 ---
 
-[Kokkos tea-time](https://cexa-project.org/kokkos-tea-time/)
----------------
 [CExA](https://cexa-project.org) hosts a monthly [Kokkos tea-time](https://cexa-project.org/kokkos-tea-time/) session on the third Wednesday of the month at 4 PM Paris time (usually 10 AM Eastern, 8 AM Mountain, 11 PM Tokyo time).
 Each session lasts 45 minutes.
 
 [Register](https://lists.hpsf.io/g/kokkos-announcements) to be notified about future events.
+
+Missed a session? Our full library of past technical talks is available on the HPSF YouTube Channel.
+[Browse the Playlist](https://www.youtube.com/playlist?list=PLRKq_yxxHw2-Dkc4rEo8s-b3uaxJfuavA).
 
 Upcoming
 --------
