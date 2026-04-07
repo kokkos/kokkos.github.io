@@ -3,14 +3,13 @@ authors: ["kokkos-team"]
 title: "Field report for the Kokkos User Group Meeting 2026"
 date: 2026-03-31
 tags: ["blog"]
-thumbnail: img/blog/2025/KUG2025-1.jpg
+thumbnail: img/blog/2026/2026-03-19-hpsfcon-kokkos.jpg
 ---
+<br>
 
 The [High Performance Software Foundation (HPSF) Conference 2026](https://hpsf2026.sched.com/) took place in Chicago IL from March 16th to March 20th.  There were Kokkos talks all week, with the last two days having a dedicated track for the Kokkos User Group (KUG) meeting. The program brought together Kokkos developers, library maintainers, and application teams to share updates on performance portability work across the Kokkos ecosystem, with recurring discussion topics including GPU performance tuning, interoperability (especially with Fortran), memory management, and distributed execution.
 
-{{< image src="img/blog/2025/KUG2025-4.jpg" style="float: center; height=10">}}
-
-# Day 1 (Thursday):
+# Day 1 (Thursday March 19th):
 
 Thursday focused primarily on Kokkos usage in applications and libraries, along with adoption experiences and training-related discussions.
 
@@ -45,7 +44,7 @@ Training and education sessions concluded the day with discussion of effective i
 Specifically, [Pariksheet Nanda](https://hpsf2026.sched.com/speaker/pan79) spoke on [teaching domain scientists just enough C++ for accelerators](https://youtu.be/VE5Y7NTzrSk), and [Daniel Holladay](https://hpsf2026.sched.com/speaker/danl9) talked about [transitioning Fortran developers to Kokkos](https://youtu.be/imxH_6Ie8sA).  [Hariprasad Kannan](https://hpsf2026.sched.com/speaker/hkannan3) and [John K. Holmen](https://hpsf2026.sched.com/speaker/holmenjk) contributed to those talks.
 
 
-# Day 2 (Friday):
+# Day 2 (Friday March 20th):
 Friday broadened to topics related to performance mechanisms, distributed execution, build/packaging, and Fortran interoperability and migration paths.
 
 Performance-focused talks included updates on library capabilities and execution policies.
