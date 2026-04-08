@@ -25,7 +25,7 @@ Several presentations centered on ecosystem libraries and portability challenges
 
 [Ramzi Messahel](https://hpsf2026.sched.com/speaker/ramzi.messahel) gave a talk on [a portable mesh interpolation library described using ArborX](https://youtu.be/UNFvSxrhdzE) for neighbor searches while implementing interpolation separately, and outlined a migration away from Eigen toward Kokkos-Kernels due to incomplete GPU support in Eigen. The project is planned to be open-sourced.
 
-Memory management was also a topic: [Kristi Belcher](https://hpsf2026.sched.com/speaker/belcher6) spoke on [UmpireSpace](https://youtu.be/BT_Mvugd1ug): an experimental implementation of Umpire as a Kokkos memory space, being pursued as ongoing work in a separate repository.
+Memory management was also a topic: [Kristi Belcher](https://hpsf2026.sched.com/speaker/belcher6) spoke on [UmpireSpace](https://youtu.be/BT_Mvugd1ug): She showed an experimental implementation of Umpire as a Kokkos memory space.
 
 Adoption-oriented talks addressed programming model choices and developer experience.
 
