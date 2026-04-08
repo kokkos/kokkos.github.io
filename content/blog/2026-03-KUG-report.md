@@ -17,13 +17,13 @@ A number of talks highlighted end-to-end application workflows and the combinati
 
 In [multi-GPU radiative transport work integrated into OpenFOAM](https://youtu.be/FdE_RxQyxDY), [Nicolas Tricard](https://nick-jt.github.io/) described improvements for both performance and scalability by grouping rays and using ArborX for spatial searches; speedups of approximately 400× over serial and 10× over OpenMP were reported.
 
-In [high-order CFD](https://youtu.be/FQIFJLaaqaY), batching was presented by [Sana Nazir](https://sananazir.github.io/) as a key technique to improve GPU performance, and the importance of evaluating the performance of the complete solver (not only individual kernels) was emphasized.
+In [high-order CFD](https://youtu.be/FQIFJLaaqaY), batching was presented by [Sana Nazir](https://sananazir.github.io/) as a key technique to improve GPU performance. Furthermore, the importance of evaluating the performance of the complete solver (not only individual kernels) was emphasized.
 
 For [Particle Systems with CabanaPD](https://youtu.be/I6vHFeMK2HA), [Sam Reeve](https://hpsf2026.sched.com/speaker/reevest2) reported that a multimaterial extension is now usable and that performance on MI250 GPUs remained reasonable even with conditional logic in the main kernel path.
 
 Several presentations centered on ecosystem libraries and portability challenges encountered in practice.
 
-[Ramzi Messahel](https://hpsf2026.sched.com/speaker/ramzi.messahel) gave a talk on [a portable mesh interpolation library described using ArborX](https://youtu.be/UNFvSxrhdzE) for neighbor searches while implementing interpolation separately, and outlined a migration away from Eigen toward Kokkos-Kernels due to incomplete GPU support in Eigen. The project is planned to be open-sourced.
+[Ramzi Messahel](https://hpsf2026.sched.com/speaker/ramzi.messahel) gave a talk on [a portable mesh interpolation library described using ArborX](https://youtu.be/UNFvSxrhdzE) for neighbor searches while implementing interpolation outside of ArborX. The talk also outlined the migration away from Eigen toward Kokkos-Kernels due to incomplete GPU support in Eigen.
 
 Memory management was also a topic: [Kristi Belcher](https://hpsf2026.sched.com/speaker/belcher6) spoke on [UmpireSpace](https://youtu.be/BT_Mvugd1ug): She showed an experimental implementation of Umpire as a Kokkos memory space.
 
@@ -69,16 +69,16 @@ A substantial portion of Friday covered Fortran interoperability and modernizati
 
 [Bruno Turcksin](https://hpsf2026.sched.com/speaker/bruno.turcksin) discussed the [Kokkos Fortran interop update](https://youtu.be/6me0wfoh8zs) and recommended using the `develop` branch given the age of available pre-release versions and noted current limitations such as lack of automatic memory management and primarily SharedSpace support.
 
-In parallel, an approach for [automatic translation of Fortran to Kokkos](https://youtu.be/k4SSSZlRvBI) was presented by [Brayden Wagoner](https://hpsf2026.sched.com/speaker/bwagoner4) and described using flang-derived AST information to generate C++ boilerplate and highlighted the need to correctly detect reductions.
+In parallel, an approach for [automatic translation of Fortran to Kokkos](https://youtu.be/k4SSSZlRvBI) was presented by [Brayden Wagoner](https://hpsf2026.sched.com/speaker/bwagoner4). The approach is using flang-derived AST information to generate C++ instructions.
 
-Application integration reports started with [Jian Sun](https://github.com/sjsprecious) introducing a [C++/Kokkos dynamical core behind an existing Fortran interface](https://youtu.be/widas70vAMI) in an earth system model.
+In terms of integrating Kokkos into existing Fortran applications [Jian Sun](https://github.com/sjsprecious) introduced a [C++/Kokkos dynamical core behind an existing Fortran interface](https://youtu.be/widas70vAMI) in an earth system model.
 
-Next was [Yuuichi Asahi](https://hpsf2026.sched.com/speaker/y.asahi6412) talking about [porting portions of a Fortran plasma simulation library](https://youtu.be/-Qevn9vLD9A) to C++/Kokkos with C bindings back into Fortran, with memory access to the previous timestep identified as a primary performance concern.
+Next was [Yuuichi Asahi](https://hpsf2026.sched.com/speaker/y.asahi6412) talking about [porting portions of a Fortran plasma simulation library](https://youtu.be/-Qevn9vLD9A) to C++/Kokkos. The approach uses with C bindings and identified memory access as primary performance concern.
 
 Additional sessions addressed specialized performance and scaling issues.
 
-An [in-kernel inference talk (PONNI)](https://youtu.be/UbYjvU2RV4M?si=vxWpyKywGr23MM3i) by [Matthew Norman](https://hpsf2026.sched.com/speaker/normanmr) reported that `bfloat16` DRAM loads/stores were close in cost to float in their measurements.
+An [in-kernel inference library (PONNI)](https://youtu.be/UbYjvU2RV4M?si=vxWpyKywGr23MM3i) was presented by [Matthew Norman](https://hpsf2026.sched.com/speaker/normanmr). In his performance testing `bfloat16` DRAM loads/stores were close in cost to float which should be further investigated.
 
-[ExaCA performance optimization work](https://youtu.be/S-EwVNr-sVY) presented by [Matt Rolchigo](https://hpsf2026.sched.com/speaker/rolchigomr) described imbalance challenges and preprocessing efforts, with remaining scaling limitations noted.
+[ExaCA performance optimization work](https://youtu.be/S-EwVNr-sVY) presented by [Matt Rolchigo](https://hpsf2026.sched.com/speaker/rolchigomr) described imbalance challenges in microstructure modeling. The talk also presented efforts to overcome the imbalance, but pointed to remaining scaling limitations.
 
-[Daniel Holladay](https://hpsf2026.sched.com/speaker/danl9) ended the week with a [proposal for RangePolicy-compatible per-iteration scratch memory](https://youtu.be/oRSf1dds8x8) by discussing desired functionality and potential contributions.
+[Daniel Holladay](https://hpsf2026.sched.com/speaker/danl9) ended the week with a [proposal for RangePolicy-compatible per-iteration scratch memory](https://youtu.be/oRSf1dds8x8) by discussing desired functionality and potential contributions into Kokkos.
