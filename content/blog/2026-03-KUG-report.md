@@ -29,7 +29,7 @@ Memory management was also a topic: [Kristi Belcher](https://hpsf2026.sched.com/
 
 Adoption-oriented talks addressed programming model choices and developer experience.
 
-[Nigel Tan](https://hpsf2026.sched.com/speaker/ntan3) made a presentation on [performance-portable SIMD for vector PIC](https://youtu.be/8wzKch6Z85o) and noted that natural vectorization can be effective but may not match hand-optimized performance, and discussed the use of AoSoA to maintain a clean interface while enabling good performance.
+[Nigel Tan](https://hpsf2026.sched.com/speaker/ntan3) made a presentation on [performance-portable SIMD for vector Particle in Cell codes](https://youtu.be/8wzKch6Z85o) and noted that automatic vectorization by the compiler can be effective but may not match hand-optimized performance.
 
 Framework integration perspectives were provided by two talks:
 
