@@ -57,7 +57,7 @@ For [spectral element kernels](https://youtu.be/J_Leu9TZEhw), [Rohit Kakodkar](h
 
 [Trung Nguyen](https://hpsf2026.sched.com/speaker/ndtrung) talked about application package updates including mixed precision support in the [Kokkos package for LAMMPS](https://youtu.be/cOYvUxNk0ZM).
 
-[Jakob Bludau](https://hpsf2026.sched.com/speaker/bludauj) brought up build and packaging concerns during the [Build & Packaging working group](https://youtu.be/d-Nep68pzqk) session, including approaches to simplifying downstream consumption of Kokkos, handling cases where downstream projects should not inherit wrappers such as `nvcc_wrapper`, updates on Spack packaging, Kokkos-on-Godbolt, and ongoing efforts toward binary distribution.
+[Jakob Bludau](https://hpsf2026.sched.com/speaker/bludauj) presented Kokkos' [Build & Packaging working group](https://youtu.be/d-Nep68pzqk). The group maintains and improves Kokkos' build system and tries to simplify downstream consumption of Kokkos. It also supports cases where Kokkos integration into the software stack is complicated. The talk also references updates on Spack packaging, Kokkos-on-Godbolt, and ongoing efforts toward binary distribution.
 
 Several talks addressed extending Kokkos to new environments and scaling models.
 
