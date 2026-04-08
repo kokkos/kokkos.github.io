@@ -33,7 +33,7 @@ Adoption-oriented talks addressed programming model choices and developer experi
 
 Framework integration perspectives were provided by two talks:
 
-[Namjae Choi](https://hpsf2026.sched.com/speaker/namjae.choi) spoke on [MOOSE](https://youtu.be/-NtRHRDA_rU)’s use of dynamic polymorphism and constraints around separate compilation and RDC were discussed as challenges for accelerator use.
+[Namjae Choi](https://hpsf2026.sched.com/speaker/namjae.choi) spoke on [MOOSE](https://youtu.be/-NtRHRDA_rU)’s integration of Kokkos in a code based heavily on dynamic polymorphism. The talk mentions separate compilation and RDC as main challenges for accelerator use in their case
 
 [Timo Heister](https://hpsf2026.sched.com/speaker/heister1) reported on [deal.II finite element library](https://youtu.be/EPIMqKDvzGU) bundling Kokkos and highlighted the role of Kokkos training in enabling student contributions.
 
