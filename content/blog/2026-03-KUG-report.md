@@ -35,7 +35,7 @@ Framework integration perspectives were provided by two talks:
 
 [Namjae Choi](https://hpsf2026.sched.com/speaker/namjae.choi) spoke on [MOOSE](https://youtu.be/-NtRHRDA_rU)’s integration of Kokkos in a code based heavily on dynamic polymorphism. The talk mentions separate compilation and RDC as main challenges for accelerator use in their case
 
-[Timo Heister](https://hpsf2026.sched.com/speaker/heister1) reported on [deal.II finite element library](https://youtu.be/EPIMqKDvzGU) bundling Kokkos and highlighted the role of Kokkos training in enabling student contributions.
+[Timo Heister](https://hpsf2026.sched.com/speaker/heister1) reported on the [deal.II finite element library](https://youtu.be/EPIMqKDvzGU) bundling Kokkos and highlighted the role of Kokkos training in enabling student contributions to deal.II.
 
 On the Python front, a [pyKokkos](https://youtu.be/70Rx289cl-w) update by [Ivan Grigorik](https://hpsf2026.sched.com/speaker/grigorik) described kernel fusion efforts and a shift away from exposing Kokkos::View directly in favor of NumPy interoperability and explicit copies, motivated in part by compilation-time concerns.
 
