@@ -53,7 +53,7 @@ Performance-focused talks included updates on library capabilities and execution
 
 A talk by [Hariprasad Kannan](https://hpsf2026.sched.com/speaker/hkannan3) on [MDRangePolicy efficiency](https://youtu.be/qVX-VwqyrTk) discussed differences between serial loop behavior (including limited autovectorization) and `parallel_for` execution, and outlined possible directions for improved SIMD utilization while noting the difficulty of vectorizing arbitrary user functors.
 
-For [spectral element kernels](https://youtu.be/J_Leu9TZEhw), [Rohit Kakodkar](https://hpsf2026.sched.com/speaker/rk9481) reported that hardware-aware tiling and chunking were presented as effective for accelerating 3D stencil computations. Comparisons noted that CuTe achieved higher performance in part through overlapping loads and computation, motivating interest in more explicit data-movement overlap strategies.
+For [spectral element kernels](https://youtu.be/J_Leu9TZEhw), [Rohit Kakodkar](https://hpsf2026.sched.com/speaker/rk9481) reported that hardware-aware tiling and chunking are effective for accelerating 3D stencil computations. Comparisons noted that CuTe achieved higher performance in part through overlapping memory loads and computation, motivating interest in more explicit asynchronos data-movement strategies in Kokkos.
 
 [Trung Nguyen](https://hpsf2026.sched.com/speaker/ndtrung) talked about application package updates including mixed precision support in the [Kokkos package for LAMMPS](https://youtu.be/cOYvUxNk0ZM).
 
