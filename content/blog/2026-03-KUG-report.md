@@ -49,7 +49,7 @@ Friday broadened to topics related to performance mechanisms, distributed execut
 
 Performance-focused talks included updates on library capabilities and execution policies.
 
-[Yuuichi Asahi](https://hpsf2026.sched.com/speaker/y.asahi6412) reported that reported that MPI support in [Kokkos-FFT](https://youtu.be/gwY3HfhE5L8) is a key next step and that communication costs were a dominant factor in some performance testing.
+[Yuuichi Asahi](https://hpsf2026.sched.com/speaker/y.asahi6412) reported that MPI support in [Kokkos-FFT](https://youtu.be/gwY3HfhE5L8) is a key next step and that communication costs were a dominant factor in some performance testing.
 
 A talk by [Hariprasad Kannan](https://hpsf2026.sched.com/speaker/hkannan3) on [MDRangePolicy efficiency](https://youtu.be/qVX-VwqyrTk) discussed differences between serial loop behavior (including limited autovectorization) and `parallel_for` execution, and outlined possible directions for improved SIMD utilization while noting the difficulty of vectorizing arbitrary user functors.
 
