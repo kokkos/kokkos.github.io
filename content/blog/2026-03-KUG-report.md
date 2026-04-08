@@ -37,7 +37,7 @@ Framework integration perspectives were provided by two talks:
 
 [Timo Heister](https://hpsf2026.sched.com/speaker/heister1) reported on the [deal.II finite element library](https://youtu.be/EPIMqKDvzGU) bundling Kokkos and highlighted the role of Kokkos training in enabling student contributions to deal.II.
 
-On the Python front, a [pyKokkos](https://youtu.be/70Rx289cl-w) update by [Ivan Grigorik](https://hpsf2026.sched.com/speaker/grigorik) described kernel fusion efforts and a shift away from exposing Kokkos::View directly in favor of NumPy interoperability and explicit copies, motivated in part by compilation-time concerns.
+On the Python front, a [pyKokkos](https://youtu.be/70Rx289cl-w) update by [Ivan Grigorik](https://hpsf2026.sched.com/speaker/grigorik) described kernel fusion efforts and a shift away from exposing Kokkos::View directly. pyKokkos is moving towards using NumPy and CuPy as main data structure, allowing for easier interoperability and a more python-like feel.
 
 Training and education session concluded the day with a panel discussion on teaching and training (Panelists: [Daniel Holladay](https://hpsf2026.sched.com/speaker/danl9), [Pariksheet Nanda](https://hpsf2026.sched.com/speaker/pan79), [Hariprasad Kannan](https://hpsf2026.sched.com/speaker/hkannan3), and [John K. Holmen](https://hpsf2026.sched.com/speaker/holmenjk)). The panelists emphasized the value of hands-on components, the usefulness of recorded materials, and the observation that C++ fundamentals are often a larger barrier than Kokkos concepts. Kokkos' documentation search behavior was also identified as an area for improvement (e.g., common terms not consistently surfacing the most relevant pages).  
 
