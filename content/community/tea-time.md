@@ -17,7 +17,7 @@ Missed a session? Our full library of past technical talks is available on the H
 Upcoming
 --------
 * 2026-06-17: [Multi-Dimensional Range Policy performance concerns and improvements](
-  https://cexa-project.org/kokkos-tea-time/2026-06-17-tea-time-multi-dimensional-range-policy/index-10/)
+  https://cexa-project.org/kokkos-tea-time/2026-06-17-tea-time-multi-dimensional-range-policy/)
 
 Past
 ----
