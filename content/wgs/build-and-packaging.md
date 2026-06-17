@@ -21,13 +21,13 @@ Members
 * Jakob Bludau
 
 **Participants**
+* Daniel Arndt
+* Richard Berger
 * Luc Berger-Vergiat
+* Christoph Junghans
 * Damien Lebrun-Grandié
 * Nic Morales
 * Thomas Padioleau
-* Richard Berger
-* Daniel Arndt
-* Christoph Junghans
 * Jan Andre Reuter
 
 Connect
