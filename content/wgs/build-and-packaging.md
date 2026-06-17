@@ -25,6 +25,10 @@ Members
 * Damien Lebrun-Grandié
 * Nic Morales
 * Thomas Padioleau
+* Richard Berger
+* Daniel Arndt
+* Christoph Junghans
+* Jan Andre Reuter
 
 Connect
 -------
