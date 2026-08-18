@@ -25,6 +25,6 @@ content_blocks:
     subtle: false
   class: card-zoom card-body-margin
   justify: start
-  hide-empty: false
-  header-style: none
+  hide_empty: false
+  header_style: none
 ---

@@ -21,7 +21,8 @@ content_blocks:
     section: blog
     reverse: true
     sort: date
-  hide-empty: false
+  hide_empty: false
+  header_style: none
   orientation: stacked
   more:
     title: More Posts
