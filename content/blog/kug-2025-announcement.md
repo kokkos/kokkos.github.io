@@ -3,6 +3,9 @@ layout: minimal
 authors: ["kokkos-team"]
 title: "Kokkos User Group Meeting 2025 @HPSFcon"
 date: "2025-01-24"
+event: true
+eventDate: "2025-05-07"
+eventEndDate: "2025-05-08"
 description: The next Kokkos User Group meeting will be held in Chicago, IL, May 7th and 8th, 2025, as part of the inaugural HPSFcon conference.
 tags: ["User Group Meeting", "2025"]
 thumbnail: img/blog/HPSF-Conference-2025.png

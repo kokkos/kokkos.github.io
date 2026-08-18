@@ -2,6 +2,8 @@
 layout: minimal
 title: "HPC Asia / SCA 2026 Kokkos Tutorial"
 date: "2025-11-26"
+event: true
+eventDate: "2026-01-26"
 description: A 1-day Kokkos tutorial at the combined HPC Asia / SCA 2026 conference in Osaka, Japan.
 sharing: false
 metadata: none

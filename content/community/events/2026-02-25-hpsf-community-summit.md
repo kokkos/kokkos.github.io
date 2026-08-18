@@ -2,6 +2,9 @@
 layout: minimal
 title: "European Kokkos User Group at HPSF Community Summit '26"
 date: "2025-11-27"
+event: true
+eventDate: "2026-02-25"
+eventEndDate: "2026-02-27"
 description: The European Kokkos User Group meeting at the HPSF Community Summit 2026 in Braunschweig, Germany.
 thumbnail: img/2026-02-25-hpsf-community-summit.jpg
 sharing: false

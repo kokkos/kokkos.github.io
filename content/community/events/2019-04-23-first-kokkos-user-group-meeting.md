@@ -2,6 +2,9 @@
 layout: minimal
 title: "Event: 1st Kokkos User Group Meeting April 23rd-25th ABQ NM"
 date: "2019-04-23"
+event: true
+eventDate: "2019-04-23"
+eventEndDate: "2019-04-25"
 description: The first Kokkos User Group Meeting, held in Albuquerque, NM in April 2019.
 sharing: false
 metadata: none

@@ -2,6 +2,8 @@
 layout: minimal
 title: "Kokkos Quo Vadis: Shaping the Future of the Ecosystem"
 date: "2026-02-04"
+event: true
+eventDate: "2026-02-12"
 description: An interactive Birds-of-a-Feather session on the long-term roadmap of the Kokkos Ecosystem, hosted by CASS.
 sharing: false
 metadata: none

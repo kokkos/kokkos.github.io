@@ -2,6 +2,9 @@
 layout: minimal
 title: "Event: Kokkos Bootcamp in Oakland, CA March 2019"
 date: "2019-03-26"
+event: true
+eventDate: "2019-03-26"
+eventEndDate: "2019-03-29"
 description: A hands-on Kokkos training workshop held in Oakland, CA in March 2019.
 sharing: false
 metadata: none

@@ -2,6 +2,9 @@
 layout: minimal
 title: "Kokkos developers meeting 2026"
 date: "2025-11-26"
+event: true
+eventDate: "2026-03-09"
+eventEndDate: "2026-03-13"
 description: The 2026 Kokkos developers meeting in Albuquerque, NM.
 sharing: false
 metadata: none
