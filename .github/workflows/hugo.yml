@@ -47,6 +47,13 @@ jobs:
         uses: actions/setup-go@v7
         with:
           go-version: "stable"
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+          cache: 'npm'
+      - name: Install Dart Sass (npm)
+        run: npm ci
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Build with Hugo
@@ -55,6 +62,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          export PATH="$PWD/node_modules/.bin:$PATH"
           hugo --gc --minify --baseURL https://dalg24.github.io/kokkos.github.io/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5

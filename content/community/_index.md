@@ -4,6 +4,8 @@ description: Get involved with the Kokkos Ecosystem community.
 content_blocks:
 - _bookshop_name: hero
   breadcrumb: true
+  heading:
+    title: Title here
   background:
     backdrop: /assets/img/kokkos-ecosystem-hero.jpg
 

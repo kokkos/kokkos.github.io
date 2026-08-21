@@ -4,6 +4,7 @@ description: The Kokkos Ecosystem consists of multiple libraries for developing 
 content_blocks:
 - _bookshop_name: hero
   breadcrumb: true
+  heading: {}
   background:
     backdrop: /assets/img/kokkos-ecosystem-hero.jpg
 
@@ -25,6 +26,6 @@ content_blocks:
     subtle: false
   class: border-0 card-zoom card-body-margin
   justify: start
-  hide-empty: false
-  header-style: none
+  hide_empty: false
+  header_style: none
 ---

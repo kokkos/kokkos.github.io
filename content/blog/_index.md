@@ -4,6 +4,7 @@ description: News, announcements, and reports from the Kokkos community.
 content_blocks:
 - _bookshop_name: hero
   breadcrumb: true
+  heading: {}
   background:
     backdrop: /assets/img/kokkos-ecosystem-hero.jpg
 
