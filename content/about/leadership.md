@@ -1,5 +1,5 @@
 ---
-title: Welcome to Kokkos!
+title: Leadership Team
 description: Meet the leadership team guiding the Kokkos Ecosystem's strategy.
 sharing: false
 metadata: none
