@@ -1,7 +1,7 @@
 ---
 title: Contact
 description: How to report bugs, request features, and ask questions about the Kokkos Ecosystem.
-type: docs
+layout: minimal
 ---
 
 ## Bug Reports

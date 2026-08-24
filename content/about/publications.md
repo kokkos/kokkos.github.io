@@ -1,7 +1,7 @@
 ---
 title: Publications
 description: A list of publications describing the Kokkos Ecosystem.
-type: docs
+layout: minimal
 sharing: false
 metadata: none
 ---

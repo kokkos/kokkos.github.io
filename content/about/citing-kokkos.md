@@ -1,7 +1,7 @@
 ---
 title: Citing Kokkos
 url: "citing-kokkos"
-type: docs
+layout: minimal
 sharing: false
 metadata: none
 ---

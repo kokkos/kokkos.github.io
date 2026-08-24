@@ -1,6 +1,6 @@
 ---
 title: Releases
-type: docs
+layout: minimal
 sharing: false
 metadata: none
 ---

@@ -1,7 +1,7 @@
 ---
 title: Applications
 description: A partial list of applications leveraging Kokkos for performance portability.
-type: docs
+type: minimal
 sharing: false
 metadata: none
 ---

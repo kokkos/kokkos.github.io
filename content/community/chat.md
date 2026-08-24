@@ -1,7 +1,7 @@
 ---
 title: Chat
 description: Join the Kokkos Slack community to connect with users and developers.
-type: docs
+type: minimal
 sharing: false
 metadata: none
 ---
