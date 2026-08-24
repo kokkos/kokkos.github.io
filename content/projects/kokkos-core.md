@@ -23,3 +23,4 @@ execution policies, execution spaces, and memory spaces; only Kokkos supports
 data patterns and policies, which are necessary for performance portability.
 
 {{< button color="primary" icon="fab github" href="https://github.com/kokkos/kokkos" button-state="enabled" button-size="lg">}}GitHub{{< /button >}}
+{{< button color="primary" icon="fas book" href="https://kokkos.org/kokkos-core-wiki" button-state="enabled" button-size="lg">}}Documentation{{< /button >}}

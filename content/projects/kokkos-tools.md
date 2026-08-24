@@ -18,3 +18,4 @@ dramatically, by forwarding application specific information and their context
 within the Kokkos Core programming model to the tools.
 
 {{< button color="primary" icon="fab github" href="https://github.com/kokkos/kokkos-tools" button-state="enabled" button-size="lg">}}GitHub{{< /button >}}
+{{< button color="primary" icon="fas book" href="https://github.com/kokkos/kokkos-tools/wiki" button-state="enabled" button-size="lg">}}Wiki{{< /button >}}

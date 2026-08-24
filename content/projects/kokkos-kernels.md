@@ -17,3 +17,4 @@ develop, thus further reducing their modification cost to achieve “best in
 class” performance.
 
 {{< button color="primary" icon="fab github" href="https://github.com/kokkos/kokkos-kernels" button-state="enabled" button-size="lg">}}GitHub{{< /button >}}
+{{< button color="primary" icon="fas book" href="https://kokkos.org/kokkos-kernels/docs" button-state="enabled" button-size="lg">}}Documentation{{< /button >}}
