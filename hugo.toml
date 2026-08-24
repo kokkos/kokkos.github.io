@@ -25,6 +25,11 @@ id = 'G-TXYTG29JXM'
 disable = false
 respectDoNotTrack = false
 
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.136.3'
+
 [[module.imports]]
 path = 'github.com/gethinode/mod-blocks/v2'
 

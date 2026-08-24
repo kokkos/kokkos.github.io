@@ -1,4 +1,4 @@
-module example.com/my-hinode-site
+module github.com/kokkos/kokkos.github.io
 
 go 1.26.0
 
