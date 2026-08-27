@@ -13,6 +13,15 @@
     [schema.author]
         name = "The Kokkos Team"
 
+    [schema.image]
+        url = "img/kokkos-ecosystem-hero.jpg"
+        width = 1600
+        height = 564
+    [schema.logo]
+        url = "img/kokkos-favicon.png"
+        width = 512
+        height = 512
+
 [favicon]
     logo = "img/kokkos-favicon.png"
 
