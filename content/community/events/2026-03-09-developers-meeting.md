@@ -1,8 +1,13 @@
 ---
-authors: ["kokkos-team"]
+layout: minimal
 title: "Kokkos developers meeting 2026"
 date: "2025-11-26"
-tags: ["Kokkos", "event"]
+event: true
+eventDate: "2026-03-09"
+eventEndDate: "2026-03-13"
+description: The 2026 Kokkos developers meeting in Albuquerque, NM.
+sharing: false
+metadata: none
 ---
 
 # Developers meeting 26
@@ -79,7 +84,7 @@ Evening
 
 Zoom of the day: [https://zoom-lfx.platform.linuxfoundation.org/meeting/95276644645?password=00ef4eae-de0e-4c9e-a3f0-1dc87c7e2e77](https://zoom-lfx.platform.linuxfoundation.org/meeting/95276644645?password=00ef4eae-de0e-4c9e-a3f0-1dc87c7e2e77)
 
-Morning 
+Morning
 * 8:00am - 9:00am Release retrospective (DongHen, Daniel)
 * 9:00am - 9:45am Package versioning in the Ecosystem
 * 10:00am - 10:45am Ecosystem scope discussion
@@ -111,14 +116,13 @@ Morning
 * AI Policy discussion
   * what is allowed to do for dev team
   * what do we expect for reviews/PRs
- 
+
 Afternoon
 * Working with AI assistant for coding and PR reviews
   * Chris demo + tools at Sandia + experience with AI
   * Hands on experience/hackathon with AI
 * When will we do our next devs meeting
 * Closing remarks
-
 
 ## Lunch plans
 

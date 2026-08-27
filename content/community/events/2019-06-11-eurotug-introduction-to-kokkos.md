@@ -1,8 +1,12 @@
 ---
-authors: ["kokkos-team"]
+layout: minimal
 title: "Event: Short Introduction to Kokkos at Euro Trilinos User Group Meeting"
 date: "2019-06-11"
-tags: ["Kokkos", "event"]
+event: true
+eventDate: "2019-06-11"
+description: A short introduction to Kokkos and Kokkos Kernels at the Euro TUG in Zurich, Switzerland.
+sharing: false
+metadata: none
 ---
 
 Start: Jun 11, 2019, 9:00 AM

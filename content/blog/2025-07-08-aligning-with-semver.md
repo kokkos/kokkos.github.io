@@ -1,7 +1,9 @@
 ---
+layout: minimal
 authors: ["kokkos-team"]
 title: "Aligning Our Numbers: Kokkos Adopts Semantic Versioning with v5.0"
 date: "2025-07-08"
+description: Starting with the Kokkos 5.x series, Kokkos officially aligns with Semantic Versioning (SemVer) 2.0.0.
 tags: ["2025", "5.0"]
 thumbnail: img/blog/2025/semver-in-5x-series.png
 ---

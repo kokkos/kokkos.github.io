@@ -1,0 +1,195 @@
+[[main]]
+  name = "About"
+  pageRef = "/about/"
+  weight = 1
+[[main]]
+  name = "Leadership"
+  pageRef = "/about/leadership/"
+  parent = "About"
+  weight = 20
+[[main]]
+  name = "Overview"
+  pageRef = "/about/overview/"
+  parent = "About"
+  weight = 10
+[[main]]
+  name = "Citing Kokkos"
+  pageRef = "/citing-kokkos/"
+  parent = "About"
+  weight = 40
+[[main]]
+  name = "Logos"
+  pageRef = "/about/logos/"
+  parent = "About"
+  weight = 50
+[[main]]
+  name = "Releases"
+  pageRef = "/about/releases/"
+  parent = "About"
+  weight = 60
+[[main]]
+  name = "Publications"
+  pageRef = "/about/publications/"
+  parent = "About"
+  weight = 70
+[[main]]
+  name = "Sponsors"
+  pageRef = "/acknowledgments/"
+  parent = "About"
+  weight = 80
+[[main]]
+  name = "Contact"
+  pageRef = "/contact/"
+  parent = "About"
+  weight = 90
+[[main]]
+  name = "Subprojects"
+  pageRef = "/projects/"
+  weight = 2
+[[main]]
+  name = "Core"
+  identifier = "projects-core"
+  pageRef = "/projects/kokkos-core/"
+  parent = "Subprojects"
+  weight = 1
+[[main]]
+  name = "Kernels"
+  identifier = "projects-kernels"
+  pageRef = "/projects/kokkos-kernels/"
+  parent = "Subprojects"
+  weight = 2
+[[main]]
+  name = "Tools"
+  identifier = "projects-tools"
+  pageRef = "/projects/kokkos-tools/"
+  parent = "Subprojects"
+  weight = 3
+[[main]]
+  name = "Tutorials"
+  identifier = "projects-tutorials"
+  pageRef = "/projects/kokkos-tutorials/"
+  parent = "Subprojects"
+  weight = 4
+[[main]]
+  name = "Documentation"
+  weight = 3
+[[main]]
+  name = "Core"
+  identifier = "documentation-core"
+  url = "https://kokkos.org/kokkos-core-wiki/"
+  parent = "Documentation"
+  weight = 10
+[[main]]
+  name = "Get Started"
+  identifier = "documentation-get-started"
+  url = "https://kokkos.org/kokkos-core-wiki/get-started.html"
+  parent = "Documentation"
+  weight = 13
+[[main]]
+  name = "Programming Guide"
+  identifier = "documentation-programming-guide"
+  url = "https://kokkos.org/kokkos-core-wiki/programmingguide.html"
+  parent = "Documentation"
+  weight = 14
+[[main]]
+  name = "API References"
+  identifier = "documentation-api-references"
+  url = "https://kokkos.org/kokkos-core-wiki/api-references.html"
+  parent = "Documentation"
+  weight = 15
+[[main]]
+  name = "Kernels"
+  identifier = "documentation-kernels"
+  url = "https://kokkos.org/kokkos-kernels/docs"
+  parent = "Documentation"
+  weight = 20
+[[main]]
+  name = "Tools"
+  identifier = "documentation-tools"
+  url = "https://github.com/kokkos/kokkos-tools/wiki"
+  parent = "Documentation"
+  weight = 30
+[[main]]
+  name = "Tutorials"
+  identifier = "documentation-tutorials"
+  url = "https://kokkos.org/kokkos-core-wiki/tutorials-and-examples.html"
+  parent = "Documentation"
+  weight = 40
+[[main]]
+  name = "Blog"
+  pageRef = "/blog/"
+  weight = 4
+[[main]]
+  name = "Community"
+  pageRef = "/community/"
+  weight = 5
+[[main]]
+  name = "Code of Conduct"
+  pageRef = "/community/code-of-conduct/"
+  parent = "Community"
+  weight = 51
+[[main]]
+  name = "Chat"
+  pageRef = "/community/chat/"
+  parent = "Community"
+  weight = 52
+[[main]]
+  name = "Events"
+  pageRef = "/community/events/"
+  parent = "Community"
+  weight = 53
+[[main]]
+  name = "Mailing Lists"
+  pageRef = "/community/mailing-lists/"
+  parent = "Community"
+  weight = 54
+[[main]]
+  name = "Tea Time"
+  pageRef = "/community/tea-time/"
+  parent = "Community"
+  weight = 55
+[[main]]
+  name = "Release Briefings"
+  pageRef = "/community/release-briefings/"
+  parent = "Community"
+  weight = 56
+[[main]]
+  name = "Applications"
+  pageRef = "/community/applications/"
+  parent = "Community"
+  weight = 57
+[[main]]
+  name = "Team"
+  pageRef = "/community/team/"
+  parent = "Community"
+  weight = 58
+[[main]]
+  name = "Development"
+  pageRef = "/development/"
+  weight = 6
+[[main]]
+  name = "Developer Meetings"
+  pageRef = "/development/developer-meetings/"
+  parent = "Development"
+  weight = 61
+[[main]]
+  name = "Working Groups"
+  pageRef = "/development/working-groups/"
+  parent = "Development"
+  weight = 62
+
+[[social]]
+  name = "GitHub"
+  pre = "fab fa-github"
+  url = "https://github.com/kokkos"
+  weight = 10
+[[social]]
+  name = "Slack"
+  pre = "fab fa-slack"
+  url = "https://kokkosteam.slack.com/"
+  weight = 20
+[[social]]
+  name = "YouTube"
+  pre = "fab fa-youtube"
+  url = "https://www.youtube.com/playlist?list=PLRKq_yxxHw2-Dkc4rEo8s-b3uaxJfuavA"
+  weight = 30

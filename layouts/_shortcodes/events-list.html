@@ -1,0 +1,41 @@
+{{/*
+    Renders a list of Kokkos community events, auto-generated from any page across
+    the site with "event: true" in its front matter.
+
+    Usage: {{< events-list state="upcoming" >}} or {{< events-list state="past" >}}
+
+    Relies on "eventDate" (required) and "eventEndDate" (optional, defaults to
+    eventDate) front matter fields to determine the event's date range, since the
+    generic "date" field is used inconsistently across event pages to record either
+    the event date or its announcement date.
+*/}}
+{{ $state := .Get "state" | default "upcoming" }}
+{{ $today := time.AsTime (now.Format "2006-01-02") }}
+
+{{ $items := slice }}
+{{ range where site.RegularPages "Params.event" true }}
+    {{ $page := . }}
+    {{ with $page.Params.eventDate }}
+        {{ $start := time.AsTime . }}
+        {{ $end := time.AsTime ($page.Params.eventEndDate | default .) }}
+        {{ $items = $items | append (dict "page" $page "start" $start "end" $end) }}
+    {{ end }}
+{{ end }}
+
+{{ if eq $state "upcoming" }}
+    {{ $items = where $items "end" ">=" $today }}
+    {{ $items = sort $items "start" "asc" }}
+{{ else }}
+    {{ $items = where $items "end" "<" $today }}
+    {{ $items = sort $items "start" "desc" }}
+{{ end }}
+
+{{ if eq (len $items) 0 }}
+    <p>{{ if eq $state "upcoming" }}No upcoming events scheduled.{{ else }}No past events.{{ end }}</p>
+{{ else }}
+<ul>
+    {{ range $items }}
+    <li>{{ partial "community/event-date-range.html" (dict "start" .start "end" .end) }}: <a href="{{ .page.RelPermalink }}">{{ .page.Title }}</a></li>
+    {{ end }}
+</ul>
+{{ end }}

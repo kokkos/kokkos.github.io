@@ -1,0 +1,6 @@
+[en]
+    [en.params.head]
+        tagline = "Performance Portability Ecosystem"
+    [en.params.social]
+        title = "Join the Community"
+        caption = "Connect with Kokkos users and developers on Slack and GitHub"

@@ -1,16 +1,16 @@
 ---
-authors: ["kokkos-team"]
-title: "Citing Kokkos"
-date: "2025-05-12"
-tags: [""]
+title: Citing Kokkos
 url: "citing-kokkos"
+layout: minimal
+sharing: false
+metadata: none
 ---
 
-# Citing Kokkos
-
+{{< alert color="primary" >}}
 To help us track the impact of the Kokkos project and to ensure scientific
 reproducibility, please use the following references when citing Kokkos in your
 work.
+{{< /alert >}}
 
 ## Version-Specific Citations
 
@@ -106,6 +106,7 @@ A description of the fundamental concepts can be found here:
   url={https://arxiv.org/abs/2103.11991},
 }
 ```
+
 
 ### Kokkos Tools
 

@@ -1,35 +1,36 @@
 ---
-authors: ["kokkos-team"]
-title: ""
-date: "2023-01-01"
-tags: [""]
+title: Welcome to Kokkos!
+description: A performance portable programming ecosystem for parallel applications on many-core architectures.
+#thumbnail: /assets/img/kokkos-ecosystem-hero.jpg
+content_blocks:
+- _bookshop_name: hero
+  heading:
+    title: Kokkos Performance Portability Ecosystem
+    align: start
+    content: A Linux Foundation Project
+    width: 12
+  background:
+    backdrop: /assets/img/kokkos-ecosystem-hero.jpg
+  cover: true
+  breadcrumb: false
+- _bookshop_name: articles
+  heading:
+    title: Blog
+    align: start
+  input:
+    section: blog
+    reverse: true
+    sort: date
+  hide_empty: false
+  header_style: none
+  orientation: stacked
+  more:
+    title: More Posts
+  padding: 0
+  limit: 3
+  background:
+    color: body-tertiary
+    subtle: false
+  class: border-0 card-zoom card-body-margin
+  justify: start
 ---
-
-<div class="home-title-div">
-
-<h2 class="home-title-text">KOKKOS ECOSYSTEM <br /> - <br /> A Linux Foundation Project</h2>
-
-{{< image src="img/kokkos-ecosystem-hero.jpg" class="home-title-image">}}
-
-</div>
-
-<style>
-    /* Display text on landscape background image */
-    .home-title-div {
-        position: relative;
-        text-align: center;
-        color: white;
-    }
-    .home-title-text {
-        position: absolute;
-        margin: 0;
-        top: 50%;
-        left: 5vw;
-        right: 5vw;
-        transform: translateY(-50%);
-        font-size: 2.0vw; 
-    }
-    .home-title-image {
-        border-radius: 0.375rem;
-    }
-</style>

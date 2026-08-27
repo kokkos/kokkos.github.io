@@ -1,7 +1,9 @@
 ---
+layout: minimal
 authors: ["Carl Pearson", "Ian Bogle (AMD, El Capitan Center of Excellence)", "Jonathan Madsen (AMD, Tech Lead for rocprof)", "Kevin Huck (AMD, El Capitan Center of Excellence)"]
 title: "Using Kokkos with ROCm Profiling Tools"
 date: "2026-01-28"
+description: How to use ROCm's rocprof-sys and rocprof-compute profiling tools with Kokkos applications.
 tags: ["2026", "ROCm", "Tools"]
 thumbnail: img/blog/2026/2026-01-28-hero.jpg
 ---

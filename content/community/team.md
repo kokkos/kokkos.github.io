@@ -1,14 +1,15 @@
 ---
-authors: ["kokkos-team"]
-title: "Team"
-date: "2024-01-19"
-tags: ["Team"]
+layout: minimal
+title: Team
+description: Meet the core developers contributing to Kokkos Core and Kokkos Kernels.
+sharing: false
+metadata: none
 ---
 
 The Kokkos Team is dedicated to empowering computational scientists and
 engineers through the development of Kokkos, a performance portability
 framework for high-performance computing. Our multi-institutional team brings
-together expertise in HPC, C++, and linear algebra.  Meet the core developers
+together expertise in HPC, C++, and linear algebra. Meet the core developers
 currently contributing to Kokkos Core and Kokkos Kernels below.
 
 &nbsp;
@@ -77,7 +78,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 
 &nbsp;
 
-Kokkos' success is built on the contributions of a vibrant community.  See the
+Kokkos' success is built on the contributions of a vibrant community. See the
 full list of our 100+ contributors on GitHub: [Kokkos
 Core](https://github.com/kokkos/kokkos/graphs/contributors) and [Kokkos
 Kernels](https://github.com/kokkos/kokkos-kernels/graphs/contributors).

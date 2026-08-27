@@ -1,7 +1,9 @@
 ---
+layout: minimal
 authors: ["kokkos-team"]
 title: "Kokkos User Group Meeting 2025 Program Announced"
 date: "2025-03-11"
+description: The main program schedule for the Kokkos User Group (KUG) 2025 is now available.
 tags: ["User Group Meeting", "2025"]
 thumbnail: img/blog/HPSF-Conference-Schedule-Live.png
 ---

@@ -1,7 +1,9 @@
 ---
+layout: minimal
 authors: ["kokkos-team"]
 title: "Kokkos User Group Meeting 2026 Program Announced"
 date: "2026-01-26"
+description: The main program schedule for the Kokkos User Group (KUG) 2026 is now available.
 tags: ["User Group Meeting", "2026"]
 thumbnail: img/blog/HPSF-Conference-2026-Schedule-Live.png
 ---

@@ -1,7 +1,9 @@
 ---
+layout: minimal
 authors: ["kokkos-team"]
 title: "Kokkos-FFT v1.0 release"
 date: "2026-03-05"
+description: Kokkos-FFT v1.0 has been released and reached production level, recapping its key features.
 tags: ["blog"]
 thumbnail: img/blog/2026/kokkos-fft/Taylor_Green_Vortex.png
 ---
@@ -10,7 +12,7 @@ thumbnail: img/blog/2026/kokkos-fft/Taylor_Green_Vortex.png
 
 We are pleased to announce that [Kokkos-FFT](https://github.com/kokkos/kokkos-fft) v1.0 has just been released, and has reached the production level. Let us recap its key features [1]:
 
-* Integrated naturally in the Kokkos ecosystem on top of [Kokkos Views](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) and [Kokkos ExecutionSpace](https://kokkos.org/kokkos-core-wiki/API/core/execution_spaces.html).
+* Integrated naturally in the Kokkos ecosystem on top of {{< link href="https://kokkos.org/kokkos-core-wiki/API/core/view/view.html" external=true >}}Kokkos Views{{< /link >}} and {{< link href="https://kokkos.org/kokkos-core-wiki/API/core/execution_spaces.html" external=true >}}Kokkos ExecutionSpace{{< /link >}}.
 
 * A simple interface like [`numpy.fft`](https://numpy.org/doc/stable/reference/routines.fft.html) with in-place and out-of-place transforms:  
 Only accepts `Kokkos Views` to make APIs simple and safe.

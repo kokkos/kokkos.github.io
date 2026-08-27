@@ -1,23 +1,24 @@
 ---
-authors: ["kokkos-team"]
-title: "Release Briefings"
-date: "2025-02-04"
-tags: ["Release"]
+layout: minimal
+title: Release Briefings
+description: Recordings and slides from Kokkos release briefings covering new features, breaking changes, and roadmap updates.
+sharing: false
+metadata: none
 ---
 
-Kokkos Release Briefings
-------------------------
+## Kokkos Release Briefings
+
 The Kokkos team holds a **Release Briefing** after each minor release to
 discuss new features, breaking changes, deprecations, and details about what
 has changed since the previous release, as well as provide roadmap updates.
 Join us to learn about the latest changes and ask questions.
 
-Upcoming
---------
+## Upcoming
+
 (TBD)
 
-Past
-----
+## Past
+
 * 2026/08/04: [Kokkos 5.2 Release Briefing](
   https://www.olcf.ornl.gov/calendar/kokkos-5-2-release-briefing/)
   (download slides

@@ -1,14 +1,17 @@
 ---
-authors: ["kokkos-team"]
-title: "Sponsors"
-date: "2023-06-01"
+title: Sponsors
+description: Organizations supporting the development of the Kokkos Ecosystem.
+type: minimal
+sharing: false
+metadata: none
 ---
-# Current
+
+## Current
 
 <span class="botline">
-{{< image src="img/doe-logo.webp"                     class="sponsors-image-xlarge">}}
-{{< image src="img/nisa-logo.webp"                    class="sponsors-image-medium">}}
-{{< image src="img/OLCF_official_color_10_26_15.png"  class="sponsors-image-xlarge">}}
+{{< image src="img/doe-logo.webp" class="sponsors-image-xlarge">}}
+{{< image src="img/nisa-logo.webp" class="sponsors-image-medium">}}
+{{< image src="img/OLCF_official_color_10_26_15.png" class="sponsors-image-xlarge">}}
 </span>
 
 &nbsp;
@@ -37,11 +40,11 @@ ORNL Kokkos Core members acknowledge support from ASCR through the [Rapid
 Advancement of Platform-Independent Delivery of Integrated Software
 (RAPIDS)](https://rapids.lbl.gov/) SciDAC Institute.
 
-# Past
+## Past
 
 <span class="botline">
-{{< image src="img/ecp-logo.webp"         class="sponsors-image-xlarge">}}
-{{< image src="img/SNL-logo-640x256.png"  class="sponsors-image-medium">}}
+{{< image src="img/ecp-logo.webp" class="sponsors-image-xlarge">}}
+{{< image src="img/SNL-logo-640x256.png" class="sponsors-image-medium">}}
 </span>
 
 &nbsp;
@@ -51,41 +54,27 @@ The Kokkos project members was supported by the [Exascale Computing Project
 organizations—the Office of Science and the National Nuclear Security
 Administration—responsible for the planning and preparation of a capable
 exascale ecosystem—including software, applications, hardware, advanced system
-engineering, and early testbed platforms—to support the nation’s exascale
+engineering, and early testbed platforms—to support the nation's exascale
 computing imperative.
 
 Kokkos was initiated at SNL and funded through [Sandia's Laboratory Directed
 Research & Development (LDRD)](https://www.sandia.gov/research/ldrd/) program.
 
-
 <style>
-
-    .sponsors-image-xsmall {
-        width: 6%;
-    }
-
-    .sponsors-image-small {
-        width: 14%;
-    }
-
     .sponsors-image-medium {
         width: 15%;
-    }
-
-    .sponsors-image-large {
-        width: 17%;
     }
 
     .sponsors-image-xlarge {
         width: 25%;
     }
 
-    .botline div {
-         vertical-align:bottom;
-         display: inline;
-    }
-    .botline div img {
-         margin-right: 0.5%;
+    .botline {
+        display: block;
     }
 
+    .botline img {
+        vertical-align: bottom;
+        margin-right: 0.5%;
+    }
 </style>

@@ -1,7 +1,9 @@
 ---
+layout: minimal
 authors: ["kokkos-team"]
 title: "Kokkos User Group Meeting 2026 in Europe @ HPSF Community Summit"
 date: "2026-01-01"
+description: The next Kokkos User Group meeting in Europe takes place in Braunschweig, Germany, February 25th to 27th, as part of the HPSF Community Summit.
 tags: ["User Group Meeting", "2026", "Europe"]
 thumbnail: img/blog/HSPF-Community-Summit-2026.png
 ---

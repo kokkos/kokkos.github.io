@@ -1,0 +1,21 @@
+{{/*
+    Formats a date range for an event listing, e.g.:
+    - "Jan 26, 2026" (single day)
+    - "Mar 19-20, 2026" (same month)
+    - "Feb 25 - Mar 1, 2026" (same year, different month)
+    - "Dec 30, 2025 - Jan 2, 2026" (different year)
+    Expects a dict with "start" and "end" time.Time values.
+*/}}
+{{ $start := .start }}
+{{ $end := .end }}
+{{ $result := "" }}
+{{ if eq (.start.Format "2006-01-02") (.end.Format "2006-01-02") }}
+    {{ $result = $start.Format "Jan 2, 2006" }}
+{{ else if ne $start.Year $end.Year }}
+    {{ $result = printf "%s - %s" ($start.Format "Jan 2, 2006") ($end.Format "Jan 2, 2006") }}
+{{ else if ne $start.Month $end.Month }}
+    {{ $result = printf "%s - %s, %d" ($start.Format "Jan 2") ($end.Format "Jan 2") $end.Year }}
+{{ else }}
+    {{ $result = printf "%s-%s, %d" ($start.Format "Jan 2") ($end.Format "2") $end.Year }}
+{{ end }}
+{{ return $result }}

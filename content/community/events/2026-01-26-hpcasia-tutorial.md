@@ -1,13 +1,15 @@
 ---
-authors: ["kokkos-team"]
+layout: minimal
 title: "HPC Asia / SCA 2026 Kokkos Tutorial"
 date: "2025-11-26"
-tags: ["Kokkos", "event"]
+event: true
+eventDate: "2026-01-26"
+description: A 1-day Kokkos tutorial at the combined HPC Asia / SCA 2026 conference in Osaka, Japan.
+sharing: false
+metadata: none
 ---
 
-# HPC Asia / SCA 2026 Kokkos Tutorial
-
-{{< image src="img/events/2026/HPCAsia-Osaka.jpg" style="float: center; height=10" caption="Osaka castle. By 663highland - Own work, CC BY 2.5">}}
+{{< image src="img/events/2026/HPCAsia-Osaka.jpg" caption="Osaka castle. By 663highland - Own work, CC BY 2.5">}}
 
 The Kokkos team will conduct a 1-day tutorial on 26th of January at the combined HPC Asia / SCA 2026 conference in Osaka, Japan.
 For those new to Kokkos this will be an excellent opportunity to hear the introductory lectures,
@@ -26,7 +28,7 @@ and other accelerators, developers face the challenge of writing code that effic
 hardware resources without developing and maintaining multiple variants of the software.
 Kokkos addresses this by offering a single-source approach, allowing users to write code once and compile it for optimal execution on a wide range of platforms.
 
-Kokkos is an Open Source project under the Linux Foundation’s “High Performance Software Foundation" (https://hpsf.io).
+Kokkos is an Open Source project under the Linux Foundation's "High Performance Software Foundation" (https://hpsf.io).
 We'll start by exploring the fundamental concepts of Kokkos, including memory spaces and execution spaces,
 which are crucial for managing data placement and task execution on different devices.
 You'll learn about `Kokkos::parallel_for` for launching parallel computations and `Kokkos::View` for

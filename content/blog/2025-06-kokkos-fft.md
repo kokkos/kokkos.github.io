@@ -1,7 +1,9 @@
 ---
+layout: minimal
 authors: ["kokkos-team"]
 title: "Kokkos FFT: A Native FFT Interface for the Kokkos Ecosystem"
 date: 2025-06-25
+description: Kokkos-FFT provides a native, numpy.fft-like FFT interface for the Kokkos ecosystem.
 tags: ["blog"]
 thumbnail: img/blog/2025/kokkos-fft/kokkos-fft.png
 ---
@@ -19,7 +21,7 @@ The fast Fourier transform (FFT) is a family of fundamental algorithms that is w
 kokkos-fft [2] can benefit such users through the following features:
 
 * A simple interface like [`numpy.fft`](https://numpy.org/doc/stable/reference/routines.fft.html) with in-place and out-of-place transforms:  
-Only accepts [Kokkos Views](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) to make APIs simple and safe.
+Only accepts {{< link href="https://kokkos.org/kokkos-core-wiki/API/core/view/view.html" external=true >}}Kokkos Views{{< /link >}} to make APIs simple and safe.
 
 * 1D, 2D, 3D standard and real FFT functions (similar to [`numpy.fft`](https://numpy.org/doc/stable/reference/routines.fft.html)) over 1D to 8D Kokkos Views:  
 Batched plans are automatically used if `View` dimension is larger than FFT dimension.
@@ -67,11 +69,11 @@ x_hat = np.fft.rfft(x)
 
 There are two additional arguments in the Kokkos version:
 
-* `exec`: [*Kokkos execution space instance*](https://kokkos.org/kokkos-core-wiki/API/core/execution_spaces.html) whose internal stream/queue is attached to the plan of backend FFT library.
+* `exec`: {{< link href="https://kokkos.org/kokkos-core-wiki/API/core/execution_spaces.html" external=true >}}*Kokkos execution space instance*{{< /link >}} whose internal stream/queue is attached to the plan of backend FFT library.
 
-* `x_hat`: [*Kokkos Views*](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) where the complex-valued FFT output will be stored. By accepting this view as an argument, the function allows the user to pre-allocate memory and optimize data placement, avoiding unnecessary allocations and copies.
+* `x_hat`: {{< link href="https://kokkos.org/kokkos-core-wiki/API/core/view/view.html" external=true >}}*Kokkos Views*{{< /link >}} where the complex-valued FFT output will be stored. By accepting this view as an argument, the function allows the user to pre-allocate memory and optimize data placement, avoiding unnecessary allocations and copies.
 
-Also, kokkos-fft only accepts [Kokkos Views](https://kokkos.org/kokkos-core-wiki/API/core/view/view.html) as input data. The accessibility of a `View` from `ExecutionSpace` is statically checked and will result in a compilation error if not accessible. See [documentations](https://kokkosfft.readthedocs.io/en/latest/intro/quick_start.html) for basic usage.
+Also, kokkos-fft only accepts {{< link href="https://kokkos.org/kokkos-core-wiki/API/core/view/view.html" external=true >}}Kokkos Views{{< /link >}} as input data. The accessibility of a `View` from `ExecutionSpace` is statically checked and will result in a compilation error if not accessible. See [documentations](https://kokkosfft.readthedocs.io/en/latest/intro/quick_start.html) for basic usage.
 
 # Solving 2D Hasegawa-Wakatani turbulence with the Fourier spectral method
 
@@ -121,7 +123,7 @@ void poissonBracket(const FViewType& fk, const GViewType& gk, PViewType& pk) {
 }
 ```
 
-The functions `derivative` and `convolution` are parallelized with [`Kokkos::parallel_for`](https://kokkos.org/kokkos-core-wiki/API/core/parallel-dispatch/parallel_for.html) using a [`MDRangePolicy`](https://kokkos.org/kokkos-core-wiki/API/core/policies/MDRangePolicy.html). For example, `derivative` is computed in the following manner. It should be noted that we store the derivatives `ikx_f`, `iky_f`, `ikx_g` and `iky_g` as [`subviews`](https://kokkos.org/kokkos-core-wiki/API/core/view/subview.html) of a single view `ik_fg_all`. This way, we only need to perform one batched backward FFT over derivatives rather than calling FFTs multiple times for all derivatives.
+The functions `derivative` and `convolution` are parallelized with {{< link href="https://kokkos.org/kokkos-core-wiki/API/core/parallel-dispatch/parallel_for.html" external=true >}}`Kokkos::parallel_for`{{< /link >}} using a {{< link href="https://kokkos.org/kokkos-core-wiki/API/core/policies/MDRangePolicy.html" external=true >}}`MDRangePolicy`{{< /link >}}. For example, `derivative` is computed in the following manner. It should be noted that we store the derivatives `ikx_f`, `iky_f`, `ikx_g` and `iky_g` as {{< link href="https://kokkos.org/kokkos-core-wiki/API/core/view/subview.html" external=true >}}`subviews`{{< /link >}} of a single view `ik_fg_all`. This way, we only need to perform one batched backward FFT over derivatives rather than calling FFTs multiple times for all derivatives.
 
 ```C++
 template <typename FViewType, typename GViewType, typename FGViewType>

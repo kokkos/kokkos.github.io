@@ -1,9 +1,10 @@
 ---
-authors: ["kokkos-team"]
-title: "CExA Kokkos Tea Time"
-date: "2025-02-03"
-tags: ["Tea Time"]
+layout: minimal
+title: CExA Kokkos Tea Time
+description: Monthly Kokkos tea-time technical talks hosted by CExA.
 thumbnail: img/cexa-tea-time.jpg
+sharing: false
+metadata: none
 ---
 
 [CExA](https://cexa-project.org) hosts a monthly [Kokkos tea-time](https://cexa-project.org/kokkos-tea-time/) session on the third Wednesday of the month at 4 PM Paris time (usually 10 AM Eastern, 8 AM Mountain, 11 PM Tokyo time).
@@ -14,13 +15,13 @@ Each session lasts 45 minutes.
 Missed a session? Our full library of past technical talks is available on the HPSF YouTube Channel.
 [Browse the Playlist](https://www.youtube.com/playlist?list=PLRKq_yxxHw2-Dkc4rEo8s-b3uaxJfuavA).
 
-Upcoming
---------
+## Upcoming
+
 * 2026-09-16: [SYCL and Kokkos: Similarities and Differences](
   https://cexa-project.org/kokkos-tea-time/2026-09-16-tea-time-sycl-and-kokkos/)
 
-Past
-----
+## Past
+
 * 2026-07-15: [Acceleragent: An Agentic AI Approach for Porting HPC Codebases to GPUs](
   https://cexa-project.org/kokkos-tea-time/2026-07-15-tea-time-acceleragent/)
 * 2026-06-17: [Multi-Dimensional Range Policy performance concerns and improvements](

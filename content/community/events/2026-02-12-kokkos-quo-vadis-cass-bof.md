@@ -1,8 +1,12 @@
 ---
-authors: ["kokkos-team"]
+layout: minimal
 title: "Kokkos Quo Vadis: Shaping the Future of the Ecosystem"
 date: "2026-02-04"
-tags: ["Kokkos", "event", "CASS"]
+event: true
+eventDate: "2026-02-12"
+description: An interactive Birds-of-a-Feather session on the long-term roadmap of the Kokkos Ecosystem, hosted by CASS.
+sharing: false
+metadata: none
 ---
 
 Join the Kokkos leadership team for an interactive Birds-of-a-Feather (BoF)
@@ -13,7 +17,7 @@ This session, **"Kokkos Quo Vadis" (Where are you going?)**, is a dedicated
 space for the community to hear about the long-term roadmap and influence the
 direction of the Kokkos Ecosystem.
 
-# :calendar: Event Details
+## Event Details
 
 **When:** Thursday, February 12, 2026
 
@@ -27,7 +31,7 @@ direction of the Kokkos Ecosystem.
 
 ---
 
-# Why Attend?
+## Why Attend?
 
 This session is designed specifically for community members who cannot attend
 the upcoming HPSF Summit in Germany or the Kokkos User Group meeting in

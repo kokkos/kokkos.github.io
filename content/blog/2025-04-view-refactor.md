@@ -1,7 +1,9 @@
 ---
+layout: minimal
 authors: ["kokkos-team"]
 title: "Kokkos::View meets std::mdspan"
 date: "2025-04-11"
+description: Kokkos::View has been refactored to use std::mdspan at its core, and we need your help testing it.
 tags: ["2025", "View"]
 thumbnail: img/blog/2025/view-impl-bridge.jpg
 ---
