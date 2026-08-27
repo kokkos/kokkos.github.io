@@ -63,7 +63,7 @@ jobs:
           HUGO_ENV: production
         run: |
           export PATH="$PWD/node_modules/.bin:$PATH"
-          hugo --gc --minify --baseURL https://dalg24.github.io/kokkos.github.io/
+          hugo --gc --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
