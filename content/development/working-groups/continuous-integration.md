@@ -30,13 +30,15 @@ Members
 * Nathan Ellingwood
 * Daniel Arndt
 
-**Participants:**
+**Participants and Contributors:**
 * Luc Berger-Vergiat
 * Conrad Clevenger
 * Rahul Gayatri
 * Damien Lebrun-Grandié
 * Bruno Turcksin
-* Paul Zehner
+* Paul Gannay
+* Yuuichi Asahi
+* Carl Pearson
 
 Connect
 -------
