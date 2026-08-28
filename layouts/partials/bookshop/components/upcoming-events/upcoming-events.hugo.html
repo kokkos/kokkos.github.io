@@ -1,0 +1,88 @@
+{{/*
+    Site-local bookshop component: upcoming-events
+
+    Renders a grid of cards for community events happening today or later, mirroring
+    the styling of the "articles" component used for the Blog section. Sources pages
+    with "event: true" front matter, using "eventDate" (required) and "eventEndDate"
+    (optional, defaults to eventDate) to determine whether an event is still upcoming -
+    the same fields and logic used by the events-list shortcode on the events page,
+    since the generic "date" field records the announcement date, not the event date.
+*/}}
+
+{{ $page := or ._page page }}
+{{ $padding := partial "utilities/GetPadding.html" }}
+
+{{/* Retrieve upcoming events: a start date in the future, or - for multi-day events -
+     an end date that has not yet passed. Comparing ISO-formatted date strings with
+     ">=" sorts correctly and preserves the page.Pages type through "where"/"union"/
+     "ByParam", which "assets/card-group.html" relies on to resolve each page's own
+     title, thumbnail and description. */}}
+{{ $today := now.Format "2006-01-02" }}
+{{ $pages := where site.RegularPages "Params.event" true }}
+{{ $byStart := where $pages "Params.eventDate" ">=" $today }}
+{{ $byEnd := where $pages "Params.eventEndDate" ">=" $today }}
+{{ $pages = ($byStart | union $byEnd).ByParam "eventDate" }}
+
+{{ with .limit }}{{ $pages = $pages | first . }}{{ end }}
+
+{{ $moreLink := "" }}
+{{ $moreTitle := "" }}
+{{ with .more }}
+    {{ if .link }}{{ $moreLink = .link }}{{ end }}
+    {{ if .title }}{{ $moreTitle = .title }}{{ end }}
+{{ end }}
+
+{{ $raw := "" }}
+{{ if or (gt (len $pages) 0) (not .hide_empty) }}
+    {{ $raw = printf "%s%s" $raw (partial "assets/section-title.html" (dict
+        "page"          $page
+        "heading-level" (cond (isset . "heading_level") .heading_level (index . "heading-level"))
+        "heading"       .heading
+        "justify"       .justify
+        "class"         (printf "pb-%d" $padding.y)))
+    }}
+
+    {{ $params := dict
+        "page"          $page
+        "list"          $pages
+        "cols"          .cols
+        "padding"       .padding
+        "href"          $moreLink
+        "header-style"  (or .header_style (index . "header-style"))
+        "body-style"    (or .body_style (index . "body-style"))
+        "footer-style"  (or .footer_style (index . "footer-style"))
+        "class"         (or .class "border-0")
+        "align"         "start"
+        "orientation"   .orientation
+        "ratio"         .ratio
+        "href-title"    $moreTitle
+        "hook"          "assets/live-card.html"
+    }}
+
+    {{ if gt (len $pages) 0 }}
+        {{ $raw = printf "%s%s" $raw (partial "assets/card-group.html" $params) }}
+    {{ else }}
+        {{ $raw = printf "%s%s" $raw (printf `<p class="pt-%d">%s</p>` $padding.y (T "emptyList")) }}
+    {{ end }}
+
+    {{ if $raw }}
+        {{ partial "utilities/section.html" (dict
+            "_ordinal"       ._ordinal
+            "page"           $page
+            "embed"          ._embed
+            "component-name" "upcoming-events"
+            "id"             .id
+            "raw"            $raw
+            "background"     .background
+            "width"          .width
+            "justify"        .justify
+            "wrapper"        .wrapper
+            "fluid"          .fluid
+            "theme"          .theme
+            "cover"          .cover
+            "overlay-mode"   (or .overlay_mode (index . "overlay-mode"))
+            "section-class"  (or .section_class (index . "section-class"))
+            "bg-class"       (or .bg_class (index . "bg-class"))
+        )}}
+    {{ end }}
+{{ end }}
