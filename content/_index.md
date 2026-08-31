@@ -33,4 +33,18 @@ content_blocks:
     subtle: false
   class: border-0 card-zoom card-body-margin
   justify: start
+- _bookshop_name: upcoming-events
+  heading:
+    title: Upcoming Events
+    align: start
+  hide_empty: true
+  header_style: none
+  orientation: stacked
+  more:
+    title: All Events
+    link: /community/events/
+  padding: 0
+  limit: 3
+  class: border-0 card-zoom card-body-margin
+  justify: start
 ---
