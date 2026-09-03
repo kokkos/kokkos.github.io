@@ -182,6 +182,11 @@
   pageRef = "/development/working-groups/"
   parent = "Development"
   weight = 62
+[[main]]
+  name = "HPSF"
+  url = "https://hpsf.io"
+  weight = 7
+  pre = '<img src="/img/hpsf/hpsf-icon-light.svg" alt="" height="22" class="d-none-dark my-auto">&nbsp;<img src="/img/hpsf/hpsf-icon-dark.svg" alt="" height="22" class="d-none-light my-auto">'
 
 [[social]]
   name = "GitHub"
