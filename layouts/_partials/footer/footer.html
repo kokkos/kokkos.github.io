@@ -1,8 +1,51 @@
-<footer class="container-fluid footer text-center p-3">
-    <div class="container-xxl text-center">
-        <small>
-            {{- $copyright := printf "%s © %s %s %s." (T "copyright") (dateFormat "2006" now) .Site.Title (T "rights") }}
-            {{ cond (gt (len .Site.Copyright) 0) .Site.Copyright $copyright }}
-        </small>
+<footer class="container-fluid footer bg-primary bg-opacity-{{ .Site.Params.style.themeOpacity | default "25" | safeHTML }}">
+    <div class="container-xxl px-4 px-xxl-0">
+        <div class="row row-cols-1 row-cols-md-4 py-4">
+            <div class="col mb-3 mb-md-0">
+                {{- with .File }}
+                    {{- $repo := site.Params.repo }}
+                    {{- if $repo.url }}
+                        {{- $branch := $repo.branch | default "main" }}
+                        {{- $contentDir := $repo.contentDir | default "content" }}
+                        {{- $editURL := printf "%s/edit/%s/%s/%s" $repo.url $branch $contentDir .Path }}
+                        {{- $issueURL := printf "%s/issues/new?title=%s" $repo.url (urlquery (printf "Issue with page: %s" .Path)) }}
+                        <div>
+                            <a href="{{ $editURL | safeURL }}" target="_blank" rel="noopener noreferrer" class="link-secondary text-decoration-none">
+                                {{ partial "assets/icon.html" (dict "icon" "fas fa-pen-to-square") }} Improve this page
+                            </a>
+                        </div>
+                        <div>
+                            <a href="{{ $issueURL | safeURL }}" target="_blank" rel="noopener noreferrer" class="link-secondary text-decoration-none">
+                                {{ partial "assets/icon.html" (dict "icon" "fas fa-triangle-exclamation") }} Report a page issue
+                            </a>
+                        </div>
+                    {{- end }}
+                {{- end }}
+            </div>
+            <div class="col mb-3 mb-md-0">
+                <div class="fw-bold border-top pt-3 mb-2 d-inline-block">Project</div>
+                <div><a href="https://github.com/kokkos/governance/blob/main/GOVERNANCE.md" target="_blank" rel="noopener noreferrer" class="link-secondary text-decoration-none">Structure and Governance</a></div>
+                <div><a href="#" class="link-secondary text-decoration-none">Roadmap</a></div>
+                <div><a href="https://github.com/kokkos" target="_blank" rel="noopener noreferrer" class="link-secondary text-decoration-none">GitHub</a></div>
+            </div>
+            <div class="col mb-3 mb-md-0">
+                <div class="fw-bold border-top pt-3 mb-2 d-inline-block">Community</div>
+                <div><a href="{{ "/community/events/" | relURL }}" class="link-secondary text-decoration-none">Events</a></div>
+                <div><a href="{{ "/community/mailing-lists/" | relURL }}" class="link-secondary text-decoration-none">Mailing Lists</a></div>
+                <div><a href="https://kokkosteam.slack.com/" target="_blank" rel="noopener noreferrer" class="link-secondary text-decoration-none">Slack</a></div>
+                <div><a href="https://www.youtube.com/playlist?list=PLRKq_yxxHw2-Dkc4rEo8s-b3uaxJfuavA" target="_blank" rel="noopener noreferrer" class="link-secondary text-decoration-none">YouTube</a></div>
+            </div>
+            <div class="col mb-3 mb-md-0">
+                <div class="fw-bold border-top pt-3 mb-2 d-inline-block">Other</div>
+                <div><a href="{{ "/community/code-of-conduct/" | relURL }}" class="link-secondary text-decoration-none">Code of Conduct</a></div>
+                <div><a href="https://hpsf.io" target="_blank" rel="noopener noreferrer" class="link-secondary text-decoration-none">HPSF</a></div>
+            </div>
+        </div>
+        <div class="text-center pb-3">
+            <small>
+                {{- $copyright := printf "%s © %s %s %s." (T "copyright") (dateFormat "2006" now) .Site.Title (T "rights") }}
+                {{ cond (gt (len .Site.Copyright) 0) .Site.Copyright $copyright }}
+            </small>
+        </div>
     </div>
 </footer>
