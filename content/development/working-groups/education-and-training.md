@@ -28,12 +28,13 @@ features.
 Members
 -------
 **Leads:**
-* Paul Zehner
+* Christian Trott
 
 **Participants:**
 * Patrick Diehl
+* Luc Berger-Vergiat
 * Rahul Gayatri
-* Christian Trott
+* Pariksheet Nanda
 
 Connect
 -------
@@ -43,7 +44,6 @@ Connect
 
 Meetings
 --------
-* Schedule: (TBD)
-* Meeting link (TBD)
-* Agenda (TBD)
-* Minutes previous meetings (TBD)
+* Schedule: Tuesday's 9am PT, 12pm ET
+* Meeting link: [Zoom](https://zoom.us/j/96572768183?pwd=Ab9seR4MMekLcHDAufYSoEn3L9QgWo.1)
+* Minutes previous meetings: [GitHub](https://github.com/kokkos/development/tree/main/meeting_notes/wg-education-training)
