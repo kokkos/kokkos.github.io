@@ -20,7 +20,14 @@ SNL Kokkos Core and Kokkos Kernels members acknowledge support from the US DOE
 [National Nuclear Security Administration
 (NNSA)](https://www.energy.gov/nnsa/national-nuclear-security-administration)
 through the [Advanced Simulation and Computing
-(ASC)](https://www.sandia.gov/asc/) program.
+(ASC)](https://www.sandia.gov/asc/) program at Sandia.
+
+LANL Kokkos Core members acknowledge support from the US DOE [National Nuclear
+Security Administration
+(NNSA)](https://www.energy.gov/nnsa/national-nuclear-security-administration)
+through the [Advanced Simulation and Computing
+(ASC)](https://www.lanl.gov/about/mission/advanced-simulation-and-computing)
+program at Los Alamos.
 
 ORNL Kokkos Core members acknowledge support from the [Oak Ridge Leadership
 Computing Facility (OLCF)](https://www.olcf.ornl.gov).
