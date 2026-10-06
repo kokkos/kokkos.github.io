@@ -16,8 +16,9 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 
 <span class="botline">
 {{< image src="img/CEA-logo-480x480.png"           class="community-team-image-xsmall">}}
-{{< image src="img/ORNL_Two-line_green-300x95.png" class="community-team-image-medium">}}
-{{< image src="img/SNL-logo-640x256.png"           class="community-team-image-medium">}}
+<span class="community-team-image-medium">{{< image src="img/LANL-logo.png" mode="true">}}</span>
+{{< image src="img/ORNL_Two-line_green-300x95.png" class="community-team-image-small">}}
+{{< image src="img/SNL-logo-640x256.png"           class="community-team-image-small">}}
 </span>
 
 <br>
@@ -26,7 +27,6 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 {{< image src="img/ANL-logo-300x105.png"           class="community-team-image-medium">}}
 {{< image src="img/CSCS-Logo-258X79.jpg"           class="community-team-image-small">}}
 {{< image src="img/FZJ-logo-933x267.png"           class="community-team-image-medium">}}
-{{< image src="img/LANL-logo-247x89.jpg"           class="community-team-image-medium">}}
 {{< image src="img/LBNL-logo-316x240.jpg"          class="community-team-image-xsmall">}}
 {{< image src="img/ULiege-logo-1450x704.png"       class="community-team-image-medium">}}
 </span>
@@ -111,8 +111,17 @@ Kernels.
         width: 25%;
     }
 
+    span.community-team-image-xsmall,
+    span.community-team-image-small,
+    span.community-team-image-medium,
+    span.community-team-image-large,
+    span.community-team-image-xlarge {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
     .botline div {
-         vertical-align:bottom;
+         vertical-align:middle;
          display: inline;
     }
     .botline div img {
