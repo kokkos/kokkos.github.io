@@ -47,12 +47,6 @@ ORNL Kokkos Core members acknowledge support from ASCR through the [Rapid
 Advancement of Platform-Independent Delivery of Integrated Software
 (RAPIDS)](https://rapids.lbl.gov/) SciDAC Institute.
 
-LANL Kokkos Core members acknowledge support from the US DOE
-[National Nuclear Security Administration
-(NNSA)](https://www.energy.gov/nnsa/national-nuclear-security-administration)
-through the [Advanced Simulation and Computing
-(ASC)](https://www.lanl.gov/about/mission/advanced-simulation-and-computing) program.
-
 ## Past
 
 <div class="d-flex flex-wrap align-items-center gap-4">
