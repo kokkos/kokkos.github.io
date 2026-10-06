@@ -57,8 +57,10 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Trévis Morvany, CEA
 - Thomas Padioleau, CEA
 - Carl Pearson, SNL
+- Andrew Reisner, LANL
 - Mikael Simberg, CSCS
 - Adrien Taberner, CEA
+- Nigel Tan, LANL
 - Romin Tomasetti, ULiège
 - Bruno Turcksin, ORNL
 
