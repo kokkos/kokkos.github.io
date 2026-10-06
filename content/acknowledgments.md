@@ -8,11 +8,11 @@ metadata: none
 
 ## Current
 
-<span class="botline">
-{{< image src="img/doe-logo.webp" class="sponsors-image-xlarge">}}
-{{< image src="img/nisa-logo.webp" class="sponsors-image-medium">}}
-{{< image src="img/OLCF_official_color_10_26_15.png" class="sponsors-image-xlarge">}}
-</span>
+<div class="d-flex flex-wrap align-items-center gap-4">
+<div class="sponsors-logo sponsors-image-xlarge">{{< image src="img/sponsors/doe-sc-logo-light.png" mode="true">}}</div>
+<div class="sponsors-logo sponsors-image-medium">{{< image src="img/sponsors/nnsa-logo-light.png" mode="true">}}</div>
+<div class="sponsors-logo sponsors-image-xlarge">{{< image src="img/OLCF_official_color_10_26_15.png">}}</div>
+</div>
 
 &nbsp;
 
@@ -20,7 +20,14 @@ SNL Kokkos Core and Kokkos Kernels members acknowledge support from the US DOE
 [National Nuclear Security Administration
 (NNSA)](https://www.energy.gov/nnsa/national-nuclear-security-administration)
 through the [Advanced Simulation and Computing
-(ASC)](https://www.sandia.gov/asc/) program.
+(ASC)](https://www.sandia.gov/asc/) program at Sandia.
+
+LANL Kokkos Core members acknowledge support from the US DOE [National Nuclear
+Security Administration
+(NNSA)](https://www.energy.gov/nnsa/national-nuclear-security-administration)
+through the [Advanced Simulation and Computing
+(ASC)](https://www.lanl.gov/about/mission/advanced-simulation-and-computing)
+program at Los Alamos.
 
 ORNL Kokkos Core members acknowledge support from the [Oak Ridge Leadership
 Computing Facility (OLCF)](https://www.olcf.ornl.gov).
@@ -42,10 +49,10 @@ Advancement of Platform-Independent Delivery of Integrated Software
 
 ## Past
 
-<span class="botline">
+<div class="d-flex flex-wrap align-items-center gap-4">
 {{< image src="img/ecp-logo.webp" class="sponsors-image-xlarge">}}
 {{< image src="img/SNL-logo-640x256.png" class="sponsors-image-medium">}}
-</span>
+</div>
 
 &nbsp;
 
@@ -61,20 +68,15 @@ Kokkos was initiated at SNL and funded through [Sandia's Laboratory Directed
 Research & Development (LDRD)](https://www.sandia.gov/research/ldrd/) program.
 
 <style>
+    .sponsors-logo {
+        flex-shrink: 0;
+    }
+
     .sponsors-image-medium {
         width: 15%;
     }
 
     .sponsors-image-xlarge {
         width: 25%;
-    }
-
-    .botline {
-        display: block;
-    }
-
-    .botline img {
-        vertical-align: bottom;
-        margin-right: 0.5%;
     }
 </style>
