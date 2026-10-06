@@ -39,7 +39,6 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Daniel Arndt, ORNL
 - Maarten Arnst, ULiège
 - Yuuichi Asahi, CEA
-- Julien Bigot, CEA
 - Jakob Bludau, ORNL
 - Prateek Chawla, FZJ
 - Cedric Chevalier, CEA
@@ -62,7 +61,6 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Adrien Taberner, CEA
 - Romin Tomasetti, ULiège
 - Bruno Turcksin, ORNL
-- Paul Zehner, CEA
 
 &nbsp;
 
