@@ -1,0 +1,144 @@
+{{/*
+    Renders a searchable, filterable, sortable table of Kokkos applications and
+    libraries (front matter "entryType": application|library),
+    auto-generated from any page across the site with an "entryType" front matter
+    field.
+
+    Usage: {{< applications-list >}}
+*/}}
+{{ $pages := where site.RegularPages "Params.entrytype" "in" (slice "application" "library") }}
+{{ $pages = $pages.ByTitle }}
+
+{{ if eq (len $pages) 0 }}
+    <p>No applications registered yet.</p>
+{{ else }}
+{{ $areas := slice }}
+{{ $libraries := slice }}
+{{ range $pages }}
+    {{ with .Params.area }}{{ $areas = $areas | append . }}{{ end }}
+    {{ with .Params.libraries }}{{ $libraries = $libraries | append . }}{{ end }}
+{{ end }}
+{{ $areas = $areas | uniq | sort }}
+{{ $libraries = $libraries | uniq | sort }}
+<div class="app-registry">
+    <div class="row g-2 mb-3">
+        <div class="col-12">
+            <input type="search" class="form-control app-search" placeholder="Search…" aria-label="Search applications and libraries">
+        </div>
+        <div class="col-6 col-md">
+            <select class="form-select app-type" aria-label="Filter by type">
+                <option value="">Applications &amp; libraries</option>
+                <option value="application">Applications</option>
+                <option value="library">Libraries</option>
+            </select>
+        </div>
+        <div class="col-6 col-md">
+            <select class="form-select app-area" aria-label="Filter by area">
+                <option value="">All areas</option>
+                {{ range $areas }}<option value="{{ . }}">{{ . }}</option>{{ end }}
+            </select>
+        </div>
+        <div class="col-6 col-md">
+            <select class="form-select app-status" aria-label="Filter by status">
+                <option value="">All statuses</option>
+                {{ range hugo.Data.registry.statuses }}<option value="{{ . }}">{{ . }}</option>{{ end }}
+            </select>
+        </div>
+        <div class="col-6 col-md">
+            <select class="form-select app-library" aria-label="Filter by library">
+                <option value="">All libraries</option>
+                {{ range $libraries }}<option value="{{ . }}">{{ . }}</option>{{ end }}
+            </select>
+        </div>
+        <div class="col-6 col-md">
+            <select class="form-select app-availability" aria-label="Filter by availability">
+                <option value="">All availability</option>
+                {{ range hugo.Data.registry.availabilities }}<option value="{{ . }}">{{ . }}</option>{{ end }}
+            </select>
+        </div>
+    </div>
+    <p class="text-muted app-count" aria-live="polite">{{ len $pages }} entries</p>
+    <table>
+    <thead>
+    <tr>
+        <th data-sort="0" style="cursor:pointer">Name</th>
+        <th data-sort="1" style="cursor:pointer">Type</th>
+        <th data-sort="2" style="cursor:pointer">Area</th>
+        <th data-sort="3" style="cursor:pointer">Status</th>
+        <th>Libraries</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{ range $pages }}
+        {{ $type := .Params.entryType }}
+        <tr data-type="{{ $type }}" data-status="{{ .Params.status }}" data-availability="{{ .Params.availability | default "Open source" }}" data-areas="{{ delimit (.Params.area | default slice) "|" }}" data-libraries="{{ delimit (.Params.libraries | default slice) "|" }}">
+            <td><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if eq .Params.availability "Restricted" }} <span class="text-muted" title="Restricted: private or proprietary code">{{ partial "assets/icon.html" (dict "page" $.Page "icon" "fas fa-lock") }}<span class="visually-hidden">Restricted</span></span>{{ end }}</td>
+            <td>{{ $type | title }}</td>
+            <td>
+                {{- with .Params.area -}}
+                    {{- range . }}<span class="badge text-bg-secondary">{{ . }}</span> {{ end -}}
+                {{- else -}}–{{- end -}}
+            </td>
+            <td>{{ with .Params.status }}{{ partial "community/status-badge.html" . }}{{ else }}–{{ end }}</td>
+            <td>
+                {{- $tags := .Params.libraries -}}
+                {{- if $tags -}}
+                    {{- range $tags }}<span class="badge text-bg-primary">{{ . }}</span> {{ end -}}
+                {{- else -}}–{{- end -}}
+            </td>
+        </tr>
+    {{ end }}
+    </tbody>
+    </table>
+</div>
+<script>
+(function () {
+    var root = document.currentScript.previousElementSibling;
+    var rows = Array.prototype.slice.call(root.querySelectorAll('tbody tr'));
+    var search = root.querySelector('.app-search');
+    var type = root.querySelector('.app-type');
+    var area = root.querySelector('.app-area');
+    var status = root.querySelector('.app-status');
+    var avail = root.querySelector('.app-availability');
+    var lib = root.querySelector('.app-library');
+    var count = root.querySelector('.app-count');
+    function apply() {
+        var q = search.value.trim().toLowerCase();
+        var t = type.value;
+        var a = area.value;
+        var st = status.value;
+        var av = avail.value;
+        var l = lib.value;
+        var shown = 0;
+        rows.forEach(function (r) {
+            var ok = (!q || r.textContent.toLowerCase().indexOf(q) !== -1) &&
+                     (!t || r.dataset.type === t) &&
+                     (!a || r.dataset.areas.split('|').indexOf(a) !== -1) &&
+                     (!st || r.dataset.status === st) &&
+                     (!av || r.dataset.availability === av) &&
+                     (!l || r.dataset.libraries.split('|').indexOf(l) !== -1);
+            r.hidden = !ok;
+            if (ok) shown++;
+        });
+        count.textContent = shown + (shown === 1 ? ' entry' : ' entries');
+    }
+    search.addEventListener('input', apply);
+    type.addEventListener('change', apply);
+    area.addEventListener('change', apply);
+    status.addEventListener('change', apply);
+    avail.addEventListener('change', apply);
+    lib.addEventListener('change', apply);
+    var dir = {};
+    root.querySelectorAll('th[data-sort]').forEach(function (th) {
+        th.addEventListener('click', function () {
+            var i = +th.dataset.sort;
+            dir[i] = -(dir[i] || -1);
+            var body = root.querySelector('tbody');
+            rows.sort(function (a, b) {
+                return dir[i] * a.cells[i].textContent.trim().localeCompare(b.cells[i].textContent.trim(), undefined, {sensitivity: 'base'});
+            }).forEach(function (r) { body.appendChild(r); });
+        });
+    });
+})();
+</script>
+{{ end }}

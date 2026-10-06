@@ -1,0 +1,30 @@
+{{/*
+    Renders the structured front matter (area, institution, status,
+    libraries, contact) of the application page it's called from, so an
+    application's own page always has content even without a free-form
+    write-up. Place at the top of the body; free text/images can follow.
+    Link fields (source/website/documentation) are rendered separately by
+    the application-links shortcode, typically placed at the end of the page.
+
+    Usage: {{< application-details >}}
+*/}}
+{{ $page := .Page }}
+{{ $list := site.GetPage "/community/applications" }}
+<p><a href="{{ $list.RelPermalink }}">&larr; Back to Applications</a></p>
+<ul>
+    <li><strong>Type:</strong> {{ $page.Params.entryType | title }}</li>
+    {{ with $page.Params.area }}<li><strong>Area:</strong> {{ range . }}<span class="badge text-bg-secondary">{{ . }}</span> {{ end }}</li>{{ end }}
+    {{ with $page.Params.summary }}<li><strong>Summary:</strong> {{ . }}</li>{{ end }}
+    {{ with $page.Params.institution }}<li><strong>Institution:</strong> {{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}</li>{{ end }}
+    {{ with $page.Params.status }}<li><strong>Status:</strong> {{ partial "community/status-badge.html" . }}</li>{{ end }}
+    {{ with $page.Params.availability }}<li><strong>Availability:</strong> {{ . }}</li>{{ end }}
+    {{ with $page.Params.libraries }}
+    <li><strong>Libraries:</strong>
+        {{ range . }}<span class="badge text-bg-primary">{{ . }}</span> {{ end }}
+    </li>
+    {{ end }}
+    {{ with $page.Params.lastVerified }}<li><strong>Last verified:</strong> {{ dateFormat "January 2006" . }}</li>{{ end }}
+    {{ if or $page.Params.contactName $page.Params.contactEmail }}
+    <li><strong>Contact:</strong> {{ with $page.Params.contactName }}{{ . }}{{ end }}{{ with $page.Params.contactEmail }} ({{ . }}){{ end }}</li>
+    {{ end }}
+</ul>

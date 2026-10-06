@@ -1,0 +1,50 @@
+# Controlled vocabularies for the application/library registry
+# (content/community/applications/*.md). To propose a new value, add it here in
+# the same pull request as the page that uses it, and to the registration form
+# (.github/ISSUE_TEMPLATE/register-application.yml) so the two stay in sync.
+# `npm run validate-registry` checks pages against these lists and the form
+# against the areas and statuses.
+
+# How far along the use of Kokkos is. Pick one; put nuance in the page text.
+statuses:
+  - Evaluating
+  - Porting
+  - In production
+
+# Whether others can inspect the code. "Restricted" covers private, proprietary
+# and export-controlled projects that are cleared for a public mention. Omitted
+# means "Open source". Classified work does not belong in this registry.
+availabilities:
+  - Open source
+  - Restricted
+
+areas:
+  - Astrophysics
+  - Benchmarks & Proxy Applications
+  - Climate & Weather
+  - Computational Fluid Dynamics
+  - Data Analysis
+  - Electromagnetics
+  - Finite Elements
+  - Geophysics & Earth Sciences
+  - Linear Algebra & Solvers
+  - Materials & Manufacturing
+  - Mesh, I/O & Load Balancing
+  - Molecular Dynamics
+  - Multiphysics
+  - Particle Methods
+  - Plasma Physics & MHD
+  - Programming Models Research
+
+# Libraries a project builds on: Kokkos ecosystem subprojects and common
+# third-party libraries.
+libraries:
+  - kokkos-comm
+  - kokkos-fft
+  - kokkos-kernels
+  - kokkos-mdspan
+  - kokkos-remote-spaces
+  - kokkos-tools
+  - eigen
+  - petsc
+  - trilinos
