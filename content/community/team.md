@@ -34,7 +34,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 &nbsp;
 
 **Kokkos Core:**
-- Damien Lebrun-Grandié, ORNL, Project Lead
+- Damien Lebrun-Grandié, LANL, Project Lead
 - Christian Trott, SNL, Project Lead
 - Daniel Arndt, ORNL
 - Maarten Arnst, ULiège
