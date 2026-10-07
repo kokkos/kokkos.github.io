@@ -17,11 +17,13 @@ Missed a session? Our full library of past technical talks is available on the H
 
 ## Upcoming
 
-* 2026-09-16: [SYCL and Kokkos: Similarities and Differences](
-  https://cexa-project.org/kokkos-tea-time/2026-09-16-tea-time-sycl-and-kokkos/)
+* 2026-10-21: [Bringing Kokkos Performance Portability to BigDFT's Poisson Solver: a Fortran/C++ Interoperability Journey](
+  https://cexa-project.org/kokkos-tea-time/2026-10-21-tea-time-kokkos-portability-to-bigdfts/)
 
 ## Past
 
+* 2026-09-16: [SYCL and Kokkos: Similarities and Differences](
+  https://cexa-project.org/kokkos-tea-time/2026-09-16-tea-time-sycl-and-kokkos/)
 * 2026-07-15: [Acceleragent: An Agentic AI Approach for Porting HPC Codebases to GPUs](
   https://cexa-project.org/kokkos-tea-time/2026-07-15-tea-time-acceleragent/)
 * 2026-06-17: [Multi-Dimensional Range Policy performance concerns and improvements](
