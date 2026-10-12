@@ -67,3 +67,6 @@
     [navigation.search]
         enabled = true
         modal = false
+
+[modules.lfx.csp]
+    frame-src = ["app.lfx.dev"]
