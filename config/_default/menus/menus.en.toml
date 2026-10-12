@@ -168,6 +168,11 @@
   pageRef = "/development/"
   weight = 6
 [[main]]
+  name = "Overview"
+  pageRef = "/development/"
+  parent = "Development"
+  weight = 60
+[[main]]
   name = "Developer Meetings"
   pageRef = "/development/developer-meetings/"
   parent = "Development"
