@@ -9,6 +9,7 @@
   weight = 20
 [[main]]
   name = "Overview"
+  identifier = "about-overview"
   pageRef = "/about/overview/"
   parent = "About"
   weight = 10
