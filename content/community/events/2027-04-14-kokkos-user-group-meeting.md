@@ -3,7 +3,7 @@ layout: minimal
 title: "Kokkos User Group @ HPSF Conference 2027"
 date: "2026-10-20"
 event: true
-eventDate: "2027-04-14"
+eventDate: "2027-04-15"
 eventEndDate: "2027-04-16"
 description: The Kokkos User Group meeting at the HPSF Conference 2027 in Montréal, Canada.
 sharing: false
@@ -20,7 +20,7 @@ Whether you are running large-scale scientific simulations, developing Kokkos-ba
 ## 🗓️ Important Dates
 * **Submission Deadline:** January 17, 2027
 * **Notification of Acceptance:** February 9, 2027
-* **Event Dates:** 14-16 April 2027
+* **Event Dates:** 15-16 April 2027
 * **Location:** Montréal, Québec, Canada
 
 ## 💡 Topics of Interest
