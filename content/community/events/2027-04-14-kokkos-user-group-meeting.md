@@ -8,6 +8,7 @@ eventEndDate: "2027-04-16"
 description: The Kokkos User Group meeting at the HPSF Conference 2027 in Montréal, Canada.
 sharing: false
 metadata: none
+thumbnail: img/blog/HPSF-Conference-2027.png
 ---
 
 The Kokkos team is excited to announce the **Call for Submissions for the Kokkos User Group (KUG) Meeting 2027**!
