@@ -17,13 +17,13 @@ The Kokkos User Group Meeting brings together developers, researchers, and users
 
 Whether you are running large-scale scientific simulations, developing Kokkos-based libraries, or optimizing frameworks for exascale architectures, we want to hear from you!
 
-## 🗓️ Important Dates
+## Important Dates
 * **Submission Deadline:** January 17, 2027
 * **Notification of Acceptance:** February 9, 2027
-* **Event Dates:** 15-16 April 2027
+* **Event Dates:** 15-16 April, 2027
 * **Location:** Montréal, Québec, Canada
 
-## 💡 Topics of Interest
+## Topics of Interest
 We welcome presentations, experience reports, and lightning talks on all aspects of the Kokkos ecosystem, including but not limited to:
 * **Application:** Feedback on integrating Kokkos in existing code systems or novel codes/mini-apps based on Kokkos from the beginning.
 * **Kokkos Ecosystem:** Advancements and use cases involving Kokkos Core, Kokkos Kernels and other libraries in the Kokkos project.
@@ -32,11 +32,11 @@ We welcome presentations, experience reports, and lightning talks on all aspects
 * **Language & Interoperability:** Integrating Kokkos with Fortran, Python, Rust, or other programming models.
 * **Education & Community:** Teaching Kokkos, onboarding new developers, and building institutional support for performance portability.
 
-## 🎤 Presentation Formats
+## Presentation Formats
 * **Standard Presentations (20 minutes + Q&A):** Deep dives into application ports, framework design, or extensive performance studies.
 * **Lightning Talks (10 minutes):** Brief project updates, works-in-progress, tool demonstrations, or open challenges to the community.
 
-## 📝 Submission Guidelines
+## Submission Guidelines
 Submissions should include a short abstract (maximum 300 words) describing the scope of your talk and its relevance to the Kokkos community. Please specify your preferred format (Standard or Lightning).
 
 * **How to Submit:** [Submit via the HPSF Conference CFP](https://events.linuxfoundation.org/hpsf-conference/program/cfp/)
