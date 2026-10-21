@@ -40,5 +40,3 @@ We welcome presentations, experience reports, and lightning talks on all aspects
 Submissions should include a short abstract (maximum 300 words) describing the scope of your talk and its relevance to the Kokkos community. Please specify your preferred format (Standard or Lightning).
 
 * **How to Submit:** [Submit via the HPSF Conference CFP](https://events.linuxfoundation.org/hpsf-conference/program/cfp/)
-
-For updates, please visit the [Kokkos Community Events Page](https://kokkos.org).
