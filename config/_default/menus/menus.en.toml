@@ -72,6 +72,12 @@
   parent = "Subprojects"
   weight = 4
 [[main]]
+  name = "ArborX"
+  identifier = "projects-arborx"
+  pageRef = "/projects/arborx/"
+  parent = "Subprojects"
+  weight = 5
+[[main]]
   name = "Documentation"
   weight = 3
 [[main]]
@@ -116,6 +122,12 @@
   url = "https://kokkos.org/kokkos-core-wiki/tutorials-and-examples.html"
   parent = "Documentation"
   weight = 40
+[[main]]
+  name = "ArborX"
+  identifier = "documentation-arborx"
+  url = "https://kokkos.org/ArborX/docs/"
+  parent = "Documentation"
+  weight = 50
 [[main]]
   name = "Blog"
   pageRef = "/blog/"
