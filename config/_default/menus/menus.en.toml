@@ -72,6 +72,12 @@
   parent = "Subprojects"
   weight = 4
 [[main]]
+  name = "ArborX"
+  identifier = "projects-arborx"
+  pageRef = "/projects/arborx/"
+  parent = "Subprojects"
+  weight = 5
+[[main]]
   name = "Documentation"
   weight = 3
 [[main]]

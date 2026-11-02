@@ -27,3 +27,4 @@ and areas of interest!
   build-related questions, including CMake and generated GNU Makefiles.
 * **#kokkos-kernels**: Discuss Kokkos Kernels and related math libraries in
   this dedicated channel.
+* **#arborx**: Discuss ArborX in this dedicated channel.

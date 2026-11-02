@@ -27,9 +27,13 @@ features such as `std::mdspan` and `std::linalg`, for which the team
 maintains backports to toolchains and standard versions supported by
 Kokkos.
 
+The ArborX library recently joined the Kokkos ecosystem to provide geometric
+search algorithms to the ecosystem.
+
 {{< image src="img/Kokkos-Architecture-4-2025.jpg" ratio="auto" wrapper="col-12 mx-auto" >}}
 
 {{< button color="primary" href="/projects/kokkos-core"      >}}Kokkos (Core)   {{< /button >}}
 {{< button color="primary" href="/projects/kokkos-kernels"   >}}Kokkos Kernels  {{< /button >}}
 {{< button color="primary" href="/projects/kokkos-tools"     >}}Kokkos Tools    {{< /button >}}
 {{< button color="primary" href="/projects/kokkos-tutorials" >}}Kokkos Tutorials{{< /button >}}
+{{< button color="primary" href="/projects/arborx"           >}}ArborX          {{< /button >}}
