@@ -123,12 +123,6 @@
   parent = "Documentation"
   weight = 40
 [[main]]
-  name = "ArborX"
-  identifier = "documentation-arborx"
-  url = "https://kokkos.org/ArborX/docs/"
-  parent = "Documentation"
-  weight = 50
-[[main]]
   name = "Blog"
   pageRef = "/blog/"
   weight = 4
