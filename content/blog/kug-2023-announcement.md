@@ -21,5 +21,5 @@ The Kokkos Team will hold a User Group Meeting to gather the community, provide 
 
 We are looking for contribution from Kokkos users relaying where experience in leveraging Kokkos to achieve performance portability.
 
-Event website: [Kokkos User Group Meeting]({{% ref "/community/kug-2023" %}} "Kokkos User Group Meeting 2023")
+Event website: [Kokkos User Group Meeting]({{% ref "/community/events/2023-12-12-kug-2023" %}} "Kokkos User Group Meeting 2023")
 
