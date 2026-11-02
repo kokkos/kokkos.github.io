@@ -4,7 +4,6 @@ authors: ["kokkos-team"]
 url: /blog/2025-12-12-cexa-kokkos-hackathon/
 title: "CExA Kokkos Hackathon"
 date: "2025-12-11"
-event: true
 eventDate: "2026-01-12"
 eventEndDate: "2026-01-16"
 description: CExA organizes a Kokkos hackathon on January 12-16, 2026, at Maison de la Simulation, Gif-sur-Yvette, France.

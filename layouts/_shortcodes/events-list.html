@@ -1,6 +1,6 @@
 {{/*
     Renders a list of Kokkos community events, auto-generated from any page across
-    the site with "event: true" in its front matter.
+    content/community/events.
 
     Usage: {{< events-list state="upcoming" >}} or {{< events-list state="past" >}}
 
@@ -13,7 +13,7 @@
 {{ $today := time.AsTime (now.Format "2006-01-02") }}
 
 {{ $items := slice }}
-{{ range where site.RegularPages "Params.event" true }}
+{{ range (where site.RegularPages "File.Dir" "community/events/") }}
     {{ $page := . }}
     {{ with $page.Params.eventDate }}
         {{ $start := time.AsTime . }}
