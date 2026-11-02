@@ -1,6 +1,7 @@
 ---
 layout: minimal
 authors: ["kokkos-team"]
+url: /blog/2025-12-12-cexa-kokkos-hackathon/
 title: "CExA Kokkos Hackathon"
 date: "2025-12-11"
 event: true
