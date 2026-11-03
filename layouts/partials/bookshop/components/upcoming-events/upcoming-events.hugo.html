@@ -3,7 +3,7 @@
 
     Renders a grid of cards for community events happening today or later, mirroring
     the styling of the "articles" component used for the Blog section. Sources pages
-    with "event: true" front matter, using "eventDate" (required) and "eventEndDate"
+    from content/community/events, using "eventDate" (required) and "eventEndDate"
     (optional, defaults to eventDate) to determine whether an event is still upcoming -
     the same fields and logic used by the events-list shortcode on the events page,
     since the generic "date" field records the announcement date, not the event date.
@@ -18,7 +18,7 @@
      "ByParam", which "assets/card-group.html" relies on to resolve each page's own
      title, thumbnail and description. */}}
 {{ $today := now.Format "2006-01-02" }}
-{{ $pages := where site.RegularPages "Params.event" true }}
+{{ $pages := where site.RegularPages "File.Dir" "community/events/" }}
 {{ $byStart := where $pages "Params.eventDate" ">=" $today }}
 {{ $byEnd := where $pages "Params.eventEndDate" ">=" $today }}
 {{ $pages = ($byStart | union $byEnd).ByParam "eventDate" }}

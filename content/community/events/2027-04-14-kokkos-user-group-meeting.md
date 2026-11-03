@@ -2,7 +2,6 @@
 layout: minimal
 title: "Kokkos User Group @ HPSF Conference 2027"
 date: "2026-10-20"
-event: true
 eventDate: "2027-04-15"
 eventEndDate: "2027-04-16"
 description: The Kokkos User Group meeting at the HPSF Conference 2027 in Montréal, Canada.
