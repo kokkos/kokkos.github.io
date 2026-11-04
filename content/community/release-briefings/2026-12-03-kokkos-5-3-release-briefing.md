@@ -18,7 +18,7 @@ Kokkos Tools since 5.2.
   - 9 AM MST
   - 11 AM EST
   - 5 PM CET
-- **Where:** online, meeting link to be announced
+- **Where:** online, [join the meeting](https://app.lfx.dev/meetings/97696786086?password=5ec25f0c-51b8-4757-bc28-d84e19483c1f)
 
 ## Agenda
 
