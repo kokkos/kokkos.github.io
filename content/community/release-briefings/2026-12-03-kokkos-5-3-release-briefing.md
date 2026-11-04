@@ -10,15 +10,16 @@ metadata: none
 
 The Kokkos Team is inviting you to the **Kokkos 5.3 release briefing**.
 The briefing will be held online on **December 3rd, 2026** and will cover
-updates on the Kokkos community and changes in Kokkos and Kokkos Kernels since
-5.2.
+updates on the Kokkos community and changes in Kokkos, Kokkos Kernels and
+Kokkos Tools since 5.2. Kokkos Tools is released in lockstep with Kokkos and
+Kokkos Kernels.
 
 *Time and meeting link: to be announced.*
 
 The full change logs are available in the
-[Kokkos](https://github.com/kokkos/kokkos/blob/develop/CHANGELOG.md) and
+[Kokkos](https://github.com/kokkos/kokkos/blob/develop/CHANGELOG.md),
 [Kokkos Kernels](https://github.com/kokkos/kokkos-kernels/blob/develop/CHANGELOG.md)
-repositories.
+and [Kokkos Tools](https://github.com/kokkos/kokkos-tools) repositories.
 
 ## Kokkos Core Key Changes
 
@@ -38,6 +39,11 @@ repositories.
 - LAPACK: added support for `GETRF` and `GETRS`.
 - Batched kernels: numerous new batched kernels, including `SPR`, `SYMV`,
   `SYRK` and L1 norm.
+
+## Kokkos Tools
+
+Kokkos Tools is released alongside Kokkos and Kokkos Kernels. There is not much
+to report on since 5.2, but we will cover it in the briefing.
 
 ## Try the release candidates
 
