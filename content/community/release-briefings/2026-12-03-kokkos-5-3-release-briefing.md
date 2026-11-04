@@ -8,16 +8,16 @@ sharing: false
 metadata: none
 ---
 
-The Kokkos Team is inviting you to the **Kokkos 5.3 release briefing**.
+The Kokkos Team is inviting you to the **Kokkos 5.3 release briefing**, which
+follows the 5.3.0 release of November 11th.
 The briefing will be held online on **December 3rd, 2026** and will cover
-updates on the Kokkos community and changes in Kokkos, Kokkos Kernels and
-Kokkos Tools since 5.2. Kokkos Tools is released in lockstep with Kokkos and
-Kokkos Kernels.
+updates on the Kokkos community and changes in Kokkos (Core), Kokkos Kernels
+and Kokkos Tools since 5.2.
 
 *Time and meeting link: to be announced.*
 
 The full change logs are available in the
-[Kokkos](https://github.com/kokkos/kokkos/blob/develop/CHANGELOG.md),
+[Kokkos Core](https://github.com/kokkos/kokkos/blob/develop/CHANGELOG.md),
 [Kokkos Kernels](https://github.com/kokkos/kokkos-kernels/blob/develop/CHANGELOG.md)
 and [Kokkos Tools](https://github.com/kokkos/kokkos-tools) repositories.
 
@@ -42,16 +42,8 @@ and [Kokkos Tools](https://github.com/kokkos/kokkos-tools) repositories.
 
 ## Kokkos Tools
 
-Kokkos Tools is released alongside Kokkos and Kokkos Kernels. There is not much
-to report on since 5.2, but we will cover it in the briefing.
-
-## Try the release candidates
-
-The `release-candidate-5.3.0` branches are available in the
-[Kokkos](https://github.com/kokkos/kokkos) and
-[Kokkos Kernels](https://github.com/kokkos/kokkos-kernels) repositories. We
-encourage you to test them against your applications and build environments
-ahead of the final 5.3.0 tags.
+- Minor bug fixes
+- Profiling interface update to support `Kokkos::single`
 
 ## Slides and recording
 
