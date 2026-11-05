@@ -15,7 +15,7 @@ Join us to learn about the latest changes and ask questions.
 
 ## Upcoming
 
-(TBD)
+* 2026/12/03: [Kokkos 5.3 Release Briefing]({{% ref "2026-12-03-kokkos-5-3-release-briefing" %}})
 
 ## Past
 
