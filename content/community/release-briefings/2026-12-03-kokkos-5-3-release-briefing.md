@@ -42,6 +42,7 @@ and [Kokkos Tools](https://github.com/kokkos/kokkos-tools) repositories.
 
 - `Kokkos::single`: a new top-level parallel construct for executing
   non-parallel code on the device, optionally returning a value.
+- `RangePolicy` can be used like `ThreadVectorRange` at the third level of hierarchical parallelism (`parallel_for` only for now). The new `Kokkos::Experimental::ThreadHandle` provides the team rank and team size at that level.
 - Default memory spaces: new `DefaultMemorySpace` and `DefaultHostMemorySpace`
   type aliases.
 - New architectures: support for NVIDIA Rubin GPUs, NVIDIA Vera CPUs, and
@@ -49,6 +50,13 @@ and [Kokkos Tools](https://github.com/kokkos/kokkos-tools) repositories.
 - GPU performance: larger grid sizes for `MDRangePolicy` reductions on the CUDA
   and HIP backends, and a reduced device memory footprint for team scratch pads
   on SYCL.
+
+### Kokkos Core Deprecations and Incompatibilities
+
+- The legacy `View` implementation has been removed.
+- All the code guarded by `KOKKOS_ENABLE_DEPRECATED_CODE_4` has been removed.
+- `View::size_type` now follows the `mdspan` specification.
+- OpenACC backend: Clacc compiler support and AMD GPU support have been removed.
 
 ### Kokkos Kernels
 
