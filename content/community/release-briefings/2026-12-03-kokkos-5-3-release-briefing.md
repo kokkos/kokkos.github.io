@@ -45,8 +45,8 @@ and [Kokkos Tools](https://github.com/kokkos/kokkos-tools) repositories.
 - `RangePolicy` can be used like `ThreadVectorRange` at the third level of hierarchical parallelism (`parallel_for` only for now). The new `Kokkos::Experimental::ThreadHandle` provides the team rank and team size at that level.
 - Default memory spaces: new `DefaultMemorySpace` and `DefaultHostMemorySpace`
   type aliases.
-- New architectures: support for NVIDIA Rubin GPUs, NVIDIA Vera CPUs, and
-  Intel Battlemage (SYCL).
+- New architectures: support for NVIDIA Rubin GPUs, NVIDIA Vera CPUs, 
+  Intel Battlemage (SYCL), NextSilicon Maverick-2, and Hygon DCU.
 - GPU performance: larger grid sizes for `MDRangePolicy` reductions on the CUDA
   and HIP backends, and a reduced device memory footprint for team scratch pads
   on SYCL.
