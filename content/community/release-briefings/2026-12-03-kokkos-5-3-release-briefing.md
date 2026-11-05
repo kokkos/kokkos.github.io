@@ -42,6 +42,7 @@ and [Kokkos Tools](https://github.com/kokkos/kokkos-tools) repositories.
 
 - `Kokkos::single`: a new top-level parallel construct for executing
   non-parallel code on the device, optionally returning a value.
+- NextSilicon Backend: a new experimental backend supporting NextSilicon's dataflow accelerator.
 - `RangePolicy` can be used like `ThreadVectorRange` at the third level of hierarchical parallelism (`parallel_for` only for now). The new `Kokkos::Experimental::ThreadHandle` provides the team rank and team size at that level.
 - Default memory spaces: new `DefaultMemorySpace` and `DefaultHostMemorySpace`
   type aliases.
