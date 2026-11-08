@@ -41,7 +41,7 @@
         <div class="col-6 col-md">
             <select class="form-select app-status" aria-label="Filter by status">
                 <option value="">All statuses</option>
-                {{ range hugo.Data.registry.statuses }}<option value="{{ . }}">{{ . }}</option>{{ end }}
+                {{ range site.Data.registry.statuses }}<option value="{{ . }}">{{ . }}</option>{{ end }}
             </select>
         </div>
         <div class="col-6 col-md">
@@ -53,7 +53,7 @@
         <div class="col-6 col-md">
             <select class="form-select app-availability" aria-label="Filter by availability">
                 <option value="">All availability</option>
-                {{ range hugo.Data.registry.availabilities }}<option value="{{ . }}">{{ . }}</option>{{ end }}
+                {{ range site.Data.registry.availabilities }}<option value="{{ . }}">{{ . }}</option>{{ end }}
             </select>
         </div>
     </div>
