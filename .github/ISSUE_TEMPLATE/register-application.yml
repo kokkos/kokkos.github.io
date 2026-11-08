@@ -49,6 +49,7 @@ body:
       options:
         - label: Astrophysics
         - label: Benchmarks & Proxy Applications
+        - label: Chemistry
         - label: Climate & Weather
         - label: Computational Fluid Dynamics
         - label: Data Analysis
@@ -60,7 +61,9 @@ body:
         - label: "Mesh, I/O & Load Balancing"
         - label: Molecular Dynamics
         - label: Multiphysics
+        - label: Particle & Nuclear Physics
         - label: Particle Methods
+        - label: Performance Tools
         - label: Plasma Physics & MHD
         - label: Programming Models Research
     validations:

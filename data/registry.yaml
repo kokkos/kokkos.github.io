@@ -21,6 +21,7 @@ availabilities:
 areas:
   - Astrophysics
   - Benchmarks & Proxy Applications
+  - Chemistry
   - Climate & Weather
   - Computational Fluid Dynamics
   - Data Analysis
@@ -32,7 +33,9 @@ areas:
   - Mesh, I/O & Load Balancing
   - Molecular Dynamics
   - Multiphysics
+  - Particle & Nuclear Physics
   - Particle Methods
+  - Performance Tools
   - Plasma Physics & MHD
   - Programming Models Research
 
