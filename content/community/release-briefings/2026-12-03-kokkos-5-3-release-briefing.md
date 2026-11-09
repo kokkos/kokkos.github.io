@@ -18,7 +18,7 @@ Kokkos Tools since 5.2.
   - 9 AM MST
   - 11 AM EST
   - 5 PM CET
-- **Where:** online. [Register](https://zoom-lfx.platform.linuxfoundation.org/meeting/97696786086?password=5ec25f0c-51b8-4757-bc28-d84e19483c1f) to receive a calendar invite with the meeting details.
+- **Where:** online. [Register](https://zoom-lfx.platform.linuxfoundation.org/meeting/97696786086?password=5ec25f0c-51b8-4757-bc28-d84e19483c1f) to receive a calendar invite with the meeting details.  (Click "Need an invite?".)
 
 ## Agenda
 
