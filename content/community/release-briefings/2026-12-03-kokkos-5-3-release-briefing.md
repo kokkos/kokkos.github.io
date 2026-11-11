@@ -6,10 +6,10 @@ eventDate: "2026-12-03"
 description: Join the Kokkos team online on December 3rd for updates on the Kokkos community and the changes in Kokkos Core, Kokkos Kernels and Kokkos Tools 5.3.
 sharing: false
 metadata: none
+thumbnail: img/kokkos-ecosystem-hero.jpg
 ---
 
-The Kokkos Team is inviting you to the **Kokkos 5.3 release briefing**, which
-follows the 5.3.0 release of November 11th.
+The Kokkos Team is inviting you to the **Kokkos 5.3 release briefing**.
 The briefing will be held online on **December 3rd, 2026** and will cover
 updates on the Kokkos community and changes in Kokkos Core, Kokkos Kernels and
 Kokkos Tools since 5.2.
@@ -25,51 +25,67 @@ Kokkos Tools since 5.2.
 1. Community announcements, including the
    [Kokkos User Group meeting 2027]({{% ref "/community/events/2027-04-14-kokkos-user-group-meeting" %}})
    in Montréal and its open call for submissions
-2. Kokkos Core 5.3
-3. Kokkos Kernels 5.3
-4. Kokkos Tools 5.3
+2. Kokkos Core
+3. Kokkos Kernels
+4. Kokkos Tools
 5. Questions and discussion
 
 ## Key Changes
 
-Kokkos Tools is released in lockstep with Kokkos Core and Kokkos Kernels.
-The full change logs are available in the
-[Kokkos Core](https://github.com/kokkos/kokkos/blob/develop/CHANGELOG.md),
-[Kokkos Kernels](https://github.com/kokkos/kokkos-kernels/blob/develop/CHANGELOG.md)
-and [Kokkos Tools](https://github.com/kokkos/kokkos-tools) repositories.
+The full changelogs are available for
+[Kokkos Core](https://github.com/kokkos/kokkos/blob/5.3.0/CHANGELOG.md#530),
+[Kokkos Kernels](https://github.com/kokkos/kokkos-kernels/blob/5.3.0/CHANGELOG.md#530) and
+[Kokkos Tools](https://github.com/kokkos/kokkos-tools/blob/5.3.0/CHANGELOG.md#530).
 
 ### Kokkos Core
 
+**New features**
+
 - `Kokkos::single`: a new top-level parallel construct for executing
   non-parallel code on the device, optionally returning a value.
-- NextSilicon Backend: a new experimental backend supporting NextSilicon's dataflow accelerator.
-- `RangePolicy` can be used like `ThreadVectorRange` at the third level of hierarchical parallelism (`parallel_for` only for now). The new `Kokkos::Experimental::ThreadHandle` provides the team rank and team size at that level.
-- Default memory spaces: new `DefaultMemorySpace` and `DefaultHostMemorySpace`
-  type aliases.
-- New architectures: support for NVIDIA Rubin GPUs, NVIDIA Vera CPUs, 
-  Intel Battlemage (SYCL), NextSilicon Maverick-2, and Hygon DCU.
-- GPU performance: larger grid sizes for `MDRangePolicy` reductions on the CUDA
-  and HIP backends, and a reduced device memory footprint for team scratch pads
-  on SYCL.
+- NextSilicon backend (close to feature complete).
+- `DefaultMemorySpace` and `DefaultHostMemorySpace` type aliases.
+- `RangePolicy` can take a team handle in place of `ThreadVectorRange` in
+  hierarchical parallelism (`parallel_for` only for now).
+- `mdspan`-style template arguments for `DualView`, and `View::size_type`
+  aligned with the `mdspan` specification.
 
-### Kokkos Core Deprecations and Incompatibilities
+**Architectures and backends**
 
-- The legacy `View` implementation has been removed.
-- All the code guarded by `KOKKOS_ENABLE_DEPRECATED_CODE_4` has been removed.
-- `View::size_type` now follows the `mdspan` specification.
-- OpenACC backend: Clacc compiler support and AMD GPU support have been removed.
+- New architectures: NVIDIA Rubin GPUs, NVIDIA Vera CPUs, Intel Battlemage
+  (SYCL) and Hygon DCU (HIP).
+- Larger grid sizes for `MDRangePolicy` reductions on the CUDA and HIP
+  backends, and a reduced device memory footprint for team scratch pads on SYCL.
+- Faster `sort_by_key` on CUDA and HIP, and shorter compile times when passing
+  labels to `parallel_for`, `parallel_reduce` and `parallel_scan`.
+
+**Breaking changes and removals**
+
+- The legacy `View` implementation is removed.
+- Code guarded by `KOKKOS_ENABLE_DEPRECATED_CODE_4` is removed.
+- Functors taking indices as non-const references in
+  `parallel_for(TeamThreadRange, ...)` are no longer accepted.
+- The Clacc compiler and AMD GPU support in the OpenACC backend, and the
+  deprecated AMD GPU architectures, are removed.
 
 ### Kokkos Kernels
 
-- Recursive Coordinate Bisection (RCB): improved algorithm on GPU.
-- LAPACK: added support for `GETRF` and `GETRS`.
-- Batched kernels: numerous new batched kernels, including `SPR`, `SYMV`,
-  `SYRK` and L1 norm.
+- LAPACK: new `GETRF` and `GETRS`.
+- Batched: new `SPR`, `SYMV` and `SYRK` kernels, genuine L1 and L-infinity
+  norms, and right-transpose `SerialApplyQ`.
+- BLAS: `GEMM` is optimized for special cases (`beta = 0`, `alpha = 0`), and
+  fewer layout combinations are instantiated by default, reducing build times.
+- Sparse: faster `ParILUT`, `SpGEMM` and `TRSV`, and device implementations of
+  Recursive Coordinate Bisection (RCB) and diagonal block extraction.
+- TPLs: a oneMKL SYCL binding for `KokkosBlas::gemm`.
+- ODE: many fixes to the implicit BDF solver for improved robustness.
 
 ### Kokkos Tools
 
-- Minor bug fixes
-- Profiling interface update to support `Kokkos::single`
+- The Kokkos Profiling interface is updated to reflect the changes in Kokkos
+  Core, including `Kokkos::single` and the NextSilicon backend.
+- `Kokkos::single` support in the kernel-filter, kokkos-sampler, kernel-logger
+  and simple-kernel-timer tools.
 
 ## Slides and recording
 
