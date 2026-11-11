@@ -1,0 +1,70 @@
+---
+layout: minimal
+title: Release Briefings
+description: Recordings and slides from Kokkos release briefings covering new features, breaking changes, and roadmap updates.
+sharing: false
+metadata: none
+---
+
+## Kokkos Release Briefings
+
+The Kokkos team holds a **Release Briefing** after each minor release to
+discuss new features, breaking changes, deprecations, and details about what
+has changed since the previous release, as well as provide roadmap updates.
+Join us to learn about the latest changes and ask questions.
+
+## Upcoming
+
+* 2026/12/03: [Kokkos 5.3 Release Briefing]({{% ref "2026-12-03-kokkos-5-3-release-briefing" %}})
+
+## Past
+
+* 2026/08/04: [Kokkos 5.2 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-5-2-release-briefing/)
+  (download slides
+    [Kokkos](https://raw.githubusercontent.com/kokkos/development/1e08d627ad69dc2c2bb8a0049bce25d49ceec978/release-52.pdf)
+    [Kokkos Kernels](https://raw.githubusercontent.com/kokkos/development/1e08d627ad69dc2c2bb8a0049bce25d49ceec978/kk-release-52.pdf)
+  )
+  ([watch on YouTube](https://youtu.be/nsH7Lerc2gk?si=huoatrLLC9S94j26))
+* 2026/04/14: [Kokkos 5.1 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-5-1-release-briefing-apr-2026/)
+  (download slides
+    [Kokkos](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/3f2477da774f4d61554dbcdc4cc6f4982b58f6dc/Other/ReleaseBriefings/release-51.pdf)
+    [Kokkos Kernels](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/0fb039020f4c9140f3b97b63d8e26e4907e76356/Other/ReleaseBriefings/kk-release-51.pdf)
+  )
+* 2025/11/25: [Kokkos 5.0 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-5-0-release-briefing-nov-2025/)
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/8598e035fa1d41c02decff3f004b231d1e90aa08/Other/ReleaseBriefings/release-50.pdf))
+  ([watch on YouTube](https://youtu.be/Pklhkn7AHMA?si=6I4VIp1I-U_PE4SK))
+* 2025/08/27: [Kokkos 4.7 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-4-7-release-briefing-august-2025/)
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/323466cd8b4beb78c7ee3deb8e9bb794a5948892/Other/ReleaseBriefings/release-47.pdf))
+  ([watch on YouTube](https://youtu.be/HRux5IiUWh4?si=sxNUBJUkpla7zFI_))
+* 2025/04/10: [Kokkos 4.6 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-4-6-release-briefing-april-2025/)
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/a792b8b8689daba136d2919a9cd436636b4be4ef/Other/ReleaseBriefings/release-46.pdf))
+  ([watch on YouTube](https://youtu.be/hErZMpsa-y8?feature=shared))
+* 2024/12/10: [Kokkos 4.5 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-4-5-release-briefing/)
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-45.pdf))
+* 2024/08/27: [Kokkos 4.4 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-4-4-release-briefing/)
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-44.pdf))
+  ([watch on YouTube](https://youtu.be/KnJidE2PKNs?feature=shared))
+* 2024/04/29: [Kokkos 4.3 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-4-3-release-briefing/)
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-43.pdf))
+* 2023/12/13: Kokkos 4.2 Release Briefing
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-42.pdf))
+  @KUG 2023
+* 2023/07/20: [Kokkos 4.1 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-4-0-release-briefing-2/)
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-41.pdf))
+* 2023/03/29: [Kokkos 4.0 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-4-0-release-briefing/)
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-40.pdf))
+* 2022/10/04: Kokkos 3.7 Release Briefing
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-37.pdf))
+* 2022/05/24: [Kokkos 3.6 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-release-3-5-briefing/)
+  ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/924a8dd8e9495bb85df20ada5e8c6879487639b5/Other/ReleaseBriefings/release-36.pdf))

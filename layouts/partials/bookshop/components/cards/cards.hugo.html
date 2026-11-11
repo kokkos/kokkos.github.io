@@ -1,0 +1,123 @@
+{{/*
+    Site-local override of mod-blocks' "cards" bookshop component.
+
+    Identical to the vendored component, except each card's "button" is forced to
+    false: the vendored version sets "button" (isset . "link"), which renders a
+    redundant "read more" button duplicating the card's own stretched-link click
+    target whenever an element has a "link". Here the whole card stays clickable
+    via "href" with no separate button.
+*/}}
+
+{{/* Validate arguments */}}
+{{ $error := false }}
+{{ if not site.Params.env_bookshop_live }}
+	{{/* Exclude the injected block-dispatcher props from validation */}}
+	{{ $props := dict }}
+	{{ range $k, $v := . }}{{ if not (in (slice "_page" "_embed") $k) }}{{ $props = merge $props (dict $k $v) }}{{ end }}{{ end }}
+	{{ $result := partial "utilities/Args.html" (dict "bookshop" "cards" "args" $props "strict" false) }}
+	{{ if or $result.err $result.warnmsg }}
+		{{ partial (cond $result.err "utilities/LogErr.html" "utilities/LogWarn.html") (dict
+			"partial" "component-library/components/cards/cards.hugo.html"
+			"warnid"  "warn-invalid-arguments"
+			"msg"     "Invalid arguments"
+			"details" ($result.errmsg | append $result.warnmsg)
+			"file"    (or ._page page).File
+		)}}
+		{{ $error = $result.err }}
+	{{- end -}}
+{{- end -}}
+
+{{ $page := or ._page page }}
+
+{{ if not $error }}
+	{{/* Initialize global arguments */}}
+	{{- $breakpoint := partial "utilities/GetBreakpoint.html" -}}
+	{{- $padding := partial "utilities/GetPadding.html" -}}
+
+	{{/* Initialize local variables */}}
+	{{ $raw := "" }}
+	{{ $list := slice }}
+	{{ range .elements }}
+		<!-- TODO: check mode -->
+		{{ $list = $list | append (dict
+			"title"        .title
+			"description"  (.content | $page.RenderString)
+			"icon"         .icon
+			"thumbnail"    .image
+			"href"         .link
+			"button"       false
+			"button-label" .label
+		) }}
+	{{ end}}
+
+	{{/* Main code */}}
+	{{- $raw = printf "%s%s" $raw (partial "assets/section-title.html" (dict
+		"page"          $page
+		"heading-level" (cond (isset . "heading_level") .heading_level (index . "heading-level"))
+		"heading"       .heading
+		"justify"       .justify
+		"class"         (printf "pb-%d" $padding.y)))
+	-}}
+
+	{{/* Init base arguments for card group */}}
+	{{ $params := dict
+		"page"         $page
+		"list"         $list
+		"class"        (or .class "border-0 card-icon-primary")
+		"cols"         .cols
+		"gutter"       "4"
+		"padding"      .padding
+		"header-style" "none"
+		"footer-style" "none"
+		"icon-rounded" (or .icon_rounded (index . "icon-rounded"))
+		"icon-style"   (or .icon_style (index . "icon-style") "fa-2x")
+		"link-type"    (or .link_type (index . "link-type"))
+		"align"        .align
+		"hook"         "assets/live-card.html"
+	}}
+
+	{{/* Layout for small screens */}}
+	{{- $raw = printf "%s%s" $raw (partial "assets/card-group.html" (merge $params (dict
+		"orientation"  (.orientation | default "horizontal-sm")
+		"wrapper"      (printf "d-%s-none" $breakpoint.prev)
+	))) -}}
+
+	{{/* Layout for regular screens */}}
+	{{- $raw = printf "%s%s" $raw (partial "assets/card-group.html" (merge $params (dict
+		"orientation"  (.orientation | default "stacked")
+		"wrapper"      (printf "d-none d-%s-block" $breakpoint.prev)
+	))) -}}
+
+	{{ $links := "" }}
+	{{ if .links }}
+		{{ $links = partial "assets/links.html" (dict
+			"page"      $page
+			"links"     .links
+			"align"     "start"
+			"justify"   "start"
+			"link-type" (or .link_type (index . "link-type"))
+		) }}
+		{{ $raw = printf "%s%s" $raw $links }}
+	{{ end }}
+
+	{{ if $raw }}
+		{{ partial "utilities/section.html" (dict
+			"_ordinal"       ._ordinal
+			"page"           $page
+			"embed"          ._embed
+			"component-name" "cards"
+			"id"             .id
+			"raw"            $raw
+			"background"     .background
+			"width"          .width
+			"justify"        .justify
+			"wrapper"        .wrapper
+			"fluid"          .fluid
+			"theme"          .theme
+			"cover"          .cover
+			"overlay-mode"   (or .overlay_mode (index . "overlay-mode"))
+			"section-class"  (or .section_class (index . "section-class"))
+			"bg-class"       (or .bg_class (index . "bg-class"))
+		)}}
+	{{ end }}
+{{ end }}

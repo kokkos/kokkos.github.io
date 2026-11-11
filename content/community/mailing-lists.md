@@ -1,11 +1,12 @@
 ---
-authors: ["kokkos-team"]
-title: "Mailing Lists"
-date: "2025-05-01"
-tags: ["Slack", "Community"]
+layout: minimal
+title: Mailing Lists
+description: Subscribe to the Kokkos mailing list for release and event announcements.
+sharing: false
+metadata: none
 ---
 
-# kokkos-announcements@lists.hpsf.io
+## Announcements: <kokkos-announcements@lists.hpsf.io>
 
 Mailing list for releases and events.
 

@@ -1,25 +1,45 @@
 ---
-authors: ["kokkos-team"]
-title: "CExA Kokkos Tea Time"
-date: "2025-02-03"
-tags: ["Tea Time"]
+layout: minimal
+title: CExA Kokkos Tea Time
+description: Monthly Kokkos tea-time technical talks hosted by CExA.
 thumbnail: img/cexa-tea-time.jpg
+sharing: false
+metadata: none
 ---
 
-[Kokkos tea-time](https://cexa-project.org/kokkos-tea-time/)
----------------
 [CExA](https://cexa-project.org) hosts a monthly [Kokkos tea-time](https://cexa-project.org/kokkos-tea-time/) session on the third Wednesday of the month at 4 PM Paris time (usually 10 AM Eastern, 8 AM Mountain, 11 PM Tokyo time).
 Each session lasts 45 minutes.
 
 [Register](https://lists.hpsf.io/g/kokkos-announcements) to be notified about future events.
 
-Upcoming
---------
+Missed a session? Our full library of past technical talks is available on the HPSF YouTube Channel.
+[Browse the Playlist](https://www.youtube.com/playlist?list=PLRKq_yxxHw2-Dkc4rEo8s-b3uaxJfuavA).
+
+## Upcoming
+
+* 2026-10-21: [Bringing Kokkos Performance Portability to BigDFT's Poisson Solver: a Fortran/C++ Interoperability Journey](
+  https://cexa-project.org/kokkos-tea-time/2026-10-21-tea-time-kokkos-portability-to-bigdfts/)
+
+## Past
+
+* 2026-09-16: [SYCL and Kokkos: Similarities and Differences](
+  https://cexa-project.org/kokkos-tea-time/2026-09-16-tea-time-sycl-and-kokkos/)
+* 2026-07-15: [Acceleragent: An Agentic AI Approach for Porting HPC Codebases to GPUs](
+  https://cexa-project.org/kokkos-tea-time/2026-07-15-tea-time-acceleragent/)
+* 2026-06-17: [Multi-Dimensional Range Policy performance concerns and improvements](
+  https://cexa-project.org/kokkos-tea-time/2026-06-17-tea-time-multi-dimensional-range-policy/)
+* 2026-05-20: [KokkosFFT: Performance-Portable Fast Fourier Transform interface for Kokkos Applications](
+  https://cexa-project.org/kokkos-tea-time/2026-05-20-tea-time-kokkosfft/)
+* 2026-04-15: [Parthenon – a performance portable block-structured adaptive mesh refinement framework](
+  https://cexa-project.org/kokkos-tea-time/2026-04-15-tea-time-parthenon/)
+* 2026-03-18: [HOPPS: A performance portable spectral difference solver for high-fidelity computational fluid dynamics](
+  https://cexa-project.org/kokkos-tea-time/2026-03-18-tea-time-hopps/)
+* 2026-02-18: [C++ Reflection for Data Layout Abstraction](
+  https://cexa-project.org/kokkos-tea-time/2026-02-18-tea-time-c++-reflection/)
+* 2026-01-21: [Kokkos Comm: Performance-Portable Communication API for Distributed Kokkos Applications](
+  https://cexa-project.org/kokkos-tea-time/2026-01-21-kokkos-tea-time--kokkos-comm/)
 * 2025-12-17: [Connecting Kokkos with the Polyhedral Model](
   https://cexa-project.org/kokkos-tea-time/2025-12-17-kokkos-tea-time-connecting-kokkos-with-the-polyhedral-model/)
-
-Past
-----
 * 2025-09-17: [Experience converting large scientific software packages written in C++ to C++20 modules](
   https://cexa-project.org/kokkos-tea-time/2025-09-17-kokkos-tea-time-experience-converting-large-scientific-software-packages-written-in-c-to-c-modules/)
 * 2025-06-18: [SERGHEI: a Kokkos-based framework for computational hydraulics and hydrology](

@@ -1,22 +1,24 @@
 ---
-authors: ["kokkos-team"]
-title: "Team"
-date: "2024-01-19"
-tags: ["Team"]
+layout: minimal
+title: Team
+description: Meet the core developers contributing to Kokkos Core and Kokkos Kernels.
+sharing: false
+metadata: none
 ---
 
 The Kokkos Team is dedicated to empowering computational scientists and
 engineers through the development of Kokkos, a performance portability
 framework for high-performance computing. Our multi-institutional team brings
-together expertise in HPC, C++, and linear algebra.  Meet the core developers
+together expertise in HPC, C++, and linear algebra. Meet the core developers
 currently contributing to Kokkos Core and Kokkos Kernels below.
 
 &nbsp;
 
 <span class="botline">
 {{< image src="img/CEA-logo-480x480.png"           class="community-team-image-xsmall">}}
-{{< image src="img/ORNL_Two-line_green-300x95.png" class="community-team-image-medium">}}
-{{< image src="img/SNL-logo-640x256.png"           class="community-team-image-medium">}}
+<span class="community-team-image-medium">{{< image src="img/LANL-logo.png" mode="true">}}</span>
+{{< image src="img/ORNL_Two-line_green-300x95.png" class="community-team-image-small">}}
+{{< image src="img/SNL-logo-640x256.png"           class="community-team-image-small">}}
 </span>
 
 <br>
@@ -24,7 +26,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 <span class="botline">
 {{< image src="img/ANL-logo-300x105.png"           class="community-team-image-medium">}}
 {{< image src="img/CSCS-Logo-258X79.jpg"           class="community-team-image-small">}}
-{{< image src="img/LANL-logo-247x89.jpg"           class="community-team-image-medium">}}
+{{< image src="img/FZJ-logo-933x267.png"           class="community-team-image-medium">}}
 {{< image src="img/LBNL-logo-316x240.jpg"          class="community-team-image-xsmall">}}
 {{< image src="img/ULiege-logo-1450x704.png"       class="community-team-image-medium">}}
 </span>
@@ -32,16 +34,17 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 &nbsp;
 
 **Kokkos Core:**
-- Damien Lebrun-Grandié, ORNL, Project Lead
+- Damien Lebrun-Grandié, LANL, Project Lead
 - Christian Trott, SNL, Project Lead
 - Daniel Arndt, ORNL
-- Maarten Arnst, ULiege
+- Maarten Arnst, ULiège
 - Yuuichi Asahi, CEA
-- Julien Bigot, CEA
 - Jakob Bludau, ORNL
+- Prateek Chawla, FZJ
 - Cedric Chevalier, CEA
 - Jan Ciesko, SNL
 - Conrad Clevenger, SNL
+- Jean-François David, CEA
 - Patrick Diehl, LANL
 - Nathan Ellingwood, SNL
 - Paul Gannay, CEA
@@ -54,17 +57,17 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Trévis Morvany, CEA
 - Thomas Padioleau, CEA
 - Carl Pearson, SNL
+- Andrew Reisner, LANL
 - Mikael Simberg, CSCS
 - Adrien Taberner, CEA
-- Romin Tomasetti, ULiege
+- Nigel Tan, LANL
+- Romin Tomasetti, ULiège
 - Bruno Turcksin, ORNL
-- Paul Zhener, CEA
 
 &nbsp;
 
 **Kokkos Kernels:**
 - Luc Berger-Vergiat, SNL, Project Lead
-- Siva Rajamanickam, SNL, Project Lead
 - Yuuichi Asahi, CEA
 - Vinh Dang, SNL
 - Nathan Ellingwood, SNL
@@ -75,7 +78,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 
 &nbsp;
 
-Kokkos' success is built on the contributions of a vibrant community.  See the
+Kokkos' success is built on the contributions of a vibrant community. See the
 full list of our 100+ contributors on GitHub: [Kokkos
 Core](https://github.com/kokkos/kokkos/graphs/contributors) and [Kokkos
 Kernels](https://github.com/kokkos/kokkos-kernels/graphs/contributors).
@@ -83,6 +86,8 @@ Kernels](https://github.com/kokkos/kokkos-kernels/graphs/contributors).
 We especially recognize the vision and leadership of project founders Carter
 Edwards and Daniel Sutherland of Sandia National Laboratories, who began this
 journey in 2012.
+Additionally, we recognize the seminal work of Siva Rajamanickam on Kokkos
+Kernels.
 
 <style>
 
@@ -106,8 +111,17 @@ journey in 2012.
         width: 25%;
     }
 
+    span.community-team-image-xsmall,
+    span.community-team-image-small,
+    span.community-team-image-medium,
+    span.community-team-image-large,
+    span.community-team-image-xlarge {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
     .botline div {
-         vertical-align:bottom;
+         vertical-align:middle;
          display: inline;
     }
     .botline div img {
