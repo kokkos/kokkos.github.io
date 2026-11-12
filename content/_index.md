@@ -7,7 +7,7 @@ content_blocks:
   heading:
     title: Kokkos Performance Portability Ecosystem
     align: start
-    content: A Linux Foundation Project
+    content: A Linux Foundation project, part of the High Performance Software Foundation (HPSF)
     width: 12
   background:
     backdrop: /assets/img/kokkos-ecosystem-hero.jpg
