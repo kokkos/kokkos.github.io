@@ -34,7 +34,7 @@ We welcome presentations, experience reports, and lightning talks on all aspects
 ## Presentation Formats
 * **Session Presentations (25 min + 5 min Q&A):** Deep dives into application ports, framework design, or extensive performance studies.
 * **Lightning Talks (10 min + 2 min Q&A):** Brief project updates, works-in-progress, tool demonstrations, or open challenges to the community.
-* **Panel Discussion (55 min + 5 min Q&A):** Discussion of panelists with various levels of audience involvement on a special topic.
+* **Panel Discussion (55 min + 5 min Q&A):** Discussion among panelists with various levels of audience involvement on a special topic.
 * **Poster Presentation:** Present and discuss a poster in the general poster session.
 
 ## Submission Guidelines
