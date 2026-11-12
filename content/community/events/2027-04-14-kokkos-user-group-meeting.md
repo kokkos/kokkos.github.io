@@ -32,10 +32,17 @@ We welcome presentations, experience reports, and lightning talks on all aspects
 * **Education & Community:** Teaching Kokkos, onboarding new developers, and building institutional support for performance portability.
 
 ## Presentation Formats
-* **Standard Presentations (20 minutes + Q&A):** Deep dives into application ports, framework design, or extensive performance studies.
-* **Lightning Talks (10 minutes):** Brief project updates, works-in-progress, tool demonstrations, or open challenges to the community.
+* **Session Presentations (25 min + 5 min Q&A):** Deep dives into application ports, framework design, or extensive performance studies.
+* **Lightning Talks (10 min + 2 min Q&A):** Brief project updates, works-in-progress, tool demonstrations, or open challenges to the community.
+* **Panel Discussion (55 min + 5 min Q&A):** Discussion among panelists with various levels of audience involvement on a special topic.
+* **Poster Presentation:** Present and discuss a poster in the general poster session.
 
 ## Submission Guidelines
-Submissions should include a short abstract (maximum 300 words) describing the scope of your talk and its relevance to the Kokkos community. Please specify your preferred format (Standard or Lightning).
+Submissions should include a short description (maximum 1200 characters) characterizing the scope of your talk and its relevance to the Kokkos community.
+The benefits to the HPSF ecosystem is a separate box.
+Just go to the link below and select `Project Meeting: Kokkos` in the `Topic` selection.
+If you think your talk is suitable for the whole HPSF community and you want to present in the general session, submit to any topic that is **not** a project meeting.
+Please specify your preferred session format. If we need to fill gaps in the project meeting, we will contact you separately asking if you are willing to give a longer talk.
+All the other information is self explanatory.
 
 * **How to Submit:** [Submit via the HPSF Conference CFP](https://events.linuxfoundation.org/hpsf-conference/program/cfp/)
