@@ -38,7 +38,7 @@ We welcome presentations, experience reports, and lightning talks on all aspects
 * **Poster Presentation:** Present and discuss a poster in the general poster session.
 
 ## Submission Guidelines
-Submissions should include a short description (maximum 1200 characters) describing the scope of your talk and its relevance to the Kokkos community.
+Submissions should include a short description (maximum 1200 characters) characterizing the scope of your talk and its relevance to the Kokkos community.
 The benefits to the HPSF ecosystem is a separate box.
 Just go to the link below and select `Project Meeting: Kokkos` in the `Topic` selection.
 If you think your talk is suitable for the whole HPSF community and you want to present in the general session, submit to any topic that is **not** a project meeting.
