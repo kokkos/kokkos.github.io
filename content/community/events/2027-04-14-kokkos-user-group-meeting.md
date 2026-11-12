@@ -40,7 +40,7 @@ We welcome presentations, experience reports, and lightning talks on all aspects
 ## Submission Guidelines
 Submissions should include a short description (maximum 1200 characters) describing the scope of your talk and its relevance to the Kokkos community.
 The benefits to the HPSF ecosystem is a separate box.
-Just go to the link below, and select `Project Meeting: Kokkos` in the `Topic` selection.
+Just go to the link below and select `Project Meeting: Kokkos` in the `Topic` selection.
 If you think your talk is suitable for the whole HPSF community and you want to present in the general session submit to any topic that is **not** a project meeting.
 Please specify your preferred session format. If we need to fill gaps in the project meeting, we will contact you separately asking if you are willing to give a longer talk.
 All the other information is self explanatory.
