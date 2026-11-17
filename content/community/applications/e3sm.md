@@ -6,7 +6,7 @@ summary: "High-res, cloud-resolving atmosphere model (SCREAM)"
 institution: ["DoE"]
 source: "https://github.com/E3SM-Project/E3SM/"
 website: "https://docs.e3sm.org/E3SM/EAMxx/"
-status: "Porting"
+status: "In production"
 contactName: "Jim Foucar"
 contactEmail: "jgfouca@sandia.gov"
 ---

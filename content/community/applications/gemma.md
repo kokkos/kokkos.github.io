@@ -4,7 +4,8 @@ entryType: "application"
 area: ["Electromagnetics"]
 summary: "Electromagnetic Radiation (EMR)"
 institution: ["Sandia"]
-status: "Porting"
+status: "In production"
+libraries: ["kokkos-kernels"]
 contactName: "William Langston"
 ---
 

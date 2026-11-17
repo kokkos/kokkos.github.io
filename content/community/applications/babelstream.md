@@ -4,7 +4,7 @@ entryType: "application"
 area: ["Benchmarks & Proxy Applications"]
 summary: "Benchmarking"
 institution: ["University of Bristol"]
-website: "http://uob-hpc.github.io/BabelStream/"
+source: "https://github.com/uob-hpc/babelstream"
 status: "In production"
 contactName: "Tom Deakin"
 contactEmail: "tom.deakin@bristol.ac.uk"

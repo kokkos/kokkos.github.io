@@ -4,7 +4,7 @@ entryType: "application"
 area: ["Multiphysics", "Computational Fluid Dynamics"]
 summary: "Thermal Fluid Multi Physics"
 institution: ["Sandia"]
-status: "Porting"
+status: "In production"
 libraries: ["kokkos-kernels"]
 contactName: "Jonathan Clausen"
 contactEmail: "jclause@sandia.gov"
