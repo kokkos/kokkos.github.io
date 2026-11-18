@@ -14,6 +14,7 @@ To ensure proper attribution in your work, please refer to our [Citing Kokkos]({
 
 | Year | Package | Title |
 |-|-|-|
+| 2026 | Core | [Performance Improvement of Multi-Dimensional Parallel Loops in Kokkos](https://doi.ieeecomputersociety.org/10.1109/SCW72768.2026.00085) |
 | 2025 | FFT | [Development of a performance portable distributed FFT interface on top of the Kokkos ecosystem](https://doi.org/10.1145/3731599.3767494) |
 | 2025 | FFT | [kokkos-fft: A shared-memory FFT for the Kokkos ecosystem](https://joss.theoj.org/papers/10.21105/joss.08391) |
 | 2024 | Core | [Experiences with implementing Kokkos' SYCL backend](https://doi.org/10.1109/MCSE.2021.3098509) |
