@@ -15,6 +15,16 @@ unsafe = true
   [build.buildStats]
     enable = true
 
+# Registry entries (content/community/applications/*) share one presentation, so it is set
+# here instead of in every page's front matter. Front matter on a page still takes precedence.
+[[cascade]]
+  layout = 'minimal'
+  [cascade.params]
+    sharing = false
+    metadata = 'none'
+  [cascade.target]
+    path = '/community/applications/**'
+
 [taxonomies]
 tag = 'tags'
 

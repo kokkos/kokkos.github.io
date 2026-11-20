@@ -1,0 +1,38 @@
+{{/*
+    Renders a row of icon links for the application page it's called from:
+    source repo (GitHub/GitLab/Bitbucket, auto-detected from "source" host),
+    website ("website"), and documentation ("documentation"). Only emits
+    icons for fields that are actually set.
+
+    Usage: {{< application-links >}}
+*/}}
+{{ $page := .Page }}
+{{ $source := $page.Params.source }}
+{{ $website := $page.Params.website }}
+{{ $docs := $page.Params.documentation }}
+
+{{ if or $source $website $docs }}
+<div class="d-flex gap-3 fs-1">
+    {{ with $source }}
+        {{ $icon := "fas fa-code-branch" }}
+        {{ $host := urls.Parse . }}
+        {{ if in $host.Host "github.com" }}{{ $icon = "fab fa-github" }}
+        {{ else if in $host.Host "gitlab.com" }}{{ $icon = "fab fa-gitlab" }}
+        {{ else if in $host.Host "bitbucket.org" }}{{ $icon = "fab fa-bitbucket" }}
+        {{ end }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="link-secondary" title="Source code">
+            {{ partial "assets/icon.html" (dict "page" $page "icon" $icon) }}
+        </a>
+    {{ end }}
+    {{ with $website }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="link-secondary" title="Website">
+            {{ partial "assets/icon.html" (dict "page" $page "icon" "fas fa-globe") }}
+        </a>
+    {{ end }}
+    {{ with $docs }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="link-secondary" title="Documentation">
+            {{ partial "assets/icon.html" (dict "page" $page "icon" "fas fa-book-open") }}
+        </a>
+    {{ end }}
+</div>
+{{ end }}

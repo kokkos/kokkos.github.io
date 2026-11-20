@@ -1,0 +1,10 @@
+{{/*
+    Renders a colored badge for a registry entry's status (values from
+    data/registry.yaml). Expects the status string as the context.
+*/}}
+{{- $color := "secondary" -}}
+{{- if eq . "In production" }}{{ $color = "success" }}
+{{- else if eq . "Porting" }}{{ $color = "warning" }}
+{{- else if eq . "Evaluating" }}{{ $color = "info" }}
+{{- end -}}
+<span class="badge text-bg-{{ $color }}">{{ . }}</span>
