@@ -12,8 +12,8 @@
       [contribution guide](https://kokkos.org/community/applications/contributing/)
       describes every field)
 - [ ] Front matter includes all required fields: `title`,
-      `entryType` (`application` or `library`), `area` (a list), `institution`, `status`, `contactName`, `contactEmail`
-      (`institution` is a list, e.g. `institution: ["Sandia", "NREL"]`, to
+      `entryType` (`application` or `library`), `area` (a list), `status`
+      (`institution`, if given, is a list, e.g. `institution: ["Sandia", "NREL"]`, to
       support multi-institution collaborations)
 - [ ] Front matter includes at least one of `source` (GitHub/GitLab/Bitbucket
       repo URL), `website`, or `documentation` — these show up as icon links

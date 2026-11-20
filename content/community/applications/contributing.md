@@ -28,9 +28,9 @@ To update an existing entry, edit its file in the same directory.
 | `entryType` | yes | `application` or `library`; this is what makes the page appear in the registry |
 | `area` | yes | List of one or more values from [`data/registry.yaml`](https://github.com/kokkos/kokkos.github.io/blob/main/data/registry.yaml), e.g. `["Molecular Dynamics"]` |
 | `summary` | no | One-line description of what the project does |
-| `institution` | yes | List, e.g. `["Sandia", "NREL"]` |
+| `institution` | no | List, e.g. `["Sandia", "NREL"]` |
 | `status` | yes | `Evaluating` (trying Kokkos), `Porting` (port in progress) or `In production` (used in production runs); see [`data/registry.yaml`](https://github.com/kokkos/kokkos.github.io/blob/main/data/registry.yaml) |
-| `contactName`, `contactEmail` | yes | Shown on the project's page, not in the table |
+| `contactName`, `contactEmail` | no | Shown on the project's page, not in the table |
 | `availability` | no | `Open source` (default) or `Restricted` for private, proprietary or export-controlled projects |
 | `source` | one of | Repository URL (GitHub, GitLab or Bitbucket) |
 | `website` | one of | Project homepage |
@@ -42,7 +42,7 @@ At least one of `source`, `website` or `documentation` is required, unless `avai
 
 ## Private and restricted projects
 
-Closed-source codes are welcome. Set `availability: "Restricted"` to list one without public links; the table shows a lock icon next to the name, and visitors can filter on it. Before submitting, make sure you are allowed to list the project, its name and its institution publicly. Laboratory and company codes often need a release review first. Never include classified information; if you are unsure whether you may list a project, ask your institution first. If you prefer not to list a person, use a team or project address as the contact.
+Closed-source codes are welcome. Set `availability: "Restricted"` to list one without public links; the table shows a lock icon next to the name, and visitors can filter on it. Before submitting, make sure you are allowed to list the project, its name and its institution publicly. Laboratory and company codes often need a release review first. Never include classified information; if you are unsure whether you may list a project, ask your institution first. If you prefer not to list a person, use a team or project address as the contact, or omit the contact fields.
 
 ## Areas and libraries
 

@@ -11,7 +11,7 @@ const VOCAB = YAML.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'reg
 
 const ROOT = path.join(__dirname, '..', 'content');
 const TYPES = ['application', 'library'];
-const REQUIRED = ['title', 'area', 'institution', 'status', 'contactName', 'contactEmail'];
+const REQUIRED = ['title', 'area', 'status'];
 const LINKS = ['source', 'website', 'documentation'];
 
 function* walk(dir) {

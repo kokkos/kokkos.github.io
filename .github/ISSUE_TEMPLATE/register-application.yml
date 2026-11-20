@@ -20,7 +20,8 @@ body:
         documentation links below — they're shown as icons on your page.
         Private or proprietary codes can be listed too: choose "Restricted" under
         Availability, and the links become optional. Please use a team or
-        project address as the contact if you prefer not to list a person.
+        project address as the contact if you prefer not to list a person, or leave
+        the contact fields empty.
 
         Feel free to attach a logo or screenshot to this issue (drag and drop an
         image into the text box below) — a maintainer will add it to your page.
@@ -71,11 +72,11 @@ body:
   - type: input
     id: institution
     attributes:
-      label: Institution(s)
+      label: Institution(s) (optional)
       description: Comma-separated if more than one institution collaborates on this project.
       placeholder: "Sandia National Laboratories, NREL"
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: availability
     attributes:
@@ -135,17 +136,17 @@ body:
   - type: input
     id: contact-name
     attributes:
-      label: Contact name(s)
+      label: Contact name(s) (optional)
       placeholder: "Jane Doe, John Smith"
     validations:
-      required: true
+      required: false
   - type: input
     id: contact-email
     attributes:
-      label: Contact email(s)
+      label: Contact email(s) (optional)
       placeholder: "jane.doe@example.org"
     validations:
-      required: true
+      required: false
   - type: checkboxes
     id: approval
     attributes:
