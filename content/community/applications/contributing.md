@@ -35,10 +35,11 @@ To update an existing entry, edit its file in the same directory.
 | `source` | one of | Repository URL (GitHub, GitLab or Bitbucket) |
 | `website` | one of | Project homepage |
 | `documentation` | one of | Documentation URL |
+| `noLinks` | no | `true` to opt out of providing any link without marking the project `Restricted`. Intended for entries whose links are not known yet |
 | `lastVerified` | no | Date you last checked the page, e.g. `2026-11-08`. Helps readers spot stale entries |
 | `libraries` | no | Values from the same file, e.g. `["kokkos-kernels", "petsc"]` |
 
-At least one of `source`, `website` or `documentation` is required, unless `availability` is `Restricted`.
+At least one of `source`, `website` or `documentation` is required, unless `availability` is `Restricted` or `noLinks` is `true`.
 
 ## Private and restricted projects
 

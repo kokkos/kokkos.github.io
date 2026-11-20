@@ -5,6 +5,7 @@ area: ["Particle Methods", "Plasma Physics & MHD"]
 summary: "PIC"
 institution: ["Sandia"]
 status: "In production"
+noLinks: true
 libraries: ["kokkos-kernels"]
 ---
 

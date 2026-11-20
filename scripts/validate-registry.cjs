@@ -52,8 +52,9 @@ for (const file of walk(ROOT)) {
     for (const v of fm[k]) if (!allowed.includes(v)) err(`${k} "${v}" is not in data/registry.yaml (allowed: ${allowed.join(', ')})`);
   }
   if (!isBlank(fm.availability) && !VOCAB.availabilities.includes(fm.availability)) err(`availability "${fm.availability}" is not in data/registry.yaml (allowed: ${VOCAB.availabilities.join(', ')})`);
-  // restricted projects may have no public links
-  if (fm.availability !== 'Restricted' && !LINKS.some((k) => !isBlank(fm[k]))) gap(`needs at least one of: ${LINKS.join(', ')}`);
+  if (fm.noLinks !== undefined && typeof fm.noLinks !== 'boolean') err('noLinks must be true or false');
+  // restricted projects, and entries that set `noLinks: true`, may have no public links
+  if (fm.availability !== 'Restricted' && fm.noLinks !== true && !LINKS.some((k) => !isBlank(fm[k]))) gap(`has none of ${LINKS.join(', ')} set; add at least one URL (shown as icon links on the page), , set availability: "Restricted" if the project is private or proprietary, or set noLinks: true to opt out explicitly`);
   for (const k of LINKS) if (!isBlank(fm[k]) && !/^https?:\/\//.test(fm[k])) err(`${k} must be an http(s) URL`);
 }
 
@@ -67,7 +68,8 @@ for (const [id, key] of [['area', 'areas'], ['status', 'statuses'], ['availabili
 }
 
 const rel = (f) => path.relative(path.join(__dirname, '..'), f);
-for (const [f, msg] of warnings) console.log(`::warning file=${rel(f)}::${msg}`);
-for (const [f, msg] of errors) console.log(`::error file=${rel(f)}::${msg}`);
+// Repeat the path in the message: the raw log shows only the message text, not the file annotation.
+for (const [f, msg] of warnings) console.log(`::warning file=${rel(f)}::${rel(f)}: ${msg}`);
+for (const [f, msg] of errors) console.log(`::error file=${rel(f)}::${rel(f)}: ${msg}`);
 console.log(`Checked ${count} registry pages: ${errors.length} error(s), ${warnings.length} warning(s).`);
 process.exit(errors.length ? 1 : 0);

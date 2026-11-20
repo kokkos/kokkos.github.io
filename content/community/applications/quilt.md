@@ -5,6 +5,7 @@ area: ["Computational Fluid Dynamics"]
 summary: "Incompressible Flow, DNS, Level-Set, Immersed Boundaries"
 institution: ["ORNL"]
 status: "In production"
+noLinks: true
 contactName: "Ramanan Sankaran"
 contactEmail: "sankaranr@ornl.gov"
 ---
