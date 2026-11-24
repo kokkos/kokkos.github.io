@@ -1,12 +1,8 @@
 ---
-layout: minimal
 title: "Kokkos 5.3 Release Briefing"
 date: "2026-11-04"
 eventDate: "2026-12-03"
 description: Join the Kokkos team online on December 3rd for updates on the Kokkos community and the changes in Kokkos Core, Kokkos Kernels and Kokkos Tools 5.3.
-sharing: false
-metadata: none
-thumbnail: img/kokkos-ecosystem-hero.jpg
 ---
 
 The Kokkos Team is inviting you to the **Kokkos 5.3 release briefing**.

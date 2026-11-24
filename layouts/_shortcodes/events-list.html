@@ -3,6 +3,8 @@
     content/community/events and content/community/release-briefings.
 
     Usage: {{< events-list state="upcoming" >}} or {{< events-list state="past" >}}
+    Optional: section="release-briefings" (or "events") restricts the list to one
+    of the two directories; by default both are listed.
 
     Relies on "eventDate" (required) and "eventEndDate" (optional, defaults to
     eventDate) front matter fields to determine the event's date range, since the
@@ -13,7 +15,9 @@
 {{ $today := time.AsTime (now.Format "2006-01-02") }}
 
 {{ $items := slice }}
-{{ range (where site.RegularPages "File.Dir" "in" (slice "community/events/" "community/release-briefings/")) }}
+{{ $dirs := slice "community/events/" "community/release-briefings/" }}
+{{ with .Get "section" }}{{ $dirs = slice (printf "community/%s/" .) }}{{ end }}
+{{ range (where site.RegularPages "File.Dir" "in" $dirs) }}
     {{ $page := . }}
     {{ with $page.Params.eventDate }}
         {{ $start := time.AsTime . }}
