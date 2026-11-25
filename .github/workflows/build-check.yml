@@ -10,9 +10,16 @@ permissions:
 
 jobs:
   build:
+    name: Build (Hugo ${{ matrix.hugo-version }})
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # Keep the first entry equal to the minimum version in hugo.toml and the last entry equal
+        # to the version used by the deploy workflow (hugo.yml).
+        hugo-version: ['0.158.0', '0.170.1']
     env:
-      HUGO_VERSION: 0.170.1
+      HUGO_VERSION: ${{ matrix.hugo-version }}
     steps:
       - name: Install Hugo CLI
         run: |
@@ -53,9 +60,9 @@ jobs:
         uses: actions/cache@v6
         with:
           path: ${{ runner.temp }}/hugo_cache
-          key: ${{ runner.os }}-hugo-kokkos-${{ steps.cache-epoch.outputs.week }}
+          key: ${{ runner.os }}-hugo-${{ matrix.hugo-version }}-kokkos-${{ steps.cache-epoch.outputs.week }}
           restore-keys: |
-            ${{ runner.os }}-hugo-kokkos-
+            ${{ runner.os }}-hugo-${{ matrix.hugo-version }}-kokkos-
 
       - name: Build with Hugo
         env:
