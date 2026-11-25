@@ -13,6 +13,10 @@
     "postinstall": "node scripts/link-dart-sass.cjs",
     "start": "hugo server -D",
     "build": "hugo --gc --minify",
-    "validate-registry": "node scripts/validate-registry.cjs"
+    "validate-registry": "node scripts/validate-registry.cjs",
+    "mod:update": "hugo mod get -u ./... && hugo mod get -u && npm run -s mod:tidy",
+    "mod:tidy": "hugo mod tidy",
+    "mod:clean": "hugo mod clean",
+    "env": "hugo env"
   }
 }
