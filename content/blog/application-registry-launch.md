@@ -50,7 +50,7 @@ Not every project can have public source code. Entries can be marked
 **Restricted** and do not need to link to a repository or website. If you work at
 a laboratory or company, check that you are allowed to list the project, its
 name and its institution publicly before submitting, and never include
-classified information. Contact details are optional too: you can use a team
+sensitive information. Contact details are optional too: you can use a team
 address or leave them out.
 
 ## Add your project
