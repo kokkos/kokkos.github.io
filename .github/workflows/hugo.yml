@@ -32,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.154.5
+      HUGO_VERSION: 0.170.1
     steps:
       - name: Install Hugo CLI
         run: |
@@ -54,6 +54,20 @@ jobs:
           cache: 'npm'
       - name: Install Dart Sass (npm)
         run: npm ci
+      # Cache Hugo's module and resource cache. The key rotates weekly (ISO year-week) instead of per
+      # run: a per-run key saves a new entry every run and never reclaims the old ones, which fills the
+      # repository's shared Actions cache and evicts the other workflows' caches. Hugo validates
+      # cached entries itself, so no content-based key is needed.
+      - name: Compute the weekly cache epoch
+        id: cache-epoch
+        run: echo "week=$(date -u +%G-W%V)" >> "$GITHUB_OUTPUT"
+      - name: Use Hugo cache
+        uses: actions/cache@v6
+        with:
+          path: ${{ runner.temp }}/hugo_cache
+          key: ${{ runner.os }}-hugo-kokkos-${{ steps.cache-epoch.outputs.week }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-kokkos-
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Build with Hugo
@@ -61,6 +75,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
         run: |
           export PATH="$PWD/node_modules/.bin:$PATH"
           hugo --gc --minify

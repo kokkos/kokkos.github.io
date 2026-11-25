@@ -10,9 +10,16 @@ permissions:
 
 jobs:
   build:
+    name: Build (Hugo ${{ matrix.hugo-version }})
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # Keep the first entry equal to the minimum version in hugo.toml and the last entry equal
+        # to the version used by the deploy workflow (hugo.yml).
+        hugo-version: ['0.158.0', '0.170.1']
     env:
-      HUGO_VERSION: 0.154.5
+      HUGO_VERSION: ${{ matrix.hugo-version }}
     steps:
       - name: Install Hugo CLI
         run: |
@@ -44,5 +51,20 @@ jobs:
           changed=$(git diff --name-only --diff-filter=AM origin/${{ github.base_ref || 'main' }}...HEAD -- 'content/**/*.md')
           node scripts/validate-registry.cjs $changed
 
+      # Same weekly-rotating Hugo cache as the deploy workflow (see hugo.yml for the rationale).
+      - name: Compute the weekly cache epoch
+        id: cache-epoch
+        run: echo "week=$(date -u +%G-W%V)" >> "$GITHUB_OUTPUT"
+
+      - name: Use Hugo cache
+        uses: actions/cache@v6
+        with:
+          path: ${{ runner.temp }}/hugo_cache
+          key: ${{ runner.os }}-hugo-${{ matrix.hugo-version }}-kokkos-${{ steps.cache-epoch.outputs.week }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-${{ matrix.hugo-version }}-kokkos-
+
       - name: Build with Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
         run: npm run build

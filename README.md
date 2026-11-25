@@ -4,7 +4,7 @@ Source for the [Kokkos](https://kokkos.org) website, built with [Hugo](https://g
 
 ## Requirements
 
-- [Hugo](https://gohugo.io/installation/) (extended edition), version 0.136.3 or later
+- [Hugo](https://gohugo.io/installation/) (extended edition), version 0.158.0 or later
 - [Go](https://go.dev/dl/) (for Hugo Modules dependency resolution)
 - [Node.js](https://nodejs.org/) (for Dart Sass and PostCSS)
 
